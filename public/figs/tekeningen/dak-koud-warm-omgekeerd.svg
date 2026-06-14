@@ -1,0 +1,58 @@
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, -apple-system, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="280" fill="#ffffff"/>
+  <text x="360" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#1e293b">Platdak-typen — laagopbouw (van onder naar boven)</text>
+  <style>
+    .draag{fill:#cbd5e1;stroke:#64748b;stroke-width:1}
+    .iso{fill:#fde68a;stroke:#d97706;stroke-width:1}
+    .dek{fill:#475569}
+    .grind{fill:#a8a29e}
+    .damp{fill:#1e293b}
+    .t{font-size:12px;font-weight:700;fill:#0f172a}
+    .lyr{font-size:10px;fill:#475569}
+  </style>
+
+  <!-- WARM DAK -->
+  <g transform="translate(40,60)">
+    <rect class="dek" x="0" y="0" width="170" height="12"/>
+    <rect class="iso" x="0" y="12" width="170" height="34"/>
+    <rect class="damp" x="0" y="46" width="170" height="5"/>
+    <rect class="draag" x="0" y="51" width="170" height="22"/>
+    <text class="t" x="85" y="98" text-anchor="middle">Warm dak</text>
+    <text class="lyr" x="178" y="9" >dakbedekking</text>
+    <text class="lyr" x="178" y="33">isolatie</text>
+    <text class="lyr" x="178" y="51">dampremmer</text>
+    <text class="lyr" x="178" y="67">draagvloer</text>
+    <text class="lyr" x="85" y="116" text-anchor="middle" fill="#64748b">isolatie bóven draagvloer,</text>
+    <text class="lyr" x="85" y="130" text-anchor="middle" fill="#64748b">onder de dekking — standaard</text>
+  </g>
+
+  <!-- KOUD DAK -->
+  <g transform="translate(290,60)">
+    <rect class="dek" x="0" y="0" width="170" height="12"/>
+    <rect fill="#e0f2fe" stroke="#7dd3fc" stroke-width="1" x="0" y="12" width="170" height="16"/>
+    <rect class="iso" x="0" y="28" width="170" height="28"/>
+    <rect class="draag" x="0" y="56" width="170" height="22"/>
+    <text class="t" x="85" y="98" text-anchor="middle">Koud dak</text>
+    <text class="lyr" x="178" y="9">dakbedekking</text>
+    <text class="lyr" x="178" y="23" fill="#0369a1">luchtspouw</text>
+    <text class="lyr" x="178" y="45">isolatie</text>
+    <text class="lyr" x="178" y="71">draagvloer</text>
+    <text class="lyr" x="85" y="116" text-anchor="middle" fill="#64748b">geventileerde spouw tussen</text>
+    <text class="lyr" x="85" y="130" text-anchor="middle" fill="#64748b">isolatie en dekking — afgeraden</text>
+  </g>
+
+  <!-- OMGEKEERD DAK -->
+  <g transform="translate(540,60)">
+    <rect class="grind" x="0" y="0" width="150" height="12"/>
+    <rect class="iso" x="0" y="12" width="150" height="28"/>
+    <rect class="dek" x="0" y="40" width="150" height="11"/>
+    <rect class="draag" x="0" y="51" width="150" height="22"/>
+    <text class="t" x="75" y="98" text-anchor="middle">Omgekeerd dak</text>
+    <text class="lyr" x="-6" y="9" text-anchor="end">grind/tegels</text>
+    <text class="lyr" x="-6" y="29" text-anchor="end">isolatie (XPS)</text>
+    <text class="lyr" x="-6" y="49" text-anchor="end">dakbedekking</text>
+    <text class="lyr" x="-6" y="67" text-anchor="end">draagvloer</text>
+    <text class="lyr" x="75" y="116" text-anchor="middle" fill="#64748b">isolatie bóven de dekking;</text>
+    <text class="lyr" x="75" y="130" text-anchor="middle" fill="#64748b">ballast houdt het op z'n plek</text>
+  </g>
+</svg>

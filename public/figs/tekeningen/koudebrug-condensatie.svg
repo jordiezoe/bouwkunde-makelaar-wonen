@@ -1,0 +1,45 @@
+<svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, -apple-system, Arial, sans-serif">
+  <rect x="0" y="0" width="560" height="280" fill="#ffffff"/>
+  <text x="280" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#1e293b">Koudebrug en oppervlaktecondensatie</text>
+  <style>
+    .muur{fill:#e2e8f0;stroke:#64748b;stroke-width:1}
+    .iso{fill:#fde68a;stroke:#d97706;stroke-width:1}
+    .beton{fill:#94a3b8;stroke:#475569;stroke-width:1}
+    .t{font-size:11.5px;font-weight:600;fill:#0f172a}
+    .s{font-size:10px;fill:#64748b}
+  </style>
+
+  <!-- doorsnede: buitenmuur met betonvloer die de isolatie onderbreekt -->
+  <text class="s" x="70" y="60" text-anchor="middle">BUITEN (koud)</text>
+  <text class="s" x="430" y="60" text-anchor="middle">BINNEN (warm)</text>
+
+  <!-- buitenblad -->
+  <rect class="muur" x="40" y="70" width="40" height="170"/>
+  <!-- isolatie (onderbroken door vloer) -->
+  <rect class="iso" x="80" y="70" width="34" height="70"/>
+  <rect class="iso" x="80" y="170" width="34" height="70"/>
+  <!-- binnenblad -->
+  <rect class="muur" x="114" y="70" width="40" height="170"/>
+  <!-- betonvloer die doorloopt = koudebrug -->
+  <rect class="beton" x="80" y="140" width="380" height="30"/>
+  <text class="t" x="300" y="159" text-anchor="middle" fill="#fff">betonvloer loopt door → koudebrug</text>
+
+  <!-- koude die naar binnen trekt (blauwe pijl) -->
+  <g stroke="#2563eb" stroke-width="2.5" fill="none">
+    <path d="M50,155 H150"/><path d="M142,149 L152,155 L142,161" fill="#2563eb"/>
+  </g>
+
+  <!-- koude plek binnen met condens-druppels -->
+  <circle cx="175" cy="185" r="14" fill="#bfdbfe"/>
+  <text x="175" y="189" text-anchor="middle" font-size="10" fill="#1e40af">koud</text>
+  <g fill="#2563eb">
+    <path d="M168,202 q-3,6 0,8 q3,-2 0,-8"/>
+    <path d="M178,205 q-3,6 0,8 q3,-2 0,-8"/>
+  </g>
+  <text class="s" x="220" y="210">condens / schimmel op de koude plek</text>
+
+  <!-- warme vochtige binnenlucht -->
+  <text class="s" x="400" y="110" text-anchor="middle" fill="#dc2626">warme, vochtige binnenlucht</text>
+
+  <text x="280" y="262" text-anchor="middle" font-size="11" fill="#64748b">Waar de isolatie onderbroken wordt, ontstaat aan de binnenzijde een koude plek. Vochtige lucht condenseert daar → vochtplekken en schimmel.</text>
+</svg>

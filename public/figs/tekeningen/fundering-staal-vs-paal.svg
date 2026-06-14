@@ -1,0 +1,55 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, -apple-system, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="320" fill="#ffffff"/>
+  <text x="320" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#1e293b">Fundering op staal vs. paalfundering</text>
+  <style>
+    .muur{fill:#cbd5e1;stroke:#64748b;stroke-width:1}
+    .beton{fill:#94a3b8;stroke:#475569;stroke-width:1}
+    .draagzand{fill:#fde9c8}
+    .slap{fill:#e7d9c4}
+    .lbl{font-size:11.5px;font-weight:600;fill:#0f172a}
+    .sub{font-size:10px;fill:#64748b}
+  </style>
+
+  <!-- ===== LINKS: op staal ===== -->
+  <g transform="translate(0,0)">
+    <!-- vaste, draagkrachtige grond direct onder -->
+    <rect class="draagzand" x="20" y="150" width="280" height="140"/>
+    <text class="sub" x="160" y="280" text-anchor="middle">vaste zandgrond (draagkrachtig)</text>
+    <!-- maaiveld -->
+    <line x1="20" y1="150" x2="300" y2="150" stroke="#a16207" stroke-width="1.5"/>
+    <!-- muur -->
+    <rect class="muur" x="135" y="60" width="40" height="92"/>
+    <!-- funderingsstrook (verbreed) -->
+    <path class="beton" d="M105,152 H205 V178 H180 V200 H130 V178 H105 Z"/>
+    <text class="lbl" x="160" y="48" text-anchor="middle">Fundering op staal</text>
+    <text class="sub" x="232" y="172">verbrede</text>
+    <text class="sub" x="232" y="185">voet</text>
+    <line x1="205" y1="178" x2="228" y2="178" stroke="#94a3b8" stroke-width="1"/>
+    <text class="sub" x="160" y="305" text-anchor="middle">ondiep — draagkrachtige laag ligt hoog</text>
+  </g>
+
+  <!-- scheidingslijn -->
+  <line x1="320" y1="40" x2="320" y2="300" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- ===== RECHTS: paalfundering ===== -->
+  <g transform="translate(320,0)">
+    <!-- slappe laag boven -->
+    <rect class="slap" x="20" y="150" width="280" height="70"/>
+    <text class="sub" x="160" y="190" text-anchor="middle">slappe laag (klei/veen)</text>
+    <!-- draagkrachtig zand diep -->
+    <rect class="draagzand" x="20" y="220" width="280" height="70"/>
+    <text class="sub" x="160" y="262" text-anchor="middle">vast zand (diep)</text>
+    <line x1="20" y1="150" x2="300" y2="150" stroke="#a16207" stroke-width="1.5"/>
+    <!-- muur -->
+    <rect class="muur" x="135" y="60" width="40" height="92"/>
+    <!-- funderingsbalk -->
+    <rect class="beton" x="110" y="150" width="90" height="16"/>
+    <!-- palen tot in het zand -->
+    <rect class="beton" x="122" y="166" width="14" height="62"/>
+    <rect class="beton" x="174" y="166" width="14" height="62"/>
+    <text class="lbl" x="160" y="48" text-anchor="middle">Paalfundering</text>
+    <text class="sub" x="210" y="200">heipaal</text>
+    <line x1="188" y1="196" x2="206" y2="196" stroke="#94a3b8" stroke-width="1"/>
+    <text class="sub" x="160" y="305" text-anchor="middle">palen dragen door tot de diepe zandlaag</text>
+  </g>
+</svg>

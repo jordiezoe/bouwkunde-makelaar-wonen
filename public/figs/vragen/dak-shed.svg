@@ -1,0 +1,17 @@
+<svg viewBox="0 0 300 190" xmlns="http://www.w3.org/2000/svg"><style>
+path{stroke:#334155;stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round}
+.wf{fill:#f1f5f9}.wz{fill:#dbe3ec}.dv{fill:#d97757}.db{fill:#e9a280}.dg{fill:#aab6c4}.gl{fill:#cfe6f8}
+</style>
+<rect x="0" y="0" width="300" height="190" fill="#ffffff" stroke="none"/>
+<g transform="translate(60,112) scale(1.4)">
+<line x1="-10" y1="45" x2="150" y2="45" stroke="#cbd5e1" stroke-width="0.8"/>
+<path class="wf" d="M0,45 L0,0 L24,-26 L33,0 L57,-26 L66,0 L90,-26 L100,0 V45 Z"/>
+<path class="db" d="M0,0 L24,-26 L52,-40 L28,-14 Z"/>
+<path class="gl" d="M24,-26 L33,0 L61,-14 L52,-40 Z"/>
+<path class="db" d="M33,0 L57,-26 L85,-40 L61,-14 Z"/>
+<path class="gl" d="M57,-26 L66,0 L94,-14 L85,-40 Z"/>
+<path class="db" d="M66,0 L90,-26 L118,-40 L94,-14 Z"/>
+<path class="gl" d="M90,-26 L100,0 L128,-14 L118,-40 Z"/>
+<path class="wz" d="M100,0 L128,-14 V31 L100,45 Z"/>
+</g>
+</svg>

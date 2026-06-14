@@ -1,0 +1,69 @@
+<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, -apple-system, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="320" fill="#ffffff"/>
+  <text x="360" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e293b">Opbouw van beglazing — doorsnede</text>
+
+  <!-- gemeenschappelijke styles -->
+  <style>
+    .glas{fill:#cfe6f8;stroke:#60a5fa;stroke-width:1.2}
+    .spouw{fill:#eef2f7}
+    .coat{stroke:#16a34a;stroke-width:2.5}
+    .lbl{font-size:13px;font-weight:700;fill:#0f172a}
+    .sub{font-size:11px;fill:#64748b}
+    .buiten{font-size:10px;fill:#94a3b8}
+  </style>
+
+  <!-- 1. Enkel glas -->
+  <g transform="translate(40,70)">
+    <rect class="glas" x="20" y="0" width="14" height="140"/>
+    <text class="lbl" x="27" y="168" text-anchor="middle">Enkel</text>
+    <text class="sub" x="27" y="184" text-anchor="middle">U≈5,8</text>
+  </g>
+
+  <!-- 2. Dubbel glas -->
+  <g transform="translate(170,70)">
+    <rect class="glas" x="14" y="0" width="12" height="140"/>
+    <rect class="spouw" x="26" y="0" width="26" height="140" stroke="#cbd5e1" stroke-width="1"/>
+    <rect class="glas" x="52" y="0" width="12" height="140"/>
+    <text class="sub" x="39" y="76" text-anchor="middle" fill="#475569" font-size="10">lucht</text>
+    <text class="lbl" x="39" y="168" text-anchor="middle">Dubbel</text>
+    <text class="sub" x="39" y="184" text-anchor="middle">U≈2,9</text>
+  </g>
+
+  <!-- 3. HR++ -->
+  <g transform="translate(320,70)">
+    <rect class="glas" x="14" y="0" width="12" height="140"/>
+    <rect class="spouw" x="26" y="0" width="26" height="140" stroke="#cbd5e1" stroke-width="1"/>
+    <rect class="glas" x="52" y="0" width="12" height="140"/>
+    <line class="coat" x1="52" y1="0" x2="52" y2="140"/>
+    <text class="sub" x="39" y="72" text-anchor="middle" fill="#475569" font-size="10">edelgas</text>
+    <text class="sub" x="39" y="86" text-anchor="middle" fill="#475569" font-size="10">(argon)</text>
+    <text class="lbl" x="39" y="168" text-anchor="middle">HR++</text>
+    <text class="sub" x="39" y="184" text-anchor="middle">U≈1,1</text>
+  </g>
+
+  <!-- 4. Triple -->
+  <g transform="translate(480,70)">
+    <rect class="glas" x="10" y="0" width="11" height="140"/>
+    <rect class="spouw" x="21" y="0" width="22" height="140" stroke="#cbd5e1" stroke-width="1"/>
+    <rect class="glas" x="43" y="0" width="11" height="140"/>
+    <rect class="spouw" x="54" y="0" width="22" height="140" stroke="#cbd5e1" stroke-width="1"/>
+    <rect class="glas" x="76" y="0" width="11" height="140"/>
+    <line class="coat" x1="43" y1="0" x2="43" y2="140"/>
+    <line class="coat" x1="54" y1="0" x2="54" y2="140"/>
+    <text class="lbl" x="48" y="168" text-anchor="middle">Triple</text>
+    <text class="sub" x="48" y="184" text-anchor="middle">U≈0,6</text>
+  </g>
+
+  <!-- legenda -->
+  <g transform="translate(600,80)">
+    <rect class="glas" x="0" y="0" width="16" height="11"/>
+    <text class="sub" x="22" y="9">glasblad</text>
+    <line class="coat" x1="2" y1="28" x2="2" y2="40"/>
+    <text class="sub" x="22" y="38">metaalcoating</text>
+    <rect class="spouw" x="0" y="52" width="16" height="11" stroke="#cbd5e1" stroke-width="1"/>
+    <text class="sub" x="22" y="61">gasspouw</text>
+  </g>
+
+  <text class="buiten" x="61" y="56" text-anchor="middle">← buiten | binnen →</text>
+  <text class="sub" x="360" y="300" text-anchor="middle" font-size="11.5">Hoe meer bladen + coating + edelgas, hoe lager de U-waarde (= beter isolerend).</text>
+</svg>

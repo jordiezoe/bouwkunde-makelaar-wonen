@@ -1,0 +1,32 @@
+<svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, -apple-system, Arial, sans-serif">
+  <rect x="0" y="0" width="480" height="300" fill="#ffffff"/>
+  <text x="240" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e293b">Stankafsluiter (sifon) — werking</text>
+  <style>.pijp{fill:none;stroke:#475569;stroke-width:14;stroke-linecap:round}
+  .water{fill:#7dd3fc}.lbl{font-size:12px;fill:#0f172a;font-weight:600}.sub{font-size:11px;fill:#64748b}</style>
+
+  <!-- afvoer vanaf toestel -->
+  <path class="pijp" d="M120,60 V150"/>
+  <!-- S-bocht -->
+  <path class="pijp" d="M120,150 Q120,200 170,200 Q220,200 220,150 V120"/>
+  <!-- riool -->
+  <path class="pijp" d="M220,120 H360"/>
+
+  <!-- waterslot (blauw in de bocht) -->
+  <path d="M113,150 Q113,193 170,193 Q227,193 227,150 V150 Q227,186 170,186 Q113,186 113,150 Z" fill="#7dd3fc"/>
+  <ellipse cx="170" cy="200" rx="50" ry="10" fill="#7dd3fc"/>
+
+  <!-- labels -->
+  <text class="lbl" x="120" y="52" text-anchor="middle">van toestel</text>
+  <text class="lbl" x="360" y="112" text-anchor="end">naar riool →</text>
+  <text class="lbl" x="170" y="245" text-anchor="middle" fill="#0369a1">waterslot</text>
+  <text class="sub" x="170" y="262" text-anchor="middle">±50–60 mm water blijft staan</text>
+
+  <!-- stankpijl die geblokkeerd wordt -->
+  <g stroke="#dc2626" stroke-width="2" fill="none">
+    <path d="M300,95 H250"/><path d="M258,89 L250,95 L258,101"/>
+  </g>
+  <text x="305" y="99" font-size="11" fill="#dc2626" font-weight="600">rioollucht</text>
+  <text x="208" y="99" font-size="15" fill="#dc2626" font-weight="700" text-anchor="end">✕</text>
+
+  <text x="240" y="290" text-anchor="middle" font-size="11" fill="#64748b">Het waterslot in de bocht houdt stank en ongedierte uit het riool tegen, terwijl afvalwater er wél doorheen kan.</text>
+</svg>

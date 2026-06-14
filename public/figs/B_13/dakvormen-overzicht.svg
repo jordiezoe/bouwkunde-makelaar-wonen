@@ -1,0 +1,155 @@
+<svg viewBox="0 0 760 1075" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Arial, sans-serif">
+  <!-- Eigen overzichtstekening dakvormen — Bouwkunde B.13 -->
+  <style>
+    .naam { font-size: 15px; font-weight: 600; fill: #0f172a; }
+    .sub  { font-size: 12px; fill: #64748b; }
+    path, line { stroke: #334155; stroke-width: 1.5; stroke-linejoin: round; stroke-linecap: round; }
+    .grond { stroke: #cbd5e1; stroke-width: 1; }
+    .wf { fill: #f1f5f9; }   /* wand voor */
+    .wz { fill: #dbe3ec; }   /* wand zij */
+    .dv { fill: #d97757; }   /* dakvlak naar kijker */
+    .db { fill: #e9a280; }   /* dakvlak boven/zij */
+    .dg { fill: #aab6c4; }   /* plat/grijs dak */
+    .gl { fill: #cfe6f8; }   /* glas */
+    .lijn { fill: none; }
+  </style>
+  <rect x="0" y="0" width="760" height="1075" fill="#ffffff" stroke="none"/>
+  <text x="380" y="34" text-anchor="middle" font-size="19" font-weight="700" fill="#1e293b">Dakvormen — overzicht</text>
+
+  <!-- ═══ rij 1 ═══ -->
+  <!-- 1. Plat dak -->
+  <g transform="translate(20,60)">
+    <g transform="translate(111,95)">
+      <line class="grond" x1="-12" y1="45" x2="152" y2="45"/>
+      <path class="wf" d="M0,0 H100 V45 H0 Z"/>
+      <path class="wz" d="M100,0 L128,-14 V31 L100,45 Z"/>
+      <path class="dg" d="M0,-5 L28,-19 H128 L100,-5 Z"/>
+      <path class="dg" d="M0,-5 H100 V0 H0 Z"/>
+      <path class="dg" d="M100,-5 L128,-19 V-14 L100,0 Z"/>
+    </g>
+    <text class="naam" x="175" y="170" text-anchor="middle">Plat dak</text>
+    <text class="sub" x="175" y="188" text-anchor="middle">afschot ≥ 1% naar de hemelwaterafvoeren</text>
+  </g>
+  <!-- 2. Lessenaarsdak -->
+  <g transform="translate(390,60)">
+    <g transform="translate(111,95)">
+      <line class="grond" x1="-12" y1="45" x2="152" y2="45"/>
+      <path class="wf" d="M0,45 L0,-22 L100,0 V45 Z"/>
+      <path class="wz" d="M100,0 L128,-14 V31 L100,45 Z"/>
+      <path class="db" d="M0,-22 L100,0 L128,-14 L28,-36 Z"/>
+    </g>
+    <text class="naam" x="175" y="170" text-anchor="middle">Lessenaarsdak</text>
+    <text class="sub" x="175" y="188" text-anchor="middle">één hellend vlak, één gootlijn</text>
+  </g>
+
+  <!-- ═══ rij 2 ═══ -->
+  <!-- 3. Zadeldak -->
+  <g transform="translate(20,260)">
+    <g transform="translate(111,95)">
+      <line class="grond" x1="-12" y1="45" x2="152" y2="45"/>
+      <path class="wz" d="M100,0 L128,-14 V31 L100,45 Z"/>
+      <path class="wf" d="M0,45 V0 L50,-32 L100,0 V45 Z"/>
+      <path class="dv" d="M50,-32 L100,0 L128,-14 L78,-46 Z"/>
+    </g>
+    <text class="naam" x="175" y="170" text-anchor="middle">Zadeldak</text>
+    <text class="sub" x="175" y="188" text-anchor="middle">twee schilden + topgevel — meest voorkomend</text>
+  </g>
+  <!-- 4. Schilddak -->
+  <g transform="translate(390,260)">
+    <g transform="translate(111,95)">
+      <line class="grond" x1="-12" y1="45" x2="152" y2="45"/>
+      <path class="wz" d="M100,0 L128,-14 V31 L100,45 Z"/>
+      <path class="wf" d="M0,0 H100 V45 H0 Z"/>
+      <path class="dv" d="M0,0 H100 L82,-37 H46 Z"/>
+      <path class="db" d="M100,0 L128,-14 L82,-37 Z"/>
+    </g>
+    <text class="naam" x="175" y="170" text-anchor="middle">Schilddak</text>
+    <text class="sub" x="175" y="188" text-anchor="middle">vier schilden, hoekkepers, nok evenwijdig aan gevel</text>
+  </g>
+
+  <!-- ═══ rij 3 ═══ -->
+  <!-- 5. Dak met wolfseinden -->
+  <g transform="translate(20,460)">
+    <g transform="translate(111,95)">
+      <line class="grond" x1="-12" y1="45" x2="152" y2="45"/>
+      <path class="wz" d="M100,0 L128,-14 V31 L100,45 Z"/>
+      <path class="wf" d="M0,45 V0 L28,-18 L72,-18 L100,0 V45 Z"/>
+      <path class="dv" d="M72,-18 L100,0 L128,-14 L78,-46 L58,-36 Z"/>
+      <path class="db" d="M28,-18 L72,-18 L58,-36 Z"/>
+    </g>
+    <text class="naam" x="175" y="170" text-anchor="middle">Dak met wolfseinden</text>
+    <text class="sub" x="175" y="188" text-anchor="middle">klein schuin vlak op de topgevel — boerderijen, riet</text>
+  </g>
+  <!-- 6. Mansardedak -->
+  <g transform="translate(390,460)">
+    <g transform="translate(111,95)">
+      <line class="grond" x1="-12" y1="45" x2="152" y2="45"/>
+      <path class="wz" d="M100,0 L128,-14 V31 L100,45 Z"/>
+      <path class="wf" d="M0,0 H100 V45 H0 Z"/>
+      <path class="dv" d="M0,0 H100 L92,-26 H8 Z"/>
+      <path class="dv" d="M8,-26 H92 L78,-40 H50 Z"/>
+      <path class="db" d="M100,0 L128,-14 L106,-33 L92,-26 Z"/>
+      <path class="db" d="M92,-26 L106,-33 L78,-40 Z"/>
+    </g>
+    <text class="naam" x="175" y="170" text-anchor="middle">Mansardedak (gebroken dak)</text>
+    <text class="sub" x="175" y="188" text-anchor="middle">onderste deel steiler — extra zolderruimte</text>
+  </g>
+
+  <!-- ═══ rij 4 ═══ -->
+  <!-- 7. Tentdak -->
+  <g transform="translate(20,660)">
+    <g transform="translate(111,95)">
+      <line class="grond" x1="-12" y1="45" x2="152" y2="45"/>
+      <path class="wz" d="M90,0 L118,-14 V31 L90,45 Z"/>
+      <path class="wf" d="M10,0 H90 V45 H10 Z"/>
+      <path class="dv" d="M10,0 H90 L64,-52 Z"/>
+      <path class="db" d="M90,0 L118,-14 L64,-52 Z"/>
+    </g>
+    <text class="naam" x="175" y="170" text-anchor="middle">Tentdak (piramidedak)</text>
+    <text class="sub" x="175" y="188" text-anchor="middle">vier schilden in één punt — vierkante plattegrond</text>
+  </g>
+  <!-- 8. Torendak -->
+  <g transform="translate(390,660)">
+    <g transform="translate(111,95)">
+      <line class="grond" x1="-12" y1="45" x2="152" y2="45"/>
+      <path class="wz" d="M78,0 L106,-14 V31 L78,45 Z"/>
+      <path class="wf" d="M22,0 H78 V45 H22 Z"/>
+      <path class="dv" d="M22,0 H78 L64,-80 Z"/>
+      <path class="db" d="M78,0 L106,-14 L64,-80 Z"/>
+    </g>
+    <text class="naam" x="175" y="170" text-anchor="middle">Torendak</text>
+    <text class="sub" x="175" y="188" text-anchor="middle">tentdak met zeer steile helling — torens</text>
+  </g>
+
+  <!-- ═══ rij 5 ═══ -->
+  <!-- 9. Zaag- of sheddak -->
+  <g transform="translate(20,860)">
+    <g transform="translate(111,95)">
+      <line class="grond" x1="-12" y1="45" x2="152" y2="45"/>
+      <path class="wf" d="M0,45 L0,0 L24,-26 L33,0 L57,-26 L66,0 L90,-26 L100,0 V45 Z"/>
+      <path class="db" d="M0,0 L24,-26 L52,-40 L28,-14 Z"/>
+      <path class="gl" d="M24,-26 L33,0 L61,-14 L52,-40 Z"/>
+      <path class="db" d="M33,0 L57,-26 L85,-40 L61,-14 Z"/>
+      <path class="gl" d="M57,-26 L66,0 L94,-14 L85,-40 Z"/>
+      <path class="db" d="M66,0 L90,-26 L118,-40 L94,-14 Z"/>
+      <path class="gl" d="M90,-26 L100,0 L128,-14 L118,-40 Z"/>
+      <path class="wz" d="M100,0 L128,-14 V31 L100,45 Z"/>
+    </g>
+    <text class="naam" x="175" y="170" text-anchor="middle">Zaag- of sheddak</text>
+    <text class="sub" x="175" y="188" text-anchor="middle">glasvlak (60–90°) op het noorden — fabrieken</text>
+  </g>
+  <!-- 10. Schaaldak -->
+  <g transform="translate(390,860)">
+    <g transform="translate(111,95)">
+      <line class="grond" x1="-12" y1="45" x2="152" y2="45"/>
+      <path class="wz" d="M100,0 L128,-14 V31 L100,45 Z"/>
+      <path class="wf" d="M0,45 L0,0 Q50,-40 100,0 L100,45 Z"/>
+      <path class="dg" d="M0,0 Q50,-40 100,0 L128,-14 Q78,-54 28,-14 Z"/>
+      <path class="lijn" d="M25,-15 L53,-29"/>
+      <path class="lijn" d="M50,-20 L78,-34"/>
+      <path class="lijn" d="M75,-15 L103,-29"/>
+    </g>
+    <text class="naam" x="175" y="170" text-anchor="middle">Schaaldak</text>
+    <text class="sub" x="175" y="188" text-anchor="middle">zelfdragend dun gebogen vlak — modern beton/staal</text>
+  </g>
+</svg>

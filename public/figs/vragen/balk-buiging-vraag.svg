@@ -1,0 +1,23 @@
+<svg viewBox="0 0 300 160" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, -apple-system, Arial, sans-serif">
+  <rect x="0" y="0" width="300" height="160" fill="#ffffff"/>
+  <!-- belastingspijlen -->
+  <g stroke="#334155" stroke-width="1.6" fill="none">
+    <line x1="70" y1="28" x2="70" y2="58"/><path d="M65,51 L70,60 L75,51"/>
+    <line x1="110" y1="28" x2="110" y2="58"/><path d="M105,51 L110,60 L115,51"/>
+    <line x1="150" y1="28" x2="150" y2="58"/><path d="M145,51 L150,60 L155,51"/>
+    <line x1="190" y1="28" x2="190" y2="58"/><path d="M185,51 L190,60 L195,51"/>
+    <line x1="230" y1="28" x2="230" y2="58"/><path d="M225,51 L230,60 L235,51"/>
+  </g>
+  <line x1="60" y1="26" x2="240" y2="26" stroke="#334155" stroke-width="1.6"/>
+  <!-- doorgebogen balk -->
+  <path d="M30,64 Q150,84 270,64 L270,86 Q150,106 30,86 Z" fill="#f1f5f9" stroke="#334155" stroke-width="1.8"/>
+  <!-- opleggingen -->
+  <path d="M30,88 L20,108 H40 Z" fill="#cbd5e1" stroke="#334155" stroke-width="1.4"/>
+  <path d="M270,88 L260,108 H280 Z" fill="#cbd5e1" stroke="#334155" stroke-width="1.4"/>
+  <line x1="10" y1="110" x2="290" y2="110" stroke="#cbd5e1" stroke-width="1"/>
+  <!-- letters A (bovenvezel) en B (ondervezel) -->
+  <circle cx="150" cy="70" r="10" fill="#dc2626"/>
+  <text x="150" y="74.5" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">A</text>
+  <circle cx="150" cy="100" r="10" fill="#2563eb"/>
+  <text x="150" y="104.5" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">B</text>
+</svg>

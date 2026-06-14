@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build-output (wordt gegenereerd met `npm run build`)
+dist/
+dist-ssr/
+
+# Vooraf ingesproken lesaudio — groot (~268 MB) en regenereerbaar
+# via `scripts/extract-audio-text.ts` + de say/ffmpeg-generator.
+public/audio/
+
+# Lokale logs en rommel
+*.log
+.DS_Store
+.vite/
+*.local
+
+# npm-cache die per ongeluk in het project staat (166 MB)
+.npm-cache/
+
+# TypeScript build-info
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/

@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  /* iOS: voorkom tekstgroter bij landscape */
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body {
+  /* Voorkom pull-to-refresh op iPad/iPhone Safari én rubber-banding
+     dat per ongeluk de pagina kan herladen tijdens scrollen in een quiz. */
+  overscroll-behavior-y: contain;
+}
+
+body {
+  /* Safe-area padding voor iPhone met notch / dynamic island */
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  /* Voorkom horizontaal scrollen door brede content */
+  overflow-x: hidden;
+}
+
+/* Tap-feedback: subtiel grijs i.p.v. iOS-blauw highlight */
+* {
+  -webkit-tap-highlight-color: rgba(30, 64, 175, 0.1);
+}
+
+/* Buttons en links die als knop dienen → minimaal 44 px hoog (Apple HIG) */
+button,
+[role="button"] {
+  min-height: 44px;
+}
+
+/* Lange URL/code-strings in mobiele weergave laten breken i.p.v. overflowen */
+@media (max-width: 640px) {
+  pre, code {
+    word-break: break-word;
+  }
+}
+
+/* PWA-standalone tweaks: meer ademruimte onder de header */
+@media (display-mode: standalone) {
+  /* Status bar wordt overlay → extra top padding voor de header */
+  body {
+    padding-top: max(env(safe-area-inset-top), 12px);
+  }
+}

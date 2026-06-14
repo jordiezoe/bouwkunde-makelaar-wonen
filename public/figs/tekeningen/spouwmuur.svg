@@ -1,0 +1,55 @@
+<svg viewBox="0 0 520 320" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, -apple-system, Arial, sans-serif">
+  <rect x="0" y="0" width="520" height="320" fill="#ffffff"/>
+  <text x="260" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e293b">Spouwmuur — horizontale doorsnede</text>
+  <style>
+    .steen{fill:#d97757;stroke:#9a3412;stroke-width:1}
+    .kalk{fill:#e2e8f0;stroke:#94a3b8;stroke-width:1}
+    .iso{fill:#fde68a;stroke:#d97706;stroke-width:1}
+    .spouw{fill:#eff6ff}
+    .lbl{font-size:12px;font-weight:600;fill:#0f172a}
+    .sub{font-size:10.5px;fill:#64748b}
+  </style>
+
+  <!-- buiten links, binnen rechts -->
+  <text class="sub" x="60" y="56" text-anchor="middle">← BUITEN</text>
+  <text class="sub" x="460" y="56" text-anchor="middle">BINNEN →</text>
+
+  <!-- buitenblad metselwerk -->
+  <g>
+    <rect class="steen" x="40" y="70" width="44" height="170"/>
+    <g stroke="#9a3412" stroke-width="0.8">
+      <line x1="40" y1="98" x2="84" y2="98"/><line x1="40" y1="126" x2="84" y2="126"/>
+      <line x1="40" y1="154" x2="84" y2="154"/><line x1="40" y1="182" x2="84" y2="182"/>
+      <line x1="40" y1="210" x2="84" y2="210"/>
+    </g>
+  </g>
+  <!-- luchtspouw -->
+  <rect class="spouw" x="84" y="70" width="22" height="170"/>
+  <!-- isolatie -->
+  <rect class="iso" x="106" y="70" width="40" height="170"/>
+  <!-- binnenblad kalkzandsteen -->
+  <rect class="kalk" x="146" y="70" width="70" height="170"/>
+  <!-- pleisterlaag -->
+  <rect fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" x="216" y="70" width="8" height="170"/>
+
+  <!-- spouwanker -->
+  <line x1="62" y1="140" x2="180" y2="140" stroke="#334155" stroke-width="2"/>
+  <circle cx="62" cy="140" r="3" fill="#334155"/>
+  <circle cx="180" cy="140" r="3" fill="#334155"/>
+
+  <!-- labels met leaders -->
+  <g font-size="0">
+    <line x1="62" y1="250" x2="62" y2="270" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="95" y1="250" x2="95" y2="285" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="126" y1="250" x2="126" y2="270" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="181" y1="250" x2="181" y2="285" stroke="#94a3b8" stroke-width="1"/>
+  </g>
+  <text class="lbl" x="62" y="284" text-anchor="middle">buitenblad</text>
+  <text class="sub" x="62" y="298" text-anchor="middle">metselwerk ½ steen</text>
+  <text class="lbl" x="95" y="299" text-anchor="middle">spouw</text>
+  <text class="lbl" x="126" y="284" text-anchor="middle">isolatie</text>
+  <text class="lbl" x="181" y="299" text-anchor="middle">binnenblad (dragend)</text>
+
+  <!-- spouwanker label -->
+  <text class="sub" x="120" y="132" text-anchor="middle" fill="#334155">spouwanker</text>
+</svg>

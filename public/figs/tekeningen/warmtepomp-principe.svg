@@ -1,0 +1,47 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, -apple-system, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="300" fill="#ffffff"/>
+  <text x="320" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e293b">Warmtepomp — de koudemiddel­kringloop</text>
+  <style>
+    .box{fill:#f1f5f9;stroke:#475569;stroke-width:1.5;rx:6}
+    .t{font-size:12px;font-weight:700;fill:#0f172a}
+    .s{font-size:10px;fill:#64748b}
+  </style>
+
+  <!-- 4 componenten in een ring -->
+  <!-- verdamper links -->
+  <rect class="box" x="40" y="120" width="110" height="60" rx="8"/>
+  <text class="t" x="95" y="146" text-anchor="middle">Verdamper</text>
+  <text class="s" x="95" y="164" text-anchor="middle">neemt warmte op</text>
+
+  <!-- compressor boven -->
+  <rect class="box" x="265" y="40" width="110" height="56" rx="8"/>
+  <text class="t" x="320" y="64" text-anchor="middle">Compressor</text>
+  <text class="s" x="320" y="82" text-anchor="middle">+ elektriciteit</text>
+
+  <!-- condensor rechts -->
+  <rect class="box" x="490" y="120" width="110" height="60" rx="8"/>
+  <text class="t" x="545" y="146" text-anchor="middle">Condensor</text>
+  <text class="s" x="545" y="164" text-anchor="middle">geeft warmte af</text>
+
+  <!-- expansieventiel onder -->
+  <rect class="box" x="265" y="210" width="110" height="50" rx="8"/>
+  <text class="t" x="320" y="232" text-anchor="middle">Expansieventiel</text>
+  <text class="s" x="320" y="248" text-anchor="middle">drukval → koud</text>
+
+  <!-- kringloop-pijlen -->
+  <g fill="none" stroke-width="3">
+    <!-- verdamper -> compressor (koud gas, blauw) -->
+    <path d="M150,135 Q210,80 263,72" stroke="#2563eb"/><path d="M255,66 L266,71 L257,80" stroke="#2563eb" fill="#2563eb"/>
+    <!-- compressor -> condensor (heet gas, rood) -->
+    <path d="M377,72 Q430,80 490,135" stroke="#dc2626"/><path d="M483,127 L492,137 L480,138" stroke="#dc2626" fill="#dc2626"/>
+    <!-- condensor -> expansie (warme vloeistof, oranje) -->
+    <path d="M490,165 Q430,235 377,235" stroke="#ea580c"/><path d="M385,229 L374,235 L385,241" stroke="#ea580c" fill="#ea580c"/>
+    <!-- expansie -> verdamper (koude vloeistof, lichtblauw) -->
+    <path d="M263,235 Q210,235 150,165" stroke="#60a5fa"/><path d="M157,173 L148,163 L160,162" stroke="#60a5fa" fill="#60a5fa"/>
+  </g>
+
+  <!-- bron en afgifte -->
+  <text class="s" x="95" y="200" text-anchor="middle" fill="#2563eb">↑ bron: buitenlucht / bodem / water</text>
+  <text class="s" x="545" y="200" text-anchor="middle" fill="#dc2626">↓ afgifte: vloerverwarming / radiator</text>
+  <text x="320" y="290" text-anchor="middle" font-size="11" fill="#64748b">De warmtepomp pompt laagwaardige warmte van de bron naar een hoger temperatuurniveau; alleen de compressor kost stroom.</text>
+</svg>

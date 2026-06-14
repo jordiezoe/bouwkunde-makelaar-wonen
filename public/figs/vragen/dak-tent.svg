@@ -1,0 +1,13 @@
+<svg viewBox="0 0 300 190" xmlns="http://www.w3.org/2000/svg"><style>
+path{stroke:#334155;stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round}
+.wf{fill:#f1f5f9}.wz{fill:#dbe3ec}.dv{fill:#d97757}.db{fill:#e9a280}.dg{fill:#aab6c4}.gl{fill:#cfe6f8}
+</style>
+<rect x="0" y="0" width="300" height="190" fill="#ffffff" stroke="none"/>
+<g transform="translate(60,112) scale(1.4)">
+<line x1="-10" y1="45" x2="150" y2="45" stroke="#cbd5e1" stroke-width="0.8"/>
+<path class="wz" d="M90,0 L118,-14 V31 L90,45 Z"/>
+<path class="wf" d="M10,0 H90 V45 H10 Z"/>
+<path class="dv" d="M10,0 H90 L64,-52 Z"/>
+<path class="db" d="M90,0 L118,-14 L64,-52 Z"/>
+</g>
+</svg>

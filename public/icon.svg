@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e40af"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <!-- Bouwkundige hellingen / dak silhouet -->
+  <g stroke="#fbbf24" stroke-width="14" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Huis -->
+    <path d="M 110 320 L 256 180 L 402 320 L 402 410 L 110 410 Z"/>
+    <!-- Schoorsteen -->
+    <path d="M 340 240 L 340 200 L 370 200 L 370 268"/>
+    <!-- Deur -->
+    <rect x="232" y="340" width="48" height="70" rx="2" fill="#fbbf24" stroke="none"/>
+  </g>
+  <!-- Tekst onder -->
+  <text x="256" y="470" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif"
+        font-size="44" font-weight="800" fill="#fbbf24" letter-spacing="2">BK</text>
+</svg>

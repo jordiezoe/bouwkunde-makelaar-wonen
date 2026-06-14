@@ -1,0 +1,36 @@
+<svg viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, -apple-system, Arial, sans-serif">
+  <rect x="0" y="0" width="320" height="240" fill="#ffffff"/>
+  <!-- buitenmuren (dubbele lijn = gevuld band) -->
+  <path d="M10,10 H310 V228 H10 Z M22,22 H298 V216 H22 Z" fill="#94a3b8" fill-rule="evenodd" stroke="#334155" stroke-width="1"/>
+  <!-- raamopening B in bovenmuur: 3 lijnen -->
+  <rect x="90" y="10" width="64" height="12" fill="#ffffff"/>
+  <line x1="90" y1="11" x2="154" y2="11" stroke="#334155" stroke-width="1.2"/>
+  <line x1="90" y1="16" x2="154" y2="16" stroke="#334155" stroke-width="1.2"/>
+  <line x1="90" y1="21" x2="154" y2="21" stroke="#334155" stroke-width="1.2"/>
+  <!-- binnenwand met deuropening A -->
+  <rect x="22" y="112" width="108" height="8" fill="#94a3b8" stroke="#334155" stroke-width="1"/>
+  <rect x="168" y="112" width="62" height="8" fill="#94a3b8" stroke="#334155" stroke-width="1"/>
+  <!-- deurblad + draaicirkel -->
+  <line x1="130" y1="120" x2="130" y2="158" stroke="#334155" stroke-width="2"/>
+  <path d="M130,158 A38,38 0 0 0 168,120" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="3 3"/>
+  <!-- trap C met looplijn -->
+  <rect x="230" y="120" width="68" height="96" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+  <g stroke="#334155" stroke-width="1">
+    <line x1="230" y1="132" x2="298" y2="132"/><line x1="230" y1="144" x2="298" y2="144"/>
+    <line x1="230" y1="156" x2="298" y2="156"/><line x1="230" y1="168" x2="298" y2="168"/>
+    <line x1="230" y1="180" x2="298" y2="180"/><line x1="230" y1="192" x2="298" y2="192"/>
+    <line x1="230" y1="204" x2="298" y2="204"/>
+  </g>
+  <circle cx="264" cy="208" r="3" fill="none" stroke="#334155" stroke-width="1.2"/>
+  <line x1="264" y1="205" x2="264" y2="128" stroke="#334155" stroke-width="1.2"/>
+  <path d="M260,134 L264,124 L268,134" fill="none" stroke="#334155" stroke-width="1.2"/>
+  <!-- letters -->
+  <g font-size="13" font-weight="700">
+    <circle cx="148" cy="148" r="10" fill="#dc2626"/>
+    <text x="148" y="152.5" text-anchor="middle" fill="#ffffff">A</text>
+    <circle cx="122" cy="40" r="10" fill="#dc2626"/>
+    <text x="122" y="44.5" text-anchor="middle" fill="#ffffff">B</text>
+    <circle cx="210" cy="168" r="10" fill="#dc2626"/>
+    <text x="210" y="172.5" text-anchor="middle" fill="#ffffff">C</text>
+  </g>
+</svg>

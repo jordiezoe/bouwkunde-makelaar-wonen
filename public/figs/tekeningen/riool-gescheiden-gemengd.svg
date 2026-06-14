@@ -1,0 +1,44 @@
+<svg viewBox="0 0 640 290" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, -apple-system, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="290" fill="#ffffff"/>
+  <text x="320" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#1e293b">Gemengd vs. gescheiden rioolstelsel</text>
+  <style>
+    .huis{fill:#e2e8f0;stroke:#64748b;stroke-width:1.2}
+    .dak{fill:#cbd5e1;stroke:#64748b;stroke-width:1.2}
+    .vuil{stroke:#92400e;stroke-width:7;fill:none;stroke-linecap:round}
+    .regen{stroke:#2563eb;stroke-width:7;fill:none;stroke-linecap:round}
+    .t{font-size:12px;font-weight:700;fill:#0f172a}
+    .s{font-size:10px;fill:#64748b}
+  </style>
+
+  <!-- ===== GEMENGD ===== -->
+  <g transform="translate(0,0)">
+    <text class="t" x="160" y="56" text-anchor="middle">Gemengd stelsel</text>
+    <!-- huis -->
+    <path class="dak" d="M70,100 L110,72 L150,100 Z"/>
+    <rect class="huis" x="78" y="100" width="64" height="46"/>
+    <!-- vuil + regen samen in 1 buis -->
+    <path class="vuil" d="M110,146 V175"/>
+    <path class="regen" d="M150,90 Q180,90 180,150 V175"/>
+    <path d="M90,175 H210" stroke="#7c3f12" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <text class="s" x="150" y="200" text-anchor="middle">één buis: vuil + regen samen</text>
+    <text class="s" x="150" y="240" text-anchor="middle" fill="#475569">→ naar de RWZI</text>
+    <text class="s" x="150" y="256" text-anchor="middle" fill="#dc2626">bij hoosbui: overstort op sloot</text>
+  </g>
+
+  <line x1="320" y1="44" x2="320" y2="270" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- ===== GESCHEIDEN ===== -->
+  <g transform="translate(320,0)">
+    <text class="t" x="160" y="56" text-anchor="middle">Gescheiden stelsel</text>
+    <path class="dak" d="M70,100 L110,72 L150,100 Z"/>
+    <rect class="huis" x="78" y="100" width="64" height="46"/>
+    <!-- vuil -->
+    <path class="vuil" d="M110,146 V175"/>
+    <path d="M90,175 H150" stroke="#7c3f12" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <!-- regen apart -->
+    <path class="regen" d="M150,90 Q185,90 185,150 V205"/>
+    <path d="M150,205 H230" stroke="#2563eb" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <text class="s" x="120" y="196" text-anchor="middle" fill="#92400e">vuilwater → RWZI</text>
+    <text class="s" x="190" y="226" text-anchor="middle" fill="#2563eb">regenwater → sloot/infiltratie</text>
+  </g>
+</svg>

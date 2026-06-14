@@ -1,0 +1,15 @@
+<svg viewBox="0 0 300 190" xmlns="http://www.w3.org/2000/svg"><style>
+path{stroke:#334155;stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round}
+.wf{fill:#f1f5f9}.wz{fill:#dbe3ec}.dv{fill:#d97757}.db{fill:#e9a280}.dg{fill:#aab6c4}.gl{fill:#cfe6f8}
+</style>
+<rect x="0" y="0" width="300" height="190" fill="#ffffff" stroke="none"/>
+<g transform="translate(60,112) scale(1.4)">
+<line x1="-10" y1="45" x2="150" y2="45" stroke="#cbd5e1" stroke-width="0.8"/>
+<path class="wz" d="M100,0 L128,-14 V31 L100,45 Z"/>
+<path class="wf" d="M0,0 H100 V45 H0 Z"/>
+<path class="dv" d="M0,0 H100 L92,-26 H8 Z"/>
+<path class="dv" d="M8,-26 H92 L78,-40 H50 Z"/>
+<path class="db" d="M100,0 L128,-14 L106,-33 L92,-26 Z"/>
+<path class="db" d="M92,-26 L106,-33 L78,-40 Z"/>
+</g>
+</svg>
