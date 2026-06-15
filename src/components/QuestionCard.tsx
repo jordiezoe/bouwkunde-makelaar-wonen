@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import type { Question } from '../types/content'
+import { asset } from '../lib/asset'
 
 interface Props {
   question: Question
@@ -50,7 +51,7 @@ export function QuestionCard({ question, onAnswered, onNext }: Props) {
       {question.image && (
         <figure className="mt-3 bg-slate-50 rounded-lg overflow-hidden border border-slate-200">
           <img
-            src={question.image.src}
+            src={asset(question.image.src)}
             alt={question.image.caption}
             className="w-full h-auto object-contain bg-white max-h-72"
           />

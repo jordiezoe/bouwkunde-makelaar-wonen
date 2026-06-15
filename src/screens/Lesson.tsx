@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { getTopic } from '../content'
+import { asset } from '../lib/asset'
 import type { Screen } from '../App'
 import {
   isTopicPassed,
@@ -75,7 +76,7 @@ function useAudioBook(topicCode: string, chunkCount: number): UseAudioResult {
     }
     idxRef.current = idx
     setSectionIdx(idx)
-    a.src = `/audio/${topicRef.current}-${idx}.mp3`
+    a.src = asset(`/audio/${topicRef.current}-${idx}.mp3`)
     a.playbackRate = rateRef.current
     a.play().then(() => setState('speaking')).catch(() => setState('idle'))
   }, [])
@@ -181,6 +182,20 @@ export function Lesson({ topicCode, scrollToToetsterm, progress, onNavigate }: P
   // Aantal audiofragmenten: intro (titel+blurb) + één per lessectie.
   const chunkCount = topic ? topic.lessonSections.length + 1 : 0
   const tts = useAudioBook(topic?.code ?? '', chunkCount)
+
+  // Toon de audiospeler alleen als de ingesproken MP3's daadwerkelijk bestaan.
+  // Zo verdwijnt de knop netjes wanneer de audio (nog) niet gepubliceerd is,
+  // en verschijnt hij vanzelf zodra die er wél staat.
+  const [audioAvailable, setAudioAvailable] = useState(false)
+  useEffect(() => {
+    if (!topic) { setAudioAvailable(false); return }
+    let alive = true
+    setAudioAvailable(false)
+    fetch(asset(`/audio/${topic.code}-0.mp3`), { method: 'HEAD' })
+      .then((r) => { if (alive) setAudioAvailable(r.ok) })
+      .catch(() => { if (alive) setAudioAvailable(false) })
+    return () => { alive = false }
+  }, [topic?.code])
 
   // Scroll naar de relevante sectie zodra deze prop binnenkomt
   useEffect(() => {
@@ -330,7 +345,7 @@ export function Lesson({ topicCode, scrollToToetsterm, progress, onNavigate }: P
         <h2 className="text-lg font-semibold text-primary-700 mb-4">Lesstof</h2>
 
         {/* Audiospeler — speelt de vooraf ingesproken MP3's (Xander Verbeterd) af */}
-        {chunkCount > 0 && (
+        {chunkCount > 0 && audioAvailable && (
           <div className="mb-4 bg-sky-50 border border-sky-200 rounded-xl px-4 py-3 space-y-2">
             {/* Rij 1: play/stop + sectienaam + snelheid */}
             <div className="flex items-center gap-2 flex-wrap">
@@ -632,7 +647,7 @@ function ImageGrid({ images }: { images: LessonImage[] }) {
 function FigureLarge({ image }: { image: LessonImage }) {
   return (
     <figure className="bg-slate-50 rounded-lg overflow-hidden border border-slate-200">
-      <img src={image.src} alt={image.caption} className="w-full h-auto object-contain bg-white" />
+      <img src={asset(image.src)} alt={image.caption} className="w-full h-auto object-contain bg-white" />
       <figcaption className="px-4 py-2 text-xs text-slate-600">
         {image.caption}
         {image.source && <span className="text-slate-400"> · {image.source}</span>}
@@ -644,7 +659,7 @@ function FigureLarge({ image }: { image: LessonImage }) {
 function Figure({ image }: { image: LessonImage }) {
   return (
     <figure className="bg-slate-50 rounded-lg overflow-hidden border border-slate-200">
-      <img src={image.src} alt={image.caption} className="w-full h-auto object-contain bg-white" />
+      <img src={asset(image.src)} alt={image.caption} className="w-full h-auto object-contain bg-white" />
       <figcaption className="px-3 py-2 text-xs text-slate-600">
         {image.caption}
         {image.source && <span className="text-slate-400"> · {image.source}</span>}

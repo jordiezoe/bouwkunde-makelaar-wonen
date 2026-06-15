@@ -2,7 +2,12 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
+// Op GitHub Pages draait de app onder een submap. De Pages-build zet
+// VITE_BASE='/bouwkunde-makelaar-wonen/'; lokaal blijft het '/'.
+const base = process.env.VITE_BASE ?? '/'
+
 export default defineConfig({
+  base,
   plugins: [
     react(),
     VitePWA({
@@ -25,21 +30,21 @@ export default defineConfig({
         background_color: '#f8fafc',
         display: 'standalone',
         orientation: 'portrait',
-        scope: '/',
-        start_url: '/',
+        scope: base,
+        start_url: base,
         icons: [
           {
-            src: '/pwa-192.png',
+            src: `${base}pwa-192.png`,
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/pwa-512.png',
+            src: `${base}pwa-512.png`,
             sizes: '512x512',
             type: 'image/png',
           },
           {
-            src: '/pwa-maskable-512.png',
+            src: `${base}pwa-maskable-512.png`,
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable',
@@ -54,15 +59,16 @@ export default defineConfig({
         // (runtimeCaching hieronder). Initiële install: ~1,7 MB i.p.v. 23 MB.
         globPatterns: ['**/*.{js,css,html,woff,woff2}'],
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
-        navigateFallback: '/index.html',
+        navigateFallback: `${base}index.html`,
         // Wacht tot alle tabs gesloten zijn voor activering — voorkomt mid-sessie reload.
         skipWaiting: false,
         clientsClaim: false,
         runtimeCaching: [
           {
             // Foto's én SVG-tekeningen: cache-first, laden zodra je ze tegenkomt
+            // (.includes i.p.v. startsWith: werkt ook onder de Pages-submap)
             urlPattern: ({ request, url }) =>
-              request.destination === 'image' || url.pathname.startsWith('/figs/'),
+              request.destination === 'image' || url.pathname.includes('/figs/'),
             handler: 'CacheFirst',
             options: {
               cacheName: 'figs-images',
@@ -74,7 +80,7 @@ export default defineConfig({
           },
           {
             // Vooraf opgenomen lesaudio (MP3): pas cachen als je luistert
-            urlPattern: ({ url }) => url.pathname.startsWith('/audio/'),
+            urlPattern: ({ url }) => url.pathname.includes('/audio/'),
             handler: 'CacheFirst',
             options: {
               cacheName: 'lesaudio',
