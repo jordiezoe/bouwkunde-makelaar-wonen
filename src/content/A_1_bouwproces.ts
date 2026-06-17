@@ -184,45 +184,36 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
       toetstermCode: 'A.1.1',
       type: 'mc',
       prompt: 'Wie verleent de omgevingsvergunning en houdt toezicht tijdens de bouw?',
-      options: [
-        'De aannemer',
-        'Bouw- en woningtoezicht van de gemeente',
-        'De architect',
-        'Het Kadaster',
-      ],
+      options: ['De aannemer', 'De gemeente', 'De architect', 'Het Kadaster'],
       correctIndex: 1,
       explanation:
-        'De gemeente (Bouw- en woningtoezicht) verleent vergunningen en handhaaft het Bbl. Het Kadaster registreert alleen eigendomsgegevens en kadastrale grenzen.',
+        'De gemeente (Bouw- en woningtoezicht) verleent de vergunning en handhaaft het Bbl. Het Kadaster registreert alleen eigendom en kadastrale grenzen; de architect ontwerpt; de aannemer bouwt.',
     },
     {
       id: 'A.1.q3',
       toetstermCode: 'A.1.1',
       type: 'mc',
-      prompt: 'Wat is het verschil tussen een hoofdaannemer en een onderaannemer?',
+      prompt:
+        'Wie heeft het contract met de opdrachtgever en is eindverantwoordelijk voor het hele project?',
       options: [
-        'De hoofdaannemer doet alleen het ontwerp; de onderaannemer voert uit.',
-        'De hoofdaannemer is verantwoordelijk voor het hele project en coördineert de onderaannemers die deelwerken uitvoeren.',
-        'De hoofdaannemer wordt ingehuurd door de gemeente; de onderaannemer door de opdrachtgever.',
-        'Er is geen verschil — beide termen zijn synoniem.',
+        'De onderaannemer',
+        'De hoofdaannemer',
+        'De architect',
+        'De projectontwikkelaar',
       ],
       correctIndex: 1,
       explanation:
-        'De hoofdaannemer heeft het contract met de opdrachtgever en is eindverantwoordelijk. Onderaannemers (installateur, dakdekker, etc.) werken in zijn opdracht.',
+        'De hoofdaannemer sluit het contract met de opdrachtgever en coördineert de onderaannemers (installateur, dakdekker, enz.) die deelwerken uitvoeren. De architect ontwerpt; een projectontwikkelaar is doorgaans juist de opdrachtgever.',
     },
     {
       id: 'A.1.q4',
       toetstermCode: 'A.1.1',
       type: 'mc',
-      prompt: 'Welke partij stelt het programma van eisen (PvE) op aan het begin van een project?',
-      options: [
-        'De aannemer',
-        'De architect',
-        'De opdrachtgever (eventueel samen met een adviseur of architect)',
-        'De gemeente',
-      ],
+      prompt: 'Wie stelt aan het begin van een project het programma van eisen (PvE) op?',
+      options: ['De aannemer', 'De architect', 'De opdrachtgever', 'De gemeente'],
       correctIndex: 2,
       explanation:
-        'Het PvE komt van de opdrachtgever en beschrijft wensen, budget en functies. De architect vertaalt het PvE naar een ontwerp.',
+        'Het PvE komt van de opdrachtgever en beschrijft wensen, budget en functies — eventueel met hulp van een adviseur. De architect vertaalt het PvE vervolgens naar een ontwerp.',
     },
 
     // A.1.2 — Bouwfases (BT1, Begrip)
@@ -263,30 +254,30 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
       prompt:
         'Wat gebeurt er in de exploitatiefase?',
       options: [
-        'De aannemer rondt de laatste afwerking af.',
-        'Het ontwerp wordt aangepast op basis van inspraak.',
-        'De gebruiker neemt het gebouw in gebruik; er volgt onderhoud en eventueel later renovatie of sloop.',
-        'De omgevingsvergunning wordt aangevraagd.',
+        'De laatste afwerking wordt afgerond',
+        'Het ontwerp wordt aangepast op inspraak',
+        'Het gebouw wordt gebruikt en onderhouden',
+        'De omgevingsvergunning wordt aangevraagd',
       ],
       correctIndex: 2,
       explanation:
-        'Exploitatiefase = gebruiks-/beheersfase. Loopt typisch decennia. De makelaar is hier weer in beeld voor verkoop/verhuur/beheer.',
+        'De exploitatiefase is de gebruiks-/beheersfase en loopt typisch decennia: gebruik, onderhoud en later eventueel renovatie of sloop. De makelaar is hier weer in beeld voor verkoop, verhuur en beheer.',
     },
     {
       id: 'A.1.q8',
       toetstermCode: 'A.1.2',
       type: 'mc',
       prompt:
-        'Bij de oplevering blijken er nog wat kleine gebreken te zijn (krasjes, een klemmende deur). Wat gebeurt daar standaard mee?',
+        'Bij de oplevering van een nieuwbouwwoning blijken er nog kleine gebreken: krasjes en een klemmende deur. Wat is de standaardprocedure?',
       options: [
-        'Ze worden genegeerd; de opdrachtgever moet ze zelf laten herstellen.',
-        'Ze komen op de opleveringslijst en de aannemer herstelt ze binnen een afgesproken termijn.',
-        'De oplevering wordt afgewezen tot alles 100% goed is.',
-        'Ze worden pas na de garantieperiode behandeld.',
+        'De koper laat ze op eigen kosten herstellen',
+        'Ze komen op de opleveringslijst voor herstel',
+        'De oplevering wordt afgewezen tot alles perfect is',
+        'Herstel volgt pas na de garantieperiode',
       ],
       correctIndex: 1,
       explanation:
-        'Standaardprocedure: opleveringsgebreken op een lijst, aannemer herstelt binnen een termijn (vaak enkele weken). De koper mag het 5%-depot inhouden tot herstel.',
+        'Opleveringsgebreken komen op een lijst (proces-verbaal van oplevering); de aannemer herstelt ze binnen een afgesproken termijn, vaak enkele weken. De koper mag het 5%-depot inhouden tot het herstel klaar is.',
     },
 
     // A.1.3 — Bouwgrond, bouwvlak, rooilijn (BT1, Begrip)
@@ -294,62 +285,62 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
       id: 'A.1.q9',
       toetstermCode: 'A.1.3',
       type: 'mc',
-      prompt: 'Wat is een gevelrooilijn?',
+      prompt: 'Wat geeft de gevelrooilijn aan?',
       options: [
-        'De grens van het kadastrale perceel.',
-        'De denkbeeldige lijn waar de voorgevel op of achter moet staan.',
-        'De buitenste lijn van het bouwvlak aan de achterzijde.',
-        'De lijn waarop nutsleidingen worden aangelegd.',
+        'De grens van het kadastrale perceel',
+        'De lijn waarop de voorgevel moet staan',
+        'De achterste lijn van het bouwvlak',
+        'De lijn waarop nutsleidingen lopen',
       ],
       correctIndex: 1,
       explanation:
-        'De gevelrooilijn (of voorgevelrooilijn) bepaalt waar de voorgevel mag staan. Vaak gelijk aan de straatkant van het bouwvlak.',
+        'De (voorgevel)rooilijn bepaalt waar de voorgevel mag staan en valt vaak samen met de straatkant van het bouwvlak. De perceelgrens is iets anders (Kadaster).',
     },
     {
       id: 'A.1.q10',
       toetstermCode: 'A.1.3',
       type: 'mc',
-      prompt: 'Wat betekent het wanneer een terrein "bouwrijp" wordt gemaakt?',
+      prompt: 'Wat gebeurt er als een terrein "bouwrijp" wordt gemaakt?',
       options: [
-        'Er wordt een omgevingsvergunning aangevraagd.',
-        'Het terrein wordt verkocht aan de opdrachtgever.',
-        'Het terrein wordt klaargemaakt voor bouw: ophogen, drainage, riolering en nutsaansluitingen voorbereid.',
-        'Er wordt een definitief ontwerp opgesteld.',
+        'Er wordt een omgevingsvergunning aangevraagd',
+        'Het terrein wordt verkocht aan de opdrachtgever',
+        'Het terrein wordt fysiek klaargemaakt voor bouw',
+        'Er wordt een definitief ontwerp opgesteld',
       ],
       correctIndex: 2,
       explanation:
-        '"Bouwrijp" = fysiek gereedmaken van het terrein. Niet te verwarren met "bouwgrond" (juridisch toegestaan om te bouwen).',
+        'Bouwrijp maken is het fysiek gereedmaken: ophogen, drainage, riolering en nutsaansluitingen voorbereiden. Verwar het niet met "bouwgrond" — dat is de juridische toestemming om te bouwen.',
     },
     {
       id: 'A.1.q11',
       toetstermCode: 'A.1.3',
       type: 'mc',
-      prompt: 'Wat is een bouwvlak?',
+      prompt: 'Wat geeft het bouwvlak aan?',
       options: [
-        'Het gebied binnen het perceel waar volgens het omgevingsplan het hoofdgebouw mag staan.',
-        'De totale oppervlakte van het kadastrale perceel.',
-        'De ruimte tussen de gevelrooilijn en de openbare weg.',
-        'Het gebied waar uitsluitend bijgebouwen toegestaan zijn.',
+        'De zone waar het hoofdgebouw mag staan',
+        'De totale oppervlakte van het perceel',
+        'De ruimte tussen rooilijn en openbare weg',
+        'De zone alleen voor bijgebouwen',
       ],
       correctIndex: 0,
       explanation:
-        'Het bouwvlak is de zone op het perceel waar het hoofdgebouw mag verrijzen. Aanbouwen en bijgebouwen kunnen onder voorwaarden ook in het achtererfgebied buiten het bouwvlak.',
+        'Het bouwvlak is de zone op het perceel waar het hoofdgebouw mag verrijzen, vastgelegd in het omgevingsplan. Aanbouwen en bijgebouwen mogen onder voorwaarden ook in het achtererfgebied, buiten het bouwvlak.',
     },
     {
       id: 'A.1.q12',
       toetstermCode: 'A.1.3',
       type: 'mc',
       prompt:
-        'Een klant kijkt naar een hoekkavel met een bouwvlak dat 2 meter van de straatkant ligt. Wat betekent dit voor de positie van het hoofdgebouw?',
+        'Een klant bekijkt een kavel waarvan het bouwvlak 2 meter van de straatkant begint. Wat betekent dat voor het hoofdgebouw?',
       options: [
-        'Het hoofdgebouw moet exact op de erfgrens komen.',
-        'De voorgevel moet 2 meter van de erfgrens (de gevelrooilijn) afliggen.',
-        'Het hele perceel mag bebouwd worden, ook de tuin.',
-        'Het hoofdgebouw mag enkel aan de achterzijde van het perceel.',
+        'Het moet exact op de erfgrens komen',
+        'De voorgevel moet minstens 2 m terugliggen',
+        'Het hele perceel mag bebouwd worden',
+        'Het mag alleen achter op het perceel',
       ],
       correctIndex: 1,
       explanation:
-        'Het bouwvlak geeft de maximale positie aan. Hier bepaalt dat de voorgevel niet dichter dan 2 meter bij de straatkant mag staan.',
+        'Het bouwvlak begrenst waar het hoofdgebouw mag staan. Ligt het 2 m van de straatkant, dan mag de voorgevel niet dichterbij komen dan die rooilijn — er ontstaat dus een voortuin van minstens 2 m.',
     },
 
     // A.1.4 — Bouwkostenbegroting (BT2, Begrip)
@@ -357,46 +348,46 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
       id: 'A.1.q13',
       toetstermCode: 'A.1.4',
       type: 'mc',
-      prompt: 'Wat zijn staartkosten in een bouwkostenbegroting?',
+      prompt: 'Wat vallen er onder de staartkosten in een bouwbegroting?',
       options: [
-        'Het laatste deel van de aanneemsom dat bij oplevering wordt betaald.',
-        'Alle indirecte kosten van de aannemer: algemene kosten, projectleiding, winst en risico — vaak 10–20% van de directe kosten.',
-        'De kosten voor sloop en afvoer van bouwafval.',
-        'Onvoorziene kosten die pas op de afsluitende factuur verschijnen.',
+        'Het laatste betaaldeel bij oplevering',
+        'Algemene kosten, winst en risico',
+        'Sloop en afvoer van bouwafval',
+        'Onvoorziene kosten op de slotfactuur',
       ],
       correctIndex: 1,
       explanation:
-        'Staartkosten = aannemers algemene kosten + winst + risico. Komt aan het "einde van de staart" van de begroting, na materiaal/arbeid/materieel/onderaanneming.',
+        'Staartkosten zijn de indirecte kosten van de aannemer: algemene kosten, projectleiding, winst en risico — vaak 10–20% van de directe kosten. Ze staan onderaan ("de staart") van de begroting, na materiaal, arbeid, materieel en onderaanneming.',
     },
     {
       id: 'A.1.q14',
       toetstermCode: 'A.1.4',
       type: 'mc',
-      prompt: 'Wat is een stelpost in een bouwkostenbegroting?',
+      prompt: 'Wat is een stelpost in een bouwbegroting?',
       options: [
-        'Een vast bedrag voor de fundering.',
-        'Een geschat bedrag voor een onderdeel dat nog niet definitief is uitgewerkt of gekozen — verschil wordt later verrekend.',
-        'De kosten van het bouwbord en het bouwhek.',
-        'Een korting op de aanneemsom bij snelle oplevering.',
+        'Een vast bedrag voor de fundering',
+        'Een geschat bedrag, later verrekend',
+        'De kosten van bouwbord en bouwhek',
+        'Een korting bij snelle oplevering',
       ],
       correctIndex: 1,
       explanation:
-        'Stelposten worden ingezet voor onderdelen zoals keuken, sanitair, tegelwerk. Bij definitieve keuze wordt het verschil tussen stelpostbedrag en werkelijke kosten verrekend met de opdrachtgever.',
+        'Een stelpost is een geschat bedrag voor een onderdeel dat nog niet definitief gekozen is (keuken, sanitair, tegelwerk). Bij de definitieve keuze wordt het verschil tussen stelpost en werkelijke kosten met de opdrachtgever verrekend.',
     },
     {
       id: 'A.1.q15',
       toetstermCode: 'A.1.4',
       type: 'mc',
-      prompt: 'Wat is meer- en minderwerk?',
+      prompt: 'Wat houdt meer- en minderwerk in?',
       options: [
-        'De winst- en risico-opslag van de aannemer.',
-        'Wijzigingen ten opzichte van het bestek tijdens de uitvoering — extra opdrachten zijn meerwerk, geschrapte onderdelen zijn minderwerk.',
-        'Het verschil tussen bouwsom en aanneemsom.',
-        'De aanvullende werkzaamheden in de garantieperiode.',
+        'De winst- en risico-opslag van de aannemer',
+        'Wijzigingen op het bestek tijdens de bouw',
+        'Het verschil tussen bouwsom en aanneemsom',
+        'Aanvullend werk in de garantieperiode',
       ],
       correctIndex: 1,
       explanation:
-        'Meerwerk = extra opdracht van de opdrachtgever tijdens de bouw (extra dakkapel, duurder kozijn). Minderwerk = juist iets schrappen. Beide leiden tot een verrekening van de aanneemsom.',
+        'Meerwerk is een extra opdracht tijdens de bouw (extra dakkapel, duurder kozijn), minderwerk is juist iets schrappen. Beide wijken af van het bestek en worden met de aanneemsom verrekend.',
     },
     {
       id: 'A.1.q16',
@@ -413,16 +404,16 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
       toetstermCode: 'A.1.4',
       type: 'mc',
       prompt:
-        'Een opdrachtgever krijgt een offerte met opvallend veel stelposten. Wat is hier de belangrijkste praktische consequentie?',
+        'Een klant krijgt een offerte met opvallend veel stelposten. Wat is daarvan de belangrijkste consequentie?',
       options: [
-        'De aanneemsom is gegarandeerd lager dan een offerte zonder stelposten.',
-        'De aannemer mag het werk niet starten zonder vergunning.',
-        'De uiteindelijke prijs kan tijdens de bouw nog flink afwijken, afhankelijk van de definitieve keuzes.',
-        'Stelposten zijn altijd inclusief winst en risico.',
+        'De aanneemsom is gegarandeerd lager',
+        'Het werk mag niet starten zonder vergunning',
+        'De einduitkomst is minder zeker',
+        'Winst en risico zijn al inbegrepen',
       ],
       correctIndex: 2,
       explanation:
-        'Veel stelposten = veel ruimte voor verrekening achteraf. Kan zowel duurder als goedkoper uitvallen, maar geeft minder zekerheid over de uiteindelijke prijs.',
+        'Veel stelposten betekent veel ruimte voor verrekening achteraf: de uiteindelijke prijs kan tijdens de bouw nog flink afwijken (duurder of goedkoper). Dat geeft de koper minder prijszekerheid vooraf.',
     },
 
     // A.1.5 — Betalingsregelingen (BT2, Kennis)
@@ -445,17 +436,16 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
       id: 'A.1.q19',
       toetstermCode: 'A.1.5',
       type: 'mc',
-      prompt:
-        'Wat houdt de 5%-regeling bij oplevering van nieuwbouw in?',
+      prompt: 'Wat houdt de 5%-regeling bij oplevering van nieuwbouw in?',
       options: [
-        'De aannemer mag 5% extra rekenen voor onvoorziene kosten.',
-        'De opdrachtgever mag 5% van de aanneemsom inhouden en bij de notaris in depot zetten als zekerheid voor verborgen gebreken; pas na drie maanden vrijgegeven.',
-        'De gemeente krijgt 5% van de aanneemsom als leges.',
-        'De makelaar ontvangt 5% courtage op de aanneemsom.',
+        'De aannemer mag 5% extra voor onvoorzien rekenen',
+        'De koper mag 5% in depot houden bij de notaris',
+        'De gemeente int 5% van de aanneemsom als leges',
+        'De makelaar krijgt 5% courtage op de aanneemsom',
       ],
       correctIndex: 1,
       explanation:
-        'Artikel 7:768 BW: 5% van de aanneemsom mag in depot bij de notaris. Na drie maanden, als er geen verborgen gebreken zijn opgedoken, vrijgegeven aan de aannemer.',
+        'Volgens art. 7:768 BW mag de koper 5% van de aanneemsom in depot zetten bij de notaris, als zekerheid voor (verborgen) gebreken. Het wordt na drie maanden vrijgegeven aan de aannemer als er niets is opgedoken.',
     },
     {
       id: 'A.1.q20',
@@ -464,14 +454,14 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
       prompt:
         'Een aannemer vraagt voor de start van de bouw een groot voorschot van 25% van de aanneemsom. Wat is de standaardadvisering hierop?',
       options: [
-        'Akkoord gaan; dit is in Nederland gebruikelijk.',
-        'Voorschotten vooraf zijn ongebruikelijk en juridisch onverstandig — beter pas betalen na geleverd werk.',
-        'Wel akkoord, maar alleen als de aannemer een bankgarantie afgeeft.',
-        'Akkoord, mits het voorschot wordt afgetrokken van de gemeentelijke leges.',
+        'Akkoord — dit is in Nederland gebruikelijk',
+        'Afraden — pas betalen na geleverd werk',
+        'Alleen akkoord met een bankgarantie',
+        'Akkoord, te verrekenen met de leges',
       ],
       correctIndex: 1,
       explanation:
-        'In Nederland is voorschotbetaling vóór er gewerkt is ongebruikelijk en risicovol — zonder geleverd werk staat er niets tegenover je betaling. Beter: termijnen na voltooide fases.',
+        'Vooruitbetalen vóór er gewerkt is, is in Nederland ongebruikelijk en risicovol: zonder geleverd werk staat er niets tegenover je betaling (denk aan faillissement). Gebruikelijk is betalen in termijnen na voltooide bouwfases.',
     },
 
     // === HERHAALVRAGEN ===
@@ -496,17 +486,17 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
     {
       id: 'A.1.q22',
       toetstermCode: 'A.1.1',
-      type: 'mc',
-      prompt: 'In welke fase van het bouwproces is de makelaar het meest actief?',
+      type: 'multi',
+      prompt: 'In welke twee fases is de makelaar doorgaans het meest actief? Selecteer beide.',
       options: [
-        'Uitvoeringsfase (de bouw zelf).',
-        'Opleveringsfase (eindinspectie).',
-        'Initiatief- en exploitatiefase (vóór de bouw + bij verkoop/verhuur na oplevering).',
-        'Voorbereidingsfase (aanbesteding).',
+        'Initiatieffase',
+        'Uitvoeringsfase',
+        'Opleveringsfase',
+        'Exploitatiefase',
       ],
-      correctIndex: 2,
+      correctIndices: [0, 3],
       explanation:
-        'De makelaar adviseert in de initiatieffase (marktanalyse, haalbaarheid) en is daarna vooral actief in de exploitatiefase voor verkoop/verhuur/beheer.',
+        'De makelaar adviseert in de initiatieffase (marktanalyse, haalbaarheid) en is daarna vooral actief in de exploitatiefase voor verkoop, verhuur en beheer. Tijdens de uitvoering en oplevering is hij nauwelijks betrokken.',
     },
 
     // A.1.2 — Bouwfases (extra)
@@ -524,16 +514,16 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
       id: 'A.1.q24',
       toetstermCode: 'A.1.2',
       type: 'mc',
-      prompt: 'Wat is een V&G-plan en wanneer wordt het opgesteld?',
+      prompt: 'Waar dient een V&G-plan voor?',
       options: [
-        'Een vergelijking van offertes; opgesteld in de voorbereidingsfase.',
-        'Een veiligheids- en gezondheidsplan voor de bouwplaats; vereist tijdens de uitvoeringsfase.',
-        'Een verkoop- en garantieplan voor de koper.',
-        'Een verwerkings- en gebruiksplan voor onderhoud.',
+        'Het vergelijken van offertes',
+        'Veiligheid en gezondheid op de bouwplaats',
+        'Verkoop en garantie voor de koper',
+        'Verwerking en gebruik bij onderhoud',
       ],
       correctIndex: 1,
       explanation:
-        'V&G = Veiligheid en Gezondheid. Verplicht voor projecten boven een bepaalde omvang, geldt tijdens de uitvoeringsfase op de bouwplaats.',
+        'V&G staat voor Veiligheid en Gezondheid. Het plan is verplicht voor grotere projecten en geldt tijdens de uitvoeringsfase op de bouwplaats.',
     },
 
     // A.1.3 — Bouwgrond (extra)
@@ -542,16 +532,16 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
       toetstermCode: 'A.1.3',
       type: 'mc',
       prompt:
-        'Wat is het verschil tussen voorerfgebied en achtererfgebied op een perceel?',
+        'Waarin verschilt het achtererfgebied van het voorerfgebied, voor een makelaar het meest relevant?',
       options: [
-        'Het voorerfgebied is alleen voor parkeren, het achtererfgebied voor tuin.',
-        'Het voorerfgebied ligt tussen de voorgevelrooilijn en de straat; het achtererfgebied ligt aan de achterzijde van het hoofdgebouw, met soepelere regels voor vergunningsvrije aanbouwen.',
-        'Het voorerfgebied behoort aan de gemeente, het achtererfgebied aan de eigenaar.',
-        'Voor- en achtererfgebied zijn synoniemen voor twee gelijke helften van een tuin.',
+        'Het voorerf is voor parkeren, het achtererf voor tuin',
+        'In het achtererf mag vaak vergunningsvrij worden bijgebouwd',
+        'Het voorerf is van de gemeente, het achtererf van de eigenaar',
+        'Het zijn twee gelijke helften van de tuin',
       ],
       correctIndex: 1,
       explanation:
-        'In het achtererfgebied (achter het hoofdgebouw, buiten het bouwvlak) gelden soepelere regels voor bijgebouwen en aanbouwen — vaak vergunningsvrij binnen bepaalde maten.',
+        'Het voorerfgebied ligt tussen de voorgevelrooilijn en de straat; het achtererfgebied ligt achter (de denkbeeldige lijn door) het hoofdgebouw. Juist dáár gelden soepelere regels: aanbouwen en bijgebouwen zijn er vaak vergunningsvrij binnen bepaalde maten — belangrijk bij het inschatten van uitbreidingsmogelijkheden.',
     },
     {
       id: 'A.1.q26',
@@ -574,33 +564,34 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
     {
       id: 'A.1.q27',
       toetstermCode: 'A.1.4',
-      type: 'mc',
-      prompt: 'Wat is het verschil tussen "arbeid" en "materieel" in een bouwbegroting?',
+      type: 'multi',
+      prompt: "Welke posten vallen onder 'materieel' in een bouwbegroting? Selecteer alle juiste.",
       options: [
-        'Arbeid = de uren van de eigen ploeg; materieel = gereedschap, machines en tijdelijke voorzieningen zoals kraan en steiger.',
-        'Arbeid en materieel zijn synoniemen voor de kosten van de aannemer.',
-        'Arbeid = de uren van onderaannemers; materieel = bouwmaterialen.',
-        'Arbeid = inkoopkosten van materialen; materieel = bouwafval.',
+        'Bouwkraan',
+        'Steiger',
+        'Manuren van de eigen ploeg',
+        'Bouwlift',
+        'Metselspecie',
       ],
-      correctIndex: 0,
+      correctIndices: [0, 1, 3],
       explanation:
-        'Arbeid = manuren × loonkosten van de eigen werknemers. Materieel = gereedschap en machines (kraan, steiger, bouwkeet), vaak gehuurd.',
+        'Materieel = gereedschap, machines en tijdelijke voorzieningen (kraan, steiger, bouwlift, bouwkeet) — meestal gehuurd. Manuren vallen onder arbeid; metselspecie onder materiaal (wat in het werk verdwijnt).',
     },
     {
       id: 'A.1.q28',
       toetstermCode: 'A.1.4',
       type: 'mc',
       prompt:
-        'Hoe verschilt onderaanneming van "arbeid" in een bouwkostenbegroting?',
+        'Hoe verschilt de post "onderaanneming" van de post "arbeid" in een begroting?',
       options: [
-        'Onderaanneming is duurder per uur dan eigen arbeid.',
-        'Bij onderaanneming wordt een complete dienst inclusief materiaal en arbeid ingekocht bij een gespecialiseerde partij; bij "arbeid" gaat het puur om manuren van de eigen ploeg.',
-        'Onderaanneming valt onder materieel, arbeid niet.',
-        'Onderaanneming geldt alleen voor de heistart, arbeid voor de hele bouw.',
+        'Onderaanneming is duurder per uur',
+        'Onderaanneming is een complete uitbestede deelopdracht',
+        'Onderaanneming valt eigenlijk onder materieel',
+        'Onderaanneming geldt alleen voor de heistart',
       ],
       correctIndex: 1,
       explanation:
-        'Een onderaannemer (bv. dakdekker, installateur) levert een complete deelopdracht inclusief materiaal en eigen mensen. "Arbeid" in de begroting verwijst naar de manuren van de eigen ploeg van de hoofdaannemer.',
+        'Een onderaannemer (dakdekker, installateur) levert een complete deelopdracht inclusief eigen materiaal én mensen. "Arbeid" in de begroting verwijst juist naar de manuren van de eigen ploeg van de hoofdaannemer.',
     },
 
     // A.1.5 — Betalingsregelingen (extra)
@@ -624,17 +615,16 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
       id: 'A.1.q30',
       toetstermCode: 'A.1.5',
       type: 'mc',
-      prompt:
-        'Wat is een GIW- of SWK-garantie?',
+      prompt: 'Wat is een GIW- of SWK-garantie?',
       options: [
-        'Een verzekering die de aannemer afsluit voor zijn eigen risico tijdens de bouw.',
-        'Een garantie- en waarborgregeling voor nieuwbouwwoningen die de koper extra zekerheid biedt — vergelijkbaar met de 5%-regeling, maar door een onafhankelijk instituut beheerd.',
-        'Een korting op de aanneemsom bij snelle oplevering.',
-        'Een verplichte gemeentelijke heffing op nieuwbouw.',
+        'Een bouwrisicoverzekering van de aannemer',
+        'Een waarborgregeling voor de koper van nieuwbouw',
+        'Een korting op de aanneemsom bij snel opleveren',
+        'Een gemeentelijke heffing op nieuwbouw',
       ],
       correctIndex: 1,
       explanation:
-        'GIW (oud) en SWK (huidig) bieden de koper extra zekerheid: bij faillissement van de aannemer of verborgen gebreken springt de regeling bij. Veel projectontwikkelaars werken hiermee.',
+        'GIW (oud) en SWK (huidig) zijn garantie- en waarborgregelingen die de koper extra zekerheid bieden: bij faillissement van de aannemer of verborgen gebreken springt een onafhankelijk instituut bij. Veel projectontwikkelaars werken hiermee.',
     },
   ],
 
