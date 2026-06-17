@@ -2,6 +2,7 @@ import { topics } from '../content'
 import type { Screen } from '../App'
 import type { Question, Section, Topic } from '../types/content'
 import { clearStickyState, useStickyState } from '../lib/useStickyState'
+import { shuffleQuestionOptions } from '../lib/shuffleOptions'
 
 interface Props {
   onNavigate: (s: Screen) => void
@@ -53,7 +54,7 @@ function buildExam(): ExamQuestion[] {
     sectionTopics.forEach((t) =>
       t.questions
         .filter((q): q is Question & { type: 'mc' } => q.type === 'mc')
-        .forEach((q) => pool.push({ question: q, topic: t })),
+        .forEach((q) => pool.push({ question: shuffleQuestionOptions(q), topic: t })),
     )
     const targetCount = Math.min(SECTION_WEIGHTS[sec], pool.length)
     const picked = pickRandom(pool, targetCount)

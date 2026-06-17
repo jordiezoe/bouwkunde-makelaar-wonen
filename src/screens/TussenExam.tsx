@@ -8,6 +8,7 @@ import {
   type Progress,
 } from '../lib/storage'
 import { clearStickyState, useStickyState } from '../lib/useStickyState'
+import { shuffleQuestionOptions } from '../lib/shuffleOptions'
 
 interface Props {
   topicCode: string
@@ -63,7 +64,7 @@ function buildPool(
   progress: Progress,
 ): { anchor: ExamQuestion[]; prior: ExamQuestion[] } {
   const anchor: ExamQuestion[] = mcQuestions(anchorTopic).map((q) => ({
-    question: q,
+    question: shuffleQuestionOptions(q),
     topic: anchorTopic,
     isAnchor: true,
   }))
@@ -78,7 +79,7 @@ function buildPool(
     const t = topics.find((x) => x.code === code)
     if (!t) return
     mcQuestions(t).forEach((q) =>
-      prior.push({ question: q, topic: t, isAnchor: false }),
+      prior.push({ question: shuffleQuestionOptions(q), topic: t, isAnchor: false }),
     )
   })
 

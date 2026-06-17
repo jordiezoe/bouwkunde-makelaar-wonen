@@ -11,6 +11,7 @@ import { dossierOrder, getTopic } from '../content'
 import type { Screen } from '../App'
 import type { Question, Topic } from '../types/content'
 import { clearStickyState, useStickyState } from '../lib/useStickyState'
+import { shuffleQuestionOptions } from '../lib/shuffleOptions'
 import { QuestionCard } from '../components/QuestionCard'
 
 interface Props {
@@ -63,7 +64,7 @@ function buildMix(anchorCode: string): MixQuestion[] {
 
   // ── Anchor-vragen ──────────────────────────────────────────────────────────
   const anchorAll: MixQuestion[] = shuffle(anchor.questions).map((q) => ({
-    question: q,
+    question: shuffleQuestionOptions(q),
     topic: anchor,
     isAnchor: true,
   }))
@@ -88,7 +89,7 @@ function buildMix(anchorCode: string): MixQuestion[] {
   priorTopics.forEach((t, idx) => {
     const weight = idx >= priorTopics.length - recentCutoff ? 3 : 1
     const qs: MixQuestion[] = t.questions.map((q) => ({
-      question: q,
+      question: shuffleQuestionOptions(q),
       topic: t,
       isAnchor: false,
     }))

@@ -8,6 +8,7 @@ import {
   type Progress,
 } from '../lib/storage'
 import { clearStickyState, useStickyState } from '../lib/useStickyState'
+import { shuffleQuestionOptions } from '../lib/shuffleOptions'
 import type { Question, Toetsterm } from '../types/content'
 
 interface Props {
@@ -21,7 +22,7 @@ export function Quiz({ topicCode, progress, setProgress, onNavigate }: Props) {
   const topic = getTopic(topicCode)
   // Volledige vragenpool, gehusseld
   const fullPool = useMemo(
-    () => (topic ? shuffle(topic.questions) : []),
+    () => (topic ? shuffle(topic.questions).map(shuffleQuestionOptions) : []),
     [topic],
   )
   // Sticky-keys per onderwerp — iPad/iPhone Safari mag de tab op de

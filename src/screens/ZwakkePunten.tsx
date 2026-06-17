@@ -12,6 +12,7 @@ import type { Screen } from '../App'
 import type { Question, Topic } from '../types/content'
 import { isWeakQuestionStat, recordAnswer, type Progress } from '../lib/storage'
 import { clearStickyState, useStickyState } from '../lib/useStickyState'
+import { shuffleQuestionOptions } from '../lib/shuffleOptions'
 import { QuestionCard } from '../components/QuestionCard'
 
 interface Props {
@@ -74,7 +75,7 @@ export function ZwakkePunten({ progress, setProgress, onNavigate }: Props) {
     for (const topic of topics) {
       for (const q of topic.questions) {
         byId.set(q.id, {
-          question: q,
+          question: shuffleQuestionOptions(q),
           topic,
           wrong: progress.questions[q.id]?.wrong ?? 0,
           correct: progress.questions[q.id]?.correct ?? 0,

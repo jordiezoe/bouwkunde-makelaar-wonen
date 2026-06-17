@@ -17,6 +17,7 @@ import {
   type Progress,
 } from '../lib/storage'
 import { clearStickyState, useStickyState } from '../lib/useStickyState'
+import { shuffleQuestionOptions } from '../lib/shuffleOptions'
 
 interface Props {
   section: Section
@@ -119,7 +120,7 @@ function buildExam(section: Section): SectieExamenQuestion[] {
       .forEach((q) => {
         const tt = topic.toetstermen.find((t) => t.code === q.toetstermCode)
         const bloom: Bloom = tt?.bloom ?? 'Kennis'
-        byBloom[bloom].push({ question: q, topic, bloom })
+        byBloom[bloom].push({ question: shuffleQuestionOptions(q), topic, bloom })
       })
   })
 
