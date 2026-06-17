@@ -35,9 +35,9 @@ function mulberry32(seed: number): () => number {
 
 const PIN_LAST = /^(geen van|alle van|alle bovenstaande|geen van bovenstaande|beide)/i
 
-/** Geeft een mc-vraag terug met gehusselde opties + bijgewerkte correctIndex. */
+/** Geeft een mc/multi-vraag terug met gehusselde opties + bijgewerkte juiste index(es). */
 export function shuffleQuestionOptions<Q extends Question>(q: Q): Q {
-  if (q.type !== 'mc') return q
+  if (q.type !== 'mc' && q.type !== 'multi') return q
 
   const indices = q.options.map((_, i) => i)
   const movable = indices.filter((i) => !PIN_LAST.test(q.options[i].trim()))
@@ -51,6 +51,13 @@ export function shuffleQuestionOptions<Q extends Question>(q: Q): Q {
 
   const order = [...movable, ...pinned]
   const options = order.map((i) => q.options[i])
+
+  if (q.type === 'multi') {
+    const correctIndices = q.correctIndices
+      .map((c) => order.indexOf(c))
+      .sort((a, b) => a - b)
+    return { ...q, options, correctIndices }
+  }
   const correctIndex = order.indexOf(q.correctIndex)
   return { ...q, options, correctIndex }
 }

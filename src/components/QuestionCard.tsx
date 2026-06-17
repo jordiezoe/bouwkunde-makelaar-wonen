@@ -8,14 +8,22 @@ interface Props {
   onNext: () => void
 }
 
+function sameSet(a: number[], b: number[]): boolean {
+  if (a.length !== b.length) return false
+  const sb = new Set(b)
+  return a.every((x) => sb.has(x))
+}
+
 export function QuestionCard({ question, onAnswered, onNext }: Props) {
   const [selected, setSelected] = useState<number | boolean | null>(null)
+  const [multiSel, setMultiSel] = useState<number[]>([])
   const [openInput, setOpenInput] = useState('')
   const [submitted, setSubmitted] = useState(false)
 
   const isCorrect = (() => {
     if (!submitted) return null
     if (question.type === 'mc') return selected === question.correctIndex
+    if (question.type === 'multi') return sameSet(multiSel, question.correctIndices)
     if (question.type === 'tf') return selected === question.correct
     if (question.type === 'open') {
       const v = openInput.trim().toLowerCase()
@@ -24,15 +32,25 @@ export function QuestionCard({ question, onAnswered, onNext }: Props) {
     return false
   })()
 
+  function toggleMulti(i: number) {
+    if (submitted) return
+    setMultiSel((prev) =>
+      prev.includes(i) ? prev.filter((x) => x !== i) : [...prev, i],
+    )
+  }
+
   function submit() {
     if (submitted) return
     if (question.type === 'mc' && selected === null) return
+    if (question.type === 'multi' && multiSel.length === 0) return
     if (question.type === 'tf' && selected === null) return
     if (question.type === 'open' && openInput.trim() === '') return
     setSubmitted(true)
     const ok =
       question.type === 'mc'
         ? selected === question.correctIndex
+        : question.type === 'multi'
+        ? sameSet(multiSel, question.correctIndices)
         : question.type === 'tf'
         ? selected === question.correct
         : question.acceptableAnswers.some((a) =>
@@ -47,6 +65,12 @@ export function QuestionCard({ question, onAnswered, onNext }: Props) {
         {question.toetstermCode}
       </div>
       <h2 className="text-lg font-semibold text-slate-800">{question.prompt}</h2>
+
+      {question.type === 'multi' && (
+        <p className="text-xs text-sky-700 bg-sky-50 border border-sky-200 rounded px-2 py-1 mt-2 inline-block">
+          ✓ Meerdere antwoorden juist — selecteer ze allemaal
+        </p>
+      )}
 
       {question.image && (
         <figure className="mt-3 bg-slate-50 rounded-lg overflow-hidden border border-slate-200">
@@ -86,6 +110,42 @@ export function QuestionCard({ question, onAnswered, onNext }: Props) {
                 disabled={submitted}
               >
                 {opt}
+              </button>
+            )
+          })}
+
+        {question.type === 'multi' &&
+          question.options.map((opt, i) => {
+            const isChosen = multiSel.includes(i)
+            const isAnswer = question.correctIndices.includes(i)
+            let cls =
+              'w-full text-left p-3 rounded-lg border transition flex items-center gap-3'
+            if (!submitted) {
+              cls += isChosen
+                ? ' border-primary-500 bg-primary-50'
+                : ' border-slate-200 hover:border-slate-300'
+            } else {
+              if (isAnswer) cls += ' border-green-500 bg-green-50'
+              else if (isChosen) cls += ' border-red-500 bg-red-50'
+              else cls += ' border-slate-200 opacity-60'
+            }
+            return (
+              <button
+                key={i}
+                onClick={() => toggleMulti(i)}
+                className={cls}
+                disabled={submitted}
+              >
+                <span
+                  className={`shrink-0 w-5 h-5 rounded border flex items-center justify-center text-xs ${
+                    isChosen
+                      ? 'bg-primary-600 border-primary-600 text-white'
+                      : 'border-slate-300 text-transparent'
+                  }`}
+                >
+                  ✓
+                </span>
+                <span className="flex-1">{opt}</span>
               </button>
             )
           })}
@@ -155,6 +215,16 @@ export function QuestionCard({ question, onAnswered, onNext }: Props) {
             {question.type === 'open' && !isCorrect && (
               <div className="text-sm mt-1">
                 Goed antwoord: <strong>{question.acceptableAnswers[0]}</strong>
+              </div>
+            )}
+            {question.type === 'multi' && !isCorrect && (
+              <div className="text-sm mt-1">
+                Juiste antwoorden:{' '}
+                <strong>
+                  {question.correctIndices
+                    .map((i) => question.options[i])
+                    .join('; ')}
+                </strong>
               </div>
             )}
           </div>

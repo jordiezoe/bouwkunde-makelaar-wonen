@@ -20,6 +20,7 @@ export interface Toetsterm {
 
 export type Question =
   | MultipleChoiceQuestion
+  | MultiSelectQuestion
   | OpenQuestion
   | TrueFalseQuestion
 
@@ -36,6 +37,14 @@ export interface MultipleChoiceQuestion extends QuestionBase {
   type: 'mc'
   options: string[]
   correctIndex: number
+}
+
+/** Meerkeuze waarbij meerdere antwoorden juist zijn (selecteer-alles-dat-klopt). */
+export interface MultiSelectQuestion extends QuestionBase {
+  type: 'multi'
+  options: string[]
+  /** Indices van álle juiste opties (minimaal 2). */
+  correctIndices: number[]
 }
 
 export interface OpenQuestion extends QuestionBase {
