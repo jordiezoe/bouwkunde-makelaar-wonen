@@ -373,10 +373,10 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       type: 'mc',
       prompt: 'Wat is een twee-onder-één-kapwoning?',
       options: [
-        'Een woning met twee dakkapellen.',
-        'Twee woningen onder één doorlopend dak, met één gemeenschappelijke woningscheidende muur.',
-        'Een vrijstaande woning met een carport voor twee auto\'s.',
-        'Een woning die in twee fasen is opgeleverd.',
+        'Een woning met twee dakkapellen',
+        'Twee woningen onder één dak met een gedeelde muur',
+        'Een vrijstaande woning met dubbele carport',
+        'Een woning opgeleverd in twee fasen',
       ],
       correctIndex: 1,
       explanation:
@@ -389,10 +389,10 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       prompt:
         'Wat is het verschil tussen een hoekwoning en een tussenwoning?',
       options: [
-        'De hoekwoning ligt op de eerste verdieping; de tussenwoning op de begane grond.',
-        'De hoekwoning heeft één buurmuur en één buitenmuur aan de zijkant; een tussenwoning heeft aan beide zijden een buurmuur.',
-        'De hoekwoning is altijd vrijstaand, de tussenwoning altijd geschakeld.',
-        'Er is geen verschil; beide termen zijn synoniem.',
+        'De hoekwoning ligt op de verdieping, de tussenwoning beneden',
+        'De hoekwoning heeft één zijgevel, de tussenwoning twee buurmuren',
+        'De hoekwoning is altijd vrijstaand, de tussenwoning geschakeld',
+        'Er is geen verschil — synoniemen',
       ],
       correctIndex: 1,
       explanation:
@@ -432,10 +432,10 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       type: 'mc',
       prompt: 'Wat is het kenmerkende verschil tussen stapelbouw en skeletbouw?',
       options: [
-        'Stapelbouw is altijd in beton; skeletbouw in hout.',
-        'Bij stapelbouw dragen de muren zelf; bij skeletbouw draagt een apart skelet (van beton, staal of hout) en kan de gevel niet-dragend zijn.',
-        'Stapelbouw is alleen voor woningen, skeletbouw alleen voor kantoren.',
-        'Skeletbouw gebruikt geen fundering, stapelbouw wel.',
+        'Stapelbouw is altijd beton, skeletbouw altijd hout',
+        'Bij stapelbouw dragen de muren, bij skeletbouw een apart skelet',
+        'Stapelbouw alleen voor woningen, skeletbouw voor kantoren',
+        'Skeletbouw heeft geen fundering nodig, stapelbouw wel',
       ],
       correctIndex: 1,
       explanation:
@@ -447,10 +447,10 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       type: 'mc',
       prompt: 'Wat is gietbouw?',
       options: [
-        'Stenen die in een vormbak worden gegoten in plaats van geperst.',
-        'Een bouwmethode waarbij beton ter plaatse in een bekisting wordt gestort — hele wanden en vloeren in één werkgang.',
-        'Het gieten van isolatie tussen dragende muren.',
-        'Een synoniem voor systeembouw.',
+        'Stenen die gegoten worden in plaats van geperst',
+        'Beton ter plaatse in een bekisting storten',
+        'Isolatie gieten tussen dragende muren',
+        'Een synoniem voor systeembouw',
       ],
       correctIndex: 1,
       explanation:
@@ -462,10 +462,10 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       type: 'mc',
       prompt: 'Wat is een belangrijk voordeel van montagebouw met prefab-elementen?',
       options: [
-        'Iedere woning kan volledig op maat ontworpen worden.',
-        'Snelheid en planningszekerheid: elementen worden in de fabriek gemaakt en op de bouwplaats samengevoegd, ongevoelig voor weersomstandigheden.',
-        'Lagere materiaalkosten dan traditionele bouw.',
-        'Het is altijd onderhoudsvrij.',
+        'Iedere woning kan volledig op maat',
+        'Snelheid en planningszekerheid, weersongevoelig',
+        'Lagere materiaalkosten dan traditioneel',
+        'Het resultaat is altijd onderhoudsvrij',
       ],
       correctIndex: 1,
       explanation:
@@ -491,10 +491,10 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       prompt:
         'Wat is een typisch nadeel van een buitenmuur van een woning gebouwd vóór 1920?',
       options: [
-        'Er zit altijd asbest in de spouwisolatie.',
-        'Het is meestal een massieve muur zonder spouw, met kans op regendoorslag en geen thermische isolatie.',
-        'De kozijnen zijn altijd van kunststof.',
-        'De funderingsdiepte is altijd te ondiep.',
+        'Er zit altijd asbest in de spouwisolatie',
+        'Massieve muur zonder spouw: regendoorslag, geen isolatie',
+        'De kozijnen zijn altijd van kunststof',
+        'De fundering is altijd te ondiep',
       ],
       correctIndex: 1,
       explanation:
@@ -518,10 +518,10 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       prompt:
         'Wat is een typisch nadeel van een doorzonwoning uit de jaren \'60–\'70 op het gebied van isolatie?',
       options: [
-        'De woning bevat altijd HR-glas met goede isolatie.',
-        'Doorgaande koudebruggen bij vloer-/gevelaansluitingen en vaak nog enkelglas — beperkte thermische schil.',
-        'Er is geen riolering aangelegd.',
-        'De fundering is niet door de aannemer berekend.',
+        'De woning bevat altijd HR-glas',
+        'Koudebruggen en vaak nog enkelglas',
+        'Er is geen riolering aangelegd',
+        'De fundering is niet berekend',
       ],
       correctIndex: 1,
       explanation:
@@ -530,18 +530,19 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
     {
       id: 'A.2.2.q12',
       toetstermCode: 'A.2.2.3',
-      type: 'mc',
+      type: 'multi',
       prompt:
-        'Voor een woning uit 2010 (nieuwbouw) — welke combinatie is het meest verwacht?',
+        'Welke kenmerken verwacht je bij een nieuwbouwwoning uit 2010? Selecteer alle juiste.',
       options: [
-        'Enkel glas, massieve buitenmuren, oliegestookte cv.',
-        'HR++-glas, geïsoleerde spouwmuur met Rc ≥ 3,5, hoogrendementsketel of warmtepomp.',
-        'Glas-in-lood ramen en houten dakgoten zonder isolatie.',
-        'Loden waterleidingen en stalen kozijnen.',
+        'HR++-glas',
+        'Geïsoleerde spouwmuur (Rc ≥ 3,5)',
+        'Hoogrendementsketel of warmtepomp',
+        'Enkel glas',
+        'Loden waterleidingen',
       ],
-      correctIndex: 1,
+      correctIndices: [0, 1, 2],
       explanation:
-        'Nieuwbouw vanaf 2006 voldoet aan EPC-eisen die HR++-glas, goede spouwisolatie en HR-ketels (of moderne warmtepompen) afdwingen. Loden waterleidingen en glas-in-lood zijn vooroorlogs.',
+        'Nieuwbouw vanaf 2006 voldoet aan EPC-eisen die HR++-glas, goede spouwisolatie en HR-ketels (of warmtepompen) afdwingen. Enkel glas en loden waterleidingen horen bij vooroorlogse bouw.',
     },
 
     // A.2.2.4 — Architectuurstromingen herkennen (BT2, Kennis)
@@ -703,10 +704,10 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       prompt:
         'Wat is een kenmerk van de wederopbouwperiode (1945–1965) in de Nederlandse stedenbouw?',
       options: [
-        'Kleinschalige boerderijontwerpen rond een dorpsplein.',
-        'Snelle systeembouw met stempelplannen en repeterende galerijflats om de woningnood op te lossen.',
-        'Hoogbouw met futuristische vormen en spiegelende vliesgevels.',
-        'Compacte historiserende binnensteden in jugendstil.',
+        'Kleinschalige boerderijen rond een dorpsplein',
+        'Systeembouw met stempelplannen en serieflats',
+        'Hoogbouw met futuristische vliesgevels',
+        'Historiserende binnensteden in jugendstil',
       ],
       correctIndex: 1,
       explanation:
@@ -718,10 +719,10 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       type: 'mc',
       prompt: 'Wat zijn VINEX-wijken?',
       options: [
-        'Sociale woningbouwblokken uit de jaren \'30.',
-        'Uitbreidingswijken aan de rand van bestaande steden, gebouwd vanaf circa 1995, met relatief hoge dichtheid en een mix van rij- en gestapelde bouw.',
-        'Verkavelingsplannen voor agrarische gronden.',
-        'Renovatieprojecten in vooroorlogse buurten.',
+        'Sociale woningbouwblokken uit de jaren \'30',
+        'Uitbreidingswijken aan de stadsrand vanaf ~1995',
+        'Verkavelingsplannen voor agrarische grond',
+        'Renovatieprojecten in vooroorlogse buurten',
       ],
       correctIndex: 1,
       explanation:
@@ -734,7 +735,7 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       prompt: 'Waar staat NOVI voor?',
       options: [
         'Nationale Omgevingsverordening Implementatie',
-        'Nationale Omgevingsvisie — overkoepelende rijksvisie op de leefomgeving tot 2050.',
+        'Nationale Omgevingsvisie',
         'Nieuwe Onroerende Vastgoed-index',
         'Nederlandse Organisatie voor Verkoop en Investering',
       ],
@@ -749,10 +750,10 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       prompt:
         'Wat is het belangrijkste verschil tussen NOVI en NOVEX?',
       options: [
-        'NOVI is voor de stad, NOVEX voor het platteland.',
-        'NOVI is een nationale visie; NOVEX is een uitvoeringsdocument met 16 specifieke gebieden waar overheden samenwerken aan complexe ruimtelijke opgaven.',
-        'NOVI ging in 2010 in, NOVEX in 2020.',
-        'NOVI gaat alleen over woningbouw; NOVEX alleen over energie.',
+        'NOVI is voor de stad, NOVEX voor het platteland',
+        'NOVI is de visie, NOVEX de uitvoering met 16 gebieden',
+        'NOVI ging in 2010 in, NOVEX in 2020',
+        'NOVI gaat over woningbouw, NOVEX over energie',
       ],
       correctIndex: 1,
       explanation:
@@ -767,10 +768,10 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       prompt:
         'Je ziet een gevel met kruisverband in een steensmuur, Oude Hollandse pannen op een steile zadelkap en glas-in-loodramen. Welke bouwperiode is het meest waarschijnlijk?',
       options: [
-        'Wederopbouw (1945–1965).',
-        'Pre-1900 of vroege 20e eeuw — handambachtelijk metselwerk en glas-in-lood passen bij de tijd vóór ~1930.',
-        'VINEX-wijk (1995–2005).',
-        'Nieuwbouw na 2010.',
+        'Wederopbouw (1945–1965)',
+        'Pre-1900 of vroege 20e eeuw',
+        'VINEX-wijk (1995–2005)',
+        'Nieuwbouw na 2010',
       ],
       correctIndex: 1,
       explanation:
@@ -785,7 +786,7 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       options: [
         'Vóór 1900',
         'Tussen 1900 en 1940',
-        'Tussen 1960 en 1985 — sneldekpan vanaf 1956, dubbelglas standaard vanaf eind jaren \'70.',
+        'Tussen 1960 en 1985',
         'Na 2010',
       ],
       correctIndex: 2,
@@ -802,7 +803,7 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
         '1900–1920',
         '1940–1960',
         '1975–1990',
-        'Na 2010 — wild verband sinds ~1960, neromapan vanaf 1974, triple glas vanaf ~2010.',
+        'Na 2010',
       ],
       correctIndex: 3,
       explanation:
@@ -815,10 +816,10 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       prompt:
         'Bij de taxatie van een grachtenpand in Amsterdam zie je opvallend grote, ruwe bakstenen (kloostermoppen) in de gevel. Wat zegt dit over de bouwperiode?',
       options: [
-        'Het pand is in de wederopbouw gebouwd (1945–1965).',
-        'Het pand is waarschijnlijk laat-middeleeuws of vroeg-modern (vóór ~1700), of er is een latere reconstructie met behoud van originele stenen.',
-        'Het pand is gebouwd na 2000 met bewust historiserend metselwerk.',
-        'Kloostermoppen zijn een typisch jaren-\'30-formaat.',
+        'Wederopbouw (1945–1965)',
+        'Laat-middeleeuws/vroeg-modern, of gerestaureerd met oude stenen',
+        'Na 2000 met historiserend metselwerk',
+        'Jaren \'30 — kloostermoppen waren toen standaard',
       ],
       correctIndex: 1,
       explanation:

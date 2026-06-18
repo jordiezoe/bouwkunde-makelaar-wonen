@@ -230,7 +230,7 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       },
       options: [
         'Een raam in de binnenwand',
-        'Een deur — het kwartcirkel-symbool geeft de draairichting van het deurblad',
+        'Een deur',
         'Een doorgang zonder deur',
         'Een schuifpui',
       ],
@@ -250,7 +250,7 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       },
       options: [
         'Een deur naar buiten',
-        'Een raam (kozijn) — de drie evenwijdige lijnen in de muurdikte',
+        'Een raam (kozijn)',
         'Een ventilatierooster',
         'Een nis in de gevel',
       ],
@@ -270,7 +270,7 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       },
       options: [
         'Een tegelvloer',
-        'Een trap — de evenwijdige lijnen zijn treden, de pijl is de looplijn omhoog',
+        'Een trap',
         'Een keukenblok',
         'Een radiator onder het raam',
       ],
@@ -312,10 +312,10 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       prompt:
         'Welke arcering komt overeen met gewapend beton op een doorsnede?',
       options: [
-        'Effen zwart vlak.',
-        'Stippeltjes en kleine driehoekjes met aanvullende diagonale lijnen die de wapening voorstellen.',
-        'Schuine evenwijdige strepen.',
-        'Concentrische cirkels (jaarringen).',
+        'Een effen zwart vlak',
+        'Stippels, driehoekjes én diagonale lijnen',
+        'Schuine evenwijdige strepen',
+        'Concentrische cirkels (jaarringen)',
       ],
       correctIndex: 1,
       explanation:
@@ -328,10 +328,10 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       prompt:
         'Op welke hoogte wordt een woningplattegrond standaard "afgesneden" om te tekenen?',
       options: [
-        'Net boven de vloer (≈ 10 cm), zodat alleen de basis van wanden zichtbaar is.',
-        'Ongeveer 1 meter boven de vloer — door alle kozijnopeningen heen.',
-        'Op plafondhoogte (~2,60 m).',
-        'Op de hoogte van het dakvlak.',
+        'Net boven de vloer (≈ 10 cm)',
+        'Ongeveer 1 meter boven de vloer',
+        'Op plafondhoogte (~2,60 m)',
+        'Op de hoogte van het dakvlak',
       ],
       correctIndex: 1,
       explanation:
@@ -346,10 +346,10 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       prompt:
         'Waarvoor dient een doorsnede in een bouwkundige tekening?',
       options: [
-        'Om de oppervlakte van het perceel te tonen.',
-        'Om een verticale snede door het gebouw te tonen — hoogten, vloeren, dakhelling en verdiepingsopbouw worden hierop zichtbaar.',
-        'Om de architect zijn handtekening te laten plaatsen.',
-        'Om de positie van het hoofdgebouw op het perceel te bepalen.',
+        'Om de oppervlakte van het perceel te tonen',
+        'Om een verticale snede door het gebouw te tonen',
+        'Om de handtekening van de architect te plaatsen',
+        'Om de positie op het perceel te bepalen',
       ],
       correctIndex: 1,
       explanation:
@@ -391,10 +391,10 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       prompt:
         'Wat is een revisietekening?',
       options: [
-        'De eerste schets van de architect aan het begin van het project.',
-        'Een tekening die de werkelijke situatie ná oplevering vastlegt — "as-built".',
-        'De tekening die nodig is voor de omgevingsvergunning.',
-        'De tekening waarop de constructeur de wapening uitwerkt.',
+        'De eerste schets aan het begin van het project',
+        'De vastlegging van de situatie ná oplevering',
+        'De tekening voor de omgevingsvergunning',
+        'De tekening met de wapeningsuitwerking',
       ],
       correctIndex: 1,
       explanation:
@@ -423,10 +423,10 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       prompt:
         'Welke tekening krijgt de koper van een nieuwbouwwoning meestal in de verkoopbrochure?',
       options: [
-        'De constructietekening.',
-        'De revisietekening.',
-        'De verkooptekening (vereenvoudigd, vaak ingericht met meubels).',
-        'De werktekening uit de bouwmap van de aannemer.',
+        'De constructietekening',
+        'De revisietekening',
+        'De verkooptekening',
+        'De werktekening van de aannemer',
       ],
       correctIndex: 2,
       explanation:
@@ -455,10 +455,10 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       prompt:
         'Wat is het verschil tussen een bestektekening en een werktekening?',
       options: [
-        'Bestektekeningen worden alleen voor woningen gemaakt, werktekeningen voor utiliteit.',
-        'Bestektekeningen horen bij het contract en zijn technisch precies; werktekeningen zijn de uitvoeringstekeningen op de bouwplaats — vaak nog gedetailleerder voor de uitvoerder.',
-        'Werktekeningen worden door de gemeente goedgekeurd, bestektekeningen door de aannemer.',
-        'Er is geen verschil; beide termen worden door elkaar gebruikt.',
+        'Bestektekeningen alleen voor woningen, werktekeningen voor utiliteit',
+        'Bestektekening hoort bij het contract, werktekening is voor de uitvoering',
+        'Werktekeningen keurt de gemeente goed, bestektekeningen de aannemer',
+        'Er is geen verschil — synoniemen',
       ],
       correctIndex: 1,
       explanation:
@@ -469,18 +469,19 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
     {
       id: 'A.2.1.q13',
       toetstermCode: 'A.2.1.4',
-      type: 'mc',
+      type: 'multi',
       prompt:
-        'Hoe herken je een dragende muur op een bouwkundige plattegrond?',
+        'Welke kenmerken wijzen op een plattegrond op een dragende muur? Selecteer alle juiste.',
       options: [
-        'Aan de kleur — dragende muren zijn altijd rood.',
-        'Aan de dikkere lijn, het materiaal (metselwerk/beton/kalkzandsteen) en het feit dat de muur door alle bouwlagen heen doorloopt.',
-        'Aan een speciaal symbool dat altijd in de rechter benedenhoek staat.',
-        'Aan de aanwezigheid van een radiator ervoor.',
+        'De muur is dikker getekend',
+        'Zwaar materiaal (metselwerk/beton/kalkzandsteen)',
+        'De muur loopt door alle bouwlagen',
+        'De muur is rood ingekleurd',
+        'Er staat een radiator voor',
       ],
-      correctIndex: 1,
+      correctIndices: [0, 1, 2],
       explanation:
-        'Dragende muren staan dikker getekend, in zwaarder materiaal, en lopen meestal door alle bouwlagen tot de fundering. De constructietekening bevestigt dit definitief.',
+        'Dragende muren staan dikker getekend, in zwaarder materiaal, en lopen meestal door alle bouwlagen tot de fundering. Kleur en een radiator zeggen niets over de draagfunctie; de constructietekening bevestigt het definitief.',
     },
     {
       id: 'A.2.1.q14',
@@ -505,10 +506,10 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       prompt:
         'Een klant wil de muur tussen de woonkamer en de keuken weghalen. Op de bouwkundige plattegrond is deze muur dikker getekend dan een binnenwand op de verdieping. Wat is de meest waarschijnlijke conclusie?',
       options: [
-        'Het is een lichte scheidingswand — vrij weg te halen.',
-        'Het is waarschijnlijk een dragende muur — verwijdering vereist een stalen ligger en constructeursberekening, mogelijk vergunningsplichtig.',
-        'Het is een installatieschacht — onmogelijk te verwijderen.',
-        'Het maakt niets uit; de constructie hangt af van de verdiepingsvloer, niet de wand zelf.',
+        'Een lichte scheidingswand — vrij weg te halen',
+        'Waarschijnlijk dragend — constructeur en stalen ligger nodig',
+        'Een installatieschacht — niet te verwijderen',
+        'Niet relevant — de vloer draagt, niet de wand',
       ],
       correctIndex: 1,
       explanation:
@@ -555,10 +556,10 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       prompt:
         'Wat is de STABU-systematiek?',
       options: [
-        'Een Europese norm voor staalconstructies.',
-        'Een vast vocabulair en hoofdstuknummering voor bestekken in de Nederlandse bouw, zodat aannemers eenduidig calculeren.',
-        'Een verzekering tegen vertraging in de bouw.',
-        'Een softwarepakket voor de gemeente om vergunningen af te geven.',
+        'Een Europese norm voor staalconstructies',
+        'Een vaste structuur en vocabulaire voor bestekken',
+        'Een verzekering tegen bouwvertraging',
+        'Software waarmee de gemeente vergunningen afgeeft',
       ],
       correctIndex: 1,
       explanation:
@@ -572,7 +573,7 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
         'Naar welke norm verwijst een bestek meestal voor brandveiligheidseisen van constructies?',
       options: [
         'Het bouwteamboek',
-        'Het Besluit bouwwerken leefomgeving (Bbl) en bijbehorende NEN-normen',
+        'Het Bbl en bijbehorende NEN-normen',
         'De UAV 2012',
         'Het KOMO-certificaat van de aannemer',
       ],
@@ -587,10 +588,10 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       prompt:
         'Wat is een typische functie van een stelpost in het bestek?',
       options: [
-        'Een vooraf bepaald geldbedrag dat de aannemer moet verdienen ongeacht het werk.',
-        'Een geschat geldbedrag voor een onderdeel dat nog niet definitief is uitgewerkt of gekozen — verschil verrekenen later.',
-        'Een boetebedrag bij vertraging.',
-        'Een vast bedrag voor de gemeente leges.',
+        'Een gegarandeerde winst voor de aannemer',
+        'Een geschat bedrag, later verrekend',
+        'Een boetebedrag bij vertraging',
+        'Een vast bedrag voor de leges',
       ],
       correctIndex: 1,
       explanation:
@@ -605,10 +606,10 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       prompt:
         'Wat is een CAR-verzekering in de bouwpraktijk?',
       options: [
-        'Een autoverzekering voor de bouwbusjes van de aannemer.',
-        'Een Construction All Risk-verzekering die schade aan het werk en aan eigendommen van derden tijdens de bouw dekt.',
-        'Een korting op de aanneemsom bij contante betaling.',
-        'Een verzekering die alleen op verzoek van de gemeente wordt afgesloten.',
+        'Een autoverzekering voor de bouwbusjes',
+        'Een Construction All Risk-verzekering tijdens de bouw',
+        'Een korting bij contante betaling',
+        'Een verzekering op verzoek van de gemeente',
       ],
       correctIndex: 1,
       explanation:
@@ -621,10 +622,10 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       prompt:
         'Wat is de UAV 2012?',
       options: [
-        'Een vergunningsregeling voor aanbouwen.',
-        'Een set Uniforme Administratieve Voorwaarden voor de uitvoering van werken, die standaard van toepassing wordt verklaard in bouwbestekken.',
-        'Een verplichte cursus voor aannemers.',
-        'Een keurmerk voor gevelelementen.',
+        'Een vergunningsregeling voor aanbouwen',
+        'Uniforme Administratieve Voorwaarden voor bouwwerken',
+        'Een verplichte cursus voor aannemers',
+        'Een keurmerk voor gevelelementen',
       ],
       correctIndex: 1,
       explanation:
@@ -650,10 +651,10 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       prompt:
         'Een klant wil op zijn jaren-30-woning een extra verdieping (optopping) plaatsen. Welke bouwmethode is meestal het meest passend en waarom?',
       options: [
-        'Traditionele stapelbouw — past visueel het beste bij het bestaande pand.',
-        'Houtskeletbouw of lichte staalconstructie — vanwege het beperkte gewicht ontziet dit de bestaande fundering.',
-        'Gietbouw met beton ter plaatse — geeft maximale stijfheid.',
-        'Prefab betonelementen — snelste oplevering.',
+        'Traditionele stapelbouw',
+        'Houtskeletbouw of lichte staalconstructie',
+        'Gietbouw met beton ter plaatse',
+        'Prefab betonelementen',
       ],
       correctIndex: 1,
       explanation:
@@ -666,10 +667,10 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       prompt:
         'Voor een groot project met 80 identieke rijwoningen kiest de ontwikkelaar voor maximale snelheid en uniformiteit. Welke bouwmethode past hier het best?',
       options: [
-        'Traditionele stapelbouw, omdat het ambachtelijker oogt.',
-        'Systeembouw / montagebouw met prefab elementen — herhaalbaarheid en planningszekerheid.',
-        'Skeletbouw met staal — geeft maximale flexibiliteit per woning.',
-        'Houtskeletbouw met handgemaakte details.',
+        'Traditionele stapelbouw',
+        'Systeembouw/montagebouw met prefab elementen',
+        'Skeletbouw met staal',
+        'Houtskeletbouw met handgemaakte details',
       ],
       correctIndex: 1,
       explanation:
@@ -682,10 +683,10 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       prompt:
         'Een klant wil een dakkapel plaatsen op een bestaande rijtjeswoning. Wat is doorgaans de praktischste aanpak?',
       options: [
-        'Ter plaatse traditioneel bouwen, om volledige maatwerk te garanderen.',
-        'Een prefab dakkapel-element bestellen en in één dag plaatsen — snel, weersonafhankelijk, en doorgaans vergunningsvrij binnen voorwaarden.',
-        'Een gietbouwoplossing toepassen voor maximale stevigheid.',
-        'Skeletbouw met stalen kolommen, want dat is bij alle dakkapellen verplicht.',
+        'Ter plaatse traditioneel bouwen',
+        'Een prefab dakkapel-element plaatsen',
+        'Een gietbouwoplossing toepassen',
+        'Skeletbouw met stalen kolommen',
       ],
       correctIndex: 1,
       explanation:

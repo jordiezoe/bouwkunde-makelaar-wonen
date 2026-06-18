@@ -306,10 +306,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       type: 'mc',
       prompt: 'Wat is het Bbl?',
       options: [
-        'Besluit bouwlandschap leefomgeving — een gemeentelijk plan.',
-        'Besluit bouwwerken leefomgeving — een AMvB onder de Omgevingswet met technische bouwvoorschriften.',
-        'Beleidsbesluit bouwen langs lokale wegen.',
-        'Een verzekeringsregeling voor de bouw.',
+        'Besluit bouwlandschap leefomgeving',
+        'Besluit bouwwerken leefomgeving',
+        'Beleidsbesluit bouwen langs lokale wegen',
+        'Een verzekeringsregeling voor de bouw',
       ],
       correctIndex: 1,
       explanation:
@@ -318,17 +318,19 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
     {
       id: 'A.3.q2',
       toetstermCode: 'A.3.1',
-      type: 'mc',
-      prompt: 'Welke vier hoofdonderwerpen regelt het Bbl?',
+      type: 'multi',
+      prompt: 'Welke thema\'s regelt het Bbl? Selecteer alle juiste.',
       options: [
-        'Veiligheid, gezondheid, bruikbaarheid en energiezuinigheid/milieu',
-        'Bestemming, hoogte, parkeren en welstand',
-        'Belasting, vergunning, geluid en water',
-        'Vergunningen, verzekeringen, bestek en aanbesteding',
+        'Veiligheid',
+        'Gezondheid',
+        'Bruikbaarheid',
+        'Energiezuinigheid/milieu',
+        'Welstand',
+        'Parkeren',
       ],
-      correctIndex: 0,
+      correctIndices: [0, 1, 2, 3],
       explanation:
-        'Het Bbl is opgebouwd rond vier hoofdthema\'s: (1) veiligheid (constructief, brand, gebruik, sociaal), (2) gezondheid (daglicht, ventilatie, geluid, water), (3) bruikbaarheid (afmetingen, toegankelijkheid) en (4) energiezuinigheid/milieu.',
+        'Het Bbl is opgebouwd rond vier hoofdthema\'s: veiligheid (constructief, brand, gebruik), gezondheid (daglicht, ventilatie, geluid, water), bruikbaarheid (afmetingen, toegankelijkheid) en energiezuinigheid/milieu. Welstand en parkeren staan juist in het omgevingsplan, niet in het Bbl.',
     },
     {
       id: 'A.3.q3',
@@ -403,10 +405,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       prompt:
         'Een klant koopt een pand uit 1975 en wil verbouwen. Wat is qua asbest verplicht?',
       options: [
-        'Niets — bij verbouwing geldt geen asbestverplichting.',
-        'Een asbestinventarisatie door een gecertificeerd bedrijf (SC-540) vóór sloop of verbouwing.',
-        'Een verklaring van de verkoper dat er geen asbest aanwezig is.',
-        'Een eenvoudige visuele inspectie door de aannemer volstaat.',
+        'Niets — verbouwen kent geen asbestplicht',
+        'Een asbestinventarisatie door een gecertificeerd bedrijf',
+        'Een verklaring van de verkoper volstaat',
+        'Een visuele inspectie door de aannemer volstaat',
       ],
       correctIndex: 1,
       explanation:
@@ -419,10 +421,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       prompt:
         'Wat is het verschil tussen GBO en BVO in de NEN 2580?',
       options: [
-        'GBO is groter dan BVO, omdat de tuin meetelt.',
-        'GBO (gebruiksoppervlakte) is exclusief muren; BVO (bruto vloeroppervlakte) is inclusief — gemeten aan de buitenzijde van de scheidingsconstructie.',
-        'GBO geldt voor woningen, BVO alleen voor kantoren.',
-        'BVO is de inhoud in m³, GBO de oppervlakte in m².',
+        'GBO is groter dan BVO, want de tuin telt mee',
+        'GBO is exclusief muren, BVO inclusief',
+        'GBO geldt voor woningen, BVO voor kantoren',
+        'BVO is de inhoud in m³, GBO de oppervlakte',
       ],
       correctIndex: 1,
       explanation:
@@ -434,10 +436,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       type: 'mc',
       prompt: 'Wat is de BBMI en wie heeft hem opgesteld?',
       options: [
-        'Bouwbesluit Brand- en Milieumelding Instrument — door de gemeente uitgegeven.',
-        'Branchebrede Brede Meetinstructie — afspraken van NVM, VBO, VastgoedPRO en Vereniging Eigen Huis voor het meten van bestaande woningen door makelaars.',
-        'Boven-Brabantse Meetinstructie — alleen geldig in Noord-Brabant.',
-        'Bbl-Brand- en Materiaalindex — kwaliteitsmerk voor isolatie.',
+        'Bouwbesluit Brand- en Milieumelding Instrument',
+        'Branchebrede Brede Meetinstructie van de makelaarsorganisaties',
+        'Boven-Brabantse Meetinstructie, alleen in Brabant',
+        'Bbl-Brand- en Materiaalindex voor isolatie',
       ],
       correctIndex: 1,
       explanation:
@@ -462,10 +464,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       type: 'mc',
       prompt: 'Wat houdt de "knip" in het bouwtoezicht in?',
       options: [
-        'Het opdelen van een bouwvergunning in deelvergunningen.',
-        'Het scheiden van omgevingstoetsing (door de gemeente) en bouwtechnische toetsing (door een onafhankelijke kwaliteitsborger).',
-        'Het verbod op slopen van monumenten.',
-        'Het opknippen van een bouwproject in twee fasen.',
+        'Een bouwvergunning opdelen in deelvergunningen',
+        'Scheiding van omgevings- en bouwtechnische toetsing',
+        'Het verbod op het slopen van monumenten',
+        'Een bouwproject opknippen in twee fasen',
       ],
       correctIndex: 1,
       explanation:
@@ -520,10 +522,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       type: 'mc',
       prompt: 'Wat is de "bruidsschat" in de Omgevingswet?',
       options: [
-        'Een eenmalig subsidiebedrag voor gemeenten om hun omgevingsplan op te stellen.',
-        'Tijdelijke rijksregels die per 1-1-2024 automatisch in elk gemeentelijk omgevingsplan zijn opgenomen, geldig tot de gemeente eigen regels heeft gemaakt (uiterlijk 2032).',
-        'Een speciale vergunningvrije zone rond een nieuw te bouwen woning.',
-        'Een verzekering die de gemeente afsluit voor risicovolle bouw.',
+        'Een subsidie voor gemeenten voor hun omgevingsplan',
+        'Tijdelijke rijksregels in elk omgevingsplan tot 2032',
+        'Een vergunningvrije zone rond een nieuwe woning',
+        'Een gemeenteverzekering voor risicovolle bouw',
       ],
       correctIndex: 1,
       explanation:
@@ -536,10 +538,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       prompt:
         'Wat is een belangrijk gevolg van de Wkb voor de positie van de aannemer ten opzichte van de koper?',
       options: [
-        'De aannemer hoeft alleen nog een prijs te leveren; technische verantwoording komt bij de gemeente.',
-        'De aannemer wordt zwaarder aansprakelijk voor verborgen gebreken, ook ná oplevering — tenzij die gebreken al bij oplevering bekend waren.',
-        'De aannemer mag zonder vergunning bouwen tot een bedrag van € 100.000.',
-        'De aannemer hoeft geen verzekering meer af te sluiten.',
+        'De aannemer levert alleen nog een prijs',
+        'De aannemer is zwaarder aansprakelijk, ook ná oplevering',
+        'De aannemer mag tot € 100.000 zonder vergunning bouwen',
+        'De aannemer hoeft geen verzekering meer',
       ],
       correctIndex: 1,
       explanation:
@@ -554,10 +556,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       prompt:
         'Is een dakkapel aan de achterkant van een rijwoning standaard vergunningsplichtig?',
       options: [
-        'Altijd — een dakkapel is altijd vergunningsplichtig.',
-        'Mag vergunningsvrij, mits aan de voorwaarden (max. hoogte, afstand tot dakvoet, etc.) wordt voldaan én het past in het omgevingsplan.',
-        'Alleen meldingsplichtig, nooit vergunningsplichtig.',
-        'Alleen vergunningsplichtig in beschermd stadsgezicht.',
+        'Altijd vergunningsplichtig',
+        'Vergunningsvrij mits aan de voorwaarden voldaan',
+        'Alleen meldingsplichtig, nooit vergunningsplichtig',
+        'Alleen in beschermd stadsgezicht vergunningsplichtig',
       ],
       correctIndex: 1,
       explanation:
@@ -570,10 +572,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       prompt:
         'Een klant wil de dragende muur tussen de woonkamer en de keuken weghalen. Wat is qua vergunning meest waarschijnlijk?',
       options: [
-        'Vergunningsvrij, want het is een interne wijziging.',
-        'Alleen een melding aan de gemeente; verder niets.',
-        'Vergunningsplichtig (constructieve wijziging), met constructeursberekening; bij CC1 ook een Wkb-melding.',
-        'Alleen relevant als de gevel ook verandert.',
+        'Vergunningsvrij — het is een interne wijziging',
+        'Alleen een melding aan de gemeente',
+        'Vergunningsplichtig, met constructeursberekening',
+        'Alleen relevant als de gevel verandert',
       ],
       correctIndex: 2,
       explanation:
@@ -586,10 +588,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       prompt:
         'Wat is sinds de Wkb verplicht bij een gevolgklasse-1-bouwproject (bv. nieuwbouw rijwoning)?',
       options: [
-        'Een omgevingsvergunning bouwactiviteit van de gemeente.',
-        'Een bouwmelding 4 weken vóór start + gereedmelding met verklaring kwaliteitsborger bij oplevering.',
-        'Alleen een welstandsadvies.',
-        'Een grondonderzoek door het kadaster.',
+        'Een omgevingsvergunning bouwactiviteit',
+        'Een bouwmelding vooraf + gereedmelding bij oplevering',
+        'Alleen een welstandsadvies',
+        'Een grondonderzoek door het kadaster',
       ],
       correctIndex: 1,
       explanation:
@@ -618,10 +620,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       prompt:
         'Onder de Omgevingswet is de bouwvergunning gesplitst in twee delen. Welke twee?',
       options: [
-        'Vergunning sloop en vergunning nieuwbouw.',
-        'Omgevingsvergunning bouwactiviteit (technisch) en omgevingsvergunning omgevingsplanactiviteit (past het in het omgevingsplan?).',
-        'Welstandsvergunning en milieuvergunning.',
-        'Vergunning voor binnenwerk en vergunning voor buitenwerk.',
+        'Vergunning sloop en vergunning nieuwbouw',
+        'Bouwactiviteit (technisch) en omgevingsplanactiviteit (ruimtelijk)',
+        'Welstandsvergunning en milieuvergunning',
+        'Vergunning binnenwerk en vergunning buitenwerk',
       ],
       correctIndex: 1,
       explanation:
@@ -634,10 +636,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       prompt:
         'Een klant wil een vrijstaande schuur van 25 m² in zijn achtertuin (achtererfgebied) plaatsen. Wat is meestal het regime?',
       options: [
-        'Altijd vergunningsplichtig — geen uitzonderingen.',
-        'Vergunningsvrij binnen de standaardvoorwaarden (max. oppervlakte achtererfgebied, hoogte, etc.) — wel het omgevingsplan checken.',
-        'Vergunningsplichtig, maar alleen voor de welstand.',
-        'Alleen meldingsplichtig.',
+        'Altijd vergunningsplichtig',
+        'Vergunningsvrij binnen de standaardvoorwaarden',
+        'Vergunningsplichtig, alleen voor de welstand',
+        'Alleen meldingsplichtig',
       ],
       correctIndex: 1,
       explanation:
@@ -651,10 +653,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       type: 'mc',
       prompt: 'Wat is een "materialenpaspoort" in de context van circulair bouwen?',
       options: [
-        'Een document waarmee bouwmaterialen de grens over mogen.',
-        'Een register dat de gebruikte materialen, hoeveelheden en plaats in het gebouw vastlegt voor later hergebruik.',
-        'Een certificaat dat de aannemer ontvangt na succesvolle oplevering.',
-        'Een keurmerk voor brandwerendheid van bouwmaterialen.',
+        'Een document voor de grensovergang van materialen',
+        'Een register van materialen, hoeveelheden en plaats',
+        'Een certificaat van de aannemer na oplevering',
+        'Een keurmerk voor brandwerendheid',
       ],
       correctIndex: 1,
       explanation:
@@ -666,10 +668,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       type: 'mc',
       prompt: 'Wat is CLT in moderne houtbouw?',
       options: [
-        'Composiet-Laminaat-Triplex — een vorm van plaatmateriaal.',
-        'Cross-Laminated Timber — kruislings verlijmde houten platen voor dragende constructies.',
-        'Conventionele Lat-Tand-verbinding.',
-        'Climate-Limited Tape — een isolatieproduct.',
+        'Composiet-Laminaat-Triplex (plaatmateriaal)',
+        'Cross-Laminated Timber (kruislings verlijmd hout)',
+        'Conventionele Lat-Tand-verbinding',
+        'Climate-Limited Tape (isolatieproduct)',
       ],
       correctIndex: 1,
       explanation:
@@ -682,10 +684,10 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
       prompt:
         'Welke energie-eis geldt sinds 1-1-2023 voor (grotere) kantoren?',
       options: [
-        'Een woonquote van max. 30%.',
-        'Minimaal energielabel C voor kantoren ≥ 100 m²; voldoet het pand niet, dan mag het niet als kantoor gebruikt worden.',
-        'Een verplichte zonnepanelenvloer.',
-        'Minimaal label A++++.',
+        'Een woonquote van max. 30%',
+        'Minimaal energielabel C voor kantoren ≥ 100 m²',
+        'Een verplichte zonnepanelenvloer',
+        'Minimaal label A++++',
       ],
       correctIndex: 1,
       explanation:
