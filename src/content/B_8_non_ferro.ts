@@ -287,7 +287,7 @@ Alle non-ferro metalen zijn **eindeloos recyclebaar** zonder kwaliteitsverlies:
       options: [
         'Beide even snel',
         'Het koper — koper is veel reactiever',
-        'Het lood — lood ligt onedeler in de edelheidsreeks, dus dat lost op',
+        'Het lood — dat is het onedelste van de twee',
         'Geen van beide — non-ferro metalen tasten elkaar niet aan',
       ],
       correctIndex: 2,
@@ -320,7 +320,7 @@ Alle non-ferro metalen zijn **eindeloos recyclebaar** zonder kwaliteitsverlies:
         'Wat is de reden dat een loden slab in een dakdoorbreking maximaal ~1,5 m lang mag zijn?',
       options: [
         'Boven 1,5 m wordt het te zwaar om te dragen',
-        'Lood kruipt onder eigen gewicht (langzaam plastisch rekken) — bij langere stukken rekt het uit, scheurt en lekt',
+        'Lood kruipt onder eigen gewicht, gaat scheuren en lekken',
         'Boven 1,5 m wordt lood door UV te broos',
         'Het is een esthetische conventie, geen technische reden',
       ],
@@ -363,7 +363,7 @@ Alle non-ferro metalen zijn **eindeloos recyclebaar** zonder kwaliteitsverlies:
         'Waarom worden voor **ankers en doken** in steenconstructies (waar honderden jaren duurzaamheid wordt verlangd) vooral brons of RVS gebruikt en niet messing?',
       options: [
         'Messing is veel duurder',
-        'Brons en RVS zijn aanzienlijk corrosiebestendiger dan messing onder langdurige natte omstandigheden',
+        'Brons en RVS zijn corrosiebestendiger dan messing',
         'Messing is alleen voor binnen toepasbaar',
         'Brons is zachter en daardoor makkelijker te verwerken',
       ],
@@ -380,7 +380,7 @@ Alle non-ferro metalen zijn **eindeloos recyclebaar** zonder kwaliteitsverlies:
       options: [
         'Schooperen',
         'Sherardiseren',
-        'PVDF-lak — fluorhoudende afwerking met extreme weersbestendigheid',
+        'PVDF-lak — zeer weersbestendige afwerking',
         'Cortenpatina laten ontstaan',
       ],
       correctIndex: 2,
@@ -396,7 +396,7 @@ Alle non-ferro metalen zijn **eindeloos recyclebaar** zonder kwaliteitsverlies:
       options: [
         'Een verflaag in een oven inbranden',
         'Onderdompelen in vloeibaar zink ter bescherming',
-        'Elektrochemisch de natuurlijke oxidelaag op het aluminium verdikken, eventueel met kleur',
+        'De oxidelaag op aluminium elektrochemisch verdikken',
         'Een fluorhoudende kunststoflak aanbrengen',
       ],
       correctIndex: 2,
@@ -411,7 +411,7 @@ Alle non-ferro metalen zijn **eindeloos recyclebaar** zonder kwaliteitsverlies:
         'Waarom is recycling van **aluminium** energetisch zo gunstig?',
       options: [
         'Aluminium hoeft alleen schoongespoeld te worden, niet omgesmolten',
-        'Bij recycling is slechts ~5 % van de oorspronkelijke productie-energie nodig — het electrolyseproces uit bauxiet is veel duurder dan omsmelten',
+        'Recycling kost slechts ~5% van de productie-energie',
         'Aluminium kan kosteloos worden gerecycled door verbranding',
         'Aluminium recyclen levert meer kg materiaal op dan oorspronkelijk werd verwerkt',
       ],

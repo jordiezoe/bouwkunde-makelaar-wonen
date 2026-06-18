@@ -417,7 +417,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       options: [
         'Sterker is bij buigen',
         'Een vlampatroon op het oppervlak vertoont',
-        'Alleen in dikte krimpt en nauwelijks kromtrekt — daardoor stabieler',
+        'Krimpt alleen in dikte en trekt nauwelijks krom',
         'Goedkoper is door minder zaagafval',
       ],
       correctIndex: 2,
@@ -431,7 +431,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Wat is het verschil tussen **hardhout** en **zachthout** in de praktijk?',
       options: [
         'Hardhout is altijd duurzamer dan zachthout',
-        'Hardhout is over het algemeen loofhout met hogere dichtheid, zachthout over het algemeen naaldhout met lagere dichtheid',
+        'Hardhout = loofhout (dichter), zachthout = naaldhout',
         'Hardhout heeft hars en zachthout niet',
         'Hardhout komt alleen uit de tropen',
       ],
@@ -447,7 +447,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
         'Wat gebeurt er als bouwhout wordt gemonteerd dat **te nat** is (boven de evenwichtsvochtigheid in de ruimte)?',
       options: [
         'Niets — hout vindt zelf zijn evenwicht zonder vormverandering',
-        'Het hout krimpt verder uit, plank-naden worden groter, en planken kunnen krom trekken',
+        'Het hout krimpt, naden worden groter en planken trekken krom',
         'Het hout zet uit en krijgt extra sterkte',
         'Het verlost krimpt eenmalig en blijft daarna stabiel',
       ],
@@ -464,7 +464,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Wat is **scheluwtrekken** van een houten plank?',
       options: [
         'Holle of bolle vervorming over de breedte',
-        'Verdraaiing van de plank in zichzelf — de vier hoeken liggen niet meer in één vlak',
+        'De plank verdraait — de hoeken liggen niet in één vlak',
         'Lengtekrimp in de stam',
         'Splijten langs de groeiringen',
       ],
@@ -479,7 +479,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Waarom is **kops hout** kwetsbaar?',
       options: [
         'Het is altijd hardhout en daardoor moeilijk te bewerken',
-        'De open vaten zuigen als rietjes vocht naar binnen — kops hout is altijd vochtgevoelig',
+        'De open vaten zuigen vocht op — kops hout is vochtgevoelig',
         'Het bevat een te hoog gehalte aan kalk',
         'Het is door insecten extra aantrekkelijk',
       ],
@@ -495,7 +495,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       options: [
         'Kalkgang die met zonlicht reageert',
         'Schimmel die uit de verf groeit',
-        'Harsgang — een hars-ader in het hout die door warmte vloeibaar wordt en door de verf doorslaat',
+        'Harsgang — een hars-ader die door de verf doorslaat',
         'Verfblaren door slechte hechting',
       ],
       correctIndex: 2,
@@ -510,7 +510,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       options: [
         'Een ingegroeide tak (kwast)',
         'Een spleet langs de groeiringen door storm',
-        'De houtvezels lopen niet recht maar in een spiraal of schuin — verlaagde buigsterkte en gevoeliger voor scheluwtrekken',
+        'De vezels lopen schuin/spiraal — lagere buigsterkte',
         'De plank is uit het hart van de boom gezaagd',
       ],
       correctIndex: 2,
@@ -525,7 +525,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
         'Wat is **huiszwam** en waarom is hij zo gevreesd in een woning?',
       options: [
         'Een gewone keldermuf die alleen esthetische schade geeft',
-        'Een schimmel die met wattenachtige strengen over metselwerk en pleister breidt, water uit ander materiaal naar zich toe trekt, en pas verholpen is als ALLE strengen tot ver in aangrenzend werk zijn verwijderd',
+        'Een schimmel die met strengen over metselwerk uitbreidt (zwam)',
         'Een soort houtworm met witte kop',
         'Een schimmel die alleen op buitenhout voorkomt',
       ],
@@ -541,7 +541,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
         'Wat is het verschil tussen **witte rot** en **bruine rot** in hout?',
       options: [
         'Witte rot is door insecten, bruine rot door schimmels',
-        'Witte rot breekt zowel cellulose als lignine af → wit, vezelig hout. Bruine rot breekt alleen cellulose af → donkerbruin, in kubusvormige brokken brekend hout',
+        'Witte rot → wit vezelig hout; bruine rot → donkerbruine kubusbrokken',
         'Witte rot is droger, bruine rot natter',
         'Beide zijn synoniemen voor hetzelfde verschijnsel',
       ],
@@ -560,7 +560,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       options: [
         'Vuren — goedkoop en sterk',
         'Beuken — vasthoudend en gelijkmatig',
-        'Azobé — extreem zwaar en hard, dzhk I, vrijwel onaantastbaar in water',
+        'Azobé — zeer hard, dzhk I, onaantastbaar in water',
         'Western red cedar — duurzaam en licht',
       ],
       correctIndex: 2,
@@ -575,7 +575,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       options: [
         'Buitenkozijnen in zware omgevingen',
         'Damwanden en brugdekken',
-        'Binnenwerk — deuren, kasten, bekisting, dakbeschot. Voor buiten alleen geïmpregneerd',
+        'Binnenwerk; buiten alleen geïmpregneerd',
         'Voordeuren van representatieve panden',
       ],
       correctIndex: 2,
@@ -590,7 +590,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       options: [
         'Zware draagconstructies',
         'Damwanden en brugdekken',
-        'Lichte gevelbekleding, shingles op daken en sauna’s — door zijn lage gewicht en redelijke duurzaamheid (dzhk II)',
+        'Lichte gevelbekleding, shingles en sauna’s (dzhk II)',
         'Parketvloeren met hoge slijtvastheid',
       ],
       correctIndex: 2,
@@ -605,7 +605,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       options: [
         'Gewone verzinkte staalschroeven',
         'Aluminium schroeven of nagels',
-        'RVS-bevestigingsmiddelen — anders verkleurt het oppervlak zwart door reactie met looizuur',
+        'RVS-bevestigingsmiddelen (anders zwarte verkleuring)',
         'Geen aparte voorzorg',
       ],
       correctIndex: 2,
@@ -619,7 +619,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Welk hout is dé klassieke keuze voor **scheepsdekken en voordeuren in representatieve panden**?',
       options: [
         'Lariks',
-        'Teak — dzhk I, kalkhoudend, vettig (eigen olie), zeer duurzaam',
+        'Teak — dzhk I, vettig (eigen olie), zeer duurzaam',
         'Beuken',
         'Vuren',
       ],
@@ -651,7 +651,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Wat is het kenmerkende verschil tussen **triplex** en **multiplex**?',
       options: [
         'Triplex is van naaldhout, multiplex van loofhout',
-        'Triplex heeft 3 fineerlagen onder rechte hoek; multiplex heeft meer (altijd oneven) lagen — daardoor stabieler en sterker',
+        'Triplex = 3 lagen; multiplex = meer (oneven) lagen, sterker',
         'Multiplex is dikker dan 18 mm, triplex altijd dunner',
         'Triplex is watervast, multiplex niet',
       ],
@@ -666,7 +666,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Wat betekent **WBP** in WBP-multiplex?',
       options: [
         'Wandbouwplaat',
-        'Water Boiled Proof — de plaat mag 72 uur in kokend water zonder ontlijmen',
+        'Water Boiled Proof — bestand tegen kokend water',
         'Witte Beuken Plaat',
         'Wapenings-Beton-Plex',
       ],
@@ -681,7 +681,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Wat is **betonplex**?',
       options: [
         'Een prefab betonplaat met houten kern',
-        'Multiplex met aan beide zijden een fenolhars-/kunststoffilmlaag — glad, water- en cementbestendig; voor bekisting van zichtbeton',
+        'Multiplex met filmlaag — voor zichtbeton-bekisting (betonplex)',
         'Een MDF-plaat met cement-toplaag',
         'Een laminaat-vloer met betonprint',
       ],
@@ -711,7 +711,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Wat is **volkern (HPL)** en waar wordt het toegepast?',
       options: [
         'Een laminaatvloer met houten kern',
-        'Vele lagen papier of houtvezel met fenolhars onder hoge druk en temperatuur tot een massieve plaat geperst — voor toiletwanden, gevelpanelen (Trespa), laboratoriumtafels',
+        'Geperste lagen met fenolhars tot een massieve plaat (HPL/Trespa)',
         'Een spaanplaat met dikke fineerlaag',
         'Een houtwolcementplaat',
       ],
@@ -728,7 +728,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Wat is een **messing-en-groef** verbinding?',
       options: [
         'Een verbinding met messing schroeven',
-        'Twee plankzijdes: één heeft een uitstekend tongetje (messing), de andere een groef — ze klikken in elkaar',
+        'Eén zijde heeft een messing (tong), de andere een groef',
         'Een metaalbeslag aan twee houten delen',
         'Een verbinding met houten deuvels',
       ],
@@ -744,7 +744,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
         'Een **vingerlas** wordt vooral toegepast om:',
       options: [
         'Twee plankuiteinden onder rechte hoek aan elkaar te verbinden',
-        'Een houten balk te verlengen of een kozijnstijl uit kortere stukken samen te stellen — de lasvlakken zijn driehoekige “vingers” die in elkaar grijpen, even sterk als het hele hout',
+        'Hout verlengen met in elkaar grijpende vingers (vingerlas)',
         'Een verticale stijl in een horizontale regel te verankeren',
         'Twee planken in een hoek van 45° aan elkaar te lijmen',
       ],
@@ -760,7 +760,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
         'Een **zwaluwstaartverbinding** onderscheidt zich doordat:',
       options: [
         'Twee houten plankjes met messing en groef in elkaar grijpen',
-        'De pen een trapezium-vorm (zwaluwstaart) heeft — na inschuiven kan hij niet meer terug, dus trekvast in één richting',
+        'De pen heeft een zwaluwstaartvorm — trekvast in één richting',
         'Twee plankuiteinden onder een halve dikte overlappen',
         'Vier houten deuvels op één lijn worden gezet',
       ],
@@ -776,7 +776,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
         'Wat is een **deuvelverbinding**?',
       options: [
         'Twee balken zijn halverwege uitgekapt en kruisen elkaar',
-        'Twee houten delen worden voorgeboord en met houten ronde staafjes (deuvels) verbonden',
+        'Twee delen verbonden met houten deuvels',
         'Een metaalbeslag dat tussen twee planken wordt geklemd',
         'Een spijker met spiraalprofiel die zichzelf vastdraait',
       ],
@@ -793,7 +793,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Wat is **gelamineerd hout (Glulam)**?',
       options: [
         'Massief hardhout uit één boom, gestoomd en geperst',
-        'Meerdere plankjes (lamellen) in dezelfde lengte-richting verlijmd tot een grote balk, kolom of gebogen spant',
+        'Lamellen in dezelfde richting verlijmd tot balk/kolom (Glulam)',
         'Dunne fineerlagen kruislings op elkaar verlijmd tot een plaat',
         'Een composiet van hout en staalstrippen',
       ],
@@ -808,7 +808,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Wat onderscheidt **Cross Laminated Timber (CLT)** van Glulam?',
       options: [
         'CLT is van hardhout, Glulam van zachthout',
-        'Bij CLT worden de lagen kruislings (90° gedraaid) op elkaar verlijmd — vandaar dat CLT vlakelementen (wanden/vloeren) levert, terwijl Glulam lineaire elementen (balken/kolommen) levert',
+        'CLT verlijmt lagen kruislings → vlakelementen; Glulam → balken',
         'CLT is vingerlas-gebaseerd, Glulam is dubbel verlijmd',
         'CLT wordt onder druk gevormd, Glulam onder vacuüm',
       ],
@@ -823,7 +823,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Een voordeel van CLT bij hoogbouw is:',
       options: [
         'Hogere druksterkte dan beton in alle richtingen',
-        'Ongeveer 5× lichter dan een vergelijkbare betonwand → lichtere fundering en sneller te monteren',
+        'Ongeveer 5× lichter dan een betonwand',
         'Goedkoper dan gewoon hout',
         'Geen brandwerende maatregelen nodig',
       ],
@@ -840,7 +840,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Wat is **Accoya hout**?',
       options: [
         'Hardhout uit Brazilië met natuurlijke FSC-certificering',
-        'Zachthout (vuren of grenen) dat door reactie met azijnzuuranhydride is gemodificeerd — dzhk I, weinig krimp/zwel, natuurlijke kleur behouden',
+        'Geacetyleerd zachthout (Accoya) — dzhk I, weinig krimp/zwel',
         'Met creosootolie geïmpregneerd grenen',
         'Een handelsmerk voor gelamineerd hout uit eikenlamellen',
       ],
@@ -854,7 +854,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       type: 'mc',
       prompt: 'Wat is de **klassieke verduurzamingsmethode** bij druk-/vacuumprocédé in een autoclaaf?',
       options: [
-        'Hout onder vacuüm leegzuigen, daarna onder druk een conserveringsmiddel (zoutoplossing) in de cellen persen',
+        'Onder vacuüm en druk conserveringsmiddel in de cellen persen',
         'Hout in een grote pers gedurende 24 uur platdrukken',
         'Hout enkele weken in stromend zoet water onderdompelen',
         'Hout met UV-licht bestralen tot de cellen kraken',

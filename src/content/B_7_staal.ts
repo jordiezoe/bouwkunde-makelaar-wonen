@@ -348,7 +348,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
         'Wat is het wezenlijke verschil tussen **constructiestaal** en **gietijzer**?',
       options: [
         'Gietijzer is sterker en wordt gebruikt voor dragende constructies',
-        'Constructiestaal bevat veel minder koolstof (0,1–0,2%) en is taai; gietijzer heeft ~3% koolstof en is broos',
+        'Constructiestaal is taai (laag koolstof), gietijzer is broos',
         'Constructiestaal wordt gegoten, gietijzer gewalst',
         'Gietijzer is een legering met chroom en nikkel',
       ],
@@ -365,7 +365,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
       options: [
         'Het is zo hard dat vocht er niet in dringt',
         'Door de toevoeging van koolstof aan het staal',
-        'Door legering met chroom (en nikkel) vormt zich een doorzichtig chroomoxidehuidje dat zich bij beschadiging herstelt',
+        'Een zelfherstellend chroomoxidehuidje door chroom-legering',
         'Door een buitenste laklaag die in de fabriek wordt aangebracht',
       ],
       correctIndex: 2,
@@ -381,7 +381,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
       options: [
         'Sanitair en aanrechtbladen',
         'Constructief kolommenwerk in een kantoor',
-        'Decoratieve gevelbekleding en kunstwerken — de roestbruine patinalaag is juist het uiterlijk',
+        'Decoratieve gevelbekleding en kunst (roestbruine patina)',
         'Loodvervanger voor dakdoorvoeren',
       ],
       correctIndex: 2,
@@ -396,7 +396,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
         'Wat is **gietstaal**?',
       options: [
         'Een verouderde naam voor gietijzer',
-        'Vloeibaar staal dat in een mal wordt gegoten — voor onregelmatige vormen die niet gewalst kunnen worden',
+        'Vloeibaar staal gegoten in een mal, voor vrije vormen',
         'Een legering van staal met aluminium en magnesium',
         'Staal dat door koudwalsen vorm krijgt',
       ],
@@ -413,7 +413,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
       options: [
         'Niets — RVS is universeel verenigbaar met alle metalen',
         'De twee metalen direct met staaldraad aan elkaar binden voor goede grond',
-        'Een rubber- of kunststofscheidingsring tussenplaatsen om contactcorrosie te voorkomen',
+        'Een scheidingsring plaatsen tegen contactcorrosie',
         'Het RVS extra verven',
       ],
       correctIndex: 2,
@@ -431,7 +431,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
       options: [
         'IPE — I-profiel met parallelle flenzen, hoger dan breed',
         'UNP — U-profiel met taps lopende flenzen',
-        'HE-profiel (HEA/HEB/HEM) — symmetrisch, vrijwel even hoog als breed',
+        'HE-profiel (HEA/HEB/HEM), vrijwel even hoog als breed',
         'L-staal — gelijkbenig hoekprofiel',
       ],
       correctIndex: 2,
@@ -462,7 +462,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
         'Waarom zit er bij oplegging van een **UNP**-profiel doorgaans een **hellingplaatje** onder, en bij UPE niet?',
       options: [
         'UNP is zwaarder en heeft daarom extra steun nodig',
-        'De flenzen van UNP lopen taps — niet evenwijdig aan het lijf; een hellingplaatje compenseert dat. UPE heeft parallelle flenzen en kan vlak opgelegd',
+        'UNP heeft tapse flenzen, UPE parallelle flenzen',
         'UNP is voor binnentoepassing en UPE voor buiten',
         'UNP is alleen koudgewalst, UPE alleen warm',
       ],
@@ -478,7 +478,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
         'Wat is een **windverband** in een staalskelet?',
       options: [
         'Een serie ankerbouten die de constructie aan de fundering verankert',
-        'Schuine staven of diagonalen die rechthoekige velden in driehoeken verdelen — voorkomt scheefstand door wind en zijwaartse belasting',
+        'Schuine diagonalen die velden in driehoeken verdelen',
         'Een verticale verbinding tussen meerdere verdiepingen',
         'Een speciale las tussen kolom en ligger',
       ],
@@ -495,7 +495,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
       options: [
         'De totale lengte van het profiel zoals geleverd door de fabrikant',
         'De effectieve lengte over de hoogte van een verdieping waarin de kolom niet ondersteund is',
-        'De effectieve lengte die de kolom “voelt” bij knikbelasting; bepaald door de oplegcondities aan beide uiteinden',
+        'De effectieve lengte van de kolom bij knik',
         'De lengte waarover de kolom een buigend moment kan opnemen',
       ],
       correctIndex: 2,
@@ -528,7 +528,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
         'Hoe wordt een **raatligger** vervaardigd?',
       options: [
         'Door drie losse platen — flenzen en lijf — aan elkaar te lassen',
-        'Door een I-profiel zigzag door te zagen, de helften over elkaar te schuiven en weer aan elkaar te lassen',
+        'Een I-profiel zigzag zagen, verschuiven en weer lassen',
         'Door een breedflensprofiel om de lengte-as in tweeën te zagen en met platen te verbinden',
         'Door een kokerprofiel in te zagen en open te buigen',
       ],
@@ -544,7 +544,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
         'Wat is een **bijkomend praktisch voordeel** van de gaten in een raatligger?',
       options: [
         'De gaten verlagen het materiaalgebruik',
-        'De gaten geven ruimte voor leidingdoorvoeren (ventilatie, kabels) zonder dat extra sparingen nodig zijn',
+        'De gaten geven ruimte voor leidingdoorvoeren',
         'Door de gaten kan het profiel beter buigen',
         'De gaten verbeteren de brandwerendheid',
       ],
@@ -560,7 +560,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
         'Wat is een **QTH-ligger**?',
       options: [
         'Een raatligger met extra verstijvingen in de gaten',
-        'Een uit losse stalen platen (flenzen + lijf) op maat gelaste I-ligger — voor grote overspanningen of zware belastingen waarvoor geen geschikt walsprofiel bestaat',
+        'Een op maat gelaste I-ligger uit losse platen',
         'Een geprefabriceerd betonelement op een stalen kern',
         'Een holronde staalbalk uit één gewalst stuk',
       ],
@@ -594,7 +594,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
         'Wat is een **hoeklas**?',
       options: [
         'Een las tussen twee plaatdelen die in hetzelfde vlak liggen (kop aan kop)',
-        'Een las in de inwendige hoek tussen twee plaatdelen die haaks of in een hoek op elkaar staan',
+        'Een las in de inwendige hoek tussen twee plaatdelen',
         'Een rondgaande las langs de hele omtrek van een profiel',
         'Een las die alleen wordt toegepast bij verzinkt staal',
       ],
@@ -610,7 +610,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
         'Waarom mag je **gegalvaniseerd (verzinkt) staal niet lassen**?',
       options: [
         'Het zink valt eraf en moet eerst worden afgekrabd',
-        'Zinkslakken komen in de las terecht en verzwakken de verbinding (kans op brosse breuk)',
+        'Zinkslakken in de las verzwakken de verbinding',
         'De las hardt niet goed uit op verzinkt oppervlak',
         'Het is geen kwestie van techniek maar van esthetiek — de zinklaag wordt zwart',
       ],
@@ -626,7 +626,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
         'Wat is een **voorspanbout** (HV-bout)?',
       options: [
         'Een bout die alleen op trek wordt belast',
-        'Een bout die met een momentsleutel onder een gecontroleerde spanning wordt aangedraaid — krachtoverdracht via wrijving tussen de plaatdelen in plaats van afschuiving van de bout',
+        'Een voorgespannen bout: krachtoverdracht via wrijving',
         'Een bout die vooraf in de fabriek wordt voorgespannen voordat deze wordt geleverd',
         'Een bout met dubbele moer voor extra zekerheid',
       ],
@@ -643,7 +643,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
       options: [
         'Nog dagelijks toegepast als standaardmethode',
         'Verboden vanwege milieuwetgeving',
-        'Vervangen door bouten en lassen — alleen popnagels en schietnagels (varianten) zijn modern in gebruik',
+        'Vervangen door bouten en lassen',
         'Alleen toegepast voor zichtwerk waar bouten te lelijk zijn',
       ],
       correctIndex: 2,
@@ -660,7 +660,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
         'Wat is het verschil tussen **thermisch verzinken** en **elektrolytisch verzinken**?',
       options: [
         'Thermisch is voor binnen, elektrolytisch voor buiten',
-        'Thermisch: dompelen in vloeibaar zink (~450 °C) → dikke, gladde laag met zinkbloemen. Elektrolytisch: in een zinkoplossing met stroom → dunne, glanzende laag',
+        'Thermisch = dompelen in vloeibaar zink; elektrolytisch = met stroom',
         'Thermisch is alleen voor groot werk, elektrolytisch alleen voor staaldraad',
         'Thermisch geeft een hoger zinkverbruik per m², elektrolytisch is in principe goedkoper bij grote stukken',
       ],
@@ -676,7 +676,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
         'Welke methode is **typisch voor hang- en sluitwerk** (schroeven, scharnieren, klein beslag)?',
       options: [
         'Thermisch verzinken — geeft de dikste laag',
-        'Sherardiseren — kleine voorwerpen in een trommel met zinkdamp; gelijkmatige dunne laag',
+        'Sherardiseren — in een trommel met zinkdamp',
         'Schooperen — opgespoten gesmolten zink',
         'Het Sendzimir-proces — continu door zinkbad',
       ],
@@ -691,7 +691,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
       prompt:
         'Wat is **schooperen / zinkspuiten**?',
       options: [
-        'Gesmolten zink wordt op het oppervlak gespoten; resultaat is een ruwe laag die meestal nog wordt afgedekt met verf',
+        'Gesmolten zink op het oppervlak spuiten (metalliseren)',
         'Verf met zinkpoeder die als primer wordt aangebracht',
         'Onderdompelen in zinkoplossing zonder stroom',
         'Een kleurige toplaag voor cortenstaal',
@@ -724,7 +724,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
         'Welke methode is **typisch voor brandwerende bescherming** van een dragende staalkolom, met behoud van een **slank, zichtbaar uiterlijk**?',
       options: [
         'Inpakken met steengaas en stucwerk',
-        'Brandwerende intumescent verf — schuimt boven ~200 °C op tot een isolerend kussen; profiel blijft slank zichtbaar',
+        'Brandwerende verf die opschuimt tot een isolerend kussen',
         'Inkisten en aangieten met beton',
         'Een dikke laag spuitmortel',
       ],
@@ -741,7 +741,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
       options: [
         'Eerst poedercoaten, daarna elektrolytisch verzinken',
         'Twee lagen verf: een primer met zinkpoeder + een afwerklaag',
-        'Thermisch verzinken **gecombineerd met** een verflaag eroverheen — extra bescherming voor agressieve omgevingen (kust, industrie)',
+        'Thermisch verzinken met een verflaag erover (duplexsysteem)',
         'Het tegelijk lassen en verzinken in één proces',
       ],
       correctIndex: 2,
