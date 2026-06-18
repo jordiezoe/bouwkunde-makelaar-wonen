@@ -139,17 +139,21 @@ Installaties lopen vrijwel altijd door **schachten** (verticale tracés) en bove
     {
       id: 'B.2.q1',
       toetstermCode: 'B.2.1',
-      type: 'mc',
-      prompt: 'Welke zes elementengroepen vormen samen de hoofdopbouw van een gebouw?',
+      type: 'multi',
+      prompt: 'Welke horen bij de zes elementengroepen van de hoofdopbouw? Selecteer alle juiste.',
       options: [
-        'Gevel, voegwerk, schoorsteen, balkon, raam, deur',
-        'Kelder, fundering, opbouw, dak, afwerking en installaties',
-        'Beton, hout, staal, glas, isolatie, kunststof',
-        'Begane grond, verdieping, zolder, kelder, dak, schuur',
+        'Kelder',
+        'Fundering',
+        'Opbouw',
+        'Dak',
+        'Afwerking',
+        'Installaties',
+        'Schoorsteen',
+        'Balkon',
       ],
-      correctIndex: 1,
+      correctIndices: [0, 1, 2, 3, 4, 5],
       explanation:
-        'De hoofdopbouw bestaat uit zes elementengroepen: kelder, fundering, opbouw (muren+vloeren), dak, afwerking en installaties. Dit is de standaardindeling die in elke doorsnede terugkomt.',
+        'De hoofdopbouw bestaat uit zes elementengroepen: kelder, fundering, opbouw (muren+vloeren), dak, afwerking en installaties. Schoorsteen en balkon zijn losse onderdelen, geen elementengroep.',
     },
     {
       id: 'B.2.q2',
@@ -157,10 +161,10 @@ Installaties lopen vrijwel altijd door **schachten** (verticale tracés) en bove
       type: 'mc',
       prompt: 'Wat is de functie van de fundering?',
       options: [
-        'De afwerking van de begane grond.',
-        'Het overbrengen van de belasting van het gebouw naar de draagkrachtige grond.',
-        'Het isoleren van de begane-grondvloer tegen kou.',
-        'Het afvoeren van regenwater.',
+        'De afwerking van de begane grond',
+        'De belasting naar de draagkrachtige grond overbrengen',
+        'De begane-grondvloer isoleren tegen kou',
+        'Het afvoeren van regenwater',
       ],
       correctIndex: 1,
       explanation:
@@ -183,10 +187,10 @@ Installaties lopen vrijwel altijd door **schachten** (verticale tracés) en bove
       prompt:
         'Waar zitten in een gebouw doorgaans de schachten voor installaties?',
       options: [
-        'In de spouwmuur van de buitengevel.',
-        'Onder de begane-grondvloer in de kruipruimte.',
-        'Vertikaal door de bouwlagen heen, vaak naast trappen of in een centrale kern.',
-        'In de spanten van het dak.',
+        'In de spouwmuur van de buitengevel',
+        'Onder de begane-grondvloer in de kruipruimte',
+        'Verticaal door de bouwlagen, in een centrale kern',
+        'In de spanten van het dak',
       ],
       correctIndex: 2,
       explanation:
@@ -198,10 +202,10 @@ Installaties lopen vrijwel altijd door **schachten** (verticale tracés) en bove
       type: 'mc',
       prompt: 'Waarvoor dient een kruipruimte onder een begane-grondvloer?',
       options: [
-        'Als extra bergruimte voor de bewoner.',
-        'Als ventilatie- en leidingruimte tussen de bodem en de begane-grondvloer.',
-        'Om de woning verticaal te stabiliseren.',
-        'Voor de fundering — kruipruimte = fundering.',
+        'Als extra bergruimte voor de bewoner',
+        'Als ventilatie- en leidingruimte onder de vloer',
+        'Om de woning verticaal te stabiliseren',
+        'Als fundering — kruipruimte = fundering',
       ],
       correctIndex: 1,
       explanation:
@@ -214,10 +218,10 @@ Installaties lopen vrijwel altijd door **schachten** (verticale tracés) en bove
       prompt:
         'Welke uitspraak over afwerking is juist?',
       options: [
-        'Afwerking heeft een dragende functie en moet door een constructeur worden berekend.',
-        'Afwerking is de zichtbare binnenlaag (stuc, verf, tegels, vloer) zonder constructieve rol; vrij te wijzigen bij verbouwingen.',
-        'Afwerking is hetzelfde als gevelbekleding aan de buitenkant.',
-        'Afwerking valt onder de fundering.',
+        'Afwerking is dragend en wordt door een constructeur berekend',
+        'Afwerking is de zichtbare binnenlaag zonder dragende functie',
+        'Afwerking is hetzelfde als gevelbekleding buiten',
+        'Afwerking valt onder de fundering',
       ],
       correctIndex: 1,
       explanation:
@@ -262,10 +266,10 @@ Installaties lopen vrijwel altijd door **schachten** (verticale tracés) en bove
       prompt:
         'Waar lopen installaties (water, gas, elektra) in een gebouw doorgaans?',
       options: [
-        'Alleen in de fundering.',
-        'Verticaal door schachten, horizontaal achter afwerking of in vloeren — verspreid door alle elementengroepen.',
-        'Alleen in het dak.',
-        'Buiten het gebouw langs de gevel.',
+        'Alleen in de fundering',
+        'Verticaal door schachten en horizontaal door het gebouw',
+        'Alleen in het dak',
+        'Buiten het gebouw langs de gevel',
       ],
       correctIndex: 1,
       explanation:
@@ -278,10 +282,10 @@ Installaties lopen vrijwel altijd door **schachten** (verticale tracés) en bove
       prompt:
         'Bij welke bouwfase wordt typisch alles van de afwerking aangebracht?',
       options: [
-        'Direct na de fundering, voordat de muren worden opgetrokken.',
-        'Tegelijk met de fundering.',
-        'In de laatste fase van de bouw, nadat het casco staat en de installaties zijn aangelegd.',
-        'Voorafgaand aan de aanbesteding.',
+        'Direct na de fundering, vóór de muren',
+        'Tegelijk met de fundering',
+        'In de laatste bouwfase, na casco en installaties',
+        'Voorafgaand aan de aanbesteding',
       ],
       correctIndex: 2,
       explanation:

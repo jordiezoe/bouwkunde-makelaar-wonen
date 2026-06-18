@@ -213,10 +213,10 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       type: 'mc',
       prompt: 'Wat is het verschil tussen een permanente en een variabele belasting?',
       options: [
-        'Permanente belasting werkt alleen op verticale elementen, variabele alleen op horizontale.',
-        'Permanente belasting is voortdurend aanwezig (bv. eigen gewicht); variabele belasting wisselt in tijd en intensiteit (bv. wind, sneeuw, personen).',
-        'Permanente belasting is altijd zwaarder dan variabele belasting.',
-        'Permanente belasting werkt alleen op de fundering, variabele op het dak.',
+        'Permanente werkt op verticale, variabele op horizontale elementen',
+        'Permanente belasting is altijd aanwezig, variabele wisselt',
+        'Permanente belasting is altijd zwaarder dan variabele',
+        'Permanente werkt op de fundering, variabele op het dak',
       ],
       correctIndex: 1,
       explanation:
@@ -228,10 +228,10 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       type: 'mc',
       prompt: 'In een gewone betonnen vloer op twee opleggingen — waar zit het wapeningsstaal en waarom?',
       options: [
-        'Bovenin de vloer, want daar zit de drukkracht.',
-        'Onderin de vloer, want daar treedt trekkracht op (en beton kan slecht tegen trek).',
-        'Aan de zijkanten, voor stabiliteit.',
-        'In het midden, op de helft van de hoogte.',
+        'Bovenin de vloer, want daar zit de drukkracht',
+        'Onderin, want daar treedt trekkracht op',
+        'Aan de zijkanten, voor stabiliteit',
+        'In het midden, op halve hoogte',
       ],
       correctIndex: 1,
       explanation:
@@ -253,10 +253,10 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       type: 'mc',
       prompt: 'Wat is een uitkraging (cantilever)?',
       options: [
-        'Een balk op twee opleggingen.',
-        'Een element dat aan één zijde is ingeklemd en aan de andere zijde vrij uitsteekt — zoals een balkon of luifel.',
-        'De diagonale verbinding in een windverband.',
-        'De afwerking aan de bovenkant van een gevel.',
+        'Een balk op twee opleggingen',
+        'Een element dat aan één zijde inklemt en vrij uitsteekt',
+        'De diagonale verbinding in een windverband',
+        'De afwerking aan de bovenkant van een gevel',
       ],
       correctIndex: 1,
       explanation:
@@ -269,10 +269,10 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       prompt:
         'Waar zit bij een betonnen uitkragend balkon het wapeningsstaal?',
       options: [
-        'Onderin, zoals bij een vloer op twee opleggingen.',
-        'Bovenin, want bij een uitkraging treedt trekkracht aan de bovenzijde op.',
-        'Verspreid over de hele doorsnede.',
-        'Alleen aan de uitstekende zijde.',
+        'Onderin, zoals bij een vloer op twee opleggingen',
+        'Bovenin, want daar treedt de trekkracht op',
+        'Verspreid over de hele doorsnede',
+        'Alleen aan de uitstekende zijde',
       ],
       correctIndex: 1,
       explanation:
@@ -285,10 +285,10 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       prompt:
         'Hoe wordt stabiliteit van een gebouw tegen wind- en horizontale krachten meestal bereikt?',
       options: [
-        'Door zware fundering alleen.',
-        'Door horizontale schijfwerking van vloeren in combinatie met stabiliteitswanden, windverbanden en/of driehoekige verbanden.',
-        'Door dunne wanden waardoor het gebouw mee kan bewegen.',
-        'Door geen ramen in de gevel te plaatsen.',
+        'Door alleen een zware fundering',
+        'Door schijfwerking van vloeren met stabiliteitswanden en verbanden',
+        'Door dunne, meebewegende wanden',
+        'Door geen ramen in de gevel te plaatsen',
       ],
       correctIndex: 1,
       explanation:
@@ -301,10 +301,10 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       prompt:
         'Wat hoort tot de variabele belasting op een woning?',
       options: [
-        'Het eigen gewicht van de wanden.',
-        'Het gewicht van de fundering.',
-        'Het gewicht van de bewoners, meubels, sneeuw op het dak en windbelasting.',
-        'De afwerking van de wanden en vloeren.',
+        'Het eigen gewicht van de wanden',
+        'Het gewicht van de fundering',
+        'Bewoners, meubels, sneeuw en wind',
+        'De afwerking van wanden en vloeren',
       ],
       correctIndex: 2,
       explanation:
@@ -334,10 +334,10 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       prompt:
         'Hoe herken je dragende elementen op een constructietekening?',
       options: [
-        'Aan de kleur — dragende elementen zijn altijd rood.',
-        'Aan dikker getekende lijnen, opleggingssymbolen en het materiaal (beton, kalkzandsteen, staal).',
-        'Aan een speciaal sterretje in elke hoek.',
-        'Dragende elementen worden alleen op de plattegrond getekend, nooit op een doorsnede.',
+        'Aan de kleur — dragende elementen zijn altijd rood',
+        'Aan dikkere lijnen, opleggingssymbolen en materiaal',
+        'Aan een sterretje in elke hoek',
+        'Ze staan alleen op de plattegrond, nooit op een doorsnede',
       ],
       correctIndex: 1,
       explanation:
@@ -350,10 +350,10 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       prompt:
         'Wat geeft het symbool "△" onder een balk in een constructietekening doorgaans aan?',
       options: [
-        'Een waarschuwing voor brandgevaar.',
-        'Een oplegging — het punt waar de balk op een ondersteunende constructie rust en de reactiekracht ontstaat.',
-        'Een dakkapel.',
-        'Een dilatatievoeg.',
+        'Een waarschuwing voor brandgevaar',
+        'Een oplegging waar de balk op de constructie rust',
+        'Een dakkapel',
+        'Een dilatatievoeg',
       ],
       correctIndex: 1,
       explanation:
@@ -366,10 +366,10 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       prompt:
         'Wat duidt op een grote overspanning in de bouwkundige tekening van een woonkamer?',
       options: [
-        'Een dunne houten balklaag van 5 cm dik.',
-        'Een stalen HEA- of HEB-profiel of een dikke betonbalk in de doorsnede van het plafond, met grote afstand tot de volgende dragende muur.',
-        'Een gemetselde rollaag direct boven het kozijn.',
-        'Een dilatatievoeg in de vloer.',
+        'Een dunne houten balklaag van 5 cm',
+        'Een stalen HEA/HEB-profiel of dikke betonbalk in het plafond',
+        'Een gemetselde rollaag boven het kozijn',
+        'Een dilatatievoeg in de vloer',
       ],
       correctIndex: 1,
       explanation:
@@ -382,10 +382,10 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       prompt:
         'Een klant wil een 4 m brede doorbraak maken in een dragende muur. Op de constructietekening van de architect zie je daar een aanduiding "HEA 240". Wat betekent dat?',
       options: [
-        'De afmetingen van het nieuw geplaatste raam: 240 cm hoog.',
-        'Een stalen HEA-profiel met een hoogte van 240 mm — wordt gebruikt om de belasting boven de doorbraak op te vangen.',
-        'Het bedrag in euro per meter dat het verbouwen gaat kosten.',
-        'De aanduiding van een dilatatievoeg.',
+        'De maat van het nieuwe raam: 240 cm hoog',
+        'Een stalen HEA-profiel van 240 mm hoog',
+        'De verbouwkosten in euro per meter',
+        'De aanduiding van een dilatatievoeg',
       ],
       correctIndex: 1,
       explanation:
@@ -400,10 +400,10 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       prompt:
         'Wat duiden diagonale scheuren vanuit een hoek van een kozijn in een gevel meestal aan?',
       options: [
-        'Krimp van het stucwerk.',
-        'Zettingsscheuren door ongelijkmatige zakking van de fundering.',
-        'Esthetisch metselverbandwerk.',
-        'Normale temperatuurkrimp die geen aandacht vraagt.',
+        'Krimp van het stucwerk',
+        'Zetting door ongelijkmatige zakking van de fundering',
+        'Esthetisch metselverbandwerk',
+        'Normale temperatuurkrimp, geen aandacht nodig',
       ],
       correctIndex: 1,
       explanation:
@@ -432,10 +432,10 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       prompt:
         'Een trapsgewijs scheurpatroon dat door de stootvoegen loopt en diagonaal door een gevel klimt — wat is meest waarschijnlijk de oorzaak?',
       options: [
-        'Een esthetische keuze van de metselaar.',
-        'Krimp van de baksteen door uitdroging.',
-        'Zetting (verzakking) van de fundering — de scheur volgt het verband (langs de zwakste lijnen, de stootvoegen).',
-        'Te hoge belasting op het dak.',
+        'Een esthetische keuze van de metselaar',
+        'Krimp van de baksteen door uitdroging',
+        'Zetting (verzakking) van de fundering',
+        'Te hoge belasting op het dak',
       ],
       correctIndex: 2,
       explanation:
@@ -464,10 +464,10 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       prompt:
         'Een woning heeft op de begane grond een duidelijk merkbare doorzakkende houten vloer. Wat is het meest waarschijnlijke vervolg?',
       options: [
-        'Geen actie — een houten vloer mag normaal gesproken meeveren.',
-        'Onderzoek door bouwkundige naar mogelijke houtrot in de balken (en/of overbelasting).',
-        'Direct de keukenvloer vervangen.',
-        'Vloerverwarming installeren om de doorbuiging te compenseren.',
+        'Geen actie — een houten vloer mag meeveren',
+        'Onderzoek naar houtrot of overbelasting in de balken',
+        'Direct de keukenvloer vervangen',
+        'Vloerverwarming installeren tegen de doorbuiging',
       ],
       correctIndex: 1,
       explanation:
@@ -480,10 +480,10 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       prompt:
         'Een klant maakt zich zorgen over horizontale scheuren in de voorgevel direct boven de bovenste kozijnen. Wat is een passend advies?',
       options: [
-        'Negeren — deze scheuren zijn altijd cosmetisch.',
-        'De scheuren laten meten en monitoren over een aantal maanden, en een bouwkundige laten beoordelen of er spatkrachten uit de kap optreden.',
-        'De gevel laten schilderen om de scheuren te verbergen.',
-        'De kozijnen vervangen — daar zit het probleem.',
+        'Negeren — deze scheuren zijn altijd cosmetisch',
+        'De scheuren monitoren en een bouwkundige laten beoordelen',
+        'De gevel schilderen om de scheuren te verbergen',
+        'De kozijnen vervangen — daar zit het probleem',
       ],
       correctIndex: 1,
       explanation:

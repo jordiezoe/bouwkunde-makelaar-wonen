@@ -90,10 +90,10 @@ Een gebouw "tussen hangen en wurgen" — bouwkundig zwak maar mooi, of mooi maar
       type: 'mc',
       prompt: 'Wat verstaan we onder "bruikbaarheid" volgens Vitruvius?',
       options: [
-        'De esthetische verschijning van het gebouw.',
-        'De constructieve veiligheid van het gebouw.',
-        'De geschiktheid van het gebouw voor de functie waarvoor het bedoeld is — indeling, doorgang, daglicht, ventilatie.',
-        'De financiële winstgevendheid van het gebouw.',
+        'De esthetische verschijning van het gebouw',
+        'De constructieve veiligheid van het gebouw',
+        'De geschiktheid voor de functie waarvoor het bedoeld is',
+        'De financiële winstgevendheid van het gebouw',
       ],
       correctIndex: 2,
       explanation:
@@ -138,10 +138,10 @@ Een gebouw "tussen hangen en wurgen" — bouwkundig zwak maar mooi, of mooi maar
       prompt:
         'Op welke manier helpt de Vitruvius-triade een makelaar bij het beoordelen van een woning?',
       options: [
-        'Het bepaalt de exacte WOZ-waarde van het pand.',
-        'Het biedt een breed kwaliteitskader: scoort de woning op bruikbaarheid (indeling), duurzaamheid (constructie en levensduur) én schoonheid (verschijning)?',
-        'Het geeft de korting op de aanneemsom aan.',
-        'Het bepaalt de exacte energiezuinigheid van een gebouw.',
+        'Het bepaalt de exacte WOZ-waarde van het pand',
+        'Het is een breed kwaliteitskader (bruikbaarheid, duurzaamheid, schoonheid)',
+        'Het geeft de korting op de aanneemsom aan',
+        'Het bepaalt de exacte energiezuinigheid',
       ],
       correctIndex: 1,
       explanation:
@@ -154,10 +154,10 @@ Een gebouw "tussen hangen en wurgen" — bouwkundig zwak maar mooi, of mooi maar
       prompt:
         'Welk modern bouwfysisch onderwerp valt het meest natuurlijk onder de Vitruvius-kwaliteit "duurzaamheid" (firmitas)?',
       options: [
-        'De welstandscommissie-beoordeling van de gevel.',
-        'De plattegrondindeling van de woning.',
-        'De BENG-eisen voor energieprestatie en de Rc-waarden voor isolatie.',
-        'Het meubilair in de verkooptekening.',
+        'De welstandsbeoordeling van de gevel',
+        'De plattegrondindeling van de woning',
+        'De BENG-eisen en de Rc-waarden voor isolatie',
+        'Het meubilair in de verkooptekening',
       ],
       correctIndex: 2,
       explanation:
