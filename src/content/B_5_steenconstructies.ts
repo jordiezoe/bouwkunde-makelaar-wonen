@@ -400,7 +400,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Wat is de functie van spouwankers in een spouwmuur?',
       options: [
         'Ze voorkomen dat regenwater de spouw binnendringt.',
-        'Ze koppelen het binnen- en buitenspouwblad zodat de muur als één geheel windbelasting opneemt.',
+        'Ze koppelen binnen- en buitenblad tot één geheel tegen wind',
         'Ze ondersteunen de spouwisolatie tegen wegzakken.',
         'Ze vervangen lateien boven kozijnopeningen.',
       ],
@@ -415,7 +415,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Waarom wordt de isolatie in een spouwmuur tegen het binnenspouwblad geplaatst en niet tegen het buitenblad?',
       options: [
         'Omdat het binnenspouwblad gladder is en de isolatie beter hecht.',
-        'Het buitenblad mag nat worden; de isolatie blijft droog tegen het binnenblad.',
+        'Het buitenblad mag nat worden, de isolatie blijft droog',
         'Om gewichtsverdeling in de muur te verbeteren.',
         'Vanwege brandwerendheidseisen.',
       ],
@@ -453,7 +453,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       options: [
         'Beide worden in een oven gebakken, maar betonsteen op een lagere temperatuur.',
         'Baksteen wordt onder stoomdruk verhard, betonsteen in een oven.',
-        'Baksteen wordt in een oven gebakken; betonsteen verhardt door de chemische reactie van cement met water (geen oven).',
+        'Baksteen wordt gebakken, betonsteen hardt door cement (geen oven)',
         'Betonsteen wordt handmatig gevormd, baksteen alleen machinaal.',
       ],
       correctIndex: 2,
@@ -480,7 +480,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       options: [
         'Kleiner: kloostermoppen zijn handgevormd en vallen daardoor compacter uit.',
         'Vrijwel gelijk; het verschil zit alleen in de kleur.',
-        'Aanzienlijk groter — ongeveer 285 × 135 × 85 mm tegenover 210 × 100 × 50 mm bij Waalformaat.',
+        'Aanzienlijk groter: ~285×135×85 mm vs. Waalformaat',
         'Iets dunner maar exact even lang als een Waalformaat.',
       ],
       correctIndex: 2,
@@ -506,7 +506,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Wat geeft de "lagenmaat" aan?',
       options: [
         'De breedte van het metselwerk in koppen gemeten',
-        'De totale hoogte van een vooraf bepaald aantal lagen inclusief de voegen',
+        'De hoogte van een aantal lagen inclusief de voegen',
         'De afstand tussen twee dilatatievoegen',
         'De dikte van één enkele metselvoeg',
       ],
@@ -637,7 +637,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Wat is een klezoor?',
       options: [
         'Een loden slabbe tussen latei en metselwerk',
-        'Een kwart steen die op de hoek wordt gemetseld om doorlopende stootvoegen te voorkomen',
+        'Een kwart steen op de hoek tegen doorlopende stootvoegen',
         'Een ander woord voor een gesneden voeg',
         'Een lichtgewicht binnenmuursteen',
       ],
@@ -671,7 +671,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       options: [
         'Voor extra brandwerendheid van de latei',
         'Om vocht uit het bovenliggende metselwerk weg te leiden',
-        'Om de verschillende uitzettingscoëfficiënten van beton en metselwerk op te vangen zonder scheurvorming',
+        'Om verschil in uitzetting van beton en metselwerk op te vangen',
         'Om het geluidsisolerend vermogen van de gevel te vergroten',
       ],
       correctIndex: 2,
@@ -686,7 +686,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       options: [
         'Brandwerend afdichten',
         'Het thermisch isoleren van de aansluiting',
-        'Regenwater dat langs de schoorsteen naar beneden loopt naar buiten leiden over de dakpannen',
+        'Regenwater langs de schoorsteen naar buiten over de pannen leiden',
         'De schoorsteen verankeren aan de kapconstructie',
       ],
       correctIndex: 2,
@@ -702,7 +702,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       options: [
         'Om de latei thermisch te isoleren tegen koudebruggen.',
         'Om regenwater bij de oplegging af te voeren.',
-        'Om de latei vrij te laten werken (uitzetten en krimpen) zonder het metselwerk eronder mee te nemen.',
+        'Om de latei vrij te laten uitzetten en krimpen',
         'Om geluidsoverdracht door de muur te verminderen.',
       ],
       correctIndex: 2,
@@ -734,7 +734,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Wat is een geveldrager?',
       options: [
         'Een betonnen latei die zowel binnen- als buitenspouwblad ondersteunt.',
-        'Een stalen profiel waaraan het voorgevelsteen via een afgehangen lip wordt opgehangen.',
+        'Een stalen profiel waaraan de gevelsteen wordt opgehangen',
         'Een houten draagbalk in de spouw boven een kozijn.',
         'Een gemetselde rollaag met ingelegde wapeningskorf.',
       ],
@@ -765,7 +765,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Een staltonlatei is...',
       options: [
         'Een prefab betonlatei met ingestort wapeningsstaal',
-        'Een latei van geprefabriceerd gewapend metselwerk, met een ingelegde wapeningskorf',
+        'Een latei van prefab gewapend metselwerk met wapeningskorf',
         'Een speciale stalen latei voor brede openingen',
         'Een latei van cellenbeton',
       ],
@@ -802,7 +802,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Hoe wordt een doorgestreken voeg gemaakt?',
       options: [
         'De voeg wordt na het metselen uitgekrabd en met een speciale voegmortel ingevuld.',
-        'Direct na het metselen wordt het overtollige specie met de troffel gladgestreken — geen apart voegwerk.',
+        'Het specie wordt direct na het metselen gladgestreken',
         'De voeg krijgt een opstaande rib (knip) tijdens het voegen.',
         'De voeg wordt na droging met een snijbeitel afgewerkt tot een scherpe lijn.',
       ],
@@ -835,7 +835,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       options: [
         'Lagere bouwkosten omdat er geen wapening nodig is.',
         'Hogere brandwerendheid dan traditioneel metselwerk.',
-        'Snellere bouw en een vlakker oppervlak dat met minder stukadoorswerk te af te werken is.',
+        'Snellere bouw en een vlakker, makkelijker af te werken oppervlak',
         'Een betere geluidsisolatie dan traditioneel metselwerk.',
       ],
       correctIndex: 2,
@@ -870,7 +870,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       options: [
         'Geluidsisolatie is altijd onvoldoende.',
         'De muur is niet brandwerend genoeg volgens het Bbl.',
-        'Vochtdoorslag van regen kan optreden, omdat er geen luchtspouw is die het vocht onderbreekt.',
+        'Vochtdoorslag van regen, want er is geen onderbrekende spouw',
         'De muur kan het gewicht van een verdiepingsvloer niet dragen.',
       ],
       correctIndex: 2,
@@ -887,7 +887,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
         'Wat is het kenmerkende verschil tussen een handvormsteen en een vormbaksteen?',
       options: [
         'Handvormstenen zijn altijd geglazuurd, vormbakstenen niet.',
-        'Handvormstenen hebben een levendiger, onregelmatiger oppervlak; vormbakstenen worden machinaal in een vormbak geperst en zijn regelmatiger.',
+        'Handvormsteen is onregelmatiger; vormbaksteen wordt machinaal geperst',
         'Handvormstenen zijn dunner dan vormbakstenen.',
         'Vormbakstenen worden niet gebakken, handvormstenen wel.',
       ],
@@ -902,7 +902,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Voor welke toepassing wordt verblendsteen vaak gekozen?',
       options: [
         'Als binnenspouwblad, omdat de steen extra licht is.',
-        'Als gevelsteen voor representatieve gevels, omdat verblendsteen extra dichtgebakken en daardoor sterker en gladder is.',
+        'Als gevelsteen — verblendsteen is sterker en gladder',
         'Als funderingssteen onder het maaiveld.',
         'Als isolatiesteen vanwege de holle structuur.',
       ],
@@ -920,7 +920,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
         'Hoe verschilt een Vechtformaat van een Waalformaat?',
       options: [
         'Vechtformaat is langer dan Waalformaat.',
-        'Vechtformaat heeft dezelfde lengte en breedte als Waalformaat, maar is hoger (~65 mm i.p.v. ~50 mm).',
+        'Zelfde lengte/breedte als Waalformaat, maar hoger (~65 mm)',
         'Vechtformaat is alleen in kalkzandsteen verkrijgbaar.',
         'Er is geen verschil; beide termen verwijzen naar dezelfde steen.',
       ],
@@ -954,7 +954,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       options: [
         'Het aantal koppen in een steensmuur.',
         'De gemiddelde dikte van één voeg.',
-        'De totale breedte van een vooraf bepaald aantal koppen inclusief de tussenliggende stootvoegen.',
+        'De breedte van een aantal koppen inclusief de stootvoegen',
         'De diepte waarop een latei wordt opgelegd.',
       ],
       correctIndex: 2,
@@ -981,7 +981,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Waarvoor wordt het koppenverband (patijtsverband) typisch toegepast?',
       options: [
         'Voor brede dragende muren in fabrieken.',
-        'Voor gebogen muurdelen, omdat korte koppen zich makkelijk in een kromming voegen.',
+        'Voor gebogen muurdelen — koppen volgen de kromming',
         'Voor halfsteens binnenmuren.',
         'Als versteviging boven een latei.',
       ],
@@ -1009,7 +1009,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt:
         'Bij de aansluiting van een houten kozijn op metselwerk wordt vaak een loodslab toegepast. Waar zit die loodslab meestal?',
       options: [
-        'Onder de onderdorpel, om water dat naar binnen dreigt te komen naar buiten te leiden.',
+        'Onder de onderdorpel, om water naar buiten te leiden',
         'Aan de binnenzijde van het kozijn, om geluidsoverdracht te voorkomen.',
         'Boven het glas, om de beglazing op zijn plaats te houden.',
         'Tussen kozijn en stelregel, voor brandwering.',
@@ -1027,7 +1027,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       options: [
         'Voor ventilatie van de spouw.',
         'Voor visuele markering door de metselaar.',
-        'Om eventueel water op de loodslab via die open stootvoeg naar buiten af te voeren.',
+        'Om water op de loodslab naar buiten af te voeren',
         'Om de loodslab op zijn plaats te houden tegen wind.',
       ],
       correctIndex: 2,
@@ -1043,7 +1043,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Wat is hét kenmerkende verschil tussen een rondboog en een spitsboog?',
       options: [
         'De rondboog gebruikt geen wig-stenen, de spitsboog wel.',
-        'De rondboog is een halve cirkel, de spitsboog is samengesteld uit twee bogen die elkaar bovenin in een punt ontmoeten.',
+        'Rondboog = halve cirkel; spitsboog = twee bogen in een punt',
         'De rondboog is altijd breder dan een spitsboog.',
         'De spitsboog wordt alleen in kerken toegepast, de rondboog overal.',
       ],
@@ -1065,7 +1065,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
         'Wanneer kies je een stalen kantelprofiel in plaats van een betonlatei boven een opening in een spouwmuur?',
       options: [
         'Altijd, omdat staal lichter is.',
-        'Bij brede openingen waarbij je een slank profiel wilt dat zowel het binnen- als buitenspouwblad ondersteunt zonder dat een dikke betonlatei zichtbaar wordt.',
+        'Bij brede openingen met een slank profiel zonder zichtbare betonlatei',
         'Alleen bij bestaande bouw.',
         'Nooit; betonlateien zijn in nieuwbouw altijd verplicht.',
       ],
@@ -1097,7 +1097,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Wat is karakteristiek voor een schaduwvoeg?',
       options: [
         'De voeg is overal gelijk verdiept ten opzichte van het steenvlak.',
-        'De voeg is sterk verdiept aan de onderzijde en plat aan de bovenkant — dat geeft een uitgesproken slagschaduw onder de steen.',
+        'De voeg is onder verdiept en boven plat — sterke slagschaduw',
         'De voeg is gladgestreken met de troffel.',
         'De voeg is afgewerkt met witte specie.',
       ],
@@ -1141,7 +1141,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
         'Hoe worden geprefabriceerde betonelementen onderling aangesloten? Telt dat als voegloos?',
       options: [
         'Met traditionele specie van 10 mm — niet voegloos.',
-        'Met dunne kit- of foambandverbindingen tussen de elementen — visueel vrijwel voegloos.',
+        'Met dunne kit- of foambandverbindingen, vrijwel voegloos',
         'Met loodslabben overal — niet voegloos.',
         'Met houten tussenstroken — niet voegloos.',
       ],

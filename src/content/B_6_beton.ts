@@ -461,7 +461,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Wat is een TT-vloer?',
       options: [
         'Een dunne breedplaatvloer met netwapening',
-        'Een voorgespannen vloer met twee neergaande T-balkjes onder een dunne plaat',
+        'Een voorgespannen vloer met twee T-balkjes onder een plaat',
         'Een PS-combinatievloer met geprofileerde toplaag',
         'Een keramische vulvloer op staltonlateien',
       ],
@@ -543,7 +543,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Wat is in betonspecie de rol van het cement?',
       options: [
         'Toeslagstof — vult de holle ruimten tussen grindkorrels',
-        'Bindmiddel — reageert chemisch met water en bindt de toeslagstoffen',
+        'Bindmiddel — bindt de toeslagstoffen',
         'Wapening — vangt trekkrachten op',
         'Hulpstof — verlengt de uithardingstijd',
       ],
@@ -594,7 +594,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
       options: [
         'Onderaan, langs de hele lengte van het balkon',
         'In het midden van de dikte, gelijkmatig verdeeld',
-        'Bovenaan, vlak onder het oppervlak, dicht bij de inklemming aan de gevel',
+        'Bovenaan, dicht bij de inklemming aan de gevel',
         'Verticaal, loodrecht op de gevel',
       ],
       correctIndex: 2,
@@ -609,7 +609,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Waarom is staal een goed materiaal als wapening in beton?',
       options: [
         'Staal en beton hebben sterk verschillende uitzettingscoëfficiënten — dat geeft extra grip',
-        'Staal en beton hebben een vrijwel gelijke uitzettingscoëfficiënt, en in basisch beton roest het staal niet',
+        'Staal en beton zetten gelijk uit en staal roest niet in beton',
         'Staal smelt sneller dan beton — handig bij brand',
         'Staal heeft een hogere druksterkte dan beton — vandaar de drukzone',
       ],
@@ -625,7 +625,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Wat is het principe van **voorgespannen beton**?',
       options: [
         'Het beton wordt onder hoge druk verdicht voordat de wapening wordt aangebracht',
-        'De wapening wordt onder trekspanning gezet vóór de specie eromheen wordt gestort; bij ontspannen drukt het krimpende staal het beton voor',
+        'De wapening staat onder trek vóór het storten en drukt het beton voor',
         'Het beton wordt na uitharding mechanisch samengeperst met spanstaven aan de buitenkant',
         'Er wordt extra cement toegevoegd om voorspanning op te wekken',
       ],
@@ -643,7 +643,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Waarom wordt voor de funderingsbalken van een woning gewapend beton (en geen onverstevigd beton) gebruikt?',
       options: [
         'Onverstevigd beton hardt niet onder de grond',
-        'In funderingsbalken treden trekspanningen op (overspanning tussen palen of poeren), die alleen wapening kan opnemen',
+        'In funderingsbalken treden trekspanningen op die wapening opneemt',
         'Wapening is verplicht onder de grondwaterspiegel',
         'Wapening maakt het beton beter waterdicht',
       ],
@@ -709,7 +709,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Hoe wordt de betondekking tijdens het storten gegarandeerd?',
       options: [
         'Door de wapening na het storten met een trilnaald naar binnen te duwen',
-        'Door afstandhouders (“toffees”) van mortel of kunststof tussen wapening en bekisting',
+        'Door afstandhouders (“toffees”) tussen wapening en bekisting',
         'Door extra cement op het oppervlak aan te brengen',
         'Door de bekisting met ontkistingsolie te behandelen',
       ],
@@ -725,7 +725,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Een beton met de aanduiding **C 25/30** betekent dat:',
       options: [
         '25% cement en 30% zand in volumedelen',
-        'De cilinderdruksterkte 25 N/mm² is en de kubusdruksterkte 30 N/mm² na 28 dagen',
+        'Cilinderdruksterkte 25 en kubusdruksterkte 30 N/mm²',
         'Een w.c.f. tussen 0,25 en 0,30',
         '25 mm betondekking, 30 mm wapeningsdiameter',
       ],
@@ -741,7 +741,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Wat geeft een **milieuklasse** (bijv. XF3, XS2) bij beton aan?',
       options: [
         'De minimale w.c.f. die toegestaan is',
-        'De agressiviteit van de omgeving waartegen het beton bestand moet zijn',
+        'De agressiviteit van de omgeving',
         'De druksterkte na 28 dagen',
         'De plaats waar de wapening moet zitten',
       ],
@@ -759,7 +759,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Wat is de primaire oorzaak van **betonrot**?',
       options: [
         'Te lange uithardingstijd',
-        'Te geringe betondekking, waardoor wapeningsstaal gaat roesten en het beton afspringt',
+        'Te geringe betondekking: wapening roest en beton springt af',
         'Een te lage w.c.f., waardoor het beton bros wordt',
         'Te veel grind in de mengverhouding',
       ],
@@ -776,7 +776,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
       options: [
         'Roestbruine vlekken die in lijnen langs de wapening lopen',
         'Lokale gebieden met los grind zonder bindmortel ertussen',
-        'Een fijn netwerk van haarscheurtjes aan het oppervlak — een patroon van uitgedroogde modder',
+        'Een fijn netwerk van haarscheurtjes aan het oppervlak',
         'Diepe scheuren dwars door het beton, vaak verticaal',
       ],
       correctIndex: 2,
@@ -791,7 +791,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Wat veroorzaakt een **grindnest** in een betonconstructie?',
       options: [
         'Roest van de wapening',
-        'Slechte verdichting of ontmenging tijdens het storten — fijne specie ontbreekt lokaal',
+        'Slechte verdichting of ontmenging tijdens het storten',
         'Een te lage cementkwaliteit',
         'Te veel water in de specie',
       ],
@@ -807,7 +807,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Welke maatregel **voorkomt** craquelé in een verse betonvloer?',
       options: [
         'Onmiddellijk na storten dekvloer aanbrengen',
-        'Het beton afdekken met plastic of bouwzeil en regelmatig natmaken (curing)',
+        'Het beton afdekken en nathouden (curing)',
         'Extra cement toevoegen aan de toplaag',
         'De wapening dichter onder het oppervlak leggen',
       ],
@@ -824,7 +824,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
       options: [
         'Het balkon overschilderen met een dichte verflaag',
         'Een nieuwe afwerkvloer aanbrengen over het beschadigde beton',
-        'Aangetast beton ruim uithakken, roest van wapening verwijderen of vervangen, spuitmortel (met vezels) aanbrengen, daarna afwerken',
+        'Aangetast beton uithakken, wapening ontroesten, spuitmortel aanbrengen',
         'Een isokorf inbouwen op de bestaande wapening',
       ],
       correctIndex: 2,
@@ -841,7 +841,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Wat is karakteristiek voor een **paddenstoelvloer**?',
       options: [
         'Een prefab plaat met polystyreen vulelementen',
-        'Een vlakke plaatvloer zonder balken, waarbij kolommen aan de bovenkant zijn verbreed tot een “champignonkop”',
+        'Een vlakke plaatvloer met verbrede kolomkoppen (paddenstoelvloer)',
         'Een vloer met diagonale ribben in een gridpatroon',
         'Een geprofileerde staalplaat met afgegoten beton',
       ],
@@ -858,7 +858,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
       options: [
         'De onderzijde van een prefab vloer, zichtbaar als plafond',
         'Een dragende vloerconstructie van prefab balken',
-        'Een niet-dragende afwerklaag boven op een dragende ondervloer, vaak van cement of anhydriet',
+        'Een niet-dragende afwerklaag op de ondervloer (dekvloer)',
         'Een betonnen vloer met druklaag tussen prefab elementen',
       ],
       correctIndex: 2,
@@ -873,7 +873,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Hoe werkt een **zwaluwstaartplaatvloer**?',
       options: [
         'Polystyreen vulelementen worden in zwaluwstaartvorm afgegoten',
-        'Een geprofileerde staalplaat met zwaluwstaart-uitsparingen dient als bekisting; de uitsparingen geven het in-werk gestorte beton mechanische grip op de plaat',
+        'Een staalplaat met zwaluwstaart-profiel als blijvende bekisting',
         'Twee houten platen in een zwaluwstaartverbinding vormen de bekisting',
         'Prefab kanaalplaten worden in een zwaluwstaartpatroon naast elkaar gelegd',
       ],
@@ -891,7 +891,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Een kanaalplaatvloer wordt op een dragende muur gelegd. Hoe worden de elementen tot één vloer verbonden?',
       options: [
         'Met spijkers door de kanaalplaten in de balklaag eronder',
-        'De kelknaden (V-vormige naden tussen platen) worden met fijne specie volgegoten, eventueel met wapening of koppelankers',
+        'De kelknaden tussen de platen worden met specie volgegoten',
         'De platen worden onderling gelast',
         'Met bouten door de oplegging in de muur vastgezet',
       ],
@@ -907,7 +907,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Prefab gevel-elementen worden vaak gemonteerd met **tand/nokken-oplegging**. Wat houdt dat in?',
       options: [
         'De gevelelementen worden onderling vastgelijmd met epoxyhars',
-        'In het element zit een uitstekende nok of tand die in een uitsparing van de draagstructuur valt; dit vergrendelt en draagt het element',
+        'Een uitstekende nok valt in een uitsparing en vergrendelt het element',
         'De gevelelementen worden door middel van bouten aan de buitenkant vastgemaakt',
         'De elementen worden tijdelijk geschoord en pas later definitief afgewerkt',
       ],
@@ -942,7 +942,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
       options: [
         'Lange uithardingstijd op de bouwplaats',
         'Grote afhankelijkheid van het weer voor de fabricage',
-        'Naden en aansluitingen zijn kwetsbaar voor koudebruggen, lekkage en geluidslekken',
+        'Naden zijn kwetsbaar voor koudebruggen, lekkage en geluid',
         'Hogere vochtinbreng bij oplevering',
       ],
       correctIndex: 2,
@@ -957,7 +957,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Wanneer is prefab beton **commercieel het meest aantrekkelijk**?',
       options: [
         'Bij maatwerk-villa’s met unieke vormen',
-        'Bij sterk repeterende seriebouw (rijwoningen, appartementen, kantoorblokken)',
+        'Bij sterk repeterende seriebouw',
         'Bij kleine renovaties en aanbouwen',
         'Bij oplossingen met veel sparingen en doorvoeren',
       ],

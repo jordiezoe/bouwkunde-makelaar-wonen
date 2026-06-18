@@ -464,7 +464,7 @@ Risico's bij kelders:
       prompt: 'Waarom kun je in Oost-Nederland (zandgrond aan het oppervlak) vaak op staal funderen, en in West-Nederland niet?',
       options: [
         'In Oost-Nederland is de luchtvochtigheid lager.',
-        'In Oost-Nederland ligt de draagkrachtige zandlaag aan of dicht onder het oppervlak; in West-Nederland zit boven het zand een dik pakket slappe klei en veen.',
+        'In het oosten ligt zand hoog, in het westen onder slappe klei en veen',
         'In West-Nederland zijn de bouwwerken lichter en hebben ze minder fundering nodig.',
         'In Oost-Nederland is geen grondwater aanwezig.',
       ],
@@ -479,7 +479,7 @@ Risico's bij kelders:
       prompt: 'Wat is "spanningswater"?',
       options: [
         'Water onder hoge druk in de waterleiding.',
-        'Grondwater dat onder een afsluitende kleilaag is ingesloten en onder druk staat.',
+        'Ingesloten grondwater onder druk onder een kleilaag',
         'Het bovenste laagje grondwater in de kruipruimte.',
         'Water dat via spanningen in de constructie de gevel binnentrekt.',
       ],
@@ -545,7 +545,7 @@ Risico's bij kelders:
         'Waar wordt het sondeerdiagram in de praktijk voor gebruikt?',
       options: [
         'Om de WOZ-waarde van de grond te bepalen.',
-        'Om vast te stellen op welke diepte de draagkrachtige zandlaag begint en hoe stevig die is — bepaalt de palenlengte.',
+        'Om diepte en stevigheid van de zandlaag te bepalen',
         'Om de grondprijs vast te leggen.',
         'Om de gemeentegrens op de tekening te tonen.',
       ],
@@ -578,7 +578,7 @@ Risico's bij kelders:
         'Wanneer is een plaatfundering vaak de keuze in plaats van strokenfundering?',
       options: [
         'Bij gebouwen die geen muren hebben.',
-        'Bij zwaardere belastingen of bij iets minder draagkrachtige grond, omdat de belasting gelijkmatig over een groter oppervlak wordt verdeeld.',
+        'Bij zwaardere belasting of minder draagkrachtige grond',
         'Alleen bij gebouwen met een kelder.',
         'Bij vakantiewoningen op zandgrond.',
       ],
@@ -595,7 +595,7 @@ Risico's bij kelders:
       prompt: 'Wat is bronbemaling?',
       options: [
         'Het permanent afvoeren van grondwater via een drainagesysteem.',
-        'Het tijdelijk verlagen van de grondwaterstand rond een bouwput via verticale zuigbuizen (filters).',
+        'Tijdelijk de grondwaterstand rond de bouwput verlagen',
         'Het oppompen van regenwater uit een dakgoot.',
         'Het meten van het grondwaterpeil voor een bouwplan.',
       ],
@@ -611,7 +611,7 @@ Risico's bij kelders:
       options: [
         'Een houten damwand met diagonale verstijvingen.',
         'Een tijdelijke damwand alleen geschikt voor zandgrond.',
-        'Stalen H-balken op afstand geplaatst, met houten of stalen platen daartussen — vaak gebruikt in stedelijke bouwputten.',
+        'Stalen H-balken met houten of stalen platen ertussen',
         'Een ondergrondse betonwand voor parkeergarages.',
       ],
       correctIndex: 2,
@@ -626,7 +626,7 @@ Risico's bij kelders:
         'Waarom is "spanningsbemaling" soms nodig?',
       options: [
         'Om de gewone bouwbemaling extra kracht te geven.',
-        'Om de druk van het spanningswater onder een afsluitende kleilaag te verlagen, zodat de bouwput niet van onderaf opbarst.',
+        'Om de spanningswaterdruk te verlagen tegen opbarsten',
         'Om de hoogte van de damwanden te bepalen.',
         'Om grondwater te zuiveren voordat het terug wordt gepompt.',
       ],
@@ -643,7 +643,7 @@ Risico's bij kelders:
       prompt: 'Wat is het kenmerkende verschil tussen de Amsterdamse en de Rotterdamse heimethode?',
       options: [
         'Amsterdamse methode gebruikt stalen palen, Rotterdamse houten.',
-        'Amsterdamse methode = één rij palen per draagmuur; Rotterdamse methode = twee rijen palen per draagmuur.',
+        'Amsterdam: één palenrij per muur; Rotterdam: twee rijen',
         'Amsterdamse methode is sneller; Rotterdamse zuiniger.',
         'Er is geen verschil, beide termen zijn synoniem.',
       ],
@@ -660,7 +660,7 @@ Risico's bij kelders:
       options: [
         'Prefab betonpaal (heien)',
         'Houten heipaal (heien)',
-        'Boor-/avegaarpaal (in-situ gemaakt, trillingsvrij)',
+        'Boor-/avegaarpaal (trillingsvrij)',
         'Stalen buispaal (geheid)',
       ],
       correctIndex: 2,
@@ -675,7 +675,7 @@ Risico's bij kelders:
         'Wat is een "houten paal met betonopzetter"?',
       options: [
         'Een paal met aan de bovenkant een betonnen schoenpunt voor extra grip.',
-        'Een paal die uit een houten ondergedeelte (onder grondwater) en een betonnen bovendeel bestaat — overgangsoplossing tussen volledig houten en volledig betonnen palen.',
+        'Een paal met houten onderdeel en betonnen bovendeel',
         'Een betonpaal in een houten mantel.',
         'Een tijdelijke paal die later vervangen wordt door beton.',
       ],
@@ -692,7 +692,7 @@ Risico's bij kelders:
       prompt: 'Wat is KCAF?',
       options: [
         'Kadastrale Code Asbest-Funderingen — een register voor asbesthoudende funderingen.',
-        'Kenniscentrum Aanpak Funderingsproblematiek — landelijk loket voor advies en informatie over funderingsproblemen.',
+        'Kenniscentrum Aanpak Funderingsproblematiek',
         'Kosten Calculatie Aanneemsom Fundering — rekenformat van bouwbedrijven.',
         'Klimaatadaptatie Centrum Funderingen — onderdeel van het waterschap.',
       ],
@@ -708,7 +708,7 @@ Risico's bij kelders:
         'Waarvoor raadpleeg je het Dinoloket?',
       options: [
         'Voor informatie over fossielen en dinosauruslijnen onder Nederland.',
-        'Voor TNO-geologische data: alle officiële sonderingen, boringen en grondmechanische gegevens van Nederland.',
+        'Alle officiële sonderingen, boringen en grondgegevens',
         'Voor de jaarlijkse staat van het Nederlandse grondwater.',
         'Voor het kadastrale register van eigendomspercelen.',
       ],
@@ -727,7 +727,7 @@ Risico's bij kelders:
       options: [
         'Vocht in de spouwmuur na hevige regen.',
         'Een schimmellaag op de noordmuur.',
-        'Klemmende deuren, scheve vloeren en diagonale scheuren in de gevel — vaak in combinatie.',
+        'Klemmende deuren, scheve vloeren en gevelscheuren',
         'Een lage U-waarde van het glas.',
       ],
       correctIndex: 2,
@@ -742,7 +742,7 @@ Risico's bij kelders:
         'Welk signaal in een kruipruimte kan duiden op problemen met houten paalfundering?',
       options: [
         'Spinnenwebben op de leidingen.',
-        'Verschillen tussen droge en natte zones (afwisselend nat-droog), zichtbare rotting aan houten elementen, en/of een ongewoon lage grondwaterstand.',
+        'Afwisselend natte/droge zones en rotting aan houten delen',
         'Een licht muffe geur die ontstaat door normale ventilatie.',
         'Een stoffige kruipluikrand.',
       ],
@@ -759,7 +759,7 @@ Risico's bij kelders:
       prompt: 'Wat is de hoofdoorzaak van paalrot bij houten heipalen?',
       options: [
         'Onvoldoende impregnering van het hout.',
-        'Grondwaterdaling waardoor palen periodiek boven water komen — afwisselend nat en droog veroorzaakt rotting.',
+        'Palen komen droog te staan en gaan daardoor rotten',
         'Vochtindringing van bovenaf vanuit de bovenste cultuurlaag.',
         'Trillingen van vrachtverkeer.',
       ],
@@ -775,7 +775,7 @@ Risico's bij kelders:
         'Welke oorzaak van funderingsproblemen geldt specifiek voor grenenhouten palen?',
       options: [
         'Vorstschade.',
-        'Bacteriële aantasting — die onafhankelijk van de grondwaterstand kan optreden.',
+        'Bacteriële aantasting van het hout',
         'Aantasting door zoutwater uit zee.',
         'Verbranding door blikseminslag.',
       ],
@@ -793,7 +793,7 @@ Risico's bij kelders:
         'Wat is een effectieve maatregel om bestaande houten paalfundering te beschermen tegen verdere paalrot?',
       options: [
         'De houten palen vervangen door betonopzetters.',
-        'De grondwaterstand stabiel hooghouden via drainage, infiltratie en samenwerking met waterschap.',
+        'De grondwaterstand stabiel hooghouden',
         'Het pand 5 meter optillen.',
         'De gevel laten herstrijken met waterglas.',
       ],
@@ -809,7 +809,7 @@ Risico's bij kelders:
         'Een klant overweegt aankoop van een woning uit 1910 in West-Nederland. Welk advies geef je over de fundering?',
       options: [
         'Niet nodig om iets te onderzoeken — dat doet de hypotheekverstrekker.',
-        'Vraag het funderingsrapport op (of laat een KCAF/F30-onderzoek doen) om paalrot- en bacterierisico vooraf te kennen.',
+        'Het funderingsrapport opvragen of onderzoek laten doen',
         'Wacht tot je het eerste teken van scheuren ziet.',
         'Vraag de verkoper de palen handmatig na te kijken in de kruipruimte.',
       ],
@@ -826,7 +826,7 @@ Risico's bij kelders:
       prompt: 'Hoe komt een sondeerdiagram tot stand?',
       options: [
         'Door een gat te boren en daar visueel naar grondsoorten te kijken.',
-        'Door een stalen meetconus met grote kracht de grond in te drukken en daarbij de weerstand tegen de diepte te meten.',
+        'Een meetconus de grond in drukken en de weerstand meten',
         'Door radarpulsen vanaf het maaiveld in de grond te sturen.',
         'Door grondmonsters in een laboratorium te beproeven.',
       ],
@@ -841,7 +841,7 @@ Risico's bij kelders:
       prompt: 'Wat staat er op een boorstaat?',
       options: [
         'De financiële afspraken tussen aannemer en boorbedrijf.',
-        'Een grafische weergave per diepte van de aangetroffen grondlagen (met arceringen voor klei, veen, zand) — gebaseerd op visuele beoordeling van de bovengehaalde grondmonsters.',
+        'Een grafische weergave van de grondlagen per diepte',
         'De volledige sondeerwaarden over diepte uitgezet.',
         'De gemeentelijke grondbestemming op een perceel.',
       ],
@@ -869,7 +869,7 @@ Risico's bij kelders:
         'Welk percentage of welke regel geldt voor de ventilatie van een kruipruimte?',
       options: [
         'Geen specifieke eis — een dichte kruipruimte mag ook.',
-        'Minimaal 4 cm² ventilatieopening per m² vloeroppervlak, bij voorkeur aan twee zijden voor dwarsventilatie.',
+        'Minimaal 4 cm² ventilatieopening per m² vloer',
         '10% van het vloeroppervlak moet open zijn.',
         'Minimaal één rooster per m² vloeroppervlak.',
       ],
@@ -886,7 +886,7 @@ Risico's bij kelders:
       prompt: 'Wat is een koekoek bij een kelder?',
       options: [
         'Een speciaal type kelderpomp.',
-        'Een verticale lichtschacht in de gevel die daglicht en ventilatie aan een kelderraam geeft.',
+        'Een lichtschacht voor daglicht en lucht bij een kelderraam',
         'Een vergrendelingsmechanisme van de kelderdeur.',
         'De waterafdichting tussen kelder en bovengrondse muur.',
       ],
@@ -901,7 +901,7 @@ Risico's bij kelders:
       prompt: 'Wat is de "kim" van een kelder?',
       options: [
         'De vloer van de kelder.',
-        'De waterkering op de overgang tussen waterdichte kelderwand en bovengronds metselwerk.',
+        'De waterkering tussen kelderwand en bovengronds metselwerk',
         'De pomp tegen lekkages.',
         'De bovenste rand van de koekoek.',
       ],
@@ -917,7 +917,7 @@ Risico's bij kelders:
         'Welk waterafdichtingssysteem maakt een moderne kelder waterdicht tegen grondwater?',
       options: [
         'Alleen een dikke laag stucwerk aan de binnenkant.',
-        'Bijvoorbeeld: bitumen of EPDM-folie tegen de buitenkant van de kelderwand, gewapend beton als kelderbak, en drainage om de wand om grondwaterdruk te beperken.',
+        'Bitumen/EPDM tegen de wand, een betonbak en drainage',
         'Niets — moderne kelders zijn waterdicht door hun gewicht.',
         'Een houten beschot aan de binnenkant met kit afgedicht.',
       ],
