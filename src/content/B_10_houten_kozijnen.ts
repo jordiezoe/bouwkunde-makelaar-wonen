@@ -415,7 +415,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       prompt: 'Wat is de **dagmaat** van een kozijn?',
       options: [
         'De maat buitenkant tot buitenkant van het kozijn',
-        'De vrije opening binnenin het kozijn (zonder de stijlen en dorpels mee te tellen)',
+        'De vrije opening binnen het kozijn',
         'De som van de afmetingen van alle deuren en ramen',
         'De afstand van de bovendorpel tot de bovenkant van de muur',
       ],
@@ -441,7 +441,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       options: [
         'De maat van de deur zelf (deurmaat)',
         'De vrije doorgang met geopende deur',
-        'De maat buitenkant tot buitenkant van het kozijn — wat in de muur uitgespaard wordt',
+        'De maat buitenkant tot buitenkant van het kozijn',
         'Het verschil tussen dagmaat en sponningmaat',
       ],
       correctIndex: 2,
@@ -474,7 +474,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       options: [
         'Een raam dat naar buiten draait én bovenaan scharnier heeft',
         'Een raam met scharnier in boven- en onderdorpel — draait om de verticale as',
-        'Een raam dat met één kruk in drie standen kan: dicht, draaien (als een deur) of kiepen (klep naar binnen)',
+        'Een raam dat dicht, draaien én kiepen kan met één kruk',
         'Een raam dat aan beide zijden kan worden geopend',
       ],
       correctIndex: 2,
@@ -503,7 +503,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       prompt: 'Wat is een **taatsraam**?',
       options: [
         'Een raam dat horizontaal langs een rail schuift',
-        'Een raam met draaipunten in boven- en onderdorpel — taatst om de verticale as (helft naar binnen, helft naar buiten)',
+        'Een raam dat om de verticale as taatst',
         'Een raam dat alleen in bedrijfshallen voorkomt',
         'Een raam zonder hang- en sluitwerk',
       ],
@@ -519,7 +519,7 @@ Twee uitvoeringen om het verschil te accommoderen:
         'Op een tekening zie je een **streeplijn** met een driehoek wijzend naar één stijl. Wat betekent dit?',
       options: [
         'Een naar buiten draaiend raam — scharnier aan de aangewezen stijl',
-        'Een naar binnen draaiend raam — scharnier aan de basis van de driehoek (de aangewezen stijl)',
+        'Een naar binnen draaiend raam, scharnier aan de zijstijl',
         'Een vast raam zonder beweegbare delen',
         'Een ventilatieopening',
       ],
@@ -534,7 +534,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       prompt: 'Het verschil tussen een **stolpnaald** en een **tongnaald** is:',
       options: [
         'Stolpnaald is van hardhout, tongnaald van zacht hout',
-        'Met een stolpnaald openen beide ramen tegelijk; met een tongnaald kan één raam open en blijft de ander dicht',
+        'Stolpnaald: beide ramen samen; tongnaald: één apart',
         'Een tongnaald wordt alleen in monumentenwerk gebruikt',
         'Een stolpnaald gebruikt geen espagnolet',
       ],
@@ -552,7 +552,7 @@ Twee uitvoeringen om het verschil te accommoderen:
         'Wanneer wordt een **inmetselkozijn** in het werk geplaatst?',
       options: [
         'Tijdens de afbouwfase — als alle muren al af zijn',
-        'Tijdens de ruwbouw — eerst kozijn stellen, dan muren ertegenaan opmetselen',
+        'Tijdens de ruwbouw: eerst kozijn stellen, dan metselen',
         'Pas na het schilderwerk',
         'In de fabriek, samen met de muurelementen',
       ],
@@ -568,7 +568,7 @@ Twee uitvoeringen om het verschil te accommoderen:
         'Waarom worden **aluminium- en kunststofkozijnen** vrijwel altijd als montagekozijn (in een stelkozijn) toegepast?',
       options: [
         'Ze zijn te zwaar om in te metselen',
-        'Ze worden door verse mortel, cement en gips aangetast — direct contact veroorzaakt blijvende schade',
+        'Verse mortel, cement en gips tasten ze aan',
         'Ze passen niet in een standaard kalksponning',
         'Inmetselen geeft te veel geluidsoverdracht',
       ],
@@ -583,7 +583,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       prompt: 'Een **voordeel** van een montagekozijn ten opzichte van een inmetselkozijn is:',
       options: [
         'Het is altijd goedkoper',
-        'Het kozijn loopt minder schade op tijdens bouwfase en komt fabrieksmatig afgewerkt op zijn plek',
+        'Minder bouwschade en fabrieksmatig afgewerkt',
         'Er zijn geen kozijnankers nodig',
         'De aansluiting op het metselwerk is automatisch waterdicht',
       ],
@@ -600,7 +600,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       prompt: 'Wat is een **kalf** in een kozijn?',
       options: [
         'De verticale stijl aan de zijkant',
-        'Een extra horizontale dorpel in het midden van het kozijn (tussendorpel) — bv. tussen vast en valraam',
+        'Een extra horizontale dorpel in het kozijn (tussendorpel)',
         'De binnenste laag van het glas',
         'De onderkant van een raamdorpelsteen',
       ],
@@ -615,7 +615,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       prompt: 'Een **lekdorpel / raamdorpelsteen** heeft als hoofdtaak:',
       options: [
         'Het kozijn ondersteunen bij draagkracht',
-        'Het water uit het glas opvangen en buiten het gevelvlak afvoeren — voorkomt vervuiling en vochttrekken',
+        'Water uit het glas buiten de gevel afvoeren',
         'De isolatie in de spouw vasthouden',
         'Geluidsisolatie verbeteren',
       ],
@@ -630,7 +630,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       prompt: 'Wat is de functie van een **DPC-slabbe** onder een onderdorpel?',
       options: [
         'Geluidsdemping tussen kozijn en muur',
-        'Een kunststof-folie die opgaand vocht uit het metselwerk tegenhoudt en naar buiten afvoert; voorkomt vochttransport naar het binnenspouwblad',
+        'Een folie die opgaand vocht tegenhoudt en afvoert',
         'Een isolerende laag tussen kozijn en spouw',
         'Een drainagekanaal voor condenswater',
       ],
@@ -659,7 +659,7 @@ Twee uitvoeringen om het verschil te accommoderen:
         'Volgens de Vakgroep Restauratie-aanpak: **wat is de eerste stap** bij houtrot in een kozijn?',
       options: [
         'Direct vol-plamuren met gewone houtplamuur',
-        'Diagnose stellen (prikken met priem of beitel) om de mate van rot vast te stellen',
+        'De mate van rot vaststellen (prikken met priem)',
         'Het hele kozijn vervangen door een nieuw exemplaar',
         'Een laag verf overheen schilderen',
       ],
@@ -676,7 +676,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       options: [
         'Standaard houtplamuur in 1 component',
         'Acrylaatkit',
-        '2-componenten epoxy- of polyurethaan-houtreparatiepasta — krimpt niet, blijft hechten en wordt na uitharden bewerkbaar als hout',
+        '2-componenten epoxy-houtreparatiepasta',
         'Gewone gipspleister',
       ],
       correctIndex: 2,
@@ -691,7 +691,7 @@ Twee uitvoeringen om het verschil te accommoderen:
         'Waarom moet bij houtrotherstel het aangetaste deel **tot in de gezonde kern** worden uitgehakt?',
       options: [
         'Voor een esthetische reden (rommel verbergen)',
-        'Anders wordt de schimmel ingesloten en woekert verder onder de reparatie — herstel komt terug',
+        'Anders woekert de schimmel verder onder de reparatie',
         'Voor extra hechting van de verf',
         'Het is een willekeurige conventie zonder bouwfysische reden',
       ],
@@ -708,7 +708,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       options: [
         'De reparatie open laten zonder afwerking',
         'Een dunne laag siliconenkit over de reparatie aanbrengen',
-        'Goed gronden + 2–3 lagen schilderen + onderhoudsschilderwerk elke 5–7 jaar; voegen rondom kozijn opnieuw kitten',
+        'Goed gronden, schilderen en periodiek onderhoud',
         'De reparatie onbehandeld laten zodat het hout kan ademen',
       ],
       correctIndex: 2,
@@ -724,7 +724,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       prompt:
         'Wat is een **rechtsdraaiende deur**?',
       options: [
-        'Een deur met scharnieren aan de rechterzijde, gezien van de scharnierkant — sluit met de klok mee',
+        'Een deur met scharnieren rechts (vanaf de scharnierkant)',
         'Een deur die naar rechts open zwaait, ongeacht waar de scharnieren zitten',
         'Een deur die alleen in een rechterhand-gebouw past',
         'Een deur die wordt geopend door rechts in te draaien',
@@ -741,7 +741,7 @@ Twee uitvoeringen om het verschil te accommoderen:
         'Bij een **stompe deur** valt de deur:',
       options: [
         'Volledig op het kozijn aan de zichtzijde',
-        'In het vlak van het kozijn — zichtkant van deur ligt gelijk met zichtkant van het kozijn aan de scharnierzijde',
+        'De deur ligt gelijk met het vlak van het kozijn',
         'Een halve dikte op het kozijn',
         'Iets onder het vlak van het kozijn',
       ],
@@ -757,7 +757,7 @@ Twee uitvoeringen om het verschil te accommoderen:
         'Een **opdekdeur** is herkenbaar aan:',
       options: [
         'De afwezigheid van kruk en slot',
-        'Een uitgenomen sponning in de deur waardoor de deur een lipje heeft dat over het kozijn ligt — deur valt deels op het kozijn',
+        'Een deur met een lipje dat over het kozijn valt',
         'Een afgeronde bovenhoek',
         'Een metalen rand rondom',
       ],
@@ -773,7 +773,7 @@ Twee uitvoeringen om het verschil te accommoderen:
         'In welke richting draaien deuren in **vluchtroutes van openbare gebouwen**?',
       options: [
         'Naar binnen, om de vluchtroute te scheiden',
-        'Naar buiten — in de vluchtrichting; bij paniek loopt de stroom op het slot, deur valt vanzelf open',
+        'Naar buiten, in de vluchtrichting',
         'Naar boven (klep)',
         'Maakt niet uit zolang ze open kunnen',
       ],

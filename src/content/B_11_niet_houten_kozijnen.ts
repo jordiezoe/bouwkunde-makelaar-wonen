@@ -231,7 +231,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
       prompt: 'Waarom worden in aluminium ramen vaak **kokerprofielen** gebruikt, soms met een houten of stalen verstijvings­balk erin?',
       options: [
         'Voor esthetische redenen — kokers zijn mooier',
-        'Aluminium heeft een lagere treksterkte en grotere elasticiteit dan staal — kokers + verstijving geven de benodigde stijfheid',
+        'Aluminium is elastischer; kokers en verstijving geven stijfheid',
         'Kokerprofielen zijn goedkoper te produceren dan massieve profielen',
         'Het verbetert de geluidsisolatie',
       ],
@@ -246,7 +246,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
       prompt: 'Wat is een **antikoudebrug-profiel** in een aluminium kozijn?',
       options: [
         'Een isolatieschuim dat in het profiel wordt gespoten',
-        'Een aluminium profiel dat in de lengte is doorgesneden en met een kunststofprofiel weer verbonden — de kunststof onderbreekt de warmtegeleiding',
+        'Een aluminium profiel met kunststof als koudebrugonderbreking',
         'Een dubbele rubber strip langs de aanslag',
         'Een houten balk die aan de binnenkant tegen het aluminium ligt',
       ],
@@ -263,7 +263,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
       options: [
         'Met schroeven en metalen hoeken',
         'Met lijm (epoxyhars)',
-        'Door smeltlassen — profielen worden tegen een verhit mes gehouden en daarna in elkaar gedrukt',
+        'Door smeltlassen tegen een verhit mes',
         'Met houten deuvels',
       ],
       correctIndex: 2,
@@ -277,7 +277,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
       prompt: 'Waarom worden aluminium kozijnen **altijd in een houten stelkozijn** (montagekozijn-principe) geplaatst en nooit direct ingemetseld?',
       options: [
         'Aluminium is te zwaar om in te metselen',
-        'Aluminium reageert agressief met verse mortel, cement, gips en teer — blijvende vlekken en putcorrosie',
+        'Aluminium reageert agressief met mortel, cement en gips',
         'Inmetselen is alleen toegestaan bij houten kozijnen volgens het Bbl',
         'Een aluminium kozijn past niet in een standaard kalksponning',
       ],
@@ -294,7 +294,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
       options: [
         'De bovendorpel van het kozijn draagt zelf de bovenliggende belasting',
         'Het stalen kozijn heeft een ingebouwde latei',
-        'Er moet altijd een latei boven het kozijn — de bovendorpel van een stalen kozijn mag nooit belast worden',
+        'Er moet altijd een latei boven — de bovendorpel draagt niet',
         'De ondersteuning komt automatisch via de kozijnankers',
       ],
       correctIndex: 2,
@@ -310,7 +310,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
       options: [
         'Voor de veiligheid van gebruikers',
         'Voor strakkere maatvoering',
-        'Verf hecht beter op afgeronde hoeken en springt minder snel af — anders dan op scherpe randen',
+        'Verf hecht beter op afgeronde hoeken',
         'Het is een Bbl-eis voor brandwerendheid',
       ],
       correctIndex: 2,
@@ -324,7 +324,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
       prompt: 'Welke versterking zit binnen een geëxtrudeerd kunststof (PVC) kozijnprofiel?',
       options: [
         'Een loodkern voor extra gewicht',
-        'Een houten of metalen profiel in de binnenste kamer — anders is PVC te slap voor hang- en sluitwerk',
+        'Een versterkingsprofiel in de PVC-kamer (anders te slap)',
         'Een isolatieschuim',
         'Een betonkern voor stevigheid',
       ],
@@ -340,7 +340,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
         'Wat is een **renovatiekozijn** in kunststof?',
       options: [
         'Een nieuw kozijn dat in plaats van een gesloopt oud kozijn komt',
-        'Een kunststof kozijn dat in een bestaand houten kozijn wordt geplaatst — geen sloop nodig',
+        'Een kunststof kozijn in een bestaand kozijn (renovatiekozijn)',
         'Een kozijn met verlaagde isolatie-eisen voor monumentaal werk',
         'Een tijdelijk kozijn tijdens de bouw',
       ],
@@ -358,7 +358,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
         'Wat is een **belangrijk voordeel van een houten kozijn** ten opzichte van aluminium en kunststof?',
       options: [
         'Houten kozijnen hebben lagere initiële prijs dan kunststof',
-        'Hout is hernieuwbaar en CO₂-opslaand, en kan eenvoudig in willekeurige kleur worden overgeschilderd',
+        'Hout is hernieuwbaar, CO₂-opslaand en overschilderbaar',
         'Hout heeft de beste warmte-isolatie van alle profielen',
         'Hout vraagt geen onderhoud',
       ],
@@ -374,7 +374,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
         'Het grootste **nadeel van een aluminium kozijn zonder koudebrug-onderbreking** is:',
       options: [
         'Hoge prijs van het materiaal',
-        'Slechte warmte-isolatie en condensvorming aan de binnenzijde door de uitstekende warmtegeleiding van aluminium',
+        'Slechte isolatie en condens door warmtegeleiding',
         'Korte levensduur',
         'Slechte bestendigheid tegen UV',
       ],
@@ -390,7 +390,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
       options: [
         'Slechte warmte-isolatie',
         'Hoge initiële prijs',
-        'Hoge lineaire uitzettings­coëfficiënt — niet geschikt voor zeer grote afmetingen; bovendien gevoelig voor kromtrekken door zonbelasting',
+        'Hoge uitzetting en kromtrekken bij grote afmetingen',
         'Korte levensduur (5–10 jaar)',
       ],
       correctIndex: 2,
@@ -404,7 +404,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
       prompt: 'Waarvoor is een **aluminium kozijn** typisch superieur aan een houten of kunststof kozijn?',
       options: [
         'Voor binnendeuren in een woonkamer',
-        'Voor zeer grote schuif-elementen en winkelpuien — slanke profielen met groot glasoppervlak en grote afmetingen',
+        'Voor grote schuif-elementen en winkelpuien',
         'Voor monumentaal werk',
         'Voor budget-nieuwbouw',
       ],
@@ -421,7 +421,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
       options: [
         'Hout',
         'Aluminium',
-        'Kunststof (PVC) — chloor uit het PVC wordt bij verbranding tot zoutzuur in bluswater en chloorgas',
+        'Kunststof (PVC) — geeft bij brand chloorgas/zoutzuur',
         'Staal',
       ],
       correctIndex: 2,
@@ -469,7 +469,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
       options: [
         'Kunststof — goedkoop en weinig onderhoud',
         'Aluminium — modern en strak',
-        'Staal — om de oorspronkelijke slanke profielen en uitstraling te behouden (eventueel in moderne uitvoering met thermische onderbreking)',
+        'Staal — om de slanke profielen te behouden',
         'Hout — universeel passend bij elk monument',
       ],
       correctIndex: 2,

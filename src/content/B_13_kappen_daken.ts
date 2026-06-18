@@ -662,7 +662,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       options: [
         'Eén hellend dakvlak',
         'Twee dakschilden die in een nok samenkomen',
-        'Vier dakvlakken die rondom op gelijke hoogte aansluiten, met hoekkepers',
+        'Vier dakvlakken rondom, met hoekkepers',
         'Vier dakschilden die in één nokpunt samenkomen',
       ],
       correctIndex: 2,
@@ -675,7 +675,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       type: 'mc',
       prompt: 'Een **mansardedak (gebroken dak)** is:',
       options: [
-        'Een zadeldak met twee verschillende hellingen — onderste steiler dan bovenste',
+        'Een zadeldak met twee verschillende hellingen',
         'Een schilddak met afgesneden topgevel',
         'Een tentdak op vierkante plattegrond',
         'Een dak met meerdere gootlijnen',
@@ -691,7 +691,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       prompt: 'Bij een fabriekshal met **sheddak** zit de glaswand meestal:',
       options: [
         'Op het zuiden — voor maximale lichtinval',
-        'Op het noorden — voor schaduwvrij, gelijkmatig licht zonder direct zonlicht op de werkvloer',
+        'Op het noorden, voor gelijkmatig schaduwvrij licht',
         'Op het oosten — voor ochtendlicht',
         'Op het westen — voor middaglicht',
       ],
@@ -707,7 +707,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Wat is het verschil tussen een **langskap** en een **dwarskap**?',
       options: [
         'Langskap is een lange, smalle kap; dwarskap is een korte, brede kap',
-        'In een langskap loopt de nok evenwijdig aan de langste gevel; in een dwarskap loopt de nok loodrecht op de langste gevel',
+        'Langskap: nok evenwijdig aan de gevel; dwarskap: loodrecht',
         'Langskap is voor woningen, dwarskap voor schuren',
         'Langskap heeft één goot, dwarskap altijd twee',
       ],
@@ -724,7 +724,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       prompt: 'Wat is het verschil tussen een **sporenkap** en een **gordingenkap**?',
       options: [
         'Bij sporenkap zijn de sporen evenwijdig aan de nok, bij gordingenkap loodrecht',
-        'Bij sporenkap staan de sporen loodrecht op de nok (van muurplaat naar nokbalk); bij gordingenkap lopen de gordingen evenwijdig aan de nok (van bouwmuur naar bouwmuur)',
+        'Sporenkap: sporen loodrecht op de nok; gordingenkap: gordingen evenwijdig',
         'Een sporenkap is alleen voor platte daken',
         'Een gordingenkap heeft geen dakbeschot',
       ],
@@ -740,7 +740,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       options: [
         'Een metalen plaat in de muur die aardbevingen opvangt',
         'Een dampscherm tussen muur en dak',
-        'Een horizontale balk op de bovenkant van de buitenmuur waarop sporen of spanten rusten',
+        'Een horizontale balk op de muur waarop sporen rusten (muurplaat)',
         'Een betonnen latei boven een gevelopening',
       ],
       correctIndex: 2,
@@ -755,7 +755,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'In een **vakwerkligger** zit:',
       options: [
         'Drukkracht in de onderrand en trekkracht in de bovenrand',
-        'Drukkracht in de bovenrand en trekkracht in de onderrand; diagonalen vooral op druk',
+        'Druk in de bovenrand, trek in de onderrand',
         'Alleen trekkracht in alle staven',
         'Alleen drukkracht in alle staven',
       ],
@@ -771,7 +771,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Waarom is een **buitenboeideel 30–50 mm lager** dan een binnenboeideel bij een plat dak?',
       options: [
         'Voor de esthetiek',
-        'Zodat bij verstopping van de hwa het water aan de buitenkant van het pand overloopt en zichtbaar is, niet via binnen langs het plafond',
+        'Zodat water bij verstopping aan de buitenkant overloopt',
         'Om koudebrug te voorkomen',
         'Omdat zink niet hoger mag dan het houtwerk',
       ],
@@ -787,7 +787,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Wat is de functie van een **vogelschroot** bij een pannendak?',
       options: [
         'Geluidsisolatie tussen pannen en dakbeschot',
-        'Een kunststofstrook aan de dakvoet die voorkomt dat vogels onder de pannen kunnen nestelen',
+        'Een strook aan de dakvoet tegen nestelende vogels (vogelschroot)',
         'Een kleurmodificatie van de dakpan',
         'Een stormbeschermer tegen opwaaien van pannen',
       ],
@@ -804,7 +804,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       prompt: 'Een **kilgoot** wordt geplaatst:',
       options: [
         'Aan de dakvoet langs de hele dakrand',
-        'In een kilkeper — de inwendige snijhoek tussen twee dakvlakken; verzamelt het water van beide vlakken',
+        'In een kilkeper — de inwendige snijhoek tussen twee vlakken',
         'Bovenop de spouwmuur als esthetische oplossing',
         'Halverwege het dak om extra capaciteit te bieden',
       ],
@@ -819,7 +819,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       prompt: 'Een **verholen goot** is:',
       options: [
         'Een hangende goot uit verzinkt staal',
-        'Een goot die verborgen onder de dakpannen ligt — esthetisch beter, maar gevoeliger voor verstopping',
+        'Een goot verborgen onder de dakpannen (verholen goot)',
         'Een goot binnenshuis voor regenwateropvang',
         'Een tijdelijke goot tijdens de bouw',
       ],
@@ -834,7 +834,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       prompt: 'Waarom moet bij een **zinken goot** om de ~10 m een **broekstuk (expansiestuk)** worden geplaatst?',
       options: [
         'Voor verbetering van de waterafvoer',
-        'Om temperatuurgerelateerde uitzetting en krimp van zink op te vangen — zonder broekstuk scheurt het zink',
+        'Om uitzetting en krimp van zink op te vangen',
         'Om de gootbeugels te ondersteunen',
         'Voor geluidsdemping bij regen',
       ],
@@ -850,7 +850,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Een **mastgoot** herkenbaar aan zijn vorm is:',
       options: [
         'Een rechthoekige goot met platte bodem',
-        'Een halfronde goot (cirkelsegment) — vorm van een afgesneden buis',
+        'Een halfronde goot (cirkelsegment)',
         'Een goot die binnen de gevel verborgen ligt',
         'Een goot met dubbele bodem voor wateropslag',
       ],
@@ -869,7 +869,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       options: [
         'Keramische pannen hebben een coating die verkleurt; betondakpannen blijven 100 jaar kleurvast',
         'Beide hebben dezelfde levensduur',
-        'Keramische pannen zijn kleurvast (kleur is gebakken) en gaan 60–100 jaar mee; betondakpannen hebben een coating die in 15–25 jaar verkleurt en gaan 30–60 jaar mee',
+        'Keramisch is kleurvast en gaat langer mee; beton verkleurt sneller',
         'Betondakpannen zijn moeilijker te vervangen dan keramische',
       ],
       correctIndex: 2,
@@ -883,7 +883,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       prompt: 'Het smoren-proces bij keramische pannen levert:',
       options: [
         'Helderrode pannen',
-        'Blauwzwarte pannen — door de zuurstof aan het eind van het bakken af te sluiten',
+        'Blauwzwarte pannen (gesmoord: zuurstof afgesloten)',
         'Een glanzende coating',
         'Een transparante glazuurlaag',
       ],
@@ -916,7 +916,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       prompt: 'Het verschil tussen **APP**- en **SBS**-bitumen is:',
       options: [
         'APP is goedkoper, SBS duurder',
-        'APP is uv-bestendig en geschikt voor zonbeschenen daken (geen ballast nodig); SBS is flexibeler maar vereist grindballast tegen uv-veroudering',
+        'APP is uv-bestendig; SBS is flexibeler maar vereist ballast',
         'APP heeft asfalt, SBS niet',
         'APP wordt gebrand, SBS niet',
       ],
@@ -933,7 +933,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       options: [
         'Asfaltshingles',
         'Zink met klangen',
-        'EPDM — synthetisch rubber in één grote vellenbaan, weinig naden, uv- en koudebestendig, levensduur 40+ jaar',
+        'EPDM — synthetisch rubber in grote banen, weinig naden',
         'Aluminium felsplaten',
       ],
       correctIndex: 2,
@@ -948,7 +948,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Wat is een **typische beperking** van een **rieten dak**?',
       options: [
         'Het is altijd duurder dan koperen dakbedekking',
-        'Brandgevoeligheid — onder Bbl-eisen alleen onder voorwaarden (rietkapdistantie, brandvertragend impregneren, omgeving)',
+        'Brandgevoeligheid — alleen toegestaan onder voorwaarden',
         'Het is alleen geschikt voor zeer steile daken',
         'Riet hoeft nooit onderhouden te worden',
       ],
@@ -975,7 +975,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Waarvoor wordt **lood** in moderne dakbedekkingen vooral nog gebruikt?',
       options: [
         'Als hoofd-dakbedekking op platte daken',
-        'Voor dakdoorbrekingen (rookkanalen, ontluchtingen) en bij wandaansluitingen — als slabbe of voetlood. Niet meer voor grote vlakken',
+        'Voor dakdoorbrekingen en wandaansluitingen (slabbe/voetlood)',
         'Voor goten met dubbele dikte',
         'Als vervanger van EPDM',
       ],
@@ -992,7 +992,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       prompt: 'Wat is het verschil tussen een **extensief** en een **intensief groendak**?',
       options: [
         'Extensief is groter, intensief kleiner',
-        'Extensief = dunne laag (5–15 cm), licht (60–150 kg/m²), weinig onderhoud, mos/sedum. Intensief = dikke laag (30+ cm), zwaar (300–1500 kg/m²), veel onderhoud, tuinachtig met struiken/bomen',
+        'Extensief = dun, licht, sedum; intensief = dik, zwaar, tuinachtig',
         'Extensief is voor hellende daken, intensief alleen voor platte daken',
         'Extensief vereist geen wortelwerende laag',
       ],
@@ -1007,7 +1007,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       prompt: 'Een **voordeel van een groendak** voor de bewoner is:',
       options: [
         'Het is goedkoper dan een gewoon plat dak',
-        'Het beschermt de dakbedekking tegen UV en mechanische schade — verlengt de levensduur van de dakbedekking met 2–3×',
+        'Het beschermt de dakbedekking tegen UV en schade',
         'Het maakt onderhoud van het dak overbodig',
         'Het verbetert de inbraakbeveiliging',
       ],
@@ -1022,7 +1022,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       prompt: 'Wat is een **retentiedak**?',
       options: [
         'Een groendak met alleen sedum',
-        'Een dak ontworpen om regenwater te bufferen tegen wateroverlast en hittestress — speciaal substraat houdt water vast en geeft het langzaam af',
+        'Een dak dat regenwater buffert (retentiedak)',
         'Een type plat dak met grind als ballast',
         'Een dak met geïntegreerde zonnepanelen',
       ],
@@ -1040,7 +1040,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Een woning heeft een loden slabbe langs een schoorsteen van 3 m breed in één stuk. Tijdens een woninginspectie blijkt deze gescheurd. Wat is de meest waarschijnlijke oorzaak?',
       options: [
         'Aanraking met cement in de aansluitvoeg',
-        'Lood is in te grote stukken toegepast: slabben mogen max. 1,5 m lang zijn vanwege kruip; bij 3 m rekt het lood traag uit onder eigen gewicht en scheurt',
+        'Te grote loodstukken: lood kruipt en scheurt boven 1,5 m',
         'Te dunne loodlaag in een lichte NHL-uitvoering',
         'Te zware regenval in het afgelopen jaar',
       ],
@@ -1056,7 +1056,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         '**Blaasvorming** in een bitumineuze dakbedekking op een plat dak ontstaat doordat:',
       options: [
         'De bitumen door uv verkleurt',
-        'Ingesloten vocht of lucht onder de bedekking expandeert door zonwarmte → blaas',
+        'Ingesloten vocht/lucht expandeert door zonwarmte → blaas',
         'De dakvloer onder de bitumen krimpt',
         'De vogels de bitumen open pikken',
       ],
@@ -1072,7 +1072,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Een eigenaar meldt na een hevige bui **vochtdoorslag op het plafond** bij een hellend dak met pannen. Het probleem treedt alleen op bij wind uit het noorden. Welke oorzaak ligt het meest voor de hand?',
       options: [
         'Verstopte hwa in de tuin',
-        'Lekkage bij een aansluiting aan het noordzijde van het dak — bv. schoorsteen-voetlood, verholen goot van een dakkapel, of slabbe rond een dakraam',
+        'Lekkage bij een aansluiting (voetlood, slabbe, verholen goot)',
         'Een lekkende waterleiding',
         'Condensvorming in de cv-installatie',
       ],
@@ -1088,7 +1088,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Bij een renovatie van een dak met **EPDM-bedekking van 30 jaar oud** ziet de inspecteur dat het EPDM rondom de boeibord-rand is losgetrokken. Wat is de meest waarschijnlijke oorzaak?',
       options: [
         'Onvoldoende aanlijming bij eerste aanleg',
-        'Krimp door uv-veroudering en temperatuurwisselingen — EPDM heeft op leeftijd zijn dimensies verloren en trekt los van de randafdekking',
+        'Krimp door uv-veroudering — EPDM trekt los van de rand',
         'Vogelschade aan de randen',
         'Te zware ballast op het dak',
       ],

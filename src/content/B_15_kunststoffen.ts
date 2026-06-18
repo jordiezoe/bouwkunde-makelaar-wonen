@@ -267,7 +267,7 @@ B.15.2 vraagt specifiek om herkenning van de twee **doorzichtige plaatmaterialen
         'Voor moderne **rioleringsbuizen onder de vloer** wordt vaak welke kunststof toegepast?',
       options: [
         'LDPE — zacht en flexibel',
-        'HDPE of hard PVC — beide bestand tegen druk en temperatuur tot ~95 °C',
+        'HDPE of hard PVC — bestand tegen druk en warmte',
         'PP — sifons en goten',
         'PMMA — doorzichtig en sterk',
       ],
@@ -283,7 +283,7 @@ B.15.2 vraagt specifiek om herkenning van de twee **doorzichtige plaatmaterialen
         'Het verschil tussen **hard PVC** en **slagvast PVC** is:',
       options: [
         'Hard PVC is goedkoper, slagvast PVC duurder — verder identiek',
-        'Slagvast PVC heeft rubberachtige additieven en is beter bestand tegen schokken — bv. voor kozijnen',
+        'Slagvast PVC heeft additieven tegen schokken',
         'Hard PVC is voor binnentoepassing, slagvast PVC voor buiten',
         'Slagvast PVC is een synoniem voor nagechloreerd PVC (CPVC)',
       ],
@@ -299,7 +299,7 @@ B.15.2 vraagt specifiek om herkenning van de twee **doorzichtige plaatmaterialen
         'Wat is een **belangrijk milieu/veiligheidsverschil** tussen PVC en PP?',
       options: [
         'PVC en PP zijn beide volledig biologisch afbreekbaar',
-        'PVC geeft bij brand chloorgas vrij (giftig); PP brandt door met kaarsgeur, geen chloor',
+        'PVC geeft chloorgas; PP brandt met kaarsgeur, geen chloor',
         'PP is brandbaar, PVC niet',
         'PP wordt nooit gerecycled, PVC altijd',
       ],
@@ -316,7 +316,7 @@ B.15.2 vraagt specifiek om herkenning van de twee **doorzichtige plaatmaterialen
       options: [
         'Hard PVC',
         'LDPE',
-        'Polypropeen (PP) — bestand tegen hogere temperatuur, niet broos',
+        'Polypropeen (PP) — hittebestendig, niet broos',
         'PMMA (perspex)',
       ],
       correctIndex: 2,
@@ -331,7 +331,7 @@ B.15.2 vraagt specifiek om herkenning van de twee **doorzichtige plaatmaterialen
         'Wat is het verschil tussen **thermoplasten** en **thermohardende kunststoffen**?',
       options: [
         'Thermoplasten zijn voor binnen, thermoharders voor buiten',
-        'Thermoplasten verweken bij verwarmen en kunnen herverwerkt worden; thermoharders zijn na hun vorming chemisch verhard en kunnen niet meer worden gesmolten',
+        'Thermoplasten verweken/hersmelten; thermoharders niet',
         'Thermoplasten zijn brandbaar, thermoharders brandwerend',
         'Het zijn synoniemen',
       ],
@@ -347,7 +347,7 @@ B.15.2 vraagt specifiek om herkenning van de twee **doorzichtige plaatmaterialen
         'Een **GASkeur, KIWA-keur of KEMA-keur** is verplicht voor:',
       options: [
         'Gele zachte PVC trapneuzen',
-        'Hard PVC-leidingen voor respectievelijk gas, water en elektra — verplicht keurmerk voor veiligheid in de bouw',
+        'Hard PVC-leidingen met verplicht keurmerk',
         'Polycarbonaat lichtkoepels',
         'LDPE krimpfolie',
       ],
@@ -363,7 +363,7 @@ B.15.2 vraagt specifiek om herkenning van de twee **doorzichtige plaatmaterialen
         'Bij **vloerverwarming** worden meestal welke kunststof-buizen gebruikt?',
       options: [
         'Hard PVC',
-        'HDPE (High Density Polyetheen) — flexibel, bestand tegen warm water tot 95 °C',
+        'HDPE — flexibel, bestand tegen warm water',
         'LDPE — te zacht',
         'PMMA — te bros',
       ],
@@ -390,7 +390,7 @@ B.15.2 vraagt specifiek om herkenning van de twee **doorzichtige plaatmaterialen
       type: 'mc',
       prompt:
         'Voor een **slagvaste, vandalisme-bestendige toepassing** (bv. buswachthuisjes, oproerschilden) is welk plaatmateriaal geschikter dan glas of perspex?',
-      options: ['Hard PVC', 'Polycarbonaat (PC) — krasvast en zeer slagvast, sterker dan glas', 'PMMA — kostenvoordeel', 'LDPE'],
+      options: ['Hard PVC', 'Polycarbonaat (PC) — zeer slagvast, sterker dan glas', 'PMMA — kostenvoordeel', 'LDPE'],
       correctIndex: 1,
       explanation:
         'Polycarbonaat is veel slagvaster dan glas of perspex (lichaamskracht of stenen geven geen breuk). Daarom standaard voor buswachthuisjes, oproerschilden, bouwhelmen en vandalismebestendige beglazing. Wel UV-coating nodig — anders vergeelt het materiaal in 10–20 j.',
@@ -403,7 +403,7 @@ B.15.2 vraagt specifiek om herkenning van de twee **doorzichtige plaatmaterialen
         'Een **lichtkoepel** op een plat dak — welk plaatmateriaal komt het meest voor?',
       options: [
         'Glas — zwaar maar betaalbaar',
-        'PMMA (perspex / plexiglas) — glashelder, lichtgewicht, UV-bestendig en goedkoper dan polycarbonaat',
+        'PMMA (plexiglas) — glashelder, UV-bestendig',
         'Polycarbonaat — duurder maar onbreekbaar',
         'Hard PVC — afdichtend',
       ],

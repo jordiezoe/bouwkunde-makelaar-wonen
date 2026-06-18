@@ -242,7 +242,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
       prompt: 'Wat is het hoofdverschil tussen **EPS** en **XPS**?',
       options: [
         'EPS is wit, XPS is altijd zwart',
-        'EPS wordt geëxpandeerd met stoom in een vorm (deels open cellen); XPS wordt geëxtrudeerd tot platen met volledig gesloten cellen — XPS is daardoor drukvaster en vochtbestendiger',
+        'EPS = geëxpandeerd (open cellen); XPS = geëxtrudeerd (gesloten, drukvaster)',
         'EPS is alleen voor binnen, XPS alleen voor buiten',
         'EPS bevat geen polystyreen, XPS wel',
       ],
@@ -256,7 +256,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
       type: 'mc',
       prompt:
         'Welk isolatiemateriaal is **de standaard voor brandwerende bekleding van stalen kolommen**?',
-      options: ['EPS', 'Steenwol — onbrandbaar (smelt pas boven 1000 °C) en hoge dichtheid', 'PUR', 'Glaswol'],
+      options: ['EPS', 'Steenwol — onbrandbaar en hoge dichtheid', 'PUR', 'Glaswol'],
       correctIndex: 1,
       explanation:
         'Steenwol is onbrandbaar (klasse A1) en smelt pas boven 1000 °C — daarmee superieur aan glaswol (smelt boven 700 °C) en alle kunststofschuimen. Standaard voor brandwerende bekleding van stalen kolommen, doorvoeren, technische ruimtes en woningscheidende muren.',
@@ -267,7 +267,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
       type: 'mc',
       prompt:
         '**PIR** heeft een lambda-waarde van ongeveer:',
-      options: ['0,032 W/m·K', '0,045 W/m·K', '0,022 W/m·K — de beste isolatie van de gangbare materialen', '0,058 W/m·K'],
+      options: ['0,032 W/m·K', '0,045 W/m·K', '0,022 W/m·K — de beste van de gangbare materialen', '0,058 W/m·K'],
       correctIndex: 2,
       explanation:
         'PIR (polyisocyanuraat) heeft λ ≈ 0,022 W/m·K — de laagste van de gangbare bouwmaterialen, beter dan PUR (~0,028), XPS/EPS (~0,034) en glaswol/steenwol (~0,036). Daarom dé keuze voor energiezuinige nieuwbouw waar bij beperkte dikte een hoge Rc gehaald moet worden.',
@@ -281,7 +281,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
       options: [
         'Glaswol — flexibel en goedkoop',
         'EPS — lichtgewicht',
-        'Foamglas (schuimglas / cellulair glas) — gesloten cellen, drukvast, dampdicht en waterdicht',
+        'Foamglas — gesloten cellen, drukvast, water-/dampdicht',
         'Vlas — duurzaam en hernieuwbaar',
       ],
       correctIndex: 2,
@@ -295,7 +295,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
       prompt: 'Wat is **PUR-spuitschuim** in een spuitbus typisch voor?',
       options: [
         'Vulling van leidingen',
-        'Kierdichting van naden en aansluitingen — expandeert na het spuiten en hecht aan beide oppervlakken',
+        'Kierdichting van naden — expandeert na het spuiten (PUR)',
         'Spouw-na-isolatie',
         'Geluid-isolatie',
       ],
@@ -311,7 +311,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
         'Welk isolatiemateriaal is **niet meer toegestaan** voor in-situ spouwisolatie in NL?',
       options: [
         'PUR — wegens brandgevoeligheid',
-        'UF (ureumformaldehyde) — wegens afgifte van formaldehyde (gezondheidsrisico voor luchtwegen)',
+        'UF (ureumformaldehyde) — geeft formaldehyde af',
         'EPS-korrels',
         'Steenwol-vlokken',
       ],
@@ -327,7 +327,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
         'Een **dampremmende folie** wordt geplaatst:',
       options: [
         'Aan de buitenkant van de isolatie, tussen isolatie en gevelsteen',
-        'Aan de warme zijde van de isolatie — keert vocht uit binnenlucht zodat het niet in de constructie condenseert',
+        'Aan de warme zijde van de isolatie',
         'In het midden van de isolatielaag',
         'Aan de buitenkant van het glas',
       ],
@@ -343,7 +343,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
         'Wat is **vlas** als isolatiemateriaal?',
       options: [
         'Een tropisch graan, vergelijkbaar met stro',
-        'Vezels uit de vlasplant (rest van textielproductie) gemengd met een bindmiddel — vergelijkbare λ als glaswol, hygroscopisch (vochtregulerend), hernieuwbaar',
+        'Vlasvezels met bindmiddel — λ als glaswol, hernieuwbaar',
         'Een synthetische kunststofvezel',
         'Een mineraalproduct uit geëxpandeerd kleigesteente',
       ],
@@ -359,7 +359,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
         'Glaswol en steenwol hebben **vergelijkbare λ-waarden** (~0,036). Wanneer is steenwol beter dan glaswol?',
       options: [
         'Bij toepassing in een woonhuis',
-        'Wanneer brandwerendheid of geluid-isolatie kritisch is — steenwol smelt pas boven 1000 °C en heeft meer massa per m³ → beter voor brand- en geluiddemping',
+        'Als brand- of geluidsisolatie kritisch is',
         'Wanneer kosten het belangrijkst zijn',
         'Bij toepassing in een spouwmuur — glaswol kan daar niet',
       ],
@@ -375,7 +375,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
         'Een aannemer wil **omgekeerd dak isolatie** toepassen (boven op een bestaande bitumen-dakbedekking, met ballasttegels erop). Welk materiaal is het meest geschikt?',
       options: [
         'EPS — goedkoop en lichtgewicht',
-        'XPS — gesloten cellen, drukvast, vochtbestendig — perfect voor omgekeerd dak',
+        'XPS — drukvast en vochtbestendig (omgekeerd dak)',
         'Glaswol — vezelig en flexibel',
         'Vlas — duurzaam',
       ],
@@ -391,7 +391,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
         'Bij verwerking van **glaswol** is welke maatregel verplicht?',
       options: [
         'Brandwerende kleding',
-        'Handschoenen en stofmasker — vezels zijn jeukerig en de fijne deeltjes irriteren de luchtwegen',
+        'Handschoenen en stofmasker tegen jeukende vezels',
         'Spatbril omdat het materiaal vloeibaar is bij verwerking',
         'Geen enkele bijzondere maatregel',
       ],

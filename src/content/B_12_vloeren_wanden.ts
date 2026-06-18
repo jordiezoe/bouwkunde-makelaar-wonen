@@ -343,7 +343,7 @@ Een woningscheidende wand moet alle drie tegelijk:
       prompt: 'Wat is een **strijkbalk** in een houten balklaag?',
       options: [
         'Een korte balk die rond een trapgat wordt geplaatst',
-        'De buitenste balk van de balklaag, evenwijdig aan de buitenmuur en daar dicht tegenaan',
+        'De buitenste balk, evenwijdig tegen de buitenmuur',
         'Een dikke balk haaks op de balklaag, die de overige balken in tweeën deelt',
         'Een balk waar verfwerk op aangebracht wordt voor afwerking',
       ],
@@ -376,7 +376,7 @@ Een woningscheidende wand moet alle drie tegelijk:
       options: [
         'Altijd 200 mm, ongeacht de overspanning',
         'Balkhoogte ≈ 1/10 van de overspanning',
-        'Balkhoogte ≈ 1/20 van de overspanning — bv. bij 4 m overspanning is balkhoogte ~200 mm',
+        'Balkhoogte ≈ 1/20 van de overspanning',
         'Balkhoogte ≈ overspanning gedeeld door balkbreedte',
       ],
       correctIndex: 2,
@@ -391,7 +391,7 @@ Een woningscheidende wand moet alle drie tegelijk:
         'Wat is een **kinderbalk** in een samengestelde balklaag?',
       options: [
         'De extra dunne balk die als lichtgewicht ondersteuning dient',
-        'Een vloerbalk die op de onderslagbalk rust in plaats van direct op de buitenmuur',
+        'Een vloerbalk die op de onderslagbalk rust',
         'De allereerste balk van de balklaag in elk vertrek',
         'Een tijdelijke balk tijdens de bouw',
       ],
@@ -407,7 +407,7 @@ Een woningscheidende wand moet alle drie tegelijk:
         'Waarom mogen vloerbalken **nooit doorlopen** over een woningscheidende muur?',
       options: [
         'Het hout zou krimpen en de muur scheuren',
-        'Brandoverslag (vuur loopt via de balk door) en geluidsoverdracht (contactgeluid loopt door)',
+        'Brandoverslag en geluidsoverdracht via de balk',
         'De Bbl-eis voor stedenbouwkundige planologie',
         'Het is constructief niet mogelijk',
       ],
@@ -425,7 +425,7 @@ Een woningscheidende wand moet alle drie tegelijk:
         'Wat is het belangrijkste verschil tussen een **dragende** en een **woningscheidende** wand?',
       options: [
         'Een dragende wand is altijd dikker',
-        'Een dragende wand draagt belasting naar de fundering; een woningscheidende wand scheidt twee verschillende eigendommen en heeft zware geluid- en brandeisen',
+        'Dragende wand draagt last; woningscheidende wand scheidt eigendommen',
         'Een woningscheidende wand is altijd van beton, dragende altijd van metselwerk',
         'Het zijn synoniemen',
       ],
@@ -441,7 +441,7 @@ Een woningscheidende wand moet alle drie tegelijk:
         'Bij een verbouwing wil de klant een binnenwand verwijderen. Wat is de **belangrijkste check** voordat dit kan?',
       options: [
         'Of er leidingen door de wand lopen',
-        'Of de wand dragend is — een verkeerd geslagen tussenmuur kan instorten veroorzaken; een constructeur moet dit controleren',
+        'Of de wand dragend is — laat een constructeur dit checken',
         'Of de wand niet recent geverfd is',
         'Of de buren toestemming geven',
       ],
@@ -473,7 +473,7 @@ Een woningscheidende wand moet alle drie tegelijk:
         'Een **vrijdragende vloer** is:',
       options: [
         'Een vloer die direct op de ondergrond ligt (vloer-op-grond)',
-        'Een vloer die opgelegd is op de muren en een kruipruimte of verdiepingsruimte eronder heeft',
+        'Een vloer opgelegd op de muren, met ruimte eronder',
         'Een vloer zonder dragende functie',
         'Een vloer van houten balken zonder beton',
       ],
@@ -491,7 +491,7 @@ Een woningscheidende wand moet alle drie tegelijk:
         'Wat is het verschil tussen **luchtgeluid** en **contactgeluid**?',
       options: [
         'Luchtgeluid is buitengeluid, contactgeluid binnengeluid',
-        'Luchtgeluid reist door de lucht (stem, muziek); contactgeluid reist via vaste constructies (voetstappen, vallend voorwerp)',
+        'Luchtgeluid gaat door de lucht, contactgeluid door de constructie',
         'Luchtgeluid alleen overdag, contactgeluid alleen ’s nachts',
         'Contactgeluid is alleen relevant in flats',
       ],
@@ -507,7 +507,7 @@ Een woningscheidende wand moet alle drie tegelijk:
         'Welke maatregel verbetert vooral de **contactgeluidisolatie** tussen verdiepingen in beton?',
       options: [
         'Een dikkere betonvloer',
-        'Een zwevende dekvloer — cement- of anhydriet-dekvloer op een isolatiedeken die mechanisch ontkoppelt van de dragende betonvloer',
+        'Een zwevende dekvloer op een ontkoppelende isolatiedeken',
         'Extra wapening in de betonvloer',
         'Een tweede laag beton bovenop',
       ],
@@ -570,7 +570,7 @@ Een woningscheidende wand moet alle drie tegelijk:
       prompt:
         'Wat is het wezenlijke principe achter een **massa-veer-massa-constructie** voor lichte woningscheidende wanden?',
       options: [
-        'Twee zware lagen met daartussen een luchtspouw met isolatie — de twee bladen werken als afzonderlijke massa’s, de spouw als veer, samen veel betere luchtgeluidsisolatie dan één enkele blad',
+        'Twee zware lagen met een geïsoleerde spouw (massa-veer-massa)',
         'Een lichte wand met een springveer ertussen',
         'Een betonwand met een geïsoleerde voegen',
         'Een wand met twee dunne lagen verf op gips',
@@ -601,7 +601,7 @@ Een woningscheidende wand moet alle drie tegelijk:
       options: [
         'Met een ventilator in elke hoek',
         'Door open spleten onder de begane-grondvloer',
-        'Via kniekokers (kunststof, knievormig) in de buitenmuur, diagonaalsgewijs geplaatst voor doorstroming',
+        'Via kniekokers in de buitenmuur',
         'Pas in moderne nieuwbouw geventileerd, anders gesloten',
       ],
       correctIndex: 2,
@@ -617,7 +617,7 @@ Een woningscheidende wand moet alle drie tegelijk:
       options: [
         'Ja, in de winter is dat juist gewenst',
         'Ja, mits de woning verder goed geïsoleerd is',
-        'Nee — een afgesloten kruipruimte krijgt condensatie en schimmel; beter is de naden bij plinten dichten en de vloer goed isoleren',
+        'Nee — dat geeft condens; beter de vloer goed isoleren',
         'Ja, maar alleen in januari en februari',
       ],
       correctIndex: 2,
