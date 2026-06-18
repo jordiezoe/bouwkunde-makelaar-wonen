@@ -374,7 +374,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: 'Wat zijn de **drie hoofdgroepen** natuursteen op basis van ontstaan?',
       options: [
         'Hard, zacht, middelhard',
-        'Stollings­gesteente (uit magma — graniet, basalt); afzettings­gesteente (uit sedimenten — zandsteen, travertin, hardsteen); metamorfe gesteente (omgezet door druk/hitte — kwartsiet, leisteen, marmer)',
+        'Stollings­gesteente (uit magma',
         'Wit, grijs, zwart',
         'Buiten, binnen, voor decoratie',
       ],
@@ -389,7 +389,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: '**Marmer** is herkenbaar aan:',
       options: [
         'Donkergrijze kleur met fossielen',
-        'Vaak witte/lichte kleur met karakteristieke aderen (uit mineralen-onzuiverheden); ontstaan door recrystallisatie van kalksteen onder druk en hitte (metamorfe gesteente); kwetsbaar voor zuren — wordt aangetast door azijn, citroensap, wijn',
+        'Vaak witte/lichte kleur met karakteristieke aderen (uit mineralen-onzuiverheden); ontstaan door recrystallisatie van kalksteen onder druk en hitte (metamorfe gesteente); kwetsbaar voor zuren',
         'Splijtbare lagen',
         'Korrelige zwarte textuur',
       ],
@@ -404,7 +404,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: 'Wat is **hardsteen (Belgische arduin)**?',
       options: [
         'Een vorm van graniet',
-        'Donkergrijze tot zwarte kalksteen — versteende kalkresten van zee-organismen (vooral crinoïden); vaak met witte fossielvlekjes zichtbaar; hard voor een kalksteen, slijtvast en vorstbestendig',
+        'Donkergrijze tot zwarte kalksteen',
         'Een metamorfe gesteente',
         'Een synthetisch natuursteen',
       ],
@@ -419,7 +419,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: '**Travertin** wordt gekenmerkt door:',
       options: [
         'Glanzend oppervlak',
-        'Karakteristieke gaten en poriën in het oppervlak — ontstaan in warme bronnen, kalkrijk water vormt afzettingen rond planten en gas­bellen; lichtbeige/crème kleur; gaten kunnen gevuld of open zijn',
+        'Karakteristieke gaten en poriën in het oppervlak',
         'Zwarte kleur',
         'Vorstbestendig oppervlak voor buiten in NL',
       ],
@@ -434,7 +434,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: 'Wat is **leisteen** en wat is zijn karakteristieke eigenschap?',
       options: [
         'Een vulkanische lava-steen',
-        'Gemetamorfoseerd klei-sediment dat makkelijk in dunne platen splijt — vandaar de naam "lei = lag in lagen"; vorstbestendig, slijtvast; toepassing: dakbedekking (leien), vloer­tegels, gevels',
+        'Gemetamorfoseerd klei-sediment dat makkelijk in dunne platen splijt',
         'Een synthetisch beton',
         'Een soort marmer',
       ],
@@ -466,7 +466,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: 'Wat is een **neut** in een houten kozijn?',
       options: [
         'De bovendrempel van een raam',
-        'Onderste deel van een houten kozijnstijl, vervangen door natuursteen (hardsteen, graniet) — voor bescherming tegen vocht en slijtage van het oppervlak; verbonden met een dook (RVS- of bronzen pen) in dookgat in kops hout van de stijl',
+        'Onderste deel van een houten kozijnstijl, vervangen door natuursteen',
         'Een raamsluiting',
         'De schroefdraad in een slot',
       ],
@@ -511,7 +511,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: 'Welke natuursteen wordt klassiek toegepast als **dakbedekking** (leien)?',
       options: [
         'Graniet',
-        'Leisteen — splijt natuurlijk in dunne platen geschikt voor dakbedekking; vorstbestendig; klassiek dakmateriaal in monumentale architectuur',
+        'Leisteen',
         'Marmer',
         'Zandsteen',
       ],
@@ -528,7 +528,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: 'Wat is **frijnen** als oppervlakte­bewerking?',
       options: [
         'Schuren tot spiegelglas',
-        'Bewerking met een puntige hamer (frijn-hamer) — laat een patroon van fijne evenwijdige lijnen achter; strak gestructureerd; anti-slip; voor klassieke gevel­blokken, trottoirbanden, dorpels',
+        'Bewerking met een puntige hamer',
         'Polijsten met diamantpasta',
         'Vlamspuiten van het oppervlak',
       ],
@@ -543,7 +543,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: 'Wat is **boucharderen**?',
       options: [
         'Een Franse muziekstijl',
-        'Bewerking met een boucharde (hamer met piramide-tanden of stomp-puntige punten) — laat een fijne korrelige textuur achter (geen lijnen); matter dan zoeten of schuren; uitstekend anti-slip; voor trottoir, bestrating, buiten-trappen',
+        'Bewerking met een boucharde (hamer met piramide-tanden of stomp-puntige punten)',
         'Polijsten in spiraal',
         'Een chemische behandeling',
       ],
@@ -573,7 +573,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: 'Wat is **gepolijste** natuursteen?',
       options: [
         'Met de hamer bewerkt',
-        'Met zeer fijne schuurmiddelen (1.000+ grit) + polish-poeder of diamant-pasta → spiegelend hoogglans­oppervlak; modern luxueus uitstraling, maar glad bij regen — niet voor buiten- of nat-toepassing',
+        'Met zeer fijne schuurmiddelen (1.000+ grit) + polish-poeder of diamant-pasta → spiegelend hoogglans­oppervlak; modern luxueus uitstraling, maar glad bij regen',
         'Met chemicaliën gereinigd',
         'Met gladde sneden gezaagd',
       ],

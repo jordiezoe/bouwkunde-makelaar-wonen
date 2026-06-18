@@ -740,7 +740,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       options: [
         'Een metalen plaat in de muur die aardbevingen opvangt',
         'Een dampscherm tussen muur en dak',
-        'Een horizontale balk op de muur waarop sporen rusten (muurplaat)',
+        'Een horizontale balk op de muur waarop sporen rusten',
         'Een betonnen latei boven een gevelopening',
       ],
       correctIndex: 2,
@@ -787,7 +787,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Wat is de functie van een **vogelschroot** bij een pannendak?',
       options: [
         'Geluidsisolatie tussen pannen en dakbeschot',
-        'Een strook aan de dakvoet tegen nestelende vogels (vogelschroot)',
+        'Een strook aan de dakvoet tegen nestelende vogels',
         'Een kleurmodificatie van de dakpan',
         'Een stormbeschermer tegen opwaaien van pannen',
       ],
@@ -804,7 +804,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       prompt: 'Een **kilgoot** wordt geplaatst:',
       options: [
         'Aan de dakvoet langs de hele dakrand',
-        'In een kilkeper — de inwendige snijhoek tussen twee vlakken',
+        'In een kilkeper',
         'Bovenop de spouwmuur als esthetische oplossing',
         'Halverwege het dak om extra capaciteit te bieden',
       ],
@@ -819,7 +819,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       prompt: 'Een **verholen goot** is:',
       options: [
         'Een hangende goot uit verzinkt staal',
-        'Een goot verborgen onder de dakpannen (verholen goot)',
+        'Een goot verborgen onder de dakpannen',
         'Een goot binnenshuis voor regenwateropvang',
         'Een tijdelijke goot tijdens de bouw',
       ],
@@ -899,7 +899,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Onder dakpannen moet (volgens Bbl) op de isolatie een:',
       options: [
         'Dampdichte folie',
-        'Winddichte, dampdoorlatende folie (mandragende folie)',
+        'Winddichte, dampdoorlatende folie',
         'Bitumineuze afdichtingslaag',
         'Houten dakbeschot zonder folie',
       ],
@@ -933,7 +933,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       options: [
         'Asfaltshingles',
         'Zink met klangen',
-        'EPDM — synthetisch rubber in grote banen, weinig naden',
+        'EPDM',
         'Aluminium felsplaten',
       ],
       correctIndex: 2,
@@ -948,7 +948,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Wat is een **typische beperking** van een **rieten dak**?',
       options: [
         'Het is altijd duurder dan koperen dakbedekking',
-        'Brandgevoeligheid — alleen toegestaan onder voorwaarden',
+        'Brandgevoeligheid',
         'Het is alleen geschikt voor zeer steile daken',
         'Riet hoeft nooit onderhouden te worden',
       ],
@@ -975,7 +975,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Waarvoor wordt **lood** in moderne dakbedekkingen vooral nog gebruikt?',
       options: [
         'Als hoofd-dakbedekking op platte daken',
-        'Voor dakdoorbrekingen en wandaansluitingen (slabbe/voetlood)',
+        'Voor dakdoorbrekingen en wandaansluitingen',
         'Voor goten met dubbele dikte',
         'Als vervanger van EPDM',
       ],
@@ -1022,7 +1022,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       prompt: 'Wat is een **retentiedak**?',
       options: [
         'Een groendak met alleen sedum',
-        'Een dak dat regenwater buffert (retentiedak)',
+        'Een dak dat regenwater buffert',
         'Een type plat dak met grind als ballast',
         'Een dak met geïntegreerde zonnepanelen',
       ],
@@ -1088,7 +1088,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Bij een renovatie van een dak met **EPDM-bedekking van 30 jaar oud** ziet de inspecteur dat het EPDM rondom de boeibord-rand is losgetrokken. Wat is de meest waarschijnlijke oorzaak?',
       options: [
         'Onvoldoende aanlijming bij eerste aanleg',
-        'Krimp door uv-veroudering — EPDM trekt los van de rand',
+        'Krimp door uv-veroudering',
         'Vogelschade aan de randen',
         'Te zware ballast op het dak',
       ],

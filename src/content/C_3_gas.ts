@@ -295,7 +295,7 @@ Een warmtepomp levert efficiënt water op **35–55 °C** (in plaats van de 70�
       prompt: 'Waarom wordt aardgas **geodoreerd**?',
       options: [
         'Voor de smaak van de toestellen',
-        'Aardgas is van nature reukloos; THT (tetrahydrothiofeen) wordt toegevoegd zodat een gaslek direct ruikbaar is — veiligheidsmaatregel',
+        'Reukloos aardgas krijgt THT zodat een lek ruikbaar is',
         'Om verbranding te verbeteren',
         'Om de gele vlamkleur te krijgen',
       ],
@@ -310,7 +310,7 @@ Een warmtepomp levert efficiënt water op **35–55 °C** (in plaats van de 70�
       prompt: 'Wat duidt een **gele roetende vlam** op bij een gasvuur aan?',
       options: [
         'Een goed afgestelde brander',
-        'Slechte verbranding door onvoldoende lucht → koolmonoxide (CO) kan ontstaan, levensgevaarlijk',
+        'Onvoldoende lucht → koolmonoxide (CO), levensgevaarlijk',
         'Te veel verwarmingsvermogen',
         'Normaal verschijnsel bij koud opstarten',
       ],
@@ -325,7 +325,7 @@ Een warmtepomp levert efficiënt water op **35–55 °C** (in plaats van de 70�
       prompt: 'Welke leidingmaterialen zijn toegestaan voor de **binnen­leiding** in een woning?',
       options: [
         'Alleen koper',
-        'Stalen draadpijp, gladde stalen pijp, koper (halfhard/zacht), of meerlaagse buizen (koper/alu + kunststof). Kunststof alleen in grond tussen gebouwen met toestemming netbeheerder',
+        'Staal, koper of meerlaagse buis',
         'PVC en HDPE',
         'Alleen verzinkt staal',
       ],
@@ -340,7 +340,7 @@ Een warmtepomp levert efficiënt water op **35–55 °C** (in plaats van de 70�
       prompt: 'Bij een **doorvoer van de gasleiding door een wand of vloer** moet er een ... om de leiding:',
       options: [
         'Isolatieschil',
-        'Mantelbuis met binnenmiddellijn ≥ 1,5× de leidingmiddellijn — eventueel gaslek kan via mantelbuis naar buiten in plaats van naar binnen',
+        'Een mantelbuis zodat een lek naar buiten ontsnapt',
         'Brandwerende coating',
         'Geluidsdempingslaag',
       ],
@@ -355,7 +355,7 @@ Een warmtepomp levert efficiënt water op **35–55 °C** (in plaats van de 70�
       prompt: 'Hoe spoor je een **gaslek in een leiding** op?',
       options: [
         'Met een aansteker — vlammetje signaleert het lek',
-        'Met zeepsop op de verbindingen — bellen ontstaan op de lekkende plaats',
+        'Met zeepsop — bellen verraden het lek',
         'Met een rookkachel',
         'Met blauwe vlam-tester',
       ],
@@ -372,7 +372,7 @@ Een warmtepomp levert efficiënt water op **35–55 °C** (in plaats van de 70�
       prompt: 'Op een installatietekening wordt een **gasleiding** meestal weergegeven met:',
       options: [
         'Een rode lijn',
-        'Een gele lijn of zwarte lijn met G-aanduiding — onderscheidende kleurconventie',
+        'Een gele lijn (of zwart met G-aanduiding)',
         'Een streep-stippellijn',
         'Een groene lijn',
       ],
@@ -402,7 +402,7 @@ Een warmtepomp levert efficiënt water op **35–55 °C** (in plaats van de 70�
       prompt: 'Op een installatietekening voor gas moet bij elk **verbruikstoestel** zichtbaar zijn:',
       options: [
         'Alleen het toestel-symbool',
-        'Een afsluitkraan vóór het toestel + de aansluitmethode (vast, slang, of klem) + voor gesloten toestellen de rookgasafvoer',
+        'Een afsluitkraan, de aansluitmethode en rookgasafvoer',
         'De prijs van het toestel',
         'De stroomverbruik in watt',
       ],
@@ -419,7 +419,7 @@ Een warmtepomp levert efficiënt water op **35–55 °C** (in plaats van de 70�
       prompt: 'Een woning wordt overgeschakeld van gas naar warmtepomp. Welke **vooronderzoek** is essentieel?',
       options: [
         'De keuken renoveren',
-        'Isolatie van de woning beoordelen — een warmtepomp werkt alleen efficiënt bij goed geïsoleerde gevel, dak, vloer en kozijnen (HR++); slechte isolatie maakt warmtepomp duur of onvoldoende',
+        'De isolatie beoordelen',
         'Het meubilair beoordelen',
         'De cv-ketel grondig schoonmaken',
       ],
@@ -433,7 +433,7 @@ Een warmtepomp levert efficiënt water op **35–55 °C** (in plaats van de 70�
       type: 'mc',
       prompt: 'Bij overschakeling naar warmtepomp zijn **bestaande radiatoren** vaak:',
       options: [
-        'Te klein — warmtepomp levert lage temperatuur (35–55 °C) en bestaande radiatoren waren ontworpen voor 70–80 °C. Vervangen door grotere radiatoren of vloerverwarming nodig',
+        'Te klein voor lage temperatuur — grotere radiatoren nodig',
         'Te groot — vervangen door kleinere',
         'Niet bruikbaar — moeten vervangen door luchtgordijnen',
         'Onveranderd geschikt',
@@ -449,7 +449,7 @@ Een warmtepomp levert efficiënt water op **35–55 °C** (in plaats van de 70�
       prompt: 'Welke **electrische aansluiting** is meestal nodig voor een all-electric woning?',
       options: [
         'De bestaande 1×25 A blijft voldoende',
-        'Verzwaring naar 3×25 A of zelfs 3×35 A driefasen — inductiekookplaat, warmtepomp, warmwaterboiler en eventueel laadpaal hebben gezamenlijk meer vermogen dan een gasinstallatie',
+        'Verzwaring naar 3×25 A driefasen voor het hogere vermogen',
         '1×40 A',
         'Lichtkracht (12 V)',
       ],
@@ -464,7 +464,7 @@ Een warmtepomp levert efficiënt water op **35–55 °C** (in plaats van de 70�
       prompt: 'Een **lucht-water-warmtepomp** verliest rendement bij:',
       options: [
         'Hoog vermogen-gebruik',
-        'Lage buitentemperaturen — bij echte vorst (–10 °C) daalt de COP van 4 naar ~2; soms onvoldoende warmte. Oplossing: hybride met cv-ketel als backup voor vorstdagen',
+        'Bij strenge vorst daalt de COP',
         'Hoge waterdruk',
         'Direct zonlicht',
       ],

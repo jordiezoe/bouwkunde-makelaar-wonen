@@ -381,7 +381,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
       options: [
         'Sanitair en aanrechtbladen',
         'Constructief kolommenwerk in een kantoor',
-        'Decoratieve gevelbekleding en kunst (roestbruine patina)',
+        'Decoratieve gevelbekleding en kunst',
         'Loodvervanger voor dakdoorvoeren',
       ],
       correctIndex: 2,
@@ -691,7 +691,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
       prompt:
         'Wat is **schooperen / zinkspuiten**?',
       options: [
-        'Gesmolten zink op het oppervlak spuiten (metalliseren)',
+        'Gesmolten zink op het oppervlak spuiten',
         'Verf met zinkpoeder die als primer wordt aangebracht',
         'Onderdompelen in zinkoplossing zonder stroom',
         'Een kleurige toplaag voor cortenstaal',
@@ -741,7 +741,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
       options: [
         'Eerst poedercoaten, daarna elektrolytisch verzinken',
         'Twee lagen verf: een primer met zinkpoeder + een afwerklaag',
-        'Thermisch verzinken met een verflaag erover (duplexsysteem)',
+        'Thermisch verzinken met een verflaag erover',
         'Het tegelijk lassen en verzinken in één proces',
       ],
       correctIndex: 2,

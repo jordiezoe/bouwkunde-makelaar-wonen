@@ -348,7 +348,7 @@ Alle non-ferro metalen zijn **eindeloos recyclebaar** zonder kwaliteitsverlies:
       options: [
         'Koperen folie',
         'Aluminium plaat',
-        'EPDM-rubber of DPC-folie (LLDPE-kunststof)',
+        'EPDM-rubber of DPC-folie',
         'Bitumen-bestraling',
       ],
       correctIndex: 2,
@@ -380,7 +380,7 @@ Alle non-ferro metalen zijn **eindeloos recyclebaar** zonder kwaliteitsverlies:
       options: [
         'Schooperen',
         'Sherardiseren',
-        'PVDF-lak — zeer weersbestendige afwerking',
+        'PVDF-lak',
         'Cortenpatina laten ontstaan',
       ],
       correctIndex: 2,

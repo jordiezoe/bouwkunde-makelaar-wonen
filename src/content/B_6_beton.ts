@@ -675,7 +675,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Welk eigenschap van beton maakt het bij uitstek geschikt voor luchtgeluidsisolerende woningscheidende wanden?',
       options: [
         'De porositeit',
-        'De hoge volumieke massa (zware materiaal)',
+        'De hoge volumieke massa',
         'De lage druksterkte',
         'De warmte-isolerende werking',
       ],
@@ -807,7 +807,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Welke maatregel **voorkomt** craquelé in een verse betonvloer?',
       options: [
         'Onmiddellijk na storten dekvloer aanbrengen',
-        'Het beton afdekken en nathouden (curing)',
+        'Het beton afdekken en nathouden',
         'Extra cement toevoegen aan de toplaag',
         'De wapening dichter onder het oppervlak leggen',
       ],
@@ -841,7 +841,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Wat is karakteristiek voor een **paddenstoelvloer**?',
       options: [
         'Een prefab plaat met polystyreen vulelementen',
-        'Een vlakke plaatvloer met verbrede kolomkoppen (paddenstoelvloer)',
+        'Een vlakke plaatvloer met verbrede kolomkoppen',
         'Een vloer met diagonale ribben in een gridpatroon',
         'Een geprofileerde staalplaat met afgegoten beton',
       ],
@@ -858,7 +858,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
       options: [
         'De onderzijde van een prefab vloer, zichtbaar als plafond',
         'Een dragende vloerconstructie van prefab balken',
-        'Een niet-dragende afwerklaag op de ondervloer (dekvloer)',
+        'Een niet-dragende afwerklaag op de ondervloer',
         'Een betonnen vloer met druklaag tussen prefab elementen',
       ],
       correctIndex: 2,

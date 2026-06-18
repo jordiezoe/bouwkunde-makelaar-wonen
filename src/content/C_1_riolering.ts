@@ -521,7 +521,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       prompt: 'Wat is de **aansluitplicht** op het gemeenteriool volgens het Bbl?',
       options: [
         'Iedereen moet aansluiten ongeacht afstand',
-        'Wie binnen 40 m een vuilwaterriool heeft mag niet zelf lozen — verplicht aansluiten',
+        'Binnen 40 m van een vuilwaterriool: verplicht aansluiten',
         'Aansluitplicht alleen in steden, niet op het platteland',
         'Alleen woningen na 1990 hebben aansluitplicht',
       ],
@@ -536,7 +536,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       prompt: 'Bij een **RWZI (rioolwaterzuiveringsinstallatie)** is de zuivering opgebouwd uit drie stappen. Welke?',
       options: [
         'Filtreren → chloreren → verdampen',
-        'Mechanisch (rooster, zandvang) → biologisch (bacteriën in beluchtingsbassin) → chemisch (P/N-verwijdering)',
+        'Mechanisch (rooster, zandvang) → biologisch (bacteriën in beluchtingsbassin) → chemisch',
         'Centrifugeren → verbranden → opslaan',
         'Pompen → verwarmen → koelen',
       ],
@@ -553,7 +553,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       prompt: 'Wat is een **gescheiden rioleringssysteem**?',
       options: [
         'Hemelwater en huishoudelijk afvalwater in één leiding',
-        'Hemelwater wordt apart afgevoerd (naar oppervlaktewater of infiltratie), huishoudelijk afvalwater apart naar zuivering',
+        'Hemelwater en afvalwater worden apart afgevoerd',
         'Vuilwater en spoelwater apart',
         'Mannelijk en vrouwelijk afvalwater apart',
       ],
@@ -568,7 +568,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       prompt: 'Wat is het belangrijkste **nadeel van een gemengd stelsel**?',
       options: [
         'Het is duurder in aanleg dan een gescheiden stelsel',
-        'Bij hevige bui kan de capaciteit niet voldoen → ongezuiverd afvalwater stroomt via overstorten op oppervlaktewater',
+        'Bij hevige bui loost de overstort ongezuiverd op het water',
         'Het werkt alleen in stedelijk gebied',
         'Het vereist extra pompinstallaties',
       ],
@@ -583,7 +583,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       prompt: 'Waarvoor staat **VWA** in de rioleringsterminologie?',
       options: [
         'Vrije Wateropvang Afvalstoffen',
-        'Vuilwaterafvoer — voor huishoudelijk afvalwater',
+        'Vuilwaterafvoer',
         'Voorlopige Water Aansluiting',
         'Vorstgevoelige Wateraanvoer',
       ],
@@ -600,7 +600,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       prompt: 'Wat is een **wadi**?',
       options: [
         'Een ondergrondse opslagtank voor afvalwater',
-        'Een verlaagde groene strook waarin hemelwater kan infiltreren — vertraagt afvoer en houdt grondwater op peil',
+        'Een verlaagde groene strook waarin hemelwater infiltreert',
         'Een chemische installatie voor zuivering',
         'Een speciaal type septictank met biologische zuivering',
       ],
@@ -614,7 +614,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       type: 'mc',
       prompt: 'Wat is een **IBA-installatie**?',
       options: [
-        'Individuele Behandeling van Afvalwater — een mini-zuivering op eigen terrein voor woningen zonder gemeenteriool, drie klassen oplopend in zuiveringsgraad',
+        'Individuele Behandeling van Afvalwater',
         'Industriële Bedrijfs-Afvoer voor fabrieken',
         'Inwendige Buitenstaande Afvalcontainer',
         'International Building Authority',
@@ -630,7 +630,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       prompt: 'Bij een woning op een **septictank**: waar moeten hemelwater en grijs water (douche/wastafel) heen?',
       options: [
         'Door de septictank — zorgt voor verdunning',
-        'Buiten de septictank om — chloor en zeep verstoren de biologische werking van de bacteriën',
+        'Buiten de septictank om — chloor/zeep verstoren de bacteriën',
         'In aparte beerput',
         'Naar de RWZI',
       ],
@@ -645,7 +645,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       prompt: 'Een **beerput** is:',
       options: [
         'Een moderne biologische zuiveringsinstallatie',
-        'Een ondergrondse gesloten put waarin afvalwater werd verzameld — historisch systeem, niet meer toegestaan voor nieuwbouw',
+        'Een gesloten put voor afvalwater (beerput), historisch',
         'Een type wadi voor industriële toepassing',
         'Een synoniem voor septictank',
       ],
@@ -662,7 +662,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       prompt: 'Wat is een **polderstuk** in een rioleringssysteem?',
       options: [
         'Een ontstoppingsstuk bij de perceelgrens',
-        'Een flexibele aansluiting met rubberring tussen huisaansluiting en hoofdriool — vangt zettingsverschillen op tussen woning en straat',
+        'Een flexibele aansluiting die zettingsverschillen opvangt',
         'Een T-stuk dat polderwater scheidt van rioolwater',
         'Het laatste hulpstuk vóór de gemeenteriolering',
       ],
@@ -678,7 +678,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
         'Waarom mag in een liggende rioleringsleiding **geen 90°-bocht** worden geplaatst?',
       options: [
         'Het kost te veel materiaal',
-        'Een 90°-bocht remt vaste stoffen af en veroorzaakt verstopping; daarom altijd twee 45°-bochten voor een vloeiend beloop',
+        'Twee 45°-bochten i.p.v. één 90°-bocht voor vloeiend beloop',
         'Het is alleen een esthetische regel',
         '90°-bochten lekken altijd na verloop van tijd',
       ],
@@ -694,7 +694,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
         'Wat is de functie van een **ontstoppingsstuk** op of nabij de perceelgrens?',
       options: [
         'Het verzamelt vetten uit keukenwater',
-        'Bij verstopping kan vastgesteld worden of het probleem op eigen terrein of in de gemeenteleiding zit — schroef- of klemdeksel open en inspectie/ontstopping mogelijk',
+        'Bepalen of de verstopping op eigen terrein of bij de gemeente zit',
         'Het scheidt regen- en huishoudelijk afvalwater',
         'Het meet het waterverbruik',
       ],
@@ -723,7 +723,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
         'Stankoverlast in een woning ondanks een schijnbaar werkend riool — een veelvoorkomende oorzaak is:',
       options: [
         'Te koude leidingen',
-        'Sifon leeg gehevel door onderdruk in de standleiding (defecte ontspanningsleiding); of een sifon die door verdamping leeg is gestaan',
+        'Het waterslot is leeggeheveld of verdampt',
         'Te warm afvalwater',
         'Verkeerde afschotrichting van de standleiding',
       ],
@@ -739,7 +739,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
         '**Verzakking** van een buitenriolerings­leiding in slappe grond geeft als gevolg:',
       options: [
         'Verhoogde druk in de standleiding',
-        'Lokaal omgekeerd afschot (tegenschot) → blijvende verstopping in dat punt',
+        'Omgekeerd afschot (tegenschot) → verstopping',
         'Stank door beluchtingsproblemen',
         'Buisbreuk binnen 1 maand',
       ],
@@ -768,7 +768,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
         'Wat is een **standleiding**?',
       options: [
         'Een liggende leiding onder de beganegrondvloer',
-        'Een verticale leiding (helling > 45°) die door meerdere verdiepingen loopt',
+        'Een verticale leiding door meerdere verdiepingen',
         'De leiding van een lozingstoestel naar de verzamelleiding',
         'De leiding van perceelgrens naar gemeenteriool',
       ],
@@ -797,7 +797,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
         'Bij inspectie van een huis uit **1955** is er een oude **gietijzeren standleiding** zichtbaar. Wat is het primaire risico?',
       options: [
         'Gietijzer is brandbaar',
-        'Roest van binnenuit — de buis wordt dunner en kan barsten; ook lekken bij oude loden verbindingen',
+        'Roest van binnenuit',
         'Gietijzer geleidt elektriciteit en is daardoor gevaarlijk',
         'Gietijzer geeft radongas af',
       ],
@@ -813,7 +813,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
         'Bij een woning uit **1970** worden in de buitenwand asbestcementen golfplaten en een asbest-cement-rioolbuis aangetroffen. Welke handeling is verplicht?',
       options: [
         'Eigenaar mag deze zelf demonteren',
-        'Asbestinventarisatie en sloop door een gespecialiseerd bedrijf onder omgevingsvergunning — asbestvezels zijn ernstig schadelijk voor de longen',
+        'Asbestinventarisatie en sanering door een gecertificeerd bedrijf',
         'Niets — asbestcement is veilig zolang niet gebroken',
         'Vervangen door een asbestcement-variant zonder vezels',
       ],
@@ -829,7 +829,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
         'In een oudere wijk komen vaak **gresbuizen** voor in de rioleringsleidingen. Wat is het hoofdprobleem?',
       options: [
         'Gresbuizen geleiden elektriciteit',
-        'Gresbuizen zijn bros — verbindingen met asfaltmoffenkit kunnen scheuren door beweging, en wortels groeien door scheuren naar binnen (verstopping)',
+        'Gresbuizen zijn bros; wortels groeien door scheuren naar binnen',
         'Gresbuizen geven asbestvezels af',
         'Gresbuizen veroorzaken roest in andere materialen',
       ],
@@ -862,7 +862,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       prompt:
         'Wat is een **Sanibroyeur**?',
       options: [
-        'Een type closetpot met motortje dat fecaliën fijnmaalt — afvoer via dunne Ø 45 mm leiding (oplossing voor verbouwingen zonder grote afvoer)',
+        'Een closetpot die fecaliën fijnmaalt voor dunne afvoer',
         'Een merknaam voor een hangcloset',
         'Een dispenser voor toiletpapier',
         'Een sifon met dubbele bocht',
@@ -879,7 +879,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
         'Een **wasmachine** wordt aangesloten op de afvoer via:',
       options: [
         'Direct in de standleiding zonder waterslot',
-        'Een standpijp (verticale buis waarin de wasslang hangt) of dubbele tapaansluiting, met eigen sifon — voldoende beluchting nodig',
+        'Een standpijp met eigen sifon voor de wasmachine',
         'De vaatwasser-aansluiting',
         'Een doucheplug in de vloer',
       ],
@@ -897,7 +897,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
         'Hoe werkt een **WTW-douche** (warmteterugwinning douche)?',
       options: [
         'Een radiator boven de douche verwarmt de ruimte',
-        'Een warmtewisselaar in de afvoer brengt warmte van het wegvloeiende douchewater over naar het inkomende koude leidingwater — het leidingwater wordt al voorverwarmd voordat het de combiketel bereikt',
+        'Een warmtewisselaar voorverwarmt koud water met warm douchewater',
         'Een elektrische verwarming bovenop het douchehoofd',
         'Een isolerende deken om de douchebak',
       ],
@@ -914,7 +914,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       options: [
         'De douche koud water gebruikt',
         'De gebruiker langzaam doucht',
-        'Warm douchewater wegvloeit en tegelijkertijd koud leidingwater aanstroomt (gelijktijdige stroming aan beide zijden van de wisselaar)',
+        'Bij gelijktijdig douchen: warm weg en koud aan',
         'De wisselaar elektrisch wordt voorverwarmd',
       ],
       correctIndex: 2,

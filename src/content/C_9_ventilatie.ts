@@ -520,7 +520,7 @@ Bij Systeem D (gebalanceerde ventilatie met WTW) zou een afzuig­kap-naar-buiten
       prompt: 'Wat is een **LBK (Luchtbehandelings­kast)**?',
       options: [
         'Een rookmelder',
-        'Een grote centrale unit met meerdere functies: ventilatie + verwarmen + koelen + bevochtigen + filteren — verbonden met luchtkanalen naar anemostaten in elke ruimte; standaard in utiliteit (kantoren, scholen, ziekenhuizen)',
+        'Een grote centrale unit met meerdere functies: ventilatie + verwarmen + koelen + bevochtigen + filteren',
         'Een type kachel',
         'Een dak­ventilator',
       ],
@@ -537,7 +537,7 @@ Bij Systeem D (gebalanceerde ventilatie met WTW) zou een afzuig­kap-naar-buiten
       prompt: 'Op een ventilatie-tekening: hoe herken je dat het om Systeem D (gebalanceerd + WTW) gaat?',
       options: [
         'Aanwezigheid van roosters in alle kozijnen',
-        'Centrale unit met warmtewisselaar-symbool + filter + twee kanalen (toevoer + afvoer) + capaciteiten per ruimte ongeveer in balans (totaal toevoer ≈ totaal afvoer)',
+        'Centrale unit met warmtewisselaar-symbool + filter + twee kanalen (toevoer + afvoer) + capaciteiten per ruimte ongeveer in balans',
         'Alleen afzuig­ventielen in keuken',
         'Open kanalen op het dak',
       ],
@@ -569,7 +569,7 @@ Bij Systeem D (gebalanceerde ventilatie met WTW) zou een afzuig­kap-naar-buiten
       prompt: 'Wat zijn **shuntkanalen**?',
       options: [
         'Moderne WTW-kanalen',
-        'Verticale gemeenschappelijke afvoerkanalen door alle verdiepingen van een (oud) appartementen­complex — natuurlijke ventilatie via zuig-effect; bij stilstaande lucht risico op terugstroming uit buurman',
+        'Verticale gemeenschappelijke afvoerkanalen door alle verdiepingen van een (oud) appartementen­complex',
         'Brandweerleidingen',
         'Lucht­toevoer­kanalen voor schone lucht',
       ],
@@ -601,7 +601,7 @@ Bij Systeem D (gebalanceerde ventilatie met WTW) zou een afzuig­kap-naar-buiten
       prompt: 'In welke ruimten van een woning wordt **lucht aangevoerd** (verse lucht ingebracht)?',
       options: [
         'Alleen in de badkamer',
-        'Verblijfsruimten waar mensen langer verblijven: woonkamer, slaapkamer, hobby-/werkruimte — minimum 0,7 l/s per m²',
+        'Verblijfsruimten waar mensen langer verblijven: woonkamer, slaapkamer, hobby-/werkruimte',
         'Alleen in keuken',
         'In de garage',
       ],
@@ -648,7 +648,7 @@ Bij Systeem D (gebalanceerde ventilatie met WTW) zou een afzuig­kap-naar-buiten
       prompt: 'Wat is het verschil tussen een **recirculatie-afzuigkap** en een **afzuigkap naar buiten**?',
       options: [
         'Recirculatie is moderner',
-        'Recirculatie: damp wordt door filter (vet + actieve kool) en terug in keuken geblazen — geen aansluiting op afvoerkanaal. Afzuig-naar-buiten: damp wordt via kanaal naar buiten geleid — effectiever maar vereist doorbreking gevel/dak',
+        'Recirculatie: damp wordt door filter (vet + actieve kool) en terug in keuken geblazen',
         'Recirculatie heeft geen filter',
         'Afzuig-naar-buiten werkt op elektriciteit, recirculatie niet',
       ],

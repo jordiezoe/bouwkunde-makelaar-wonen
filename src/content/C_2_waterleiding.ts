@@ -513,7 +513,7 @@ Bij verkoop van een woning vóór 1960:
       options: [
         'Geluidsdemping voorkomen',
         'Vermindering van waterdruk',
-        'Voorkomt dat (mogelijk vervuild) water uit de woning kan terugstromen naar het distributienet',
+        'Voorkomt terugstroming van water naar het net',
         'Sluit het water af bij vorst',
       ],
       correctIndex: 2,
@@ -527,7 +527,7 @@ Bij verkoop van een woning vóór 1960:
       prompt: 'Waar staat **KIWA** voor in waterleidingcontext?',
       options: [
         'Kwaliteitsinstituut Waterleidingen Algemeen',
-        'Een onafhankelijke organisatie die waterleidingmaterialen keurt — KIWA-keurmerk verplicht op leidingen, kranen en ketels',
+        'Een keuringsinstantie voor waterleidingmateriaal',
         'Een drinkwaterbedrijf zoals Vitens',
         'Een norm voor watercirculatie',
       ],
@@ -545,7 +545,7 @@ Bij verkoop van een woning vóór 1960:
       options: [
         'De energie-efficiëntie',
         'De maximale verwarmingscapaciteit in kW',
-        'Het tapwater-comfort: CW-1 minimaal (wastafel), CW-3 keuken + kleine douche, CW-5 bad + douche tegelijk, CW-6 meerdere tappunten tegelijk',
+        'Het tapwater-comfortniveau',
         'De temperatuur van het tapwater',
       ],
       correctIndex: 2,
@@ -559,7 +559,7 @@ Bij verkoop van een woning vóór 1960:
       prompt: 'Een **close-in boiler** is:',
       options: [
         'Een grote warmwaterboiler in de garage',
-        'Een kleine elektrische boiler (5–10 liter) onder het aanrecht of in een toilet, met open overloop op het riool — heet water direct bij tappunt',
+        'Een kleine elektrische boiler bij het tappunt',
         'Een gasboiler met dichte rookgasafvoer',
         'Een combiketel zonder cv-functie',
       ],
@@ -574,7 +574,7 @@ Bij verkoop van een woning vóór 1960:
       prompt: 'Wat is het verschil tussen een **zonnepaneel** en een **zonnecollector**?',
       options: [
         'Zonnepaneel is op het dak, zonnecollector binnenshuis',
-        'Een zonnepaneel (PV) levert elektriciteit; een zonnecollector levert warmte (voor de zonneboiler)',
+        'PV levert stroom; een collector levert warmte',
         'Een zonnecollector is voor in de winter, een zonnepaneel voor in de zomer',
         'Het zijn synoniemen',
       ],
@@ -590,7 +590,7 @@ Bij verkoop van een woning vóór 1960:
         'Bij aansluiting op een **warmtenet (stadsverwarming)** wordt in plaats van een combiketel een ander apparaat geplaatst:',
       options: [
         'Een grotere boiler',
-        'Een warmte-unit (afleverset) — bevat warmtewisselaar, regelklep en warmtemeter; geen gas meer in de woning',
+        'Een afleverset met warmtewisselaar en -meter',
         'Een zonneboiler',
         'Een extra cv-pomp',
       ],
@@ -606,7 +606,7 @@ Bij verkoop van een woning vóór 1960:
         'Een **Quooker** levert:',
       options: [
         'Gefilterd, gekoeld water',
-        'Kokend water (~110 °C) direct uit de kraan via een klein voorraadvaatje (3–7 l) onder het aanrecht — vervangt waterkoker en pannen op fornuis',
+        'Kokend water direct uit de kraan',
         'Warm tapwater voor de douche',
         'Bruisend mineraalwater',
       ],
@@ -624,7 +624,7 @@ Bij verkoop van een woning vóór 1960:
         'Welke kraan is **standaard voor de douche of het bad** vanwege constante temperatuur ondanks druk- of stroomschommelingen?',
       options: [
         'Eenhandsmengkraan',
-        'Thermostatische mengkraan — automatische temperatuurregeling onafhankelijk van druk- of stroomschommelingen',
+        'Thermostatische mengkraan',
         'Hoekstopkraan',
         'Drukveerkraan',
       ],
@@ -640,7 +640,7 @@ Bij verkoop van een woning vóór 1960:
         'Bij elke **buitenkraan** is een **keerklep** verplicht. Waarom?',
       options: [
         'Om vorstgevaar te voorkomen',
-        'Om terugstroming van vervuild water (bijv. uit een tuinslang in een gier-ton) in het drinkwaternet te voorkomen',
+        'Om terugstroming van vervuild water te voorkomen',
         'Om de waterdruk te verhogen',
         'Om de kraan eenvoudig af te sluiten in de winter',
       ],
@@ -656,7 +656,7 @@ Bij verkoop van een woning vóór 1960:
         'Wat is een **perlator (mousseur)** op een kraan?',
       options: [
         'Een filter voor zwevende deeltjes',
-        'Een luchtmenger aan de tuit die water met lucht mengt — geeft de indruk van volle straal maar bespaart ~40% water',
+        'Een luchtmenger op de tuit die ~40% water bespaart',
         'Een chemisch element voor ontkalken',
         'Een geluiddemper',
       ],
@@ -674,7 +674,7 @@ Bij verkoop van een woning vóór 1960:
         'Op een installatietekening worden **warm- en koudwaterleidingen** vaak weergegeven met:',
       options: [
         'Dezelfde kleur (rood)',
-        'Verschillende kleuren of lijntypes — koud meestal blauw of doorgetrokken, warm meestal rood of streep-stippellijn (vaak met code "KW" en "WW")',
+        'Aan kleur/lijntype: koud blauw, warm rood (KW/WW)',
         'Pijl-symbolen alleen',
         'Tekstaanduiding zonder kleur',
       ],
@@ -690,7 +690,7 @@ Bij verkoop van een woning vóór 1960:
         'Voor een woninginspectie: wat zoek je primair op een installatietekening?',
       options: [
         'De exacte capaciteit van elke kraan',
-        'Plaats van hoofdkraan, ketel/boiler-type, mogelijke loden leidingen, doodlopende leidingen (legionella-risico) en onbeschermde buitenleidingen (vorstgevaar)',
+        'Hoofdkraan, keteltype, loden/doodlopende/onbeschermde leidingen',
         'De kleur van de kranen',
         'De afmetingen van de meterkast',
       ],
@@ -708,7 +708,7 @@ Bij verkoop van een woning vóór 1960:
         'Hoe werkt een **wateronthardingsinstallatie** (ionenuitwisseling)?',
       options: [
         'Door verhitting van het water tot kalk neerslaat',
-        'Hard water stroomt door harskorrels beladen met natriumionen; calcium- en magnesiumionen wisselen plaats met natrium → water wordt zacht. Regeneratie van de hars gebeurt met pekel (zoutoplossing)',
+        'Calcium/magnesium wisselen op hars met natrium → zacht water',
         'Door een magneetveld dat kalkkristallen breekt',
         'Door chemische dosering met zoutzuur',
       ],
@@ -724,7 +724,7 @@ Bij verkoop van een woning vóór 1960:
         'Wat is een **hydrofoor (drukverhogings­installatie)**?',
       options: [
         'Een filter voor harde water',
-        'Een pomp + drukvat dat het waterdruk niveau verhoogt — toegepast wanneer bovenste tappunten van een gebouw te weinig druk hebben (vanaf de 3e–4e verdieping)',
+        'Een pomp met drukvat die de waterdruk verhoogt',
         'Een onderdeel van de combiketel',
         'Een wateropvang voor regenwater',
       ],
@@ -740,7 +740,7 @@ Bij verkoop van een woning vóór 1960:
         'Een waterontharder regenereert periodiek met **pekel (zoutoplossing)**. Wat is het nadeel daarvan?',
       options: [
         'Het verbruikt veel elektriciteit',
-        'Verhoogt natriumgehalte in het drinkwater (voor zoutarme dieet kan dit een overweging zijn) en lozes spoelwater naar riool',
+        'Verhoogt het natriumgehalte en loost spoelwater',
         'Het maakt het water zuur',
         'Het regenereert te langzaam',
       ],
@@ -774,7 +774,7 @@ Bij verkoop van een woning vóór 1960:
         'Hoe herken je **loden waterleidingen visueel**?',
       options: [
         'Helder zilvergrijs glanzend',
-        'Doffe, matgrijze paarsachtige kleur; uit één stuk gebogen (geen lasnaden); een nagel kan een krasje maken (zacht metaal)',
+        'Dof matgrijs, geen lasnaden, zacht',
         'Rood-bruin met groen patina',
         'Wit kunststof',
       ],
@@ -790,7 +790,7 @@ Bij verkoop van een woning vóór 1960:
         'Voor wie is lood in drinkwater **bijzonder schadelijk**?',
       options: [
         'Alleen voor ouderen boven de 65',
-        'Voor ongeboren kinderen, zuigelingen en jonge kinderen (hersenontwikkeling) en zwangere vrouwen — lood is een zwaar metaal dat zich opstapelt en hersenschade veroorzaakt',
+        'Voor (ongeboren) kinderen en zwangeren',
         'Alleen bij grote hoeveelheden',
         'Nauwelijks schadelijk',
       ],
@@ -824,7 +824,7 @@ Bij verkoop van een woning vóór 1960:
         'Hoe besmet een mens zich met **legionella**?',
       options: [
         'Door drinken van besmet water',
-        'Door inademing van besmette aerosoldroplets (douche, fontein, koeltoren, jacuzzi) — bacterie bereikt de longen',
+        'Door inademing van besmette aerosolen',
         'Door huidcontact',
         'Door consumptie van besmette voeding',
       ],
@@ -840,7 +840,7 @@ Bij verkoop van een woning vóór 1960:
         'Welke maatregel **voorkomt legionella in een woning** het beste?',
       options: [
         'Wekelijks chloor in de boiler',
-        'Geen doodlopende leidingen, warmwater min. 60 °C in boiler en min. 55 °C bij tappunten, koudwater < 25 °C',
+        'Geen dode leidingen; warm ≥60 °C, koud <25 °C',
         'Het uitschakelen van de combiketel buiten gebruik',
         'Alleen mineraalwater drinken',
       ],

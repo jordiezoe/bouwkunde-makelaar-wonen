@@ -252,7 +252,7 @@ Dieven kijken naar **kwetsbaarheids­tekens**:
       prompt: 'Wat is het **verschil tussen een scharnier en een paumelle**?',
       options: [
         'Synoniemen',
-        'Een gewoon scharnier laat de deur in één vlak draaien; een paumelle (lifting hinge) tilt de deur tijdens openen op — voor deuren over drempels, tapijt of bij vloerniveau-verschillen',
+        'Een gewoon scharnier laat de deur in één vlak draaien; een paumelle (lifting hinge) tilt de deur tijdens openen op',
         'Paumelles zijn alleen voor schuifdeuren',
         'Een scharnier heeft één blad, een paumelle twee',
       ],
@@ -267,7 +267,7 @@ Dieven kijken naar **kwetsbaarheids­tekens**:
       prompt: 'Wat is een **geheng**?',
       options: [
         'Een type slot',
-        'Een lang, zichtbaar scharnier-blad dat over de hele breedte van een deur of luik loopt — vaak met decoratief eindstuk; voor zware deuren, brede luiken, monumentale of decoratieve toepassing',
+        'Een lang, zichtbaar scharnier-blad dat over de hele breedte van een deur of luik loopt',
         'Een handgreep',
         'Een raamsluiting',
       ],
@@ -282,7 +282,7 @@ Dieven kijken naar **kwetsbaarheids­tekens**:
       prompt: 'Wat is een **espagnolet**?',
       options: [
         'Een Frans slot',
-        'Verticale stang binnen in raam-/deur­kader die op meerdere punten boven en onder vergrendelt — bediend via sluitkruk of druk-trek-handvat; voor naar buiten draaiende ramen, stolp-ramen en deuren',
+        'Verticale stang binnen in raam-/deur­kader die op meerdere punten boven en onder vergrendelt',
         'Een type deurkruk',
         'Een raammechaniek met touw',
       ],
@@ -297,7 +297,7 @@ Dieven kijken naar **kwetsbaarheids­tekens**:
       prompt: 'Wat zijn **raambomen**?',
       options: [
         'Houten balken naast het kozijn',
-        'Klassieke verticale ijzeren stangen met hendel die in opvangers in het kozijn schuift (boven én onder) — voor raamvergrendeling; modern vervangen door espagnolet maar nog in monumentale panden',
+        'Klassieke verticale ijzeren stangen met hendel die in opvangers in het kozijn schuift',
         'Bomen die door het raam groeien',
         'Hijsbalken boven het raam',
       ],
@@ -312,7 +312,7 @@ Dieven kijken naar **kwetsbaarheids­tekens**:
       prompt: 'Wat is de functie van een **schild** bij een deurkruk?',
       options: [
         'Decoratie alleen',
-        'Beschermt het deurhout tegen handen-vetafdruk + versterkt het slot tegen wrikken + esthetisch vormgeven; bevat de opening voor de sleutel; modern: rozet (klein rond) of langschild (lange rechthoek)',
+        'Beschermt het deurhout tegen handen-vetafdruk + versterkt het slot tegen wrikken + esthetisch vormgeven; bevat de opening voor de sleutel; modern: rozet (klein rond) of langschild',
         'Een veiligheidssysteem voor brand',
         'Een geluidsdemper',
       ],
@@ -329,7 +329,7 @@ Dieven kijken naar **kwetsbaarheids­tekens**:
       prompt: 'Wat zijn **SKG-sterren** in hang- en sluitwerk?',
       options: [
         'Decoratieve sterren op de kruk',
-        'Stichting Kwaliteitseisen Gebouwbeslag-classificatie voor inbraakvertraging: 1 ster = 3 min inbraakvertraging (basis), 2 sterren = 5 min, 3 sterren = volledige inbraakvertraging (PKVW-eis buitendeuren)',
+        'Stichting Kwaliteitseisen Gebouwbeslag-classificatie voor inbraakvertraging: 1 ster = 3 min inbraakvertraging (basis), 2 sterren = 5 min, 3 sterren = volledige inbraakvertraging',
         'Een verkoopprijs-indicator',
         'Een merkaanduiding',
       ],
@@ -359,7 +359,7 @@ Dieven kijken naar **kwetsbaarheids­tekens**:
       prompt: 'Een **vrijloop­krukstel** in een buitendeur:',
       options: [
         'Loopt vrij in beide richtingen',
-        'Binnen­kruk draait vrij (deur kan altijd vanaf binnen geopend worden); buitenkruk draait alleen na ontgrendeling met sleutel — voorkomt dat inbreker via gat in glas de binnenkruk kan bedienen',
+        'Binnen­kruk draait vrij (deur kan altijd vanaf binnen geopend worden); buitenkruk draait alleen na ontgrendeling met sleutel',
         'Werkt alleen elektronisch',
         'Heeft geen schild',
       ],
@@ -374,7 +374,7 @@ Dieven kijken naar **kwetsbaarheids­tekens**:
       prompt: 'Wat is een **belangrijke aanbeveling** bij koop van een tweedehands woning m.b.t. cilinders?',
       options: [
         'Niets aan doen',
-        'Alle cilinders na verkoop vervangen — voorgaande eigenaar kan kopieën van sleutel hebben gemaakt; kosten ~€ 100–200 voor complete cilinder-set; eenvoudig zelf te vervangen of door slotenmaker',
+        'Alle cilinders na verkoop vervangen',
         'Alleen de voordeur-cilinder vervangen',
         'Alleen de sleutels overdragen',
       ],

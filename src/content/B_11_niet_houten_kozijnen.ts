@@ -294,7 +294,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
       options: [
         'De bovendorpel van het kozijn draagt zelf de bovenliggende belasting',
         'Het stalen kozijn heeft een ingebouwde latei',
-        'Er moet altijd een latei boven — de bovendorpel draagt niet',
+        'Er moet altijd een latei boven',
         'De ondersteuning komt automatisch via de kozijnankers',
       ],
       correctIndex: 2,
@@ -324,7 +324,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
       prompt: 'Welke versterking zit binnen een geëxtrudeerd kunststof (PVC) kozijnprofiel?',
       options: [
         'Een loodkern voor extra gewicht',
-        'Een versterkingsprofiel in de PVC-kamer (anders te slap)',
+        'Een versterkingsprofiel in de PVC-kamer',
         'Een isolatieschuim',
         'Een betonkern voor stevigheid',
       ],
@@ -340,7 +340,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
         'Wat is een **renovatiekozijn** in kunststof?',
       options: [
         'Een nieuw kozijn dat in plaats van een gesloopt oud kozijn komt',
-        'Een kunststof kozijn in een bestaand kozijn (renovatiekozijn)',
+        'Een kunststof kozijn in een bestaand kozijn',
         'Een kozijn met verlaagde isolatie-eisen voor monumentaal werk',
         'Een tijdelijk kozijn tijdens de bouw',
       ],
@@ -421,7 +421,7 @@ Vier materialen, alle met eigen sterke en zwakke punten. Onder elkaar:
       options: [
         'Hout',
         'Aluminium',
-        'Kunststof (PVC) — geeft bij brand chloorgas/zoutzuur',
+        'Kunststof (PVC)',
         'Staal',
       ],
       correctIndex: 2,

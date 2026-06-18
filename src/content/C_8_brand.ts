@@ -490,7 +490,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Wat is een **slow-whoop**?',
       options: [
         'Een type sprinkler',
-        'Een akoestisch evacuatie­signaal: laag-snel oplopende toon (op-en-neer pulserend) — herkenbaar als ontruimings­signaal; vaak gecombineerd met spraak­omroep ("Brand op verdieping X, ontruim onmiddellijk")',
+        'Een akoestisch evacuatie­signaal: laag-snel oplopende toon',
         'Een snelle rookmelder',
         'Een waterpomp voor brandweer',
       ],
@@ -505,7 +505,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Wat is een **droge blusleiding** en wanneer is deze verplicht?',
       options: [
         'Een lege waterleiding voor reparatie',
-        'Een lege leiding door een gebouw met aansluitpunt op begane grond en uitlaatpunten op elke verdieping — brandweer sluit slang aan en pompt bluswater op; verplicht bij gebouwen > 20 m hoog',
+        'Een lege leiding door een gebouw met aansluitpunt op begane grond en uitlaatpunten op elke verdieping',
         'Een natte slang voor de brandweer',
         'Een sprinkler­leiding zonder water',
       ],
@@ -520,7 +520,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Wat is het doel van een **sleutelkluis** aan de buitenzijde van een gebouw?',
       options: [
         'Decoratie',
-        'Beveiligde opslag van sleutels die de brandweer kan openen met universele sleutel/code — toegang verkrijgen zonder deur in te trappen; gangbaar bij grotere panden, scholen, ziekenhuizen, sporthallen',
+        'Beveiligde opslag van sleutels die de brandweer kan openen met universele sleutel/code',
         'Diefstal­beveiliging',
         'Voor de postbode',
       ],
@@ -535,7 +535,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: '**Noodverlichting** in een gebouw heeft welke functie?',
       options: [
         'Decoratieve verlichting bij feestjes',
-        'Automatisch aangaan bij stroomuitval of brand — verlichting van vluchtroutes voor veilige evacuatie; ook anti-paniek­verlichting in grote zalen; werkt op eigen accu (~1 uur)',
+        'Automatisch aangaan bij stroomuitval of brand',
         'Energie­besparing in nachtelijke uren',
         'Verwarming van koude gangen',
       ],
@@ -553,7 +553,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       options: [
         'Waterblusser',
         'Schuimblusser',
-        'CO₂-blusser — blust door verstikking (geen waterschade aan elektronica) en is veilig bij apparatuur onder spanning',
+        'CO₂-blusser',
         'Blusdeken',
       ],
       correctIndex: 2,
@@ -567,7 +567,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Wat is **brandklasse F** en welke bluser is ervoor geschikt?',
       options: [
         'Vaste stoffen — waterblusser',
-        'Brandend frituurvet (vegetabel olie hoog verhit) — speciale vet-blusser of blusdeken; geen water (waterstof­explosie!)',
+        'Brandend frituurvet (vegetabel olie hoog verhit) — speciale vet-blusser of blusdeken; geen water',
         'Vlam­branden — sprinkler',
         'Synoniem voor klasse E',
       ],
@@ -582,7 +582,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Wat is de **worplengte** van een brandslang­haspel met Ø 25 mm slang?',
       options: [
         '1 m',
-        '~5 m bij normale waterdruk — totaal bereik (slang + worplengte) = ~25–35 m vanaf haspel',
+        '~5 m bij normale waterdruk',
         '20 m',
         '100 m',
       ],
@@ -630,7 +630,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       options: [
         'Optische rookmelder',
         'Ionisatie-rookmelder',
-        'Thermische melder (warmtemelder) — reageert op temperatuur­stijging (boven 60–70 °C of > 10 °C/min); geen vals alarm door stoom of dampe',
+        'Thermische melder (warmtemelder)',
         'CO-melder',
       ],
       correctIndex: 2,
@@ -676,7 +676,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Een brandmeld­installatie heeft een **vertragings­tijd** van enkele minuten tussen detectie en algemeen alarm. Waarom?',
       options: [
         'Voor energie­besparing',
-        'Om vals alarm uit te sluiten — personeel kan in deze tijd ter plekke controleren of er echt brand is; bij bevestiging of geen actie volgt het algemene alarm en doormelding brandweer',
+        'Om vals alarm uit te sluiten',
         'Voor wettelijke verplichting',
         'Voor decoratieve reden',
       ],
@@ -708,7 +708,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Wat is **compartimentering** in brandveiligheid?',
       options: [
         'Het indelen van een gebouw in kantoor-zones',
-        'Het indelen van een gebouw in brand­compartimenten — ruimten die door brand-/rookwerende constructies (60+ min) van elkaar zijn afgesloten zodat brand beperkt blijft tot één compartiment',
+        'Het indelen van een gebouw in brand­compartimenten',
         'Het scheiden van warm en koud water',
         'Het reguleren van ventilatie',
       ],
@@ -723,7 +723,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Wat betekent **WBDBO**?',
       options: [
         'Werk Bij Direct Bouw­Overleg',
-        'Weerstand tegen Brand-Doorslag en Brand-Overslag — in minuten brandwerendheid; doorslag = via wand/vloer naar buurcompartiment, overslag = via buitenkant (gevel/dak); woningscheidende constructie WBDBO 60 min standaard',
+        'Weerstand tegen Brand-Doorslag en Brand-Overslag',
         'Wet Brandveiligheid Doorgang Bouw­Object',
         'Welbevinden Brand Door Branden Op',
       ],
@@ -738,7 +738,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'In welke richting opent een **vluchtdeur in een vluchtroute**?',
       options: [
         'Naar de vluchtruimte toe (naar binnen)',
-        'In de vluchtrichting (naar buiten of naar de vluchtweg) — zodat bij paniek de menigte de deur openduwt; met panieksluiting (drukbalk) zonder sleutel',
+        'In de vluchtrichting (naar buiten of naar de vluchtweg)',
         'Schuift zijwaarts',
         'Maakt niet uit',
       ],

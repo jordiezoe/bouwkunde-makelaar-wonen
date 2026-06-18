@@ -912,7 +912,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat is **duurzaam bouwen (DUBO)**?',
       options: [
         'Snel en goedkoop bouwen',
-        'Bouwen met minimale milieubelasting over de gehele levenscyclus — productie, gebruik en sloop — met behoud van comfort en kwaliteit; Triple-P: People (mens), Planet (milieu), Profit (welvaart)',
+        'Bouwen met minimale milieubelasting over de gehele levenscyclus',
         'Bouwen met alleen hout',
         'Een specifieke architectuur­stijl',
       ],
@@ -927,7 +927,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat is de **Trias Energetica**?',
       options: [
         'Een type warmtepomp',
-        'Drie-stappenplan voor energie­zuinig ontwerpen: (1) beperk de energie­vraag door isolatie en luchtdicht bouwen; (2) gebruik hernieuwbare energie­bronnen; (3) gebruik fossiele bronnen efficiënt — in deze volgorde toepassen',
+        'Drie-stappenplan voor energie­zuinig ontwerpen: (1) beperk de energie­vraag door isolatie en luchtdicht bouwen; (2) gebruik hernieuwbare energie­bronnen; (3) gebruik fossiele bronnen efficiënt',
         'Een Bbl-eis',
         'Een soort isolatiemateriaal',
       ],
@@ -944,7 +944,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Het **energielabel** schaal loopt van:',
       options: [
         '1 tot 10',
-        'A++++ (zeer energie­zuinig — BENG, NOM, passief­huis) tot G (zeer energie-onzuinig — vooroorlogs zonder verbetering); berekend volgens NTA 8800',
+        'A++++ (zeer energie­zuinig',
         'Rood tot groen',
         '0 tot 100',
       ],
@@ -975,7 +975,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       options: [
         'A++',
         'C of D',
-        'E of F — slechte isolatie, eventueel HR-ketel, geen zonnepanelen; ruim verbeter­potentieel naar label A via isolatie + warmtepomp + zonnepanelen',
+        'E of F',
         'A++++',
       ],
       correctIndex: 2,
@@ -991,7 +991,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Bij bezichtiging zie je een **buitenunit op de gevel** + binnenunit op zolder + grote boiler. Wat is dit?',
       options: [
         'Een airconditioning­systeem',
-        'Een lucht-water-warmtepomp + warmwater­boiler — modern verwarming­systeem voor all-electric woning; vraag naar leeftijd, jaaropbrengst en onderhouds­contract',
+        'Een lucht-water-warmtepomp + warmwater­boiler',
         'Een ventilatie­installatie',
         'Een ouderwetse cv-ketel',
       ],
@@ -1070,7 +1070,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat is **circulair bouwen**?',
       options: [
         'Bouwen in een ronde vorm',
-        'Bouwen volgens principes van circulaire economie: materialen blijven in de kringloop — Refuse, Reduce, Reuse, Recycle, Recover; demontabele constructies, beton met granulaat, materialen­paspoort',
+        'Bouwen volgens principes van circulaire economie: materialen blijven in de kringloop',
         'Bouwen rondom een centrale vrije ruimte',
         'Roulerend bouwbedrijf',
       ],
@@ -1084,7 +1084,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       type: 'mc',
       prompt: 'Wat zijn **bio-based bouw­materialen**?',
       options: [
-        'Materialen uit biologische bronnen — hernieuwbare planten/organismen die zich binnen menselijke tijdsschaal herstellen; voorbeelden: FSC-hout, vlas-/hennep-/schapenwol-isolatie, kurk, linoleum, leem, stro, bamboe, mycelium',
+        'Materialen uit biologische bronnen',
         'Synthetische materialen',
         'Alleen hout',
         'Materialen met biologische impact',
@@ -1116,7 +1116,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       type: 'mc',
       prompt: 'Wat is de **MPG-score** in Bbl?',
       options: [
-        'Milieu Prestatie Gebouw — wettelijke maat voor milieu-impact van een gebouw in €/m²/jr schaduwprijs (kosten van negatieve impact); Bbl-eis nieuwbouw woning MPG ≤ 0,8 (aangescherpt naar 0,5 in 2025)',
+        'Milieu Prestatie Gebouw',
         'Maximum Plaats Glas',
         'Massa Per Geluidsisolatie',
         'Een type label',
@@ -1134,7 +1134,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat staat **ESG** voor?',
       options: [
         'Energy, Solar, Gas',
-        'Environmental, Social, Governance — raamwerk voor beoordeling van niet-financiële prestaties; in vastgoed: milieu (CO₂, energie), sociaal (toegankelijkheid, gezondheid), bestuur (transparantie, MJOP)',
+        'Environmental, Social, Governance',
         'European Standard for Glass',
         'Energy Saving Group',
       ],
@@ -1166,7 +1166,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat is **passief­huis-principe**?',
       options: [
         'Een huis zonder bewoners',
-        'Extreme isolatie (Rc > 8), triple glas, zeer luchtdicht (< 0,2 Qv,10), balansventilatie + WTW; geen actief verwarmings­systeem of zeer klein — passief opgewarmd door zon, apparatuur en bewoners',
+        'Extreme isolatie (Rc > 8), triple glas, zeer luchtdicht (< 0,2 Qv,10), balansventilatie + WTW; geen actief verwarmings­systeem of zeer klein',
         'Een traditioneel huis',
         'Een huis op zonne-energie alleen',
       ],
@@ -1181,7 +1181,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat is een **NOM-woning**?',
       options: [
         'Nieuwe Onafhankelijke Modulaire woning',
-        'Nul Op de Meter — woning die energie­neutraal is: zelf opgewekt = verbruikt over een jaar; netto € 0 energie­rekening (excl. vastrechtkosten); vergt extreme isolatie + warmtepomp + veel zonnepanelen',
+        'Nul Op de Meter',
         'Nooit Onderhouden Maand',
         'Een type warmtepomp',
       ],
@@ -1213,7 +1213,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat zijn de **consequenties** van geen energielabel bij verkoop?',
       options: [
         'Geen consequenties',
-        'Verplicht bij verkoop of verhuur — boete bij ontbreken (€ 170–400 voor particuliere woning, hoger voor utiliteit); transactie kan ongeldig zijn',
+        'Verplicht bij verkoop of verhuur',
         'Alleen verbod op verkoop',
         'Verplichte verbouwing',
       ],
@@ -1230,7 +1230,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Sinds wanneer moeten **kantoorgebouwen > 100 m²** een energielabel **C of beter** hebben?',
       options: [
         'Sinds 2010',
-        '1 januari 2023 — Bbl-verplichting; geldt niet voor monumenten, kantoor binnen woning < 50 % oppervlak, of tijdelijke gebouwen',
+        '1 januari 2023',
         '2030',
         'Pas vanaf 2050',
       ],
@@ -1245,7 +1245,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat zijn de **consequenties** als een kantoor geen label C heeft sinds 2023?',
       options: [
         'Geen gevolgen',
-        'Verbod op gebruik als kantoor; boete tot € 25.000; verzekering kan dekking weigeren; verhuur niet meer wettig — huurder kan opzegging eisen; verbeter­plan + uitvoering vereist',
+        'Verbod op gebruik als kantoor; boete tot € 25.000; verzekering kan dekking weigeren; verhuur niet meer wettig',
         'Alleen extra belasting',
         'Verplichte gratis renovatie',
       ],
@@ -1292,7 +1292,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat is **klimaatadaptatie**, naast klimaat­mitigatie?',
       options: [
         'Synoniemen',
-        'Aanpassing aan reeds optredende klimaat­verandering: regenwater­buffering (wadi\'s, groendaken), hittestress beperken (witte daken, schaduw, ventilatie), zeespiegel­stijging (waterveiligheid), evacuatie­plannen — naast CO₂-reductie (mitigatie)',
+        'Aanpassing aan klimaatverandering (waterbuffering, hittestress, waterveiligheid)',
         'Een type warmtepomp',
         'Internationale ontwikkelings­hulp',
       ],

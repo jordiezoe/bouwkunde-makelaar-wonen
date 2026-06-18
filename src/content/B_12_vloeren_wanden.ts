@@ -441,7 +441,7 @@ Een woningscheidende wand moet alle drie tegelijk:
         'Bij een verbouwing wil de klant een binnenwand verwijderen. Wat is de **belangrijkste check** voordat dit kan?',
       options: [
         'Of er leidingen door de wand lopen',
-        'Of de wand dragend is — laat een constructeur dit checken',
+        'Of de wand dragend is',
         'Of de wand niet recent geverfd is',
         'Of de buren toestemming geven',
       ],
@@ -570,7 +570,7 @@ Een woningscheidende wand moet alle drie tegelijk:
       prompt:
         'Wat is het wezenlijke principe achter een **massa-veer-massa-constructie** voor lichte woningscheidende wanden?',
       options: [
-        'Twee zware lagen met een geïsoleerde spouw (massa-veer-massa)',
+        'Twee zware lagen met een geïsoleerde spouw',
         'Een lichte wand met een springveer ertussen',
         'Een betonwand met een geïsoleerde voegen',
         'Een wand met twee dunne lagen verf op gips',
@@ -617,7 +617,7 @@ Een woningscheidende wand moet alle drie tegelijk:
       options: [
         'Ja, in de winter is dat juist gewenst',
         'Ja, mits de woning verder goed geïsoleerd is',
-        'Nee — dat geeft condens; beter de vloer goed isoleren',
+        'Nee, dat geeft juist condens',
         'Ja, maar alleen in januari en februari',
       ],
       correctIndex: 2,

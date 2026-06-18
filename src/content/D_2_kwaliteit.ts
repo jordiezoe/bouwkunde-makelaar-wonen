@@ -328,7 +328,7 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       prompt: 'Bij beoordeling van een **houten kozijn**, hoe test je op houtrot?',
       options: [
         'Door de kleur te bekijken',
-        'Visueel (bruin/zwart) + druk-test met priem of pen in het hout — gezond hout weerstaat, rot geeft mee; vooral letten op onderkant kozijn, kops uiteinden en naden tussen kozijn en metselwerk',
+        'Visueel (bruin/zwart) + druk-test met priem of pen in het hout',
         'Door de verf aan te raken',
         'Door het kozijn te wegen',
       ],
@@ -343,7 +343,7 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       prompt: 'Welke **scheur in metselwerk** is een direct alarmerend signaal?',
       options: [
         'Een fijne haarscheur < 1 mm',
-        'Verticale scheur door meerdere metselwerk-lagen > 2 mm of trapsgewijze scheur in voegen — wijst op verzakking van fundering → constructeur raadplegen',
+        'Verticale scheur door meerdere metselwerk-lagen > 2 mm of trapsgewijze scheur in voegen',
         'Een lichte verkleuring van voegen',
         'Een diagonale scheur in pleisterwerk',
       ],
@@ -358,7 +358,7 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       prompt: 'Bij **bitumineuze dakbedekking** op een plat dak: wat is een direct teken van veroudering?',
       options: [
         'Een nieuwe goot',
-        'Blaasvorming (ingesloten vocht expandeert), krimp + scheuren langs randen (veroudering bitumen), roestbruine verkleuring van toplaag — vervangen indien meerdere tekenen',
+        'Blaasvorming (ingesloten vocht expandeert), krimp + scheuren langs randen (veroudering bitumen), roestbruine verkleuring van toplaag',
         'Een glanzende oppervlak',
         'Geen zichtbare schade',
       ],
@@ -388,7 +388,7 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       prompt: 'Wat is de **eerste prioriteit** bij beoordeling van onderhouds-urgentie?',
       options: [
         'Cosmetische uitstraling',
-        'Constructie-veiligheid (scheuren, instabiliteit) en vocht­problemen (lekkages, schimmel) — deze geven snelle vervolgschade',
+        'Constructie-veiligheid (scheuren, instabiliteit) en vocht­problemen',
         'Energie­zuinigheid',
         'De kleur van de gevel',
       ],
@@ -450,7 +450,7 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       prompt: 'Bij een woning in **Amsterdam-Zuid** (pre-1940) is de **fundering** een zorgpunt. Waarom?',
       options: [
         'Te diepe palen',
-        'Veel oudere palen zijn houten paalfundering; daling grondwater­peil door drainage/klimaat­verandering veroorzaakt softrot bij hout boven peil — leidt tot verzakking; gespecialiseerde inspectie + eventueel funderings­herstel (€ 50.000–150.000)',
+        'Veel oudere palen zijn houten paalfundering; daling grondwater­peil door drainage/klimaat­verandering veroorzaakt softrot bij hout boven peil',
         'Te jonge bouwjaar',
         'Geen probleem',
       ],
@@ -465,7 +465,7 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       prompt: 'Welke factor in beoordeling **situering** is belangrijk voor de toekomst-waarde van een woning?',
       options: [
         'Alleen de huidige populariteit',
-        'Bereikbaarheid (OV, fiets), voorzieningen (school, winkels), geluidsoverlast (snelweg/spoor), wateroverlast­risico (laaggelegen + zeespiegel­stijging), energie­transitie (warmtenet beschikbaar?), sociale veiligheid (PKVW-wijk)',
+        'Bereikbaarheid (OV, fiets), voorzieningen (school, winkels), geluidsoverlast (snelweg/spoor), wateroverlast­risico (laaggelegen + zeespiegel­stijging), energie­transitie (warmtenet beschikbaar?), sociale veiligheid',
         'De architect',
         'De kleur van de gevel',
       ],

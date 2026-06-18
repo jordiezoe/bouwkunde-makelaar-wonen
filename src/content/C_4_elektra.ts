@@ -399,7 +399,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       prompt: 'Wat is een **aardlekschakelaar (ALS)** en wanneer schakelt deze uit?',
       options: [
         'Bij hoge stroom (overbelasting)',
-        'Bij verschil tussen fase- en nuldraad — bij lekstroom > 30 mA schakelt hij af in een fractie van een seconde; verplicht sinds 1977',
+        'Bij lekstroom > 30 mA schakelt hij direct af',
         'Bij overspanning op het net',
         'Bij kortsluiting',
       ],
@@ -439,7 +439,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       prompt: 'Hoe wordt in moderne nieuwbouw vaak **geaard**?',
       options: [
         'Via de waterleiding',
-        'Via doorgelaste wapening van de betonfundering of via koperen aardelektroden in de grond — aardrail in meterkast met koperdraad 25 mm² naar alle groepen',
+        'Via funderingswapening of aardelektroden naar de aardrail',
         'Via de gasaansluiting',
         'Aarding is in moderne woningen niet meer nodig',
       ],
@@ -471,7 +471,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       prompt: 'Wat is een **centraaldozensysteem**?',
       options: [
         'Een lange doorgaande kabel zonder aftakkingen',
-        'Ruime lasdoos boven elk lichtpunt; aftakkingen naar wandcontactdozen en schakelaars vanuit deze centraaldoos. Standaard in betonbouw',
+        'Een centraaldoos boven elk lichtpunt met aftakkingen',
         'Een grote groepenkast in elke woning',
         'Een synoniem voor meterkast',
       ],
@@ -486,7 +486,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       prompt: 'Voor een lamp die vanaf **twee verschillende plekken** (onder- en bovenkant trap) bediend moet worden, gebruikt men:',
       options: [
         'Twee eenpolige schakelaars in serie',
-        'Wisselschakelaars (hotelschakelaars) — twee plekken bedienen samen één lamp',
+        'Wisselschakelaars',
         'Pulsdrukker',
         'Dimschakelaar',
       ],
@@ -501,7 +501,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       prompt: 'Wat is een **Perilex-aansluiting**?',
       options: [
         'Een speciale schakelaar voor badkamer',
-        '5-polige stekker (3 fasen + nul + aarde) voor 400 V krachtstroom — gebruikt voor fornuis, sauna, lasapparaat, oudere boilers; niet uitwisselbaar met gewone stekker',
+        'Een 5-polige krachtstroomstekker',
         'Een isolatieprodukt',
         'Een soort lasdoos',
       ],
@@ -516,7 +516,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       prompt: 'Wat is een **loze leiding** in een elektra-installatie?',
       options: [
         'Een leiding zonder draad — verwijderen',
-        'Een lege PVC-buis meegelegd in wand/vloer voor latere uitbreiding (bv. extra stopcontact, internet, alarm) — moet voldoen aan diameter, lengte, bochten en afdichting',
+        'Een lege buis voor latere uitbreiding',
         'Een verbroken leiding',
         'Een leiding voor decoratie',
       ],
@@ -533,7 +533,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       prompt: 'Wat is het verschil tussen een **installatieschema** en een **werktekening op plattegrond**?',
       options: [
         'Installatieschema is van glas, werktekening van papier',
-        'Installatieschema is abstract (logische verbindingen + groepenindeling, zonder schaal); werktekening toont feitelijke positie en kabelverloop in elke verdieping (op schaal)',
+        'Schema is abstract; werktekening toont de werkelijke posities',
         'Werktekening alleen voor de installateur, installatieschema alleen voor de architect',
         'Het zijn synoniemen',
       ],
@@ -563,7 +563,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       prompt: 'In de groepenkast op tekening zie je een groep gemarkeerd als **"vaatwasser 16 A eigen ALS"**. Wat betekent dit?',
       options: [
         'De vaatwasser werkt op 16 V',
-        'De vaatwasser heeft een eigen groep met 16 A automaat én een aparte aardlekschakelaar — zware apparaten krijgen eigen groep om nuisance tripping van andere apparaten te voorkomen',
+        'De vaatwasser heeft een eigen groep met aardlekschakelaar',
         'De vaatwasser is afgeschakeld',
         'Het apparaat heeft geen aarding nodig',
       ],
@@ -580,7 +580,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       prompt: 'Wat geeft het **Wattpiek (Wp)** van een zonnepaneel aan?',
       options: [
         'De gemiddelde jaaropbrengst',
-        'Het maximale vermogen onder volle zonintensiteit (1.000 W/m²) en optimale plaatsing (zuid, ~36° helling)',
+        'Het piekvermogen onder standaard testcondities',
         'De prijs per paneel',
         'De levensduur in jaren',
       ],
@@ -595,7 +595,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       prompt: 'Wat doet een **omvormer (inverter)** bij zonnepanelen?',
       options: [
         'Filtert vuile lucht',
-        'Zet gelijkstroom (DC) van de panelen om naar wisselstroom (AC, 230 V) voor aansluiting op groepenkast',
+        'Zet gelijkstroom (DC) om naar wisselstroom',
         'Verhoogt de spanning van 12 V naar 230 V',
         'Schakelt de panelen aan en uit',
       ],
@@ -610,7 +610,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       prompt: 'Bij **zonnepanelen op een dak met deels schaduw** (bijv. van een schoorsteen) helpen:',
       options: [
         'Grotere panelen',
-        'Optimizers per paneel of micro-omvormers — bij schaduw op één paneel houden de andere panelen hun volle opbrengst (anders zou hele string in opbrengst terugvallen)',
+        'Optimizers of micro-omvormers per paneel',
         'Glasreiniger',
         'Hogere mast',
       ],
@@ -625,7 +625,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       prompt: 'Waarom wordt een **thuisaccu** vooral interessant **vanaf 2027**?',
       options: [
         'Sinds 2027 zijn ze gratis',
-        'Vanaf 2027 wordt salderingsregeling afgebouwd — teruglevering aan net wordt minder betaald; eigen verbruik via accu wordt rendabeler',
+        'De salderingsregeling wordt vanaf 2027 afgebouwd',
         'Pas vanaf 2027 zijn ze technisch beschikbaar',
         'Sinds 2027 verplicht in alle woningen',
       ],
@@ -640,7 +640,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       prompt: 'Waarom is **windenergie op woningniveau** in stedelijk gebied meestal **niet rendabel**?',
       options: [
         'Te koud klimaat',
-        'In stedelijk gebied is windsnelheid laag, met veel turbulentie door omliggende gebouwen → onvoldoende opbrengst; effectief vanaf 5+ m/s windsnelheid op de masthoogte (alleen op zee of open landschap)',
+        'In de stad is de wind te laag en turbulent voor opbrengst',
         'Te veel zonlicht',
         'Wettelijk niet toegestaan',
       ],

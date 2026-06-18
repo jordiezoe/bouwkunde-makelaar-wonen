@@ -316,7 +316,7 @@ B.15.2 vraagt specifiek om herkenning van de twee **doorzichtige plaatmaterialen
       options: [
         'Hard PVC',
         'LDPE',
-        'Polypropeen (PP) — hittebestendig, niet broos',
+        'Polypropeen (PP)',
         'PMMA (perspex)',
       ],
       correctIndex: 2,
@@ -419,7 +419,7 @@ B.15.2 vraagt specifiek om herkenning van de twee **doorzichtige plaatmaterialen
         'Bij verbranding ruikt **PMMA (perspex)** naar:',
       options: [
         'Zoutzuur',
-        'Sinaasappel — een herkenbare zoete fruitgeur',
+        'Sinaasappel',
         'Kaarsvet',
         'Rubber',
       ],

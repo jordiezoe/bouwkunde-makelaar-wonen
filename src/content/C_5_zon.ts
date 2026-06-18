@@ -290,7 +290,7 @@ Toch blijft de zonneboiler relevant bij hoog tapwater­verbruik en in combinatie
       prompt: 'Wat is het hoofdverschil tussen **monokristallijn** en **multikristallijn** PV-panelen?',
       options: [
         'Mono is dunner, multi is dikker',
-        'Mono = gemaakt van één enkel siliciumkristal (hoger rendement 18–22 %, donker uniform); multi = vele kleine kristallen (rendement 14–18 %, zichtbare kristalstructuur, goedkoper)',
+        'Mono = één kristal (hoger rendement); multi = vele kristallen',
         'Mono is voor zomer, multi voor winter',
         'Mono werkt zonder zonlicht',
       ],
@@ -305,7 +305,7 @@ Toch blijft de zonneboiler relevant bij hoog tapwater­verbruik en in combinatie
       prompt: 'Wat is de functie van een **omvormer (inverter)** in een PV-installatie?',
       options: [
         'Verhoogt de spanning naar 1.000 V',
-        'Zet gelijkstroom (DC) van de panelen om naar wisselstroom (AC, 230 V) voor aansluiting op het huis-elektranet',
+        'Zet gelijkstroom (DC) om naar wisselstroom',
         'Filtert het zonlicht',
         'Beschermt panelen tegen bliksem',
       ],
@@ -320,7 +320,7 @@ Toch blijft de zonneboiler relevant bij hoog tapwater­verbruik en in combinatie
       prompt: 'Bij een dak met **gedeeltelijke schaduw** (bv. door schoorsteen) is welke omvormer-configuratie het beste?',
       options: [
         'String-omvormer — eenvoudig en goedkoop',
-        'Micro-omvormers per paneel of optimizers — voorkomt dat een paneel in schaduw de hele string in opbrengst doet terugvallen ("Christmas-light-effect")',
+        'Micro-omvormers of optimizers per paneel',
         'Helemaal geen omvormer',
         'Twee string-omvormers in serie',
       ],
@@ -335,7 +335,7 @@ Toch blijft de zonneboiler relevant bij hoog tapwater­verbruik en in combinatie
       prompt: 'Een PV-systeem wordt aangesloten op de **groepenkast** via:',
       options: [
         'De hoofdaansluiting van de woning, parallel aan kWh-meter',
-        'Een aparte groep met eigen aardlekautomaat — slimme kWh-meter registreert apart afname en teruglevering',
+        'Een aparte groep met aardlekautomaat en slimme meter',
         'Direct op een wandcontactdoos',
         'Een speciale UPS-installatie',
       ],
@@ -352,7 +352,7 @@ Toch blijft de zonneboiler relevant bij hoog tapwater­verbruik en in combinatie
       prompt: 'Wat is **Wattpiek (Wp)** van een zonnepaneel?',
       options: [
         'De gemiddelde dagopbrengst van het paneel',
-        'Het maximaal vermogen onder gestandaardiseerde testcondities (1.000 W/m² lichtintensiteit, 25 °C celtemperatuur) — theoretisch piekvermogen',
+        'Het piekvermogen onder standaard testcondities',
         'De prijs per Watt',
         'De levensduur van het paneel',
       ],
@@ -377,7 +377,7 @@ Toch blijft de zonneboiler relevant bij hoog tapwater­verbruik en in combinatie
       prompt: 'PV-panelen leveren bij **hoge temperaturen** minder vermogen. Waarom?',
       options: [
         'Het silicium smelt',
-        'Rendement daalt met ~0,4 % per °C boven 25 °C — een warme zomerdag kan paradoxaal genoeg minder opleveren dan een koele lentedag bij gelijke zon',
+        'Rendement daalt ~0,4% per °C boven 25 °C',
         'De omvormer schakelt uit',
         'Er is geen verband — PV werkt altijd gelijk',
       ],
@@ -394,7 +394,7 @@ Toch blijft de zonneboiler relevant bij hoog tapwater­verbruik en in combinatie
       prompt: 'Wat is het wezenlijke verschil tussen een **zonnepaneel (PV)** en een **zonnecollector**?',
       options: [
         'Synoniemen',
-        'Een zonnepaneel levert elektriciteit (via silicium-cellen); een zonnecollector levert warmte (via zwarte absorber + vloeistofcircuit naar opslagvat). Beide kunnen op hetzelfde dak, maar zijn verschillende systemen',
+        'Een paneel levert stroom; een collector levert warmte',
         'Zonnepaneel is voor zomer, zonnecollector voor winter',
         'Beide leveren stroom — een zonnepaneel direct, een collector via warmte-omzetting',
       ],
@@ -409,7 +409,7 @@ Toch blijft de zonneboiler relevant bij hoog tapwater­verbruik en in combinatie
       prompt: 'Hoe werkt een **zonneboiler-systeem**?',
       options: [
         'Direct zonlicht verwarmt het opslagvat door het glasplafond',
-        'Zonnecollector op dak vangt warmte; vloeistof (water-glycol) circuleert via pomp tussen collector en warmtewisselaar in geïsoleerd opslagvat; bij voldoende zon ~60 °C, anders naverwarmer (combiketel met NZ-keurmerk of elektrisch element) vult aan',
+        'Een collector verwarmt vloeistof die warmte afgeeft aan een opslagvat',
         'Een PV-paneel laadt een elektrische boiler op',
         'Een pomp zuigt warm water uit de aarde',
       ],
@@ -424,7 +424,7 @@ Toch blijft de zonneboiler relevant bij hoog tapwater­verbruik en in combinatie
       prompt: 'Waarom bevat het **collectorcircuit van een zonneboiler** een mengsel van water en glycol?',
       options: [
         'Voor de smaak van het drinkwater',
-        'Glycol verlaagt het vriespunt — voorkomt bevriezing van het systeem in de winter en bevriezing-schade aan de collector. Glycol mengt zich niet met drinkwater door gescheiden circuit met warmtewisselaar',
+        'Glycol verlaagt het vriespunt tegen bevriezing',
         'Glycol verhoogt het rendement',
         'Het is een desinfectiemiddel',
       ],

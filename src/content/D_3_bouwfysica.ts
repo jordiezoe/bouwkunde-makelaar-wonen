@@ -1098,7 +1098,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is de **thermische schil** van een gebouw?',
       options: [
         'De buitenste laag verf',
-        'De complete buitenste isolatie­laag rond een verwarmde ruimte — bestaande uit dak, buitenmuren, vloer en kozijnen + ramen; bepaalt energie­zuinigheid en comfort',
+        'De complete buitenste isolatie­laag rond een verwarmde ruimte',
         'Een gespecialiseerd installatie­onderdeel',
         'De binnenwand',
       ],
@@ -1113,7 +1113,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is een **koudebrug**?',
       options: [
         'Een onverwarmde brug over een rivier',
-        'Plaats in de constructie waar warmte makkelijker doorheen lekt dan in de omliggende isolatie — door materiaal­wisseling, onvoldoende isolatie­dikte, of onderbreking; veroorzaakt lokaal koudere oppervlak → condens + schimmel',
+        'Plaats in de constructie waar warmte makkelijker doorheen lekt dan in de omliggende isolatie',
         'Een verbinding tussen koude wateren',
         'Een ondergrondse warmte­bron',
       ],
@@ -1128,7 +1128,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is het verschil tussen **R-waarde** en **U-waarde**?',
       options: [
         'Synoniemen',
-        'R-waarde = warmte­weerstand (m²·K/W, hoger = beter isolerend); U-waarde = warmte­doorgangs­coëfficiënt (W/m²·K, lager = beter isolerend) — omgekeerd evenredig. R vooral voor isolatie­lagen, U vooral voor ramen/kozijnen',
+        'R-waarde = warmte­weerstand (m²·K/W, hoger = beter isolerend); U-waarde = warmte­doorgangs­coëfficiënt (W/m²·K, lager = beter isolerend)',
         'R is voor binnen, U voor buiten',
         'R is in Celsius, U in Kelvin',
       ],
@@ -1160,7 +1160,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is meer bepalend voor het **comfort­gevoel** in een ruimte: luchttemperatuur of oppervlakte­temperatuur?',
       options: [
         'Alleen luchttemperatuur',
-        'Operative temperatuur = (luchttemperatuur + stralings­temperatuur) / 2 — oppervlakte­temperatuur is onderschat maar zeer belangrijk; 20 °C lucht + 14 °C koude wand voelt als 17 °C; goede isolatie + HR++ glas maakt het verschil',
+        'Operative temperatuur = (luchttemperatuur + stralings­temperatuur) / 2',
         'Geen verschil',
         'Alleen oppervlakte­temperatuur',
       ],
@@ -1175,7 +1175,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Welke **relatieve luchtvochtigheid** is comfortabel in een woning?',
       options: [
         '10–20 %',
-        '40–60 % — ideaal; < 30 % droog (slijmvliezen irritatie); > 70 % schimmel-risico',
+        '40–60 %',
         '80–95 %',
         'Hoger is altijd beter',
       ],
@@ -1190,7 +1190,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Een **richtwaarde voor CO₂** in een verblijfsruimte is:',
       options: [
         'Maakt niet uit',
-        '< 1.200 ppm — boven dit niveau dalen concentratie­vermogen, geur en hoofdpijn ontstaan; buitenlucht is ~420 ppm; slaapkamer met dichte deur na een nacht kan 2.000+ ppm bereiken',
+        '< 1.200 ppm',
         'Maximaal 50 ppm',
         '> 5.000 ppm acceptabel',
       ],
@@ -1207,7 +1207,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Aan welke zijde van de isolatie wordt de **dampremmende folie** geplaatst?',
       options: [
         'Aan de buitenzijde (koude zijde)',
-        'Aan de warme (binnen)zijde — houdt het grootste deel van warme, vochtige binnenlucht buiten de isolatie; voorkomt inwendige condensatie',
+        'Aan de warme (binnen)zijde',
         'Maakt niet uit',
         'In het midden',
       ],
@@ -1222,7 +1222,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is de functie van een **dampopen folie** aan de buitenzijde van de isolatie?',
       options: [
         'Volledig dampdicht maken',
-        'Doorlaten van waterdamp van binnen naar buiten (waterdamp kan ontsnappen) terwijl regenwater wordt tegengehouden — windscherm + watertegen­schut; voorkomt vochtophoping in isolatie',
+        'Doorlaten van waterdamp van binnen naar buiten (waterdamp kan ontsnappen) terwijl regenwater wordt tegengehouden',
         'Isolatie versterken',
         'Geluidsdemping',
       ],
@@ -1237,7 +1237,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is **Sd-waarde** in damp-folies?',
       options: [
         'Slijtage-duur',
-        'Equivalent luchtspouw — hoeveel meter stilstaande lucht het folie equivalent is in damp­weerstand. Dampopen folie ~0,02 m; dampremmend 2–30 m; dampdicht (aluminium) > 1.500 m',
+        'Equivalent luchtspouw',
         'Een type bouw­vergunning',
         'Snelheid van diffusie in mm/s',
       ],
@@ -1254,7 +1254,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'In een oudere woning verschijnt **vocht onderaan de muur** (sokkel). De meest waarschijnlijke oorzaak is:',
       options: [
         'Slecht schilderwerk',
-        'Optrekkend grondvocht — vocht uit de grond stijgt door capillaire werking in metselwerk (klassiek bij woningen < 1950 zonder DPC-laag); tekenen: zout-uitslag, vochtige sokkel, schimmel onderaan muur',
+        'Optrekkend grondvocht',
         'Te veel verwarming',
         'Lekkage in het dak',
       ],
@@ -1284,7 +1284,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Welke schimmel in een woning is **berucht en gevaarlijk** wegens snelle uitbreiding via metselwerk?',
       options: [
         'Aspergillus (zwarte schimmel)',
-        'Huiszwam (Serpula lacrymans) — wattenachtige strengen die over metselwerk en pleister groeien; trekt water uit ander materiaal aan; bestrijding zeer kostbaar — alle strengen + omliggende materiaal moeten worden verwijderd',
+        'Huiszwam (Serpula lacrymans)',
         'Penicillium (de blauwe)',
         'Geen enkele schimmel is berucht',
       ],
@@ -1316,7 +1316,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Waar zijn de **Bbl-eisen** voor minimale Rc-waarden te vinden?',
       options: [
         'Op Wikipedia',
-        'In het Besluit bouwwerken leefomgeving (Bbl) — sinds 1 januari 2024 actief, te vinden via wettenbank van de overheid (wetten.overheid.nl) en iplo.nl (Informatiepunt Leefomgeving)',
+        'In het Besluit bouwwerken leefomgeving',
         'Op de gemeentewebsite',
         'In het kadaster',
       ],
@@ -1333,7 +1333,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is een **omgekeerd dak**?',
       options: [
         'Een dak met de pannen omgekeerd',
-        'Isolatie BOVEN de dakbedekking (XPS-platen op bitumen/EPDM) met ballast (grind of drainage­tegels) erbovenop — dakbedekking beschermd tegen UV en schade, langere levensduur, geschikt voor renovatie van plat dak',
+        'Isolatie BOVEN de dakbedekking (XPS-platen op bitumen/EPDM) met ballast (grind of drainage­tegels) erbovenop',
         'Een dak met negatieve helling',
         'Een dak waar regen omhoog stroomt',
       ],
@@ -1380,7 +1380,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Bij **binnen­isolatie van een vooroorlogs pand** is welke aandachts­punt cruciaal?',
       options: [
         'De kleur van de muur',
-        'Dampremmende folie aan warme (binnen)zijde — voorkomt inwendige condensatie in de oude wand achter de nieuwe isolatie; zorgvuldige plaatsing zonder beschadiging is essentieel',
+        'Dampremmende folie aan warme (binnen)zijde',
         'Geen verschil met andere isolatie',
         'Alleen de dikte telt',
       ],
@@ -1397,7 +1397,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Een **belangrijk risico** bij na-isolatie zonder ventilatie­verbetering is:',
       options: [
         'De woning wordt te koud',
-        'Door luchtdicht maken (HR++ glas, kit, dampfolie) zonder mechanische ventilatie ontstaat slechte luchtkwaliteit: hoge CO₂, hoge RV, condensatie­problemen, schimmel — ventilatie­systeem moet gelijktijdig verbeterd worden',
+        'Door luchtdicht maken (HR++ glas, kit, dampfolie) zonder mechanische ventilatie ontstaat slechte luchtkwaliteit: hoge CO₂, hoge RV, condensatie­problemen, schimmel',
         'Geen risico\'s',
         'De gevel wordt te zwaar',
       ],
@@ -1429,7 +1429,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat zijn de **drie indicatoren van BENG**?',
       options: [
         'Glas, dak, muur',
-        'BENG 1 = maximale energie­behoefte (kWh/m²/jr — schilkwaliteit); BENG 2 = maximaal primair fossiel energie­verbruik (kWh/m²/jr — installaties + opwekking); BENG 3 = minimaal % hernieuwbare energie (≥ 40 %)',
+        'BENG 1 = maximale energie­behoefte (kWh/m²/jr',
         'Verwarming, koeling, ventilatie',
         'Beton, hout, staal',
       ],
@@ -1444,7 +1444,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'BENG-indicator **1** (energie­behoefte) heeft als doel:',
       options: [
         'Zonnepanelen verplicht maken',
-        'Schilkwaliteit garanderen — onafhankelijk van energie­bron, hoeveel warmte de woning nodig heeft om binnen 18–24 °C te blijven; dwingt af goede isolatie, HR++ glas, luchtdicht­heid; vrijstaand ≤ 55, tussenwoning ≤ 35 kWh/m²/jr',
+        'Schilkwaliteit garanderen',
         'Warmtepomp verplicht maken',
         'CO₂-uitstoot beperken',
       ],
@@ -1461,7 +1461,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is **dB(A)**?',
       options: [
         'Een merknaam voor geluidsmeter',
-        'A-gewogen decibel — A-filter simuleert gevoeligheid van menselijk oor, lage en hoge frequenties krijgen lagere weging; standaard­eenheid voor menselijke geluidsperceptie en wetgeving',
+        'A-gewogen decibel',
         'Een hogere kwaliteit dB',
         'Decibel voor automatische metingen',
       ],
@@ -1476,7 +1476,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is een **suskast**?',
       options: [
         'Een kledingkast',
-        'Ventilatie­voorziening met geluidsdemping ingebouwd — voor moderne woningen in drukke omgevingen (snelweg, spoor, vliegveld); akoestisch rooster dempt 30–40 dB terwijl ventilatie blijft functioneren',
+        'Ventilatie­voorziening met geluidsdemping ingebouwd',
         'Een type isolatie',
         'Een verwarmings­toestel',
       ],
@@ -1491,7 +1491,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is een **ankerloze spouwmuur**?',
       options: [
         'Een muur zonder fundering',
-        'Spouwmuur zonder doorlopende ankers tussen binnen- en buitenspouwblad — voordeel: geen geluidsoverdracht tussen de twee bladen, verbetering ~5 dB; klassiek voor woningscheidende wand in rijwoningen',
+        'Spouwmuur zonder doorlopende ankers tussen binnen- en buitenspouwblad',
         'Een dunne muur zonder versterking',
         'Een muur die niet aan het dak vastzit',
       ],
@@ -1508,7 +1508,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Het verschil tussen **luchtgeluid** en **contactgeluid** is:',
       options: [
         'Luchtgeluid is altijd luider',
-        'Luchtgeluid: door lucht voortgeplant (stem, muziek, tv), gedempt door massa (massawet). Contactgeluid: via vaste constructies voortgeplant (voetstappen, vallend voorwerp), reist in constructie zelf — vergt mechanische ontkoppeling om te dempen',
+        'Luchtgeluid: door lucht voortgeplant (stem, muziek, tv), gedempt door massa (massawet). Contactgeluid: via vaste constructies voortgeplant (voetstappen, vallend voorwerp), reist in constructie zelf',
         'Synoniemen',
         'Contactgeluid is voor binnen, luchtgeluid voor buiten',
       ],
@@ -1523,7 +1523,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is **omloop­geluid** (= flankerend geluid)?',
       options: [
         'Geluid van een verkeerd­rondrijdende auto',
-        'Geluid dat omheen een geluidsisolerende constructie loopt via flankerende constructie­delen — bv. geluid van bovenburen dat via buitengevel naar je woning loopt in plaats van door de tussenvloer',
+        'Geluid dat omheen een geluidsisolerende constructie loopt via flankerende constructie­delen',
         'Geluid dat van buiten komt',
         'Een type ventilatie',
       ],
@@ -1555,7 +1555,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Welke **Bbl-eis** geldt voor daglicht in een woonkamer?',
       options: [
         'Geen eis',
-        'Minimaal 10 % daglicht­vlak t.o.v. vloeroppervlak — voor verblijfs­ruimten (woonkamer, slaapkamer, hobby) verplicht; verblijfs­gebied zonder daglicht alleen onder voorwaarden',
+        'Minimaal 10 % daglicht­vlak t.o.v. vloeroppervlak',
         '50 % glasoppervlak',
         '1 % daglicht­factor',
       ],

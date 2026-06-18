@@ -826,7 +826,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Welke wandafwerking is **standaard voor een badkamer**?',
       options: [
         'Behang en glasvliesbehang',
-        'Keramische tegels — waterdicht (mits goed gevoegd en gekit), hygiënisch, slijtvast, decoratief',
+        'Keramische tegels',
         'Stucwerk met gips­pleister',
         'Houten lambrisering',
       ],
@@ -841,7 +841,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is **glasvliesbehang**?',
       options: [
         'Behang van echt glas',
-        'Glasvezel-versterkt behang dat overschilder­baar is en kleine scheurtjes in de muur overbrugt — modern standaard voor flexibele wandafwerking',
+        'Glasvezel-versterkt behang dat overschilder­baar is en kleine scheurtjes in de muur overbrugt',
         'Behang met fotoprint',
         'Plakfolie met glasimitatie',
       ],
@@ -856,7 +856,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Het hoofdverschil tussen **sausen** en **schilderwerk** is:',
       options: [
         'Sausen zijn voor buiten, verf voor binnen',
-        'Sausen zijn dunne, matte, goedkope afwerklagen (latex, krijtwit) — minder slijtvast en niet wasbaar dan verf; vooral binnen voor budget-renovatie',
+        'Sausen zijn dunne, matte, goedkope afwerklagen',
         'Sausen bevatten geen pigment',
         'Synoniemen',
       ],
@@ -873,7 +873,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Een professioneel verfsysteem bestaat uit:',
       options: [
         'Alleen aflak',
-        'Grondverf (primer) — voorlak (tussen­laag, soms overgeslagen) — aflak (eindlaag); elk met eigen functie: hechting, dekkracht, bescherming',
+        'Grondverf (primer)',
         'Twee lagen aflak',
         'Grondverf + tegelijm',
       ],
@@ -888,7 +888,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is **alkydhars-verf**?',
       options: [
         'Een acrylaat-verf met houtdeeltjes',
-        'Klassieke verf op oplosmiddel-basis — sneeuwwit oppervlak, geel verkleurend over de jaren, lange droogtijd (12–24 u), sterke geur; vooral voor metalen onderdelen en klassieke binnen­deuren',
+        'Klassieke verf op oplosmiddel-basis',
         'Watergedragen verf',
         'Brandwerende verf',
       ],
@@ -903,7 +903,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is het **belangrijkste voordeel** van watergedragen verf (acrylaat/latex) ten opzichte van solvent-verf?',
       options: [
         'Hardere uitstraling',
-        'Lagere VOC-emissie (milieuvriendelijker), snel drogend (~1–2 uur), vrijwel reukloos — modern standaard voor binnen + buiten',
+        'Lagere VOC-emissie (milieuvriendelijker), snel drogend (~1–2 uur), vrijwel reukloos',
         'Langere droogtijd',
         'Beter voor metalen onderdelen',
       ],
@@ -920,7 +920,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Bij een houten kozijn met **bladderende verf**, wat is de meest waarschijnlijke onderliggende oorzaak?',
       options: [
         'Te veel verflagen',
-        'Vocht onder de verflaag — vaak door slechte afdichting van naden (kit verouderd) of houtrot binnenin het kozijn',
+        'Vocht onder de verflaag',
         'Te weinig zonlicht',
         'Verkeerde verfkeur',
       ],
@@ -950,7 +950,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: '**Beton met roestvlekken en losgekomen schollen** — wat is de juiste diagnose?',
       options: [
         'Verflaag is verouderd',
-        'Betonrot — wapeningsstaal achter het beton roest door te geringe betondekking; roest neemt volume in en duwt het beton af; aanpak: uithakken tot gezond beton, roest van wapening verwijderen, spuitmortel (met vezels)',
+        'Betonrot',
         'Algen op de gevel',
         'Vocht in het beton zelf',
       ],
@@ -967,7 +967,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is een **raaplaag**?',
       options: [
         'De decoratieve eindlaag',
-        'Eerste, ruwe laag op naakt metsel­werk of beton (cement-zand-mortel 1:3, dikte 5–15 mm) — vlakt oneffenheden, voor witpleister of tegelwerk',
+        'Eerste, ruwe laag op naakt metsel­werk of beton (cement-zand-mortel 1:3, dikte 5–15 mm)',
         'Een waterdichte laag onder tegels',
         'Een pleisterlaag op gips',
       ],
@@ -982,7 +982,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is **spachtelputz**?',
       options: [
         'Een waterdichte coating',
-        'Decoratieve buitenpleister met cementmortel + kleurstof, uitgewreven met spachtel of spons voor gestructureerd reliëf — geschikt voor gevel-na-isolatie, verkrijgbaar in vele kleuren en structuren',
+        'Decoratieve buitenpleister met cementmortel + kleurstof, uitgewreven met spachtel of spons voor gestructureerd reliëf',
         'Klassieke kalkpleister',
         'Een metaal-pleister',
       ],
@@ -997,7 +997,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: '**Witpleister (gipspleister)** is **niet geschikt** voor:',
       options: [
         'Slaapkamerwand',
-        'Badkamer en natte ruimten — gips lost op in vocht; voor badkamer wordt cement-pleister of gespecialiseerde water­bestendige variant gebruikt',
+        'Badkamer en natte ruimten',
         'Plafond van woonkamer',
         'Trappenhuis',
       ],
@@ -1014,7 +1014,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is een **DHG-tegel**?',
       options: [
         'Decoratieve Hand­gemaakte tegel',
-        'Dubbel Hard Gebakken tegel — tweemaal gebakken met buitenste glazuurlaag in tweede bakronde; harder oppervlak en slijtvaster dan gewone keramische; voor vloer­tegels in publieke ruimten',
+        'Dubbel Hard Gebakken tegel',
         'Een natuursteen-imitatie',
         'Donker-Heel-Gevormde tegel',
       ],
@@ -1029,7 +1029,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is een **plavuis**?',
       options: [
         'Een glanzende vloertegel',
-        'Niet-geglazuurde gebakken klei-tegel — klassiek terracotta-rood of beige; warme uitstraling; moet worden geïmpregneerd tegen vlekken; voor keukens, tuinkamers, terrassen',
+        'Niet-geglazuurde gebakken klei-tegel',
         'Een PVC-tegel met houtimitatie',
         'Een betontegel',
       ],
@@ -1061,7 +1061,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat geeft de **R-waarde** (Rutschwerte) van een tegel aan?',
       options: [
         'De warmteweerstand',
-        'De antislip-classificatie volgens DIN 51130 — gemeten met schoenen op hellende vloer; R 9 (woon­kamer) tot R 13 (zware industrie); badkamervloer minimum R 10',
+        'De antislip-classificatie volgens DIN 51130',
         'De krasvastheid',
         'De prijs per m²',
       ],
@@ -1076,7 +1076,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is de **A/B/C-classificatie** in Rutschwerte?',
       options: [
         'Een prijsklasse',
-        'Antislip op natte vloer met blote voeten (DIN 51097): A = kleedruimte (12–18°); B = douche, badkamer (18–24°); C = zwembad-bodems en voetbaden (>24°)',
+        'Antislip op natte vloer met blote voeten (DIN 51097): A = kleedruimte (12–18°); B = douche, badkamer (18–24°); C = zwembad-bodems en voetbaden',
         'Een kwaliteit van porselein',
         'Hechting-classificatie',
       ],
@@ -1108,7 +1108,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is een **raamdorpelsteen**?',
       options: [
         'Een tegel in de raamopening',
-        'Horizontale lijst onder een buitenraam — voor hemelwater­afvoer en bescherming van het metselwerk eronder; materiaal: gres, beton (Holonite), natuursteen of aluminium; met druipneus en helling',
+        'Horizontale lijst onder een buitenraam',
         'De rand binnenin van het kozijn',
         'Een sluitsteen boven het raam',
       ],
@@ -1138,7 +1138,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is een **muurafdektegel**?',
       options: [
         'Een tegel naast de wand',
-        'Tegel die boven op een (vrij­staande) muur ligt — voor afwatering en bescherming tegen regen/vorst/algen; vaak op tuinmuren, borstwering, pilaster of schoorsteen­top; vorm: dakvormig, hellend of vlak met druipneus',
+        'Tegel die boven op een (vrij­staande) muur ligt',
         'Een binnen-wandtegel',
         'Een speciaal type vloer­tegel',
       ],
@@ -1155,7 +1155,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is een belangrijk **nadeel van laminaat­vloer**?',
       options: [
         'Te duur',
-        'Niet waterbestendig — water dat tussen panelen sijpelt veroorzaakt zwelling van de HDF-kern; niet schuurbaar (in tegenstelling tot parket); niet geschikt voor badkamer of natte ruimten',
+        'Niet waterbestendig',
         'Te warm',
         'Onmogelijk te plaatsen',
       ],
@@ -1170,7 +1170,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is **linoleum**?',
       options: [
         'Een synthetische kunststof­vloer',
-        'Natuurlijk product: linolie + houtmeel + krijt + jute-onderlaag — duurzaam (20–40 j), antibacterieel, recyclebaar; gevoelig voor vocht en vetten',
+        'Natuurlijk product: linolie + houtmeel + krijt + jute-onderlaag',
         'Een merknaam voor PVC',
         'Een gietvloer',
       ],
@@ -1217,7 +1217,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is een **dilatatie­voeg** in tegelwerk?',
       options: [
         'Een gewone cement-voeg',
-        'Speciale voeg met flexibele kit (silicone, acrylaat) waar tegelwerk kan bewegen zonder te scheuren — plaats: aansluiting wand-vloer, binnenhoeken, grote oppervlakken (elke ~5 m), boven vloerverwarming',
+        'Speciale voeg met flexibele kit (silicone, acrylaat) waar tegelwerk kan bewegen zonder te scheuren',
         'Een sieraad-voeg',
         'Een voeg met antibacteriële behandeling',
       ],
@@ -1232,7 +1232,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Een tegel klinkt **hol** bij erop tikken. Wat is de diagnose?',
       options: [
         'Normaal',
-        'Tegel heeft geen volledige hechting aan ondergrond — tegellijm lost los; oorzaak: vervuilde ondergrond bij plaatsing, te dunne lijmlaag, of vocht achter de tegel; aanpak: tegel verwijderen, ondergrond schoonmaken, opnieuw plaatsen',
+        'Tegel heeft geen volledige hechting aan ondergrond',
         'Tegel is verkeerd geplakt op een houten ondergrond',
         'Tegel is gebroken',
       ],

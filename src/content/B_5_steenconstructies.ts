@@ -453,7 +453,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       options: [
         'Beide worden in een oven gebakken, maar betonsteen op een lagere temperatuur.',
         'Baksteen wordt onder stoomdruk verhard, betonsteen in een oven.',
-        'Baksteen wordt gebakken, betonsteen hardt door cement (geen oven)',
+        'Baksteen wordt gebakken, betonsteen hardt door cement',
         'Betonsteen wordt handmatig gevormd, baksteen alleen machinaal.',
       ],
       correctIndex: 2,
@@ -902,7 +902,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Voor welke toepassing wordt verblendsteen vaak gekozen?',
       options: [
         'Als binnenspouwblad, omdat de steen extra licht is.',
-        'Als gevelsteen — verblendsteen is sterker en gladder',
+        'Als gevelsteen',
         'Als funderingssteen onder het maaiveld.',
         'Als isolatiesteen vanwege de holle structuur.',
       ],
@@ -920,7 +920,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
         'Hoe verschilt een Vechtformaat van een Waalformaat?',
       options: [
         'Vechtformaat is langer dan Waalformaat.',
-        'Zelfde lengte/breedte als Waalformaat, maar hoger (~65 mm)',
+        'Zelfde lengte/breedte als Waalformaat, maar hoger',
         'Vechtformaat is alleen in kalkzandsteen verkrijgbaar.',
         'Er is geen verschil; beide termen verwijzen naar dezelfde steen.',
       ],
@@ -981,7 +981,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Waarvoor wordt het koppenverband (patijtsverband) typisch toegepast?',
       options: [
         'Voor brede dragende muren in fabrieken.',
-        'Voor gebogen muurdelen — koppen volgen de kromming',
+        'Voor gebogen muurdelen',
         'Voor halfsteens binnenmuren.',
         'Als versteviging boven een latei.',
       ],
@@ -1082,7 +1082,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Hoe herken je een snijvoeg op een gevel?',
       options: [
         'De voeg ligt iets verdiept ten opzichte van het steenvlak.',
-        'De voeg heeft een scherp afgesneden, rechte lijnvorming — typisch siervoegwerk.',
+        'De voeg heeft een scherp afgesneden, rechte lijnvorming',
         'De voeg is gladgestreken met de troffel direct na het metselen.',
         'De voeg heeft een opstaande rib (knip) in het midden.',
       ],
@@ -1097,7 +1097,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       prompt: 'Wat is karakteristiek voor een schaduwvoeg?',
       options: [
         'De voeg is overal gelijk verdiept ten opzichte van het steenvlak.',
-        'De voeg is onder verdiept en boven plat — sterke slagschaduw',
+        'De voeg is onder verdiept en boven plat',
         'De voeg is gladgestreken met de troffel.',
         'De voeg is afgewerkt met witte specie.',
       ],

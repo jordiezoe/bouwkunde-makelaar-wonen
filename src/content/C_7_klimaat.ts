@@ -150,7 +150,7 @@ Een systeem dat **lucht** als drager gebruikt voor **én verwarming én koeling 
       prompt: 'Een **airconditioning­installatie** doet wat allemaal?',
       options: [
         'Alleen koelen',
-        'Verwarmen + koelen + bevochtigen/ontvochtigen + filtreren + ventileren — volledige klimaatbeheersing via een dampcompressie­kringloop (verdamper, compressor, condensor, expansieventiel)',
+        'Verwarmen + koelen + bevochtigen/ontvochtigen + filtreren + ventileren',
         'Alleen ventileren',
         'Alleen filtreren',
       ],
@@ -165,7 +165,7 @@ Een systeem dat **lucht** als drager gebruikt voor **én verwarming én koeling 
       prompt: 'Wat is **topkoeling**?',
       options: [
         'Een dak­ventilator voor extra ventilatie',
-        'Een aanvullend koelsysteem boven op bestaande verwarming — levert alleen koeling in warme dagen (~2–4 K verlaging) via vloerverwarming-slangen die in zomer koud water krijgen in plaats van warm; vaak combinatie met warmtepomp of WKO',
+        'Een aanvullend koelsysteem boven op bestaande verwarming',
         'De bovenste laag van een koelkast',
         'Een synoniem voor airconditioning',
       ],
@@ -180,7 +180,7 @@ Een systeem dat **lucht** als drager gebruikt voor **én verwarming én koeling 
       prompt: '**Passieve topkoeling** bij een bodem-warmtepomp (WKO):',
       options: [
         'Verbruikt veel stroom',
-        'Werkt zonder compressor — koud water uit de bodem (~10 °C) wordt direct door vloerverwarmings­slangen gepompt; alleen de circulatiepomp verbruikt stroom → zeer energiezuinig',
+        'Werkt zonder compressor',
         'Vraagt buitenunit',
         'Kan niet samen met vloerverwarming',
       ],
@@ -195,7 +195,7 @@ Een systeem dat **lucht** als drager gebruikt voor **én verwarming én koeling 
       prompt: 'Wat is een **luchtbehandelings­kast (LBK)**?',
       options: [
         'Een opslag voor zuurstof',
-        'Een centrale unit met ventilatoren, filters, voor-/naverwarmer, koeler, bevochtiger en WTW-warmtewisselaar — verzorgt complete klimaatbeheersing voor een gebouw via luchtkanalen en anemostaten',
+        'Een centrale unit met ventilatoren, filters, voor-/naverwarmer, koeler, bevochtiger en WTW-warmtewisselaar',
         'Een soort cv-ketel',
         'Een airco-buitenunit',
       ],
@@ -210,7 +210,7 @@ Een systeem dat **lucht** als drager gebruikt voor **én verwarming én koeling 
       prompt: 'Wat is een **belangrijk voordeel** van topkoeling **ten opzichte van airconditioning** voor een woning?',
       options: [
         'Hogere koelcapaciteit',
-        'Veel energie­zuiniger — vooral passieve topkoeling (via WKO) verbruikt minimaal stroom; geen extra buitenunit; geen geluidsoverlast; gebruikt bestaande vloerverwarming-installatie',
+        'Veel energie­zuiniger',
         'Goedkoper in aanschaf',
         'Werkt zonder elektriciteit',
       ],
@@ -225,7 +225,7 @@ Een systeem dat **lucht** als drager gebruikt voor **én verwarming én koeling 
       prompt: 'In een **kantoorgebouw** met balansventilatie + verwarming + koeling via één centraal systeem, gaat het meestal om:',
       options: [
         'Mono-split airconditioning per kamer',
-        'Centrale luchtbehandelings­kast (LBK) met luchtkanalen naar alle ruimten — verwarmt, koelt, bevochtigt, filtreert en ventileert volledig met WTW-warmteterug­winning',
+        'Centrale luchtbehandelings­kast (LBK) met luchtkanalen naar alle ruimten',
         'Topkoeling via vloerverwarming',
         'Houtkachel',
       ],
@@ -255,7 +255,7 @@ Een systeem dat **lucht** als drager gebruikt voor **én verwarming én koeling 
       prompt: 'Voor **bevochtiging in een gecombineerd systeem (LBK)** in de winter — waarom is dat nodig?',
       options: [
         'Voor de luchtkwaliteit',
-        'Buitenlucht in de winter is zeer droog (RV soms < 30 %); na verwarming binnen wordt RV nog lager. Bevochtiging tot 40–60 % voorkomt droge slijmvliezen, statische elektriciteit en uitdroging van materialen (parket, leer, kunstwerken)',
+        'Buitenlucht in de winter is zeer droog (RV soms < 30 %); na verwarming binnen wordt RV nog lager. Bevochtiging tot 40–60 % voorkomt droge slijmvliezen, statische elektriciteit en uitdroging van materialen',
         'Om legionella te voorkomen',
         'Voor de afkoeling van apparatuur',
       ],

@@ -406,7 +406,7 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       options: [
         'Een vrijstaande villa op het platteland.',
         'Een appartement op één verdieping in een hoogbouwflat.',
-        'Een appartement dat zich over twee verdiepingen uitstrekt — vaak met een eigen trap binnen het appartement.',
+        'Een appartement dat zich over twee verdiepingen uitstrekt',
         'Een vakantiewoning in een park.',
       ],
       correctIndex: 2,

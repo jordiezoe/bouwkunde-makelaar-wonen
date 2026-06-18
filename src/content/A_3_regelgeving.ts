@@ -621,7 +621,7 @@ Deze trends zijn relevant voor de markt: een woning met een laag energielabel, g
         'Onder de Omgevingswet is de bouwvergunning gesplitst in twee delen. Welke twee?',
       options: [
         'Vergunning sloop en vergunning nieuwbouw',
-        'Bouwactiviteit (technisch) en omgevingsplanactiviteit (ruimtelijk)',
+        'Bouwactiviteit (technisch) en omgevingsplanactiviteit',
         'Welstandsvergunning en milieuvergunning',
         'Vergunning binnenwerk en vergunning buitenwerk',
       ],

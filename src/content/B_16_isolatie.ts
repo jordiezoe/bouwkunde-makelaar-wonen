@@ -242,7 +242,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
       prompt: 'Wat is het hoofdverschil tussen **EPS** en **XPS**?',
       options: [
         'EPS is wit, XPS is altijd zwart',
-        'EPS = geëxpandeerd (open cellen); XPS = geëxtrudeerd (gesloten, drukvaster)',
+        'EPS = geëxpandeerd (open cellen); XPS = geëxtrudeerd',
         'EPS is alleen voor binnen, XPS alleen voor buiten',
         'EPS bevat geen polystyreen, XPS wel',
       ],
@@ -256,7 +256,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
       type: 'mc',
       prompt:
         'Welk isolatiemateriaal is **de standaard voor brandwerende bekleding van stalen kolommen**?',
-      options: ['EPS', 'Steenwol — onbrandbaar en hoge dichtheid', 'PUR', 'Glaswol'],
+      options: ['EPS', 'Steenwol', 'PUR', 'Glaswol'],
       correctIndex: 1,
       explanation:
         'Steenwol is onbrandbaar (klasse A1) en smelt pas boven 1000 °C — daarmee superieur aan glaswol (smelt boven 700 °C) en alle kunststofschuimen. Standaard voor brandwerende bekleding van stalen kolommen, doorvoeren, technische ruimtes en woningscheidende muren.',
@@ -267,7 +267,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
       type: 'mc',
       prompt:
         '**PIR** heeft een lambda-waarde van ongeveer:',
-      options: ['0,032 W/m·K', '0,045 W/m·K', '0,022 W/m·K — de beste van de gangbare materialen', '0,058 W/m·K'],
+      options: ['0,032 W/m·K', '0,045 W/m·K', '0,022 W/m·K', '0,058 W/m·K'],
       correctIndex: 2,
       explanation:
         'PIR (polyisocyanuraat) heeft λ ≈ 0,022 W/m·K — de laagste van de gangbare bouwmaterialen, beter dan PUR (~0,028), XPS/EPS (~0,034) en glaswol/steenwol (~0,036). Daarom dé keuze voor energiezuinige nieuwbouw waar bij beperkte dikte een hoge Rc gehaald moet worden.',
@@ -295,7 +295,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
       prompt: 'Wat is **PUR-spuitschuim** in een spuitbus typisch voor?',
       options: [
         'Vulling van leidingen',
-        'Kierdichting van naden — expandeert na het spuiten (PUR)',
+        'Kierdichting van naden',
         'Spouw-na-isolatie',
         'Geluid-isolatie',
       ],
@@ -343,7 +343,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
         'Wat is **vlas** als isolatiemateriaal?',
       options: [
         'Een tropisch graan, vergelijkbaar met stro',
-        'Vlasvezels met bindmiddel — λ als glaswol, hernieuwbaar',
+        'Vlasvezels met bindmiddel',
         'Een synthetische kunststofvezel',
         'Een mineraalproduct uit geëxpandeerd kleigesteente',
       ],
@@ -375,7 +375,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
         'Een aannemer wil **omgekeerd dak isolatie** toepassen (boven op een bestaande bitumen-dakbedekking, met ballasttegels erop). Welk materiaal is het meest geschikt?',
       options: [
         'EPS — goedkoop en lichtgewicht',
-        'XPS — drukvast en vochtbestendig (omgekeerd dak)',
+        'XPS — drukvast en vochtbestendig',
         'Glaswol — vezelig en flexibel',
         'Vlas — duurzaam',
       ],

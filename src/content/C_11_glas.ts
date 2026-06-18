@@ -510,7 +510,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Wat is **HR++ glas**?',
       options: [
         'Hand-Reinigend glas',
-        'Hoog Rendement-glas met top-coating + argon-gas in de spouw — U-waarde ~1,1 W/m²·K; Bbl-minimum voor nieuwbouw. De Low-E coating laat licht door maar weerkaatst infraroodstraling terug',
+        'Hoog Rendement-glas met top-coating + argon-gas in de spouw',
         'Hard-gehard glas',
         'Een soort plastic',
       ],
@@ -525,7 +525,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Wat is **gelaagd glas (veiligheidsglas)**?',
       options: [
         'Twee glasplaten met luchtspouw',
-        'Twee of meer glasplaten verbonden door een kunststoflaag (PVB) — bij breken houden de scherven aan de PVB-laag: veilig (geen scherpe scherven) + inbraak­vertraging; verplicht in voordeur-glas, glasvloeren en glasbalustrades',
+        'Twee of meer glasplaten verbonden door een kunststoflaag',
         'Glas met staaldraad-net',
         'Glas met kleur-coating',
       ],
@@ -540,7 +540,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Wat is **triple glas (HR+++)**?',
       options: [
         'Een drielaagse coating op enkel glas',
-        'Drie glasplaten met twee gasspouwen ertussen — U-waarde ~0,6–0,8 W/m²·K (beste isolatie); vereist voor passief­huizen en BENG-woningen; dikker (40–50 mm) dan HR++',
+        'Drie glasplaten met twee gasspouwen ertussen',
         'Een combinatie van enkel, HR en HR++',
         'Drie glaslagen direct op elkaar gelijmd',
       ],
@@ -555,7 +555,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: '**Monumentenglas** is:',
       options: [
         'Glas-in-lood',
-        'Speciaal dun isolatieglas (alle onderdelen dunner) — past in originele monumentale kozijnen die geen plek hebben voor standaard dubbel glas; U-waarde 1,1–1,3 W/m²·K',
+        'Speciaal dun isolatieglas',
         'Een type museum-glas',
         'Glas dat in monumentale bouwwerken is geblazen',
       ],
@@ -570,7 +570,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: '**Geluidwerend glas** wordt vaak gemaakt door:',
       options: [
         'Drie glasplaten zonder spouw',
-        'Asymmetrisch dubbel glas (verschillende glasdikten, bv. 6+8 mm) + PVB-gelaagd glas + brede gasspouw — vermijdt resonantie­frequentie; Rw tot 45 dB',
+        'Asymmetrisch dubbel glas (verschillende glasdikten, bv. 6+8 mm) + PVB-gelaagd glas + brede gasspouw',
         'Een dikkere coating',
         'Een gehard glas',
       ],
@@ -587,7 +587,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Wat geeft de **LTA-waarde** aan?',
       options: [
         'De UV-doorlaat',
-        'De lichttoetredingsfactor — percentage zichtbaar licht (380–780 nm) dat door het glas heen komt. LTA 0,80 = 80 % licht door; HR++ heeft typisch LTA 0,75–0,80',
+        'De lichttoetredingsfactor',
         'De warmte­doorlaat',
         'De inbraakwerendheid',
       ],
@@ -602,7 +602,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Wat geeft de **ZTA / g-waarde** aan?',
       options: [
         'De geluidsdemping',
-        'De zontoetredingsfactor — percentage zonne-energie (UV + licht + IR) dat door het glas heen komt als warmte­winning in het gebouw; g 0,55–0,65 voor HR++; lager voor zonwerend glas',
+        'De zontoetredingsfactor',
         'De levensduur',
         'De doorzichtigheid',
       ],
@@ -617,7 +617,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Wat is **selectief glas**?',
       options: [
         'Glas met verschillende kleuren',
-        'Glas met hoge LTA (veel licht) + lage g-waarde (weinig warmte) — selectiviteits­index S = LTA/g > 1,25; ideaal voor zuid­gevel met grote ramen waar zomers oververhitting voorkomen moet worden',
+        'Glas met hoge LTA (veel licht) + lage g-waarde',
         'Glas dat door de wind beweegt',
         'Glas dat alleen UV doorlaat',
       ],
@@ -632,7 +632,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Voor de **noord­gevel** van een woning is welke g-waarde wenselijk?',
       options: [
         'Zeer laag (g 0,2)',
-        'Hoog (g 0,55–0,65) — maximale gratis warmte­winning uit het beetje noorderzon in winter; geen zonwering nodig (noord krijgt geen direct zonlicht)',
+        'Hoog (g 0,55–0,65)',
         'Onmogelijk te bepalen',
         'Maakt niet uit',
       ],
@@ -649,7 +649,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Wat is **binnen­beglazing**?',
       options: [
         'Glas alleen voor binnenramen',
-        'Glas wordt vanaf de binnenzijde van het kozijn geplaatst — glaslat zit aan binnenkant; voordeel: inbraak­werend (glaslat niet aan buitenkant los te maken); verplicht voor PKVW',
+        'Glas wordt vanaf de binnenzijde van het kozijn geplaatst',
         'Glas binnenshuis schoonmaken',
         'Glas met binnenkant-coating',
       ],
@@ -664,7 +664,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Wat is **droge beglazing**?',
       options: [
         'Glas zonder kit, alleen op een rubber-onderlegger',
-        'Glas vastgezet zonder vloeibare kit of stopverf — afdichting via gevormde EPDM-rubber strippen die in de sponning worden geklemd; snelle plaatsing, geen droogtijd, glas-vervanging eenvoudig',
+        'Glas vastgezet zonder vloeibare kit of stopverf',
         'Glas dat snel droogt',
         'Glas zonder isolatiespouw',
       ],
@@ -679,7 +679,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: '**Natte beglazing** wordt nog vaak gebruikt voor:',
       options: [
         'Moderne aluminium kozijnen',
-        'Klassieke houten kozijnen in monumentale panden — vloeibare siliconenkit of klassieke stopverf; gladde afwerking, geschikt voor onregelmatige maatvoering; kit veroudert in 10–20 jaar (periodieke vervanging)',
+        'Klassieke houten kozijnen in monumentale panden',
         'Glas in douchecabines',
         'Boven 200 °C',
       ],
@@ -696,7 +696,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Wat is **structurele beglazing**?',
       options: [
         'Een tweede beglazing voor extra isolatie',
-        'Glas direct op de constructie gelijmd met structurele siliconenkit — geen zichtbare kozijnen aan de buitenkant; resultaat: gladde glasgevel zonder onderbreking',
+        'Glas direct op de constructie gelijmd met structurele siliconenkit',
         'Glas met staal­wapening erin',
         'Glasvezel-versterking',
       ],
@@ -711,7 +711,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Wat is een **spider­beglazing**?',
       options: [
         'Glas met netten erin',
-        'Glas aan punten bevestigd met RVS "spider"-houders (vier-armige bevestiging op elk hoekpunt); boorgaten in glas; achter de gevel staal/cable-structure die de spiders draagt — minimale visuele obstructie, "frame-less"',
+        'Glas aan punten bevestigd met RVS "spider"-houders (vier-armige bevestiging op elk hoekpunt); boorgaten in glas; achter de gevel staal/cable-structure die de spiders draagt',
         'Glas-in-lood',
         'Een spinnenweb in glas',
       ],
@@ -743,7 +743,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Hoe herken je **lekkage van dubbel glas**?',
       options: [
         'Condens aan de binnenkant van het glas (bij koud weer)',
-        'Condens of vochtige aanslag TUSSEN de twee ruiten — onverwijderbaar door schoonmaken aan binnen- of buitenzijde; in winter het meest zichtbaar',
+        'Condens of vochtige aanslag TUSSEN de twee ruiten',
         'Bevriezing aan de buitenkant',
         'Bij geluid van knappen',
       ],
@@ -773,7 +773,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Kan **lekkage in dubbel glas** worden gerepareerd?',
       options: [
         'Ja, eenvoudig door nieuwe kit aan te brengen',
-        'Nee, niet duurzaam — de afdichting is onomkeerbaar gefaald. Sommige bedrijven bieden tijdelijk drogen aan (1–3 jaar effect), maar echte oplossing is het glas vervangen',
+        'Nee, niet duurzaam',
         'Alleen door professionals met chemische middelen',
         'Ja, door het glas in de spouw te vullen met silicagel',
       ],

@@ -442,7 +442,7 @@ B.14.6 vraagt om de principes van roltrap, rolpad en hellingbaan toe te lichten 
       options: [
         'Een rechte trap met een verlaagde leuning',
         'Een prefab betontrap voor industriële toepassing',
-        'Een inklapbare zoldertrap (vlizotrap)',
+        'Een inklapbare zoldertrap',
         'Een trap met een hoofdbaluster en bloktrede',
       ],
       correctIndex: 2,
@@ -472,7 +472,7 @@ B.14.6 vraagt om de principes van roltrap, rolpad en hellingbaan toe te lichten 
         'Een **trap met onder- en bovenkwart** wordt vaak toegepast wanneer:',
       options: [
         'De woning monumentaal is',
-        'De trap compacter in lengte moet (twee kwartdraaiingen)',
+        'De trap compacter in lengte moet',
         'Er een hoogteverschil van slechts één meter is',
         'De trap zwaar belast wordt door vrachtwagens',
       ],
@@ -505,7 +505,7 @@ B.14.6 vraagt om de principes van roltrap, rolpad en hellingbaan toe te lichten 
       prompt: 'Wat is de **aantrede** van een trap?',
       options: [
         'De verticale hoogte tussen twee treden',
-        'De horizontale diepte van een trede (op de looplijn)',
+        'De horizontale diepte van een trede',
         'De plaats waar de leuning begint',
         'De stootplank tussen twee treden',
       ],
@@ -520,7 +520,7 @@ B.14.6 vraagt om de principes van roltrap, rolpad en hellingbaan toe te lichten 
       prompt: 'De **optrede** is de:',
       options: [
         'Horizontale lengte van een trede',
-        'Verticale hoogte tussen twee treden — de stap-hoogte',
+        'Verticale hoogte tussen twee treden',
         'Verticale plank tussen twee treden (stootbord)',
         'Hoogte van de leuning boven de trede',
       ],
@@ -535,7 +535,7 @@ B.14.6 vraagt om de principes van roltrap, rolpad en hellingbaan toe te lichten 
       prompt: 'Wat is een **stootbord**?',
       options: [
         'Het schuine deel langs de zijkant van een trap dat de treden draagt',
-        'De verticale plank tussen twee treden (stootbord)',
+        'De verticale plank tussen twee treden',
         'De plaats waar de hoofdbaluster staat',
         'De afwerklat op de leuning',
       ],
@@ -550,7 +550,7 @@ B.14.6 vraagt om de principes van roltrap, rolpad en hellingbaan toe te lichten 
       prompt: 'Wat is de **trapboom**?',
       options: [
         'De plaats waar de hoofdbaluster staat',
-        'De schuine zijbalk waarin de treden hangen (trapboom)',
+        'De schuine zijbalk waarin de treden hangen',
         'De verticale spijl onder de leuning',
         'Het bovenste deel van de leuning',
       ],
@@ -629,7 +629,7 @@ B.14.6 vraagt om de principes van roltrap, rolpad en hellingbaan toe te lichten 
       options: [
         'Aan de binnenzijde (smalste deel)',
         'Aan de buitenzijde (breedste deel)',
-        'Op de looplijn — 0,30 m van de muurzijde',
+        'Op de looplijn',
         'Gemiddeld over binnen- en buitenzijde',
       ],
       correctIndex: 2,
@@ -660,7 +660,7 @@ B.14.6 vraagt om de principes van roltrap, rolpad en hellingbaan toe te lichten 
         'Wat betekent **"verdrijven"** in de trapleer?',
       options: [
         'Het gladmaken van de trapleuning',
-        'De gedraaide treden geleidelijk verdelen (klimlijn gelijk)',
+        'De gedraaide treden geleidelijk verdelen',
         'Het verwijderen van een trede uit een bestaande trap',
         'Het anti-slip maken van treden',
       ],
@@ -693,7 +693,7 @@ B.14.6 vraagt om de principes van roltrap, rolpad en hellingbaan toe te lichten 
       prompt: 'Wat is de **liftput**?',
       options: [
         'De ruimte boven het hoogste niveau in de schacht',
-        'Het deel van de schacht onder het laagste niveau (put)',
+        'Het deel van de schacht onder het laagste niveau',
         'De ruimte waar de liftmachine staat',
         'De aansluiting van de lift op het elektriciteitsnet',
       ],
@@ -708,7 +708,7 @@ B.14.6 vraagt om de principes van roltrap, rolpad en hellingbaan toe te lichten 
       prompt: 'Een **paternosterlift** is:',
       options: [
         'Een goederenlift zonder kooideuren',
-        'Een lift met continu circulerende open kooien (paternoster)',
+        'Een lift met continu circulerende open kooien',
         'Een traplift met platform',
         'Een hydraulische lift voor lage gebouwen',
       ],
@@ -769,7 +769,7 @@ B.14.6 vraagt om de principes van roltrap, rolpad en hellingbaan toe te lichten 
         'Wat is een **rolbaan** (in tegenstelling tot een rolpad)?',
       options: [
         'Een horizontaal lopende kettingband op luchthavens',
-        'Een hellend rolpad voor karren (max. ~12°)',
+        'Een hellend rolpad voor karren',
         'Een verticale lift in winkelcentra',
         'Een roltrap met dichtere treden',
       ],
@@ -786,7 +786,7 @@ B.14.6 vraagt om de principes van roltrap, rolpad en hellingbaan toe te lichten 
       options: [
         '1:6 (steile helling)',
         '1:8',
-        '1:12 — bij 1 m hoogteverschil betekent dat 12 m horizontaal',
+        '1:12',
         '1:24 (zeer flauw)',
       ],
       correctIndex: 2,

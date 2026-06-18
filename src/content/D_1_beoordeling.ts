@@ -867,7 +867,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat is een **MJOP**?',
       options: [
         'Een verzekerings­polis',
-        'Meerjaren­OnderhoudsPlan — document per gebouw met welk onderhoud uitgevoerd moet worden, wanneer, wat het kost en welke reserveringen nodig zijn (vaak 10–25 jaar vooruit); wettelijk verplicht voor VvE\'s sinds 2018',
+        'Meerjaren­OnderhoudsPlan (MJOP)',
         'Een gemeentelijke vergunning',
         'Een type bouw­tekening',
       ],
@@ -882,7 +882,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat is **NEN 2767**?',
       options: [
         'Een type wapeningstaal',
-        'Norm voor conditiemetingen aan gebouwen — onafhankelijke inspecteur beoordeelt bouw­delen op 6-puntsschaal (1 uitstekend tot 6 zeer slecht); basis voor planmatig onderhoud',
+        'Norm voor conditiemetingen aan gebouwen',
         'Een dak­bedekkings­standaard',
         'Een waterkwaliteitsnorm',
       ],
@@ -929,7 +929,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Hoe vaak wordt een MJOP **geactualiseerd**?',
       options: [
         'Eens per 20 jaar',
-        'Standaard elke 5 jaar — om actuele conditie en kosten­indexering bij te houden',
+        'Standaard elke 5 jaar',
         'Alleen bij verkoop',
         'Maandelijks',
       ],
@@ -946,7 +946,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat is het verschil tussen **renovatie** en **restauratie**?',
       options: [
         'Synoniemen',
-        'Renovatie = moderniseren en verbeteren zonder functie­wijziging (nieuwe installaties, isolatie, afwerking). Restauratie = terugbrengen naar oorspronkelijke staat — met respect voor monumentale waarde + gespecialiseerde technieken',
+        'Renovatie = moderniseren en verbeteren zonder functie­wijziging (nieuwe installaties, isolatie, afwerking). Restauratie = terugbrengen naar oorspronkelijke staat',
         'Renovatie alleen voor woningen, restauratie voor utiliteit',
         'Restauratie is goedkoper dan renovatie',
       ],
@@ -961,7 +961,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat is **herontwikkeling** in vergelijking met renovatie?',
       options: [
         'Renovatie maar dan groter',
-        'Functie­wijziging van een bestaand pand — gebouw blijft, maar wordt anders gebruikt (kantoor → woningen, kerk → appartementen, fabriek → loft); vergunning­plichtig met bestemmings­plan-wijziging',
+        'Functie­wijziging van een bestaand pand',
         'Sloop en nieuwbouw',
         'Renovatie van een wijk',
       ],
@@ -976,7 +976,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat is het verschil tussen **herontwikkeling** en **transformatie**?',
       options: [
         'Synoniemen',
-        'Herontwikkeling = per gebouw functie­wijziging. Transformatie = bredere term, vaak in stedebouwkundig verband — meerdere gebouwen of hele wijk, met collectieve voorzieningen (bv. industriegebied wordt woon­wijk)',
+        'Herontwikkeling = per gebouw functie­wijziging. Transformatie = bredere term, vaak in stedebouwkundig verband',
         'Transformatie is alleen voor woningen',
         'Herontwikkeling is goedkoper',
       ],
@@ -993,7 +993,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat is **planmatig onderhoud**?',
       options: [
         'Onderhoud op verzoek',
-        'Vooraf gepland onderhoud volgens MJOP — uitgevoerd in een gepland tempo om gebreken te voorkomen; preventief, kosten­bekend, planbaar',
+        'Vooraf gepland onderhoud volgens MJOP',
         'Reparatie na klacht',
         'Onderhoud bij verhuiswisseling',
       ],
@@ -1008,7 +1008,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat is **achterstallig onderhoud**?',
       options: [
         'Onderhoud dat te vroeg is uitgevoerd',
-        'Onderhoud dat had moeten worden uitgevoerd maar niet is gedaan — leidt tot cumulatie van gebreken, hogere kosten op termijn, verzekerings­problemen en korting bij verkoop',
+        'Onderhoud dat had moeten worden uitgevoerd maar niet is gedaan',
         'Toekomstig onderhoud',
         'Onderhoud waar geen reservering voor is',
       ],
@@ -1023,7 +1023,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat is **mutatie­onderhoud**?',
       options: [
         'Onderhoud aan veranderlijke onderdelen',
-        'Onderhoud bij wisseling van huurder — terug brengen van de woning naar acceptabele staat voor nieuwe huurder; schoonmaken, kleine reparaties, herschilderen, mogelijk vloer­bedekking vervangen',
+        'Onderhoud bij wisseling van huurder',
         'Onderhoud aan mutaties in installaties',
         'Genetisch onderhoud',
       ],
@@ -1038,7 +1038,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat is **amoveren**?',
       options: [
         'Een esthetische verbouwing',
-        'Slopen van een gebouw of onderdelen — laatste stap in de levenscyclus; vergunning­plichtig (omgevings­vergunning), asbest­inventarisatie verplicht bij pre-1994 gebouwen, sloop-afval scheiden',
+        'Slopen van een gebouw of onderdelen',
         'Een type renovatie',
         'Verkoop van een gebouw',
       ],
@@ -1055,7 +1055,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Welk onderdeel van een bouwkundig rapport heeft de **hoogste prioriteit** voor de koper?',
       options: [
         'Cosmetische gebreken',
-        'Direct herstel nodig: constructieve veiligheid, vocht­problemen (lekkages), brandveiligheid, installatie­veiligheid (gas/elektra) — niet-onderhandelbare urgente reparaties',
+        'Direct herstel nodig: constructieve veiligheid, vocht­problemen (lekkages), brandveiligheid, installatie­veiligheid',
         'Toekomstig schilderwerk',
         'Het bouwjaar',
       ],
@@ -1085,7 +1085,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Bij **conditie 5** volgens NEN 2767 (in een bouwkundig rapport) is de juiste actie:',
       options: [
         'Niets doen, conditie 5 is goed',
-        'Direct vervangen of repareren — onderdeel functioneert niet langer naar behoren, gevaar of grote schade dreigt',
+        'Direct vervangen of repareren',
         'Plannen voor over 10 jaar',
         'Conditie 5 bestaat niet',
       ],
@@ -1102,7 +1102,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat is het verschil tussen **technische** en **economische levensduur**?',
       options: [
         'Synoniemen',
-        'Technische levensduur = hoe lang onderdeel functioneel kan zijn voor het door slijtage faalt. Economische levensduur = wanneer vervanging financieel/technisch zinvoller is dan blijven onderhouden (vaak korter dan technisch)',
+        'Technische levensduur = hoe lang onderdeel functioneel kan zijn voor het door slijtage faalt. Economische levensduur = wanneer vervanging financieel/technisch zinvoller is dan blijven onderhouden',
         'Economische levensduur is altijd langer',
         'Technische is voor gebouwen, economische voor mensen',
       ],
@@ -1117,7 +1117,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat is **instandhoudings­termijn**?',
       options: [
         'De wettelijke garantieperiode',
-        'De periode waarin een bouw­element zijn functie kan vervullen, mits voorzien van regulier onderhoud — verlengbaar door goed onderhoud, korter door slecht onderhoud of slechte omstandigheden',
+        'De periode waarin een bouw­element zijn functie kan vervullen, mits voorzien van regulier onderhoud',
         'De levensduur zonder onderhoud',
         'Een synoniem voor garantie',
       ],
@@ -1164,7 +1164,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat is de **belangrijkste onderhouds­taak** voor een dakbedekking?',
       options: [
         'Het schilderen',
-        'Jaarlijkse visuele inspectie + schoonmaken hemelwater­afvoeren — voorkomt lekkage, schade aan onderliggende constructie en plafond; mossen/algen verwijderen voor pannen-coating bescherming',
+        'Jaarlijkse visuele inspectie + schoonmaken hemelwater­afvoeren',
         'Aluminiumfolie aanbrengen',
         'Wassen met zeep',
       ],
@@ -1179,7 +1179,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Voor een **gemetselde gevel** zijn de voegen de belangrijkste onderhoudpunt. Hoe vaak moeten ze worden vernieuwd?',
       options: [
         'Maandelijks',
-        'Voegherstel elke 25–50 jaar (afhankelijk klimaat), eventueel hydrofoberen elke 10–15 jaar; voegen zijn de zwakste schakel — vocht dringt door slechte voegen → afsplitsen stenen bij vorst',
+        'Voegherstel elke 25–50 jaar (afhankelijk klimaat), eventueel hydrofoberen elke 10–15 jaar; voegen zijn de zwakste schakel',
         'Nooit nodig',
         'Eens per jaar',
       ],
@@ -1196,7 +1196,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Welke factor heeft de **grootste invloed** op de instandhoudings­termijn van bouw­elementen?',
       options: [
         'De prijs',
-        'Mate van onderhoud — regelmatig onderhoud verlengt levensduur met factor 2–3; nalatigheid leidt tot vroege defecten en grote vervolgschade',
+        'Mate van onderhoud',
         'De kleur',
         'De architect',
       ],
@@ -1211,7 +1211,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Voor een appartement op de **bovenste verdieping** is welke factor extra van invloed?',
       options: [
         'Lagere isolatie-eisen',
-        'Grotere weersbelasting — meer wind, regen, zon (UV); dakaansluitingen extra kwetsbaar; in moderne appartementen ook minder geluidsoverlast maar wel meer thermische schommelingen',
+        'Grotere weersbelasting',
         'Goedkopere installatie',
         'Geen verschil met andere verdiepingen',
       ],

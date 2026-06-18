@@ -325,7 +325,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Wat is het **Politiekeurmerk Veilig Wonen (PKVW)**?',
       options: [
         'Een wettelijk verplicht keurmerk voor alle nieuwbouw',
-        'Een Nederlands kwaliteitskeurmerk voor inbraak­bestendige woningen — bouwkundige eisen (SKG-hang-/sluitwerk, glas, deuren) + sociale aspecten + wijkaanpak; geeft inbraak­verzekerings­korting (10–20 %) en ~80 % minder inbraakkans',
+        'Een Nederlands kwaliteitskeurmerk voor inbraak­bestendige woningen',
         'Een vergunning van de gemeente',
         'Een rapport van de brandweer',
       ],
@@ -340,7 +340,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Wat is het verschil tussen **gewapend glas** (veiligheids­glas) en **gehard glas**?',
       options: [
         'Synoniemen',
-        'Gewapend (gelaagd) glas = kunststoflaag tussen twee glasplaten → bij breken houdt de kunststof de scherven samen, biedt inbraak­vertraging. Gehard glas = thermisch behandeld → breekt in onschadelijke korreltjes maar biedt geen inbraak­vertraging (juist eerder open!)',
+        'Gewapend (gelaagd) glas = kunststoflaag tussen twee glasplaten → bij breken houdt de kunststof de scherven samen, biedt inbraak­vertraging. Gehard glas = thermisch behandeld → breekt in onschadelijke korreltjes maar biedt geen inbraak­vertraging',
         'Gehard glas is sterker',
         'Gewapend glas is brandwerend',
       ],
@@ -355,7 +355,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Wat is het verschil tussen **stil alarm** en **luid alarm**?',
       options: [
         'Stil alarm geeft geen signaal',
-        'Stil alarm = geen geluid in/om woning, signaal direct naar meldkamer (PAC) die politie waarschuwt — inbreker weet niets, kans op arrestatie. Luid alarm = sirene + stroboscoop om in te schrikken en buren te waarschuwen',
+        'Stil alarm = geen geluid in/om woning, signaal direct naar meldkamer (PAC) die politie waarschuwt',
         'Stil alarm is voor woningen, luid alarm voor bedrijven',
         'Luid alarm werkt zonder elektriciteit',
       ],
@@ -370,7 +370,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Welke maatregel is het meest **effectief** voor inbraak­preventie volgens politie?',
       options: [
         'Een groot huisdier',
-        'Goed hang- en sluitwerk (SKG 3-sterren), gewapend glas in voordeur en glas op begane grond, goede verlichting rondom + waarneembaarheid vanuit straat — combinatie volgens PKVW',
+        'Goed hang- en sluitwerk (SKG 3-sterren), gewapend glas in voordeur en glas op begane grond, goede verlichting rondom + waarneembaarheid vanuit straat',
         'Een fakkel buiten',
         'Geen waarschuwingsbordjes',
       ],
@@ -385,7 +385,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Wat is een **typisch nadeel** van een luid alarm zonder doormelding?',
       options: [
         'Het werkt niet bij stroomuitval',
-        'Vals alarm geeft geluidsoverlast voor buren; bovendien: na ~20 minuten denken buren niet meer aan inbraak ("schreeuwt al de hele tijd") en wordt politie niet meer ingeschakeld — geen interventie',
+        'Vals alarm geeft geluidsoverlast voor buren; bovendien: na ~20 minuten denken buren niet meer aan inbraak ("schreeuwt al de hele tijd") en wordt politie niet meer ingeschakeld',
         'Het kost veel stroom',
         'Het schrikt katten af',
       ],
@@ -402,7 +402,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Wat is een **CAI (Centrale Antenne-Inrichting)**?',
       options: [
         'Een kabel-modem',
-        'Een gemeenschappelijke ontvangst­installatie voor TV-signalen in een appartementen­complex of wijk — één grote antenne op het dak, signaal via kabelnetwerk naar alle aangesloten woningen',
+        'Een gemeenschappelijke ontvangst­installatie voor TV-signalen in een appartementen­complex of wijk',
         'Een satellietontvanger',
         'Een glasvezel-aansluiting',
       ],
@@ -417,7 +417,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: '**Glasvezel (FTTH)** heeft welke kenmerken vergeleken met kabel-internet?',
       options: [
         'Lagere snelheid',
-        'Snelheid 100 Mbit/s tot 10 Gbit/s, symmetrisch (upload = download), toekomst­bestendig (uitbreidings­capaciteit zonder kabelvervanging) — wordt massaal uitgerold in NL',
+        'Snelheid 100 Mbit/s tot 10 Gbit/s, symmetrisch (upload = download), toekomst­bestendig (uitbreidings­capaciteit zonder kabelvervanging)',
         'Werkt alleen met dipool-antenne',
         'Vereist een schotel',
       ],
@@ -447,7 +447,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Welke **UTP-bekabeling** wordt aanbevolen in moderne nieuwbouw?',
       options: [
         'Cat 3 — goedkoper',
-        'Cat 6 of Cat 7 — snelheid 1 Gbit/s (Cat 6) tot 10 Gbit/s (Cat 7); aangesloten op patch­paneel in meterkast, met aansluit­dozen in elke kamer voor stabiele verbinding (gaming, streaming, thuiswerken)',
+        'Cat 6 of Cat 7 — snelheid 1 Gbit/s (Cat 6) tot 10 Gbit/s (Cat 7); aangesloten op patch­paneel in meterkast, met aansluit­dozen in elke kamer voor stabiele verbinding',
         'COAX',
         'Telefoonkabel',
       ],
@@ -464,7 +464,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Wat is **domotica**?',
       options: [
         'Een soort verwarmings­systeem',
-        'Automatisering van gebouwen via een geïntegreerd systeem dat verschillende installaties (verlichting, verwarming, ventilatie, beveiliging, zonwering, multimedia) centraal aanstuurt — comfort, energie­besparing, veiligheid',
+        'Automatisering van gebouwen via een geïntegreerd systeem dat verschillende installaties (verlichting, verwarming, ventilatie, beveiliging, zonwering, multimedia) centraal aanstuurt',
         'Een merknaam voor slimme thermostaten',
         'Een soort domotech-toilet',
       ],
@@ -479,7 +479,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Een **slim deurslot** kan:',
       options: [
         'Alleen openen met sleutel',
-        'Openen via code, app, sleutel-tag (proximity), met aparte code per gebruiker (familie, schoonmaker — traceerbaar); push-notificatie bij openen; auto-lock na sluiten — integratie met alarmsysteem',
+        'Openen via code, app, sleutel-tag (proximity), met aparte code per gebruiker (familie, schoonmaker',
         'Alleen schoonmaken',
         'Niet meer worden geopend',
       ],
@@ -494,7 +494,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Wat is het voordeel van een **slimme thermostaat** met geo-fencing?',
       options: [
         'Hogere maximum-temperatuur',
-        'De thermostaat herkent (via smartphone-GPS van bewoners) wanneer iemand naar huis nadert en begint vóór aankomst te verwarmen; zet verwarming lager als iedereen weg is — bespaart energie zonder comfortverlies',
+        'De thermostaat herkent (via smartphone-GPS van bewoners) wanneer iemand naar huis nadert en begint vóór aankomst te verwarmen; zet verwarming lager als iedereen weg is',
         'Verwarmt sneller',
         'Werkt zonder stroom',
       ],
@@ -509,7 +509,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Wat is **Matter** in domotica?',
       options: [
         'Een ouderwets protocol',
-        'Moderne open standaard (gemeenschappelijk ontwikkeld door Apple, Google, Amazon) — werkt cross-platform; apparaten van verschillende fabrikanten kunnen samenwerken zonder vendor lock-in',
+        'Moderne open standaard (gemeenschappelijk ontwikkeld door Apple, Google, Amazon)',
         'Een specifiek merk thermostaat',
         'Een type bekabeling',
       ],

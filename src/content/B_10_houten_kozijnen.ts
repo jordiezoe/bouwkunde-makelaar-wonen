@@ -600,7 +600,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       prompt: 'Wat is een **kalf** in een kozijn?',
       options: [
         'De verticale stijl aan de zijkant',
-        'Een extra horizontale dorpel in het kozijn (tussendorpel)',
+        'Een extra horizontale dorpel in het kozijn',
         'De binnenste laag van het glas',
         'De onderkant van een raamdorpelsteen',
       ],
@@ -659,7 +659,7 @@ Twee uitvoeringen om het verschil te accommoderen:
         'Volgens de Vakgroep Restauratie-aanpak: **wat is de eerste stap** bij houtrot in een kozijn?',
       options: [
         'Direct vol-plamuren met gewone houtplamuur',
-        'De mate van rot vaststellen (prikken met priem)',
+        'De mate van rot vaststellen',
         'Het hele kozijn vervangen door een nieuw exemplaar',
         'Een laag verf overheen schilderen',
       ],
@@ -724,7 +724,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       prompt:
         'Wat is een **rechtsdraaiende deur**?',
       options: [
-        'Een deur met scharnieren rechts (vanaf de scharnierkant)',
+        'Een deur met scharnieren rechts',
         'Een deur die naar rechts open zwaait, ongeacht waar de scharnieren zitten',
         'Een deur die alleen in een rechterhand-gebouw past',
         'Een deur die wordt geopend door rechts in te draaien',
@@ -788,7 +788,7 @@ Twee uitvoeringen om het verschil te accommoderen:
       prompt:
         'Een stalen kozijn voor een **opdekdeur** heeft:',
       options: [
-        'Geen rubber aanslag — de deur-lip vormt de aanslag zelf',
+        'Geen rubber aanslag',
         'Een dubbele rubber aanslag voor extra tochtdichtheid',
         'Geen scharnieren',
         'Een veel diepere sponning dan voor een stompe deur',
