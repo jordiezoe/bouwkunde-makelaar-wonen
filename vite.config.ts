@@ -11,10 +11,13 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      // 'prompt' i.p.v. 'autoUpdate': de nieuwe SW installeert stil op de
-      // achtergrond maar forceert GEEN herlaad midden in een sessie.
-      // De update is actief bij de VOLGENDE keer openen van de app.
-      registerType: 'prompt',
+      // 'autoUpdate': de nieuwe service worker neemt het direct over bij de
+      // eerstvolgende keer openen. Met 'prompt' (+ skipWaiting:false) bleef de
+      // oude SW op iOS hardnekkig actief, óók na wegvegen → de app zat vast op
+      // een verouderde versie (oude vragen/ontbrekende afbeeldingen). Voor een
+      // examenapp die we bijwerken is altijd-de-laatste-versie belangrijker dan
+      // het vermijden van een stille herlaad.
+      registerType: 'autoUpdate',
       includeAssets: [
         'favicon.png',
         'apple-touch-icon.png',
@@ -60,9 +63,11 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,woff,woff2}'],
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
         navigateFallback: `${base}index.html`,
-        // Wacht tot alle tabs gesloten zijn voor activering — voorkomt mid-sessie reload.
-        skipWaiting: false,
-        clientsClaim: false,
+        // Neem direct over zodra de nieuwe SW klaar is (i.c.m. autoUpdate), zodat
+        // verouderde caches op iOS niet blijven hangen.
+        skipWaiting: true,
+        clientsClaim: true,
+        cleanupOutdatedCaches: true,
         runtimeCaching: [
           {
             // Foto's én SVG-tekeningen: cache-first, laden zodra je ze tegenkomt
