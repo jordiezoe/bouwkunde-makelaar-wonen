@@ -523,7 +523,7 @@ Een woningscheidende wand moet alle drie tegelijk:
         'Wat is de **massawet** in geluidsisolatie?',
       options: [
         'Hoe groter de oppervlakte van een wand, hoe minder geluid hij doorgeeft',
-        'Hoe zwaarder de wand (kg/m²), hoe beter de luchtgeluidsisolatie',
+        'Hoe zwaarder de wand, hoe beter de luchtgeluidsisolatie',
         'Hoe dikker de luchtspouw, hoe slechter de isolatie',
         'Hoe meer poreus, hoe beter de demping',
       ],

@@ -431,7 +431,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Wat is het verschil tussen **hardhout** en **zachthout** in de praktijk?',
       options: [
         'Hardhout is altijd duurzamer dan zachthout',
-        'Hardhout = loofhout (dichter), zachthout = naaldhout',
+        'Hardhout = loofhout, zachthout = naaldhout',
         'Hardhout heeft hars en zachthout niet',
         'Hardhout komt alleen uit de tropen',
       ],
@@ -651,7 +651,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Wat is het kenmerkende verschil tussen **triplex** en **multiplex**?',
       options: [
         'Triplex is van naaldhout, multiplex van loofhout',
-        'Triplex = 3 lagen; multiplex = meer (oneven) lagen, sterker',
+        'Triplex = 3 lagen; multiplex = meer lagen, sterker',
         'Multiplex is dikker dan 18 mm, triplex altijd dunner',
         'Triplex is watervast, multiplex niet',
       ],
@@ -728,7 +728,7 @@ Hier verandert men de **celstructuur** zonder chemische impregnatie — beter vo
       prompt: 'Wat is een **messing-en-groef** verbinding?',
       options: [
         'Een verbinding met messing schroeven',
-        'Eén zijde heeft een messing (tong), de andere een groef',
+        'Eén zijde heeft een messing, de andere een groef',
         'Een metaalbeslag aan twee houten delen',
         'Een verbinding met houten deuvels',
       ],

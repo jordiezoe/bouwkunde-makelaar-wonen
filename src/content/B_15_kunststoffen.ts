@@ -390,7 +390,7 @@ B.15.2 vraagt specifiek om herkenning van de twee **doorzichtige plaatmaterialen
       type: 'mc',
       prompt:
         'Voor een **slagvaste, vandalisme-bestendige toepassing** (bv. buswachthuisjes, oproerschilden) is welk plaatmateriaal geschikter dan glas of perspex?',
-      options: ['Hard PVC', 'Polycarbonaat (PC) — zeer slagvast, sterker dan glas', 'PMMA — kostenvoordeel', 'LDPE'],
+      options: ['Hard PVC', 'Polycarbonaat — zeer slagvast, sterker dan glas', 'PMMA — kostenvoordeel', 'LDPE'],
       correctIndex: 1,
       explanation:
         'Polycarbonaat is veel slagvaster dan glas of perspex (lichaamskracht of stenen geven geen breuk). Daarom standaard voor buswachthuisjes, oproerschilden, bouwhelmen en vandalismebestendige beglazing. Wel UV-coating nodig — anders vergeelt het materiaal in 10–20 j.',
@@ -403,7 +403,7 @@ B.15.2 vraagt specifiek om herkenning van de twee **doorzichtige plaatmaterialen
         'Een **lichtkoepel** op een plat dak — welk plaatmateriaal komt het meest voor?',
       options: [
         'Glas — zwaar maar betaalbaar',
-        'PMMA (plexiglas) — glashelder, UV-bestendig',
+        'PMMA — glashelder, UV-bestendig',
         'Polycarbonaat — duurder maar onbreekbaar',
         'Hard PVC — afdichtend',
       ],

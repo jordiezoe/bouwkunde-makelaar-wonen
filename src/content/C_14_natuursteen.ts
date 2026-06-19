@@ -374,7 +374,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: 'Wat zijn de **drie hoofdgroepen** natuursteen op basis van ontstaan?',
       options: [
         'Hard, zacht, middelhard',
-        'Stollings­gesteente (uit magma',
+        'Stollings­gesteente, afzettings­gesteente en metamorf gesteente',
         'Wit, grijs, zwart',
         'Buiten, binnen, voor decoratie',
       ],
@@ -389,7 +389,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: '**Marmer** is herkenbaar aan:',
       options: [
         'Donkergrijze kleur met fossielen',
-        'Vaak witte/lichte kleur met karakteristieke aderen (uit mineralen-onzuiverheden); ontstaan door recrystallisatie van kalksteen onder druk en hitte (metamorfe gesteente); kwetsbaar voor zuren',
+        'Vaak witte/lichte kleur met karakteristieke aderen; ontstaan door recrystallisatie van kalksteen onder druk en hitte; kwetsbaar voor zuren',
         'Splijtbare lagen',
         'Korrelige zwarte textuur',
       ],
@@ -451,7 +451,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: 'Voor een **buiten-dorpel** van een buitendeur is welke steensoort standaard?',
       options: [
         'Marmer — luxe uitstraling',
-        'Hardsteen (Belgisch arduin) — vrijwel onverwoestbaar, vorstbestendig, slijtvast; klassiek voor dorpels, neuten en traptreden in NL/België',
+        'Hardsteen — vrijwel onverwoestbaar, vorstbestendig, slijtvast; klassiek voor dorpels, neuten en traptreden in NL/België',
         'Zandsteen — verweert mooi',
         'Travertin — voor klassieke uitstraling',
       ],
@@ -496,7 +496,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: 'Voor klassieke **gevel­blokken** in een 19e-eeuwse stad is welke natuursteen gebruikt?',
       options: [
         'Polijst graniet — modern uitstraling',
-        'Zandsteen (Bentheim, Weser, Belgische zandsteen) — klassiek bouw­materiaal vóór industriële revolutie; matig hard, makkelijker bewerkbaar dan graniet; verweert in de loop van decennia (zandsteen "verwaait" door regen en vorst)',
+        'Zandsteen — klassiek bouw­materiaal vóór industriële revolutie; matig hard, makkelijker bewerkbaar dan graniet; verweert in de loop van decennia',
         'Marmer — voor monumentaliteit',
         'Leisteen — voor moderne uitstraling',
       ],
@@ -543,7 +543,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: 'Wat is **boucharderen**?',
       options: [
         'Een Franse muziekstijl',
-        'Bewerking met een boucharde (hamer met piramide-tanden of stomp-puntige punten)',
+        'Bewerking met een boucharde',
         'Polijsten in spiraal',
         'Een chemische behandeling',
       ],
@@ -558,7 +558,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: 'Wat is het verschil tussen **schuren** en **zoeten**?',
       options: [
         'Schuren is voor binnen, zoeten voor buiten',
-        'Schuren = mechanisch schuren met diamantschijven (60–400 grit) → vlak mat-glans oppervlak. Zoeten = verder polijsten dan schuren met fijnere middelen (600–1.000 grit) → fluweelachtig mat oppervlak met enige glans, voelt zacht aan',
+        'Schuren = mechanisch schuren met diamantschijven → vlak mat-glans oppervlak. Zoeten = verder polijsten dan schuren met fijnere middelen → fluweelachtig mat oppervlak met enige glans, voelt zacht aan',
         'Beide identiek',
         'Schuren is met zand, zoeten met chemicaliën',
       ],
@@ -573,7 +573,7 @@ Natuursteen wordt na zaaglopen uit de groeve **bewerkt** om het juiste oppervlak
       prompt: 'Wat is **gepolijste** natuursteen?',
       options: [
         'Met de hamer bewerkt',
-        'Met zeer fijne schuurmiddelen (1.000+ grit) + polish-poeder of diamant-pasta → spiegelend hoogglans­oppervlak; modern luxueus uitstraling, maar glad bij regen',
+        'Met zeer fijne schuurmiddelen + polish-poeder of diamant-pasta → spiegelend hoogglans­oppervlak; modern luxueus uitstraling, maar glad bij regen',
         'Met chemicaliën gereinigd',
         'Met gladde sneden gezaagd',
       ],

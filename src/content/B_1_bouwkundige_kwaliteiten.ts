@@ -139,7 +139,7 @@ Een gebouw "tussen hangen en wurgen" — bouwkundig zwak maar mooi, of mooi maar
         'Op welke manier helpt de Vitruvius-triade een makelaar bij het beoordelen van een woning?',
       options: [
         'Het bepaalt de exacte WOZ-waarde van het pand',
-        'Het is een breed kwaliteitskader (bruikbaarheid, duurzaamheid, schoonheid)',
+        'Het is een breed kwaliteitskader',
         'Het geeft de korting op de aanneemsom aan',
         'Het bepaalt de exacte energiezuinigheid',
       ],

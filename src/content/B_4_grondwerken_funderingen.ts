@@ -452,7 +452,7 @@ Risico's bij kelders:
       toetstermCode: 'B.4.1',
       type: 'mc',
       prompt: 'Welke grondsoort is het meest draagkrachtig en wordt in Nederland gebruikt om heipalen op af te slaan?',
-      options: ['Klei', 'Veen', 'Zand (Pleistoceen)', 'Bovenste cultuurlaag'],
+      options: ['Klei', 'Veen', 'Zand', 'Bovenste cultuurlaag'],
       correctIndex: 2,
       explanation:
         'De diepe Pleistocene zandlaag is in heel Nederland de draagkrachtige laag waarop heipalen worden afgeslagen. Klei en veen zijn te slap.',

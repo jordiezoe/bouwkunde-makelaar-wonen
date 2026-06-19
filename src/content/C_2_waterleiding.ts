@@ -757,7 +757,7 @@ Bij verkoop van een woning vóór 1960:
       prompt:
         'In welke periode werden **loden waterleidingen** standaard in NL gebruikt?',
       options: [
-        'Tot 1960 (na 1976 helemaal verboden voor nieuwe leidingen)',
+        'Tot 1960',
         'Pas na 1980',
         'Tot 2000',
         'Alleen in monumentale panden vóór 1900',
@@ -790,7 +790,7 @@ Bij verkoop van een woning vóór 1960:
         'Voor wie is lood in drinkwater **bijzonder schadelijk**?',
       options: [
         'Alleen voor ouderen boven de 65',
-        'Voor (ongeboren) kinderen en zwangeren',
+        'Voor kinderen en zwangeren',
         'Alleen bij grote hoeveelheden',
         'Nauwelijks schadelijk',
       ],

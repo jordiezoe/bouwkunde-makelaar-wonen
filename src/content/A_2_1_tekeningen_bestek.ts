@@ -250,7 +250,7 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       },
       options: [
         'Een deur naar buiten',
-        'Een raam (kozijn)',
+        'Een raam',
         'Een ventilatierooster',
         'Een nis in de gevel',
       ],
@@ -364,7 +364,7 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       options: [
         'De situatietekening.',
         'De bouwaanvraagtekening.',
-        'De installatietekening (E-installatie).',
+        'De installatietekening.',
         'De verkooptekening.',
       ],
       correctIndex: 2,

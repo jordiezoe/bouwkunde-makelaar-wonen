@@ -490,7 +490,7 @@ Bij Systeem D (gebalanceerde ventilatie met WTW) zou een afzuig­kap-naar-buiten
       prompt: 'Wat is het werkings­principe van **Systeem A — natuurlijke ventilatie**?',
       options: [
         'Centrale ventilator zuigt lucht aan',
-        'Aanvoer via roosters in kozijnen + afvoer via passieve kanalen (trek door warmte­verschil binnen-buiten + winddruk); geen mechaniek',
+        'Aanvoer via roosters in kozijnen + afvoer via passieve kanalen; geen mechaniek',
         'Filtraties van straatlucht',
         'WTW-warmtewisselaar verwarmt aankomende lucht',
       ],
@@ -505,7 +505,7 @@ Bij Systeem D (gebalanceerde ventilatie met WTW) zou een afzuig­kap-naar-buiten
       prompt: '**Systeem B (natuurlijke aanvoer + mechanische afvoer)** wordt veel toegepast in NL. Hoe werkt het?',
       options: [
         'Twee mechanische ventilatoren in keuken en badkamer',
-        'Aanvoer via roosters in kozijnen (natuurlijk); centrale mechanische ventilator zuigt vervuilde lucht af in keuken/badkamer/toilet (mechanisch); standen-schakelaar 1-2-3 voor stand basis/douche/koken',
+        'Aanvoer via roosters in kozijnen; centrale mechanische ventilator zuigt vervuilde lucht af in keuken/badkamer/toilet; standen-schakelaar 1-2-3 voor stand basis/douche/koken',
         'Centrale WTW met dubbele ventilator',
         'Open ramen alleen',
       ],
@@ -537,7 +537,7 @@ Bij Systeem D (gebalanceerde ventilatie met WTW) zou een afzuig­kap-naar-buiten
       prompt: 'Op een ventilatie-tekening: hoe herken je dat het om Systeem D (gebalanceerd + WTW) gaat?',
       options: [
         'Aanwezigheid van roosters in alle kozijnen',
-        'Centrale unit met warmtewisselaar-symbool + filter + twee kanalen (toevoer + afvoer) + capaciteiten per ruimte ongeveer in balans',
+        'Centrale unit met warmtewisselaar-symbool + filter + twee kanalen + capaciteiten per ruimte ongeveer in balans',
         'Alleen afzuig­ventielen in keuken',
         'Open kanalen op het dak',
       ],
@@ -569,7 +569,7 @@ Bij Systeem D (gebalanceerde ventilatie met WTW) zou een afzuig­kap-naar-buiten
       prompt: 'Wat zijn **shuntkanalen**?',
       options: [
         'Moderne WTW-kanalen',
-        'Verticale gemeenschappelijke afvoerkanalen door alle verdiepingen van een (oud) appartementen­complex',
+        'Verticale gemeenschappelijke afvoerkanalen door alle verdiepingen van een appartementen­complex',
         'Brandweerleidingen',
         'Lucht­toevoer­kanalen voor schone lucht',
       ],
@@ -584,7 +584,7 @@ Bij Systeem D (gebalanceerde ventilatie met WTW) zou een afzuig­kap-naar-buiten
       prompt: 'Wat is een **belangrijk voordeel** van een **individueel** ventilatie­systeem boven een collectief systeem?',
       options: [
         'Lagere installatie­kosten',
-        'Geen lucht­vermenging tussen woningen (geen geur- of virusverspreiding), volledige controle door bewoner, eigen WTW-mogelijkheid voor maximale efficiëntie',
+        'Geen lucht­vermenging tussen woningen, volledige controle door bewoner, eigen WTW-mogelijkheid voor maximale efficiëntie',
         'Geen onderhoud nodig',
         'Werkt zonder elektriciteit',
       ],
@@ -648,7 +648,7 @@ Bij Systeem D (gebalanceerde ventilatie met WTW) zou een afzuig­kap-naar-buiten
       prompt: 'Wat is het verschil tussen een **recirculatie-afzuigkap** en een **afzuigkap naar buiten**?',
       options: [
         'Recirculatie is moderner',
-        'Recirculatie: damp wordt door filter (vet + actieve kool) en terug in keuken geblazen',
+        'Recirculatie: damp wordt door filter en terug in keuken geblazen',
         'Recirculatie heeft geen filter',
         'Afzuig-naar-buiten werkt op elektriciteit, recirculatie niet',
       ],
@@ -663,7 +663,7 @@ Bij Systeem D (gebalanceerde ventilatie met WTW) zou een afzuig­kap-naar-buiten
       prompt: 'In een moderne woning met **Systeem D balansventilatie** is de afzuig­kap-keuze:',
       options: [
         'Altijd afzuig-naar-buiten',
-        'Vaak een recirculatie-kap (vocht via reguliere keuken-afzuig­ventiel van WTW-systeem), of afzuig-naar-buiten met aparte doorbreking + intelligent regelsysteem dat balans handhaaft; downdraft­afzuiging in inductie­plaat is moderne optie',
+        'Vaak een recirculatie-kap, of afzuig-naar-buiten met aparte doorbreking + intelligent regelsysteem dat balans handhaaft; downdraft­afzuiging in inductie­plaat is moderne optie',
         'Geen afzuig­kap nodig',
         'Open raam tijdens koken',
       ],
@@ -678,7 +678,7 @@ Bij Systeem D (gebalanceerde ventilatie met WTW) zou een afzuig­kap-naar-buiten
       prompt: 'Hoe vaak moet een **vetfilter** in een afzuig­kap worden gereinigd?',
       options: [
         'Nooit — vet verdampt vanzelf',
-        'Om de 1–2 maanden (afhankelijk gebruik); reinigen in vaatwasser; bij intensief gebruik vaker — vet in filter is brandgevaar bij vlamoverslag op het fornuis',
+        'Om de 1–2 maanden; reinigen in vaatwasser; bij intensief gebruik vaker — vet in filter is brandgevaar bij vlamoverslag op het fornuis',
         'Eenmaal per 10 jaar',
         'Alleen bij visuele vervuiling',
       ],

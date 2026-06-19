@@ -340,7 +340,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Wat is het verschil tussen **gewapend glas** (veiligheids­glas) en **gehard glas**?',
       options: [
         'Synoniemen',
-        'Gewapend (gelaagd) glas = kunststoflaag tussen twee glasplaten → bij breken houdt de kunststof de scherven samen, biedt inbraak­vertraging. Gehard glas = thermisch behandeld → breekt in onschadelijke korreltjes maar biedt geen inbraak­vertraging',
+        'Gewapend glas = kunststoflaag tussen twee glasplaten → bij breken houdt de kunststof de scherven samen, biedt inbraak­vertraging. Gehard glas = thermisch behandeld → breekt in onschadelijke korreltjes maar biedt geen inbraak­vertraging',
         'Gehard glas is sterker',
         'Gewapend glas is brandwerend',
       ],
@@ -355,7 +355,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Wat is het verschil tussen **stil alarm** en **luid alarm**?',
       options: [
         'Stil alarm geeft geen signaal',
-        'Stil alarm = geen geluid in/om woning, signaal direct naar meldkamer (PAC) die politie waarschuwt',
+        'Stil alarm = geen geluid in/om woning, signaal direct naar meldkamer die politie waarschuwt',
         'Stil alarm is voor woningen, luid alarm voor bedrijven',
         'Luid alarm werkt zonder elektriciteit',
       ],
@@ -370,7 +370,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Welke maatregel is het meest **effectief** voor inbraak­preventie volgens politie?',
       options: [
         'Een groot huisdier',
-        'Goed hang- en sluitwerk (SKG 3-sterren), gewapend glas in voordeur en glas op begane grond, goede verlichting rondom + waarneembaarheid vanuit straat',
+        'Goed hang- en sluitwerk, gewapend glas in voordeur en glas op begane grond, goede verlichting rondom + waarneembaarheid vanuit straat',
         'Een fakkel buiten',
         'Geen waarschuwingsbordjes',
       ],
@@ -385,7 +385,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Wat is een **typisch nadeel** van een luid alarm zonder doormelding?',
       options: [
         'Het werkt niet bij stroomuitval',
-        'Vals alarm geeft geluidsoverlast voor buren; bovendien: na ~20 minuten denken buren niet meer aan inbraak ("schreeuwt al de hele tijd") en wordt politie niet meer ingeschakeld',
+        'Vals alarm geeft geluidsoverlast voor buren; bovendien: na ~20 minuten denken buren niet meer aan inbraak en wordt politie niet meer ingeschakeld',
         'Het kost veel stroom',
         'Het schrikt katten af',
       ],
@@ -417,7 +417,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: '**Glasvezel (FTTH)** heeft welke kenmerken vergeleken met kabel-internet?',
       options: [
         'Lagere snelheid',
-        'Snelheid 100 Mbit/s tot 10 Gbit/s, symmetrisch (upload = download), toekomst­bestendig (uitbreidings­capaciteit zonder kabelvervanging)',
+        'Snelheid 100 Mbit/s tot 10 Gbit/s, symmetrisch, toekomst­bestendig',
         'Werkt alleen met dipool-antenne',
         'Vereist een schotel',
       ],
@@ -447,7 +447,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Welke **UTP-bekabeling** wordt aanbevolen in moderne nieuwbouw?',
       options: [
         'Cat 3 — goedkoper',
-        'Cat 6 of Cat 7 — snelheid 1 Gbit/s (Cat 6) tot 10 Gbit/s (Cat 7); aangesloten op patch­paneel in meterkast, met aansluit­dozen in elke kamer voor stabiele verbinding',
+        'Cat 6 of Cat 7 — snelheid 1 Gbit/s tot 10 Gbit/s; aangesloten op patch­paneel in meterkast, met aansluit­dozen in elke kamer voor stabiele verbinding',
         'COAX',
         'Telefoonkabel',
       ],
@@ -464,7 +464,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Wat is **domotica**?',
       options: [
         'Een soort verwarmings­systeem',
-        'Automatisering van gebouwen via een geïntegreerd systeem dat verschillende installaties (verlichting, verwarming, ventilatie, beveiliging, zonwering, multimedia) centraal aanstuurt',
+        'Automatisering van gebouwen via een geïntegreerd systeem dat verschillende installaties centraal aanstuurt',
         'Een merknaam voor slimme thermostaten',
         'Een soort domotech-toilet',
       ],
@@ -479,7 +479,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Een **slim deurslot** kan:',
       options: [
         'Alleen openen met sleutel',
-        'Openen via code, app, sleutel-tag (proximity), met aparte code per gebruiker (familie, schoonmaker',
+        'Openen via code, app of sleutel-tag, met een aparte code per gebruiker',
         'Alleen schoonmaken',
         'Niet meer worden geopend',
       ],
@@ -494,7 +494,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Wat is het voordeel van een **slimme thermostaat** met geo-fencing?',
       options: [
         'Hogere maximum-temperatuur',
-        'De thermostaat herkent (via smartphone-GPS van bewoners) wanneer iemand naar huis nadert en begint vóór aankomst te verwarmen; zet verwarming lager als iedereen weg is',
+        'De thermostaat herkent wanneer iemand naar huis nadert en begint vóór aankomst te verwarmen; zet verwarming lager als iedereen weg is',
         'Verwarmt sneller',
         'Werkt zonder stroom',
       ],
@@ -509,7 +509,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Wat is **Matter** in domotica?',
       options: [
         'Een ouderwets protocol',
-        'Moderne open standaard (gemeenschappelijk ontwikkeld door Apple, Google, Amazon)',
+        'Moderne open standaard',
         'Een specifiek merk thermostaat',
         'Een type bekabeling',
       ],
@@ -524,7 +524,7 @@ Verschillende standaarden voor communicatie tussen apparaten:
       prompt: 'Bij overname van een woning met domotica-installatie is het belangrijkste aandachtspunt:',
       options: [
         'De levensduur van LED-lampen',
-        'Documentatie en account-overdracht: app-accounts, integratie-platform (HomeKit/Home Assistant/etc.), logindata, wifi-wachtwoorden voor smart-apparaten, eventueel onderhouds­contract',
+        'Documentatie en account-overdracht: app-accounts, integratie-platform, logindata, wifi-wachtwoorden voor smart-apparaten, eventueel onderhouds­contract',
         'De kleur van de gordijnen',
         'Het materiaal van de schakelaars',
       ],

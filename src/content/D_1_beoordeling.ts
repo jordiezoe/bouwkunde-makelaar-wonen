@@ -867,7 +867,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat is een **MJOP**?',
       options: [
         'Een verzekerings­polis',
-        'Meerjaren­OnderhoudsPlan (MJOP)',
+        'Meerjaren­OnderhoudsPlan',
         'Een gemeentelijke vergunning',
         'Een type bouw­tekening',
       ],
@@ -914,7 +914,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat zit er **per bouw­deel** in een MJOP?',
       options: [
         'Alleen een algemene staat-aanduiding',
-        'Beschrijving van locatie en materialen, conditie­score (NEN 2767), type gebreken met foto\'s, risico-inschatting, aanbevolen actie, jaar van uitvoering en geschatte kosten',
+        'Beschrijving van locatie en materialen, conditie­score volgens NEN 2767, type gebreken met foto\'s, risico-inschatting, aanbevolen actie, jaar van uitvoering en geschatte kosten',
         'Alleen de leeftijd',
         'Alleen de aankoopprijs',
       ],
@@ -946,7 +946,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Wat is het verschil tussen **renovatie** en **restauratie**?',
       options: [
         'Synoniemen',
-        'Renovatie = moderniseren en verbeteren zonder functie­wijziging (nieuwe installaties, isolatie, afwerking). Restauratie = terugbrengen naar oorspronkelijke staat',
+        'Renovatie = moderniseren en verbeteren zonder functie­wijziging. Restauratie = terugbrengen naar oorspronkelijke staat',
         'Renovatie alleen voor woningen, restauratie voor utiliteit',
         'Restauratie is goedkoper dan renovatie',
       ],
@@ -1055,7 +1055,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Welk onderdeel van een bouwkundig rapport heeft de **hoogste prioriteit** voor de koper?',
       options: [
         'Cosmetische gebreken',
-        'Direct herstel nodig: constructieve veiligheid, vocht­problemen (lekkages), brandveiligheid, installatie­veiligheid',
+        'Direct herstel nodig: constructieve veiligheid, vocht­problemen, brandveiligheid, installatie­veiligheid',
         'Toekomstig schilderwerk',
         'Het bouwjaar',
       ],
@@ -1070,7 +1070,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Welke **invloeden op onderhoud** beoordeel je bij analyse van een bouwkundig rapport?',
       options: [
         'Alleen de leeftijd van het pand',
-        'Bouwjaar, materiaalkeuze, omgeving (kust vs binnen­land), eerder uitgevoerde renovaties, mate van eerder onderhoud (was de eigenaar zorgvuldig?), klimaat en gebruik',
+        'Bouwjaar, materiaalkeuze, omgeving, eerder uitgevoerde renovaties, mate van eerder onderhoud, klimaat en gebruik',
         'Alleen de oppervlakte',
         'De koopprijs',
       ],
@@ -1179,7 +1179,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Voor een **gemetselde gevel** zijn de voegen de belangrijkste onderhoudpunt. Hoe vaak moeten ze worden vernieuwd?',
       options: [
         'Maandelijks',
-        'Voegherstel elke 25–50 jaar (afhankelijk klimaat), eventueel hydrofoberen elke 10–15 jaar; voegen zijn de zwakste schakel',
+        'Voegherstel elke 25–50 jaar, eventueel hydrofoberen elke 10–15 jaar; voegen zijn de zwakste schakel',
         'Nooit nodig',
         'Eens per jaar',
       ],
@@ -1243,7 +1243,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Bij het **slopen van een dragende wand** is de juiste werkwijze:',
       options: [
         'Direct slopen met breekijzer',
-        'Constructeur raadpleegt voor berekening + vervangings­oplossing (stalen H-balk of IPE), omgevings­vergunning aanvragen, erkend bedrijf voor uitvoering; kosten € 5.000–25.000',
+        'Constructeur raadpleegt voor berekening + vervangings­oplossing, omgevings­vergunning aanvragen, erkend bedrijf voor uitvoering; kosten € 5.000–25.000',
         'Eerst de hele woning leegmaken',
         'Bij avond uitvoeren',
       ],
@@ -1258,7 +1258,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Een **uitbouw op de begane grond** vergt:',
       options: [
         'Geen vergunning',
-        'Vergunning­check (vaak omgevings­vergunning; bestemmingsplan, welstand); nieuwe fundering verbonden met bestaande; aansluiting gevel + leidingen; dak (plat of hellend); kosten € 30.000–150.000 voor 15–30 m²',
+        'Vergunning­check; nieuwe fundering verbonden met bestaande; aansluiting gevel + leidingen; dak; kosten € 30.000–150.000 voor 15–30 m²',
         'Alleen toestemming van buren',
         'Een aparte hypotheek',
       ],
@@ -1273,7 +1273,7 @@ B.1.9 vraagt naar consequenties van **vier specifieke verbouwings­ingrepen** �
       prompt: 'Bij **badkamer­renovatie** is een Bbl-eis voor ventilatie:',
       options: [
         'Geen eis',
-        'Mechanische afzuig­capaciteit min. 14 l/s = 50 m³/h (continu) → voorkomt vocht­problemen en schimmel; bij balansventilatie (Systeem D) via WTW-systeem',
+        'Mechanische afzuig­capaciteit min. 14 l/s = 50 m³/h → voorkomt vocht­problemen en schimmel; bij balansventilatie via WTW-systeem',
         'Alleen natuurlijke ventilatie',
         '500 m³/h verplicht',
       ],

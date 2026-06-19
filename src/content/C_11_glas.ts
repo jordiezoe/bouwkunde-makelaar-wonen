@@ -570,7 +570,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: '**Geluidwerend glas** wordt vaak gemaakt door:',
       options: [
         'Drie glasplaten zonder spouw',
-        'Asymmetrisch dubbel glas (verschillende glasdikten, bv. 6+8 mm) + PVB-gelaagd glas + brede gasspouw',
+        'Asymmetrisch dubbel glas + PVB-gelaagd glas + brede gasspouw',
         'Een dikkere coating',
         'Een gehard glas',
       ],
@@ -617,7 +617,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Wat is **selectief glas**?',
       options: [
         'Glas met verschillende kleuren',
-        'Glas met hoge LTA (veel licht) + lage g-waarde',
+        'Glas met hoge LTA + lage g-waarde',
         'Glas dat door de wind beweegt',
         'Glas dat alleen UV doorlaat',
       ],
@@ -711,7 +711,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Wat is een **spider­beglazing**?',
       options: [
         'Glas met netten erin',
-        'Glas aan punten bevestigd met RVS "spider"-houders (vier-armige bevestiging op elk hoekpunt); boorgaten in glas; achter de gevel staal/cable-structure die de spiders draagt',
+        'Glas aan punten bevestigd met RVS "spider"-houders; boorgaten in glas; achter de gevel staal/cable-structure die de spiders draagt',
         'Glas-in-lood',
         'Een spinnenweb in glas',
       ],
@@ -726,7 +726,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Wat is een **klimaatgevel / tweede huid**?',
       options: [
         'Gevel met twee verschillende kleuren',
-        'Twee gevels op enige afstand (50 cm–3 m), met geventileerde buffer-spouw; binnen­gevel = HR-isolatieglas, buiten­gevel = enkel glas of geperforeerde plaat; voor hoogbouw + energiezuinige kantoor­gebouwen',
+        'Twee gevels op enige afstand, met geventileerde buffer-spouw; binnen­gevel = HR-isolatieglas, buiten­gevel = enkel glas of geperforeerde plaat; voor hoogbouw + energiezuinige kantoor­gebouwen',
         'Een gevel met klimaatregeling apparatuur',
         'Een airconditioning-gevel',
       ],
@@ -758,7 +758,7 @@ Lekkage is **onomkeerbaar** — het isolatieglas moet worden vervangen.
       prompt: 'Wat is de **belangrijkste oorzaak** van lekkage in dubbel glas?',
       options: [
         'Slechte ventilatie binnen',
-        'Veroudering van de butyl- en siliconen-afdichting rondom de afstand­houder (na ~25 jaar); ook mechanische beschadiging, verkeerde montage of thermische schok kunnen oorzaak zijn',
+        'Veroudering van de butyl- en siliconen-afdichting rondom de afstand­houder; ook mechanische beschadiging, verkeerde montage of thermische schok kunnen oorzaak zijn',
         'Te hoge buitentemperatuur',
         'UV-licht door het glas',
       ],

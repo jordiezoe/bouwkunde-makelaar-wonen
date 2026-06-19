@@ -927,7 +927,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat is de **Trias Energetica**?',
       options: [
         'Een type warmtepomp',
-        'Drie-stappenplan voor energie­zuinig ontwerpen: (1) beperk de energie­vraag door isolatie en luchtdicht bouwen; (2) gebruik hernieuwbare energie­bronnen; (3) gebruik fossiele bronnen efficiënt',
+        'Drie-stappenplan voor energie­zuinig ontwerpen: beperk de energie­vraag door isolatie en luchtdicht bouwen; gebruik hernieuwbare energie­bronnen; gebruik fossiele bronnen efficiënt',
         'Een Bbl-eis',
         'Een soort isolatiemateriaal',
       ],
@@ -944,7 +944,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Het **energielabel** schaal loopt van:',
       options: [
         '1 tot 10',
-        'A++++ (zeer energie­zuinig',
+        'A++++ tot G',
         'Rood tot groen',
         '0 tot 100',
       ],
@@ -1006,7 +1006,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Hoe herken je **HR++ glas** in een woning?',
       options: [
         'Aan de kleur',
-        'Dikker dan enkel glas (~25 mm vs 4 mm); coating zichtbaar bij belichten (zilveren glans aan binnenkant); soms label op afstandhouder; veel beter geluidsisolatie + minder condens',
+        'Dikker dan enkel glas; coating zichtbaar bij belichten; soms label op afstandhouder; veel beter geluidsisolatie + minder condens',
         'Aan een sticker',
         'Niet zichtbaar',
       ],
@@ -1021,7 +1021,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Hoe herken je **balansventilatie + WTW** (Systeem D)?',
       options: [
         'Roosters in alle kozijnen',
-        'Centrale unit op zolder of in technische ruimte met twee luchtkanalen (toevoer + afvoer) + filter; inblaas-ventielen in plafond slaap-/woonkamer; afzuig-ventielen in keuken/badkamer/toilet; geen open roosters in kozijnen',
+        'Centrale unit op zolder of in technische ruimte met twee luchtkanalen + filter; inblaas-ventielen in plafond slaap-/woonkamer; afzuig-ventielen in keuken/badkamer/toilet; geen open roosters in kozijnen',
         'Een grote ventilator buiten',
         'Alleen een afzuig­kap in keuken',
       ],
@@ -1038,7 +1038,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat is een **belangrijk bouwfysisch risico** bij na-isolatie zonder ventilatie­verbetering?',
       options: [
         'Geen risico',
-        'Luchtdichte schil zonder mechanische ventilatie → hoge CO₂, hoge RV, condensatie + schimmel → essentieel om ventilatie (B/C/D) gelijktijdig te verbeteren',
+        'Luchtdichte schil zonder mechanische ventilatie → hoge CO₂, hoge RV, condensatie + schimmel → essentieel om ventilatie gelijktijdig te verbeteren',
         'Te warm wonen',
         'Hogere belasting fundering',
       ],
@@ -1053,7 +1053,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat is een **positieve consequentie** van verduurzaming voor de woning­waarde?',
       options: [
         'Geen impact',
-        'Energie­label stijgt (E → A mogelijk); marktwaarde label A is 5–10 % hoger dan E; betere verkoopbaarheid; subsidies + BTW-vrijstelling verlagen netto-investering',
+        'Energie­label stijgt; marktwaarde label A is 5–10 % hoger dan E; betere verkoopbaarheid; subsidies + BTW-vrijstelling verlagen netto-investering',
         'Lagere waarde door investering',
         'Alleen bij commercieel vastgoed',
       ],
@@ -1102,7 +1102,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Aan welke **criteria** moet een duurzaam bouwmateriaal voldoen?',
       options: [
         'Alleen goedkoop',
-        'Hernieuwbaar / lage milieu-impact in productie / recyclebaar of biodegradeerbaar / lange levensduur / gezond voor mens (geen schadelijke emissies) / lokaal beschikbaar',
+        'Hernieuwbaar / lage milieu-impact in productie / recyclebaar of biodegradeerbaar / lange levensduur / gezond voor mens / lokaal beschikbaar',
         'Glanzend uiterlijk',
         'In China geproduceerd',
       ],
@@ -1149,7 +1149,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Waarom is **ESG belangrijk voor vastgoed**?',
       options: [
         'Alleen voor reclame',
-        'Beleggers (pensioenfondsen, institutionele) vragen ESG-data bij aankoop; klimaatrisico (stranded assets); reputatie­risico bij ongezonde panden; toekomst­bestendigheid; EU-taxonomie vereist ESG-rapportage',
+        'Beleggers vragen ESG-data bij aankoop; klimaatrisico; reputatie­risico bij ongezonde panden; toekomst­bestendigheid; EU-taxonomie vereist ESG-rapportage',
         'Het verandert de architectuur­stijl',
         'Het is alleen een filosofisch concept',
       ],
@@ -1166,7 +1166,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat is **passief­huis-principe**?',
       options: [
         'Een huis zonder bewoners',
-        'Extreme isolatie (Rc > 8), triple glas, zeer luchtdicht (< 0,2 Qv,10), balansventilatie + WTW; geen actief verwarmings­systeem of zeer klein',
+        'Extreme isolatie, triple glas, zeer luchtdicht, balansventilatie + WTW; geen actief verwarmings­systeem of zeer klein',
         'Een traditioneel huis',
         'Een huis op zonne-energie alleen',
       ],
@@ -1262,7 +1262,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat zijn de **NL klimaat­doelen** uit het Klimaatakkoord 2019?',
       options: [
         '20 % CO₂-reductie tegen 2050',
-        '2030: 55 % CO₂-reductie t.o.v. 1990 (EU "Fit for 55"); 2050: klimaat­neutraal (netto 0 CO₂); 7 miljoen woningen + 1 miljoen utiliteits­gebouwen verduurzamen tot 2050',
+        '2030: 55 % CO₂-reductie t.o.v. 1990; 2050: klimaat­neutraal; 7 miljoen woningen + 1 miljoen utiliteits­gebouwen verduurzamen tot 2050',
         '100 % zonnepanelen op elk dak',
         'Geen specifieke doelen',
       ],
@@ -1277,7 +1277,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat is een **belangrijke ontwikkeling** voor de **bestaande gebouwde omgeving**?',
       options: [
         'Alle gebouwen slopen',
-        'Hybride warmtepompen als overgangs­technologie (standaard bij vervanging cv-ketel vanaf 2026 mits financieel haalbaar); warmtenetten in steden; verduurzaming naar label A; ESG-investeringen sturen renovatie',
+        'Hybride warmtepompen als overgangs­technologie; warmtenetten in steden; verduurzaming naar label A; ESG-investeringen sturen renovatie',
         'Alleen nieuwbouw verduurzamen',
         'Terugkeer naar steenkool',
       ],
@@ -1292,7 +1292,7 @@ Naast CO₂-reductie ook **aanpassing aan reeds optredende klimaat­verandering*
       prompt: 'Wat is **klimaatadaptatie**, naast klimaat­mitigatie?',
       options: [
         'Synoniemen',
-        'Aanpassing aan klimaatverandering (waterbuffering, hittestress, waterveiligheid)',
+        'Aanpassing aan klimaatverandering',
         'Een type warmtepomp',
         'Internationale ontwikkelings­hulp',
       ],

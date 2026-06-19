@@ -242,7 +242,7 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       toetstermCode: 'B.3.2',
       type: 'mc',
       prompt: 'Welk materiaal kan slecht tegen trekkrachten zonder wapening?',
-      options: ['Staal', 'Gewapend hout', 'Beton (onbewapend)', 'Aluminium'],
+      options: ['Staal', 'Gewapend hout', 'Beton', 'Aluminium'],
       correctIndex: 2,
       explanation:
         'Beton heeft een uitstekende druksterkte maar slechte treksterkte (ongeveer 10% van de druksterkte). Daarom wordt staal toegevoegd op plaatsen waar trek optreedt — dat heet *gewapend beton*.',
@@ -434,7 +434,7 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       options: [
         'Een esthetische keuze van de metselaar',
         'Krimp van de baksteen door uitdroging',
-        'Zetting (verzakking) van de fundering',
+        'Zetting van de fundering',
         'Te hoge belasting op het dak',
       ],
       correctIndex: 2,
@@ -450,7 +450,7 @@ Voor de makelaar is het belangrijk om bij een inspectie of taxatie te kunnen aan
       options: [
         'Diagonale scheur dwars door bakstenen heen, breder dan 2 mm.',
         'Horizontale scheur boven kozijnen over de hele gevel.',
-        'Fijne netvormige (haar)scheuren in een stuclaag, smaller dan 0,5 mm.',
+        'Fijne netvormigescheuren in een stuclaag, smaller dan 0,5 mm.',
         'Trapsgewijze scheur door stootvoegen vanaf een hoek van het pand.',
       ],
       correctIndex: 2,

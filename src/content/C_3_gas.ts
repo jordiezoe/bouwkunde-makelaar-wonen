@@ -310,7 +310,7 @@ Een warmtepomp levert efficiënt water op **35–55 °C** (in plaats van de 70�
       prompt: 'Wat duidt een **gele roetende vlam** op bij een gasvuur aan?',
       options: [
         'Een goed afgestelde brander',
-        'Onvoldoende lucht → koolmonoxide (CO), levensgevaarlijk',
+        'Onvoldoende lucht → koolmonoxide, levensgevaarlijk',
         'Te veel verwarmingsvermogen',
         'Normaal verschijnsel bij koud opstarten',
       ],
@@ -372,7 +372,7 @@ Een warmtepomp levert efficiënt water op **35–55 °C** (in plaats van de 70�
       prompt: 'Op een installatietekening wordt een **gasleiding** meestal weergegeven met:',
       options: [
         'Een rode lijn',
-        'Een gele lijn (of zwart met G-aanduiding)',
+        'Een gele lijn',
         'Een streep-stippellijn',
         'Een groene lijn',
       ],
@@ -387,7 +387,7 @@ Een warmtepomp levert efficiënt water op **35–55 °C** (in plaats van de 70�
       prompt: 'Wat is het verloop van het gas in een woning op tekening?',
       options: [
         'Toestel → meter → hoofdleiding → straat',
-        'Hoofdleiding → dienstleiding (met gasmeter) → binnenleiding → stijgleiding → verzamelleidingen per verdieping → afsluitkraan → verbruikstoestel',
+        'Hoofdleiding → dienstleiding → binnenleiding → stijgleiding → verzamelleidingen per verdieping → afsluitkraan → verbruikstoestel',
         'Direct van de meter naar elk toestel zonder vertakking',
         'Via een centrale verdeler in de cv-ruimte',
       ],

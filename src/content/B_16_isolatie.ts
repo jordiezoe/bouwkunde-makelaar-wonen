@@ -242,7 +242,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
       prompt: 'Wat is het hoofdverschil tussen **EPS** en **XPS**?',
       options: [
         'EPS is wit, XPS is altijd zwart',
-        'EPS = geëxpandeerd (open cellen); XPS = geëxtrudeerd',
+        'EPS = geëxpandeerd; XPS = geëxtrudeerd',
         'EPS is alleen voor binnen, XPS alleen voor buiten',
         'EPS bevat geen polystyreen, XPS wel',
       ],
@@ -311,7 +311,7 @@ Kunststofschuimen hebben **lage λ-waarden** (zeer goed isolerend), **rotten nie
         'Welk isolatiemateriaal is **niet meer toegestaan** voor in-situ spouwisolatie in NL?',
       options: [
         'PUR — wegens brandgevoeligheid',
-        'UF (ureumformaldehyde) — geeft formaldehyde af',
+        'UF — geeft formaldehyde af',
         'EPS-korrels',
         'Steenwol-vlokken',
       ],

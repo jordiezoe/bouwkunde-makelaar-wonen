@@ -387,7 +387,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       toetstermCode: 'C.4.1',
       type: 'mc',
       prompt: 'Wat is de standaard **netspanning** voor woningen in NL?',
-      options: ['12 V', '120 V', '230 V wisselstroom (eenfase)', '400 V krachtstroom'],
+      options: ['12 V', '120 V', '230 V wisselstroom', '400 V krachtstroom'],
       correctIndex: 2,
       explanation:
         'Nederland heeft een standaard netspanning van 230 V wisselstroom (eenfase) voor gewone wandcontactdozen en lichtpunten. Krachtstroom is 400 V (driefasen) voor zware apparaten als fornuis, sauna, lasapparaat, warmtepomp en laadpaal. Internationale frequentie 50 Hz.',
@@ -425,7 +425,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       options: [
         '1×25 A',
         '1×35 A',
-        '3×25 A driefasen (~17 kW vermogen)',
+        '3×25 A driefasen',
         '1×16 A',
       ],
       correctIndex: 2,
@@ -595,7 +595,7 @@ Resultaat: **Energielabel A++++**, mogelijk **NOM** (Nul Op de Meter — netto �
       prompt: 'Wat doet een **omvormer (inverter)** bij zonnepanelen?',
       options: [
         'Filtert vuile lucht',
-        'Zet gelijkstroom (DC) om naar wisselstroom',
+        'Zet gelijkstroom om naar wisselstroom',
         'Verhoogt de spanning van 12 V naar 230 V',
         'Schakelt de panelen aan en uit',
       ],

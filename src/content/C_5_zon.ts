@@ -290,7 +290,7 @@ Toch blijft de zonneboiler relevant bij hoog tapwater­verbruik en in combinatie
       prompt: 'Wat is het hoofdverschil tussen **monokristallijn** en **multikristallijn** PV-panelen?',
       options: [
         'Mono is dunner, multi is dikker',
-        'Mono = één kristal (hoger rendement); multi = vele kristallen',
+        'Mono = één kristal; multi = vele kristallen',
         'Mono is voor zomer, multi voor winter',
         'Mono werkt zonder zonlicht',
       ],
@@ -305,7 +305,7 @@ Toch blijft de zonneboiler relevant bij hoog tapwater­verbruik en in combinatie
       prompt: 'Wat is de functie van een **omvormer (inverter)** in een PV-installatie?',
       options: [
         'Verhoogt de spanning naar 1.000 V',
-        'Zet gelijkstroom (DC) om naar wisselstroom',
+        'Zet gelijkstroom om naar wisselstroom',
         'Filtert het zonlicht',
         'Beschermt panelen tegen bliksem',
       ],
@@ -365,7 +365,7 @@ Toch blijft de zonneboiler relevant bij hoog tapwater­verbruik en in combinatie
       toetstermCode: 'C.5.2',
       type: 'mc',
       prompt: 'Een paneel van **400 Wp** levert in Nederland gemiddeld hoeveel kWh per jaar?',
-      options: ['100 kWh', '~340 kWh (in NL ~0,85 kWh per Wp per jaar bij optimale plaatsing)', '500 kWh', '1.000 kWh'],
+      options: ['100 kWh', '~340 kWh', '500 kWh', '1.000 kWh'],
       correctIndex: 1,
       explanation:
         'Vuistregel NL: 1 Wp levert gemiddeld 0,85–0,95 kWh per jaar bij optimale plaatsing (zuid, 36° helling, geen schaduw). 400 Wp paneel × 0,85 = ~340 kWh/jaar. Bij oost/west: ~85 % daarvan; bij noord: ~50 %. Een 10-panelen-installatie (4.000 Wp) levert dus ~3.400 kWh — bijna 100 % van een doorsnee-huishouden (zonder all-electric).',

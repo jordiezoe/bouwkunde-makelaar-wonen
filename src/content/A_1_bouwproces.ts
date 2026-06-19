@@ -425,7 +425,7 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
       options: [
         'Het volledige bedrag ineens, voorafgaand aan de bouw.',
         'Het volledige bedrag ineens, na oplevering.',
-        'In termijnen per voltooide bouwfase (heistart, bg-vloer, kapconstructie, dakdicht, oplevering).',
+        'In termijnen per voltooide bouwfase.',
         'Maandelijkse vaste bedragen, ongeacht de voortgang.',
       ],
       correctIndex: 2,
@@ -603,7 +603,7 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
         'Welk moment is bij nieuwbouw een gangbaar betalingstermijn-ijkpunt?',
       options: [
         'Bij het ontwerp van de kozijnen.',
-        'Bij het waterdicht worden van het dak (dakdicht).',
+        'Bij het waterdicht worden van het dak.',
         'Bij de keuze van de keuken.',
         'Bij het opmaken van de definitieve omgevingsvergunning.',
       ],

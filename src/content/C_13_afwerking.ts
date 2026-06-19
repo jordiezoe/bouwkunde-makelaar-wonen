@@ -873,7 +873,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Een professioneel verfsysteem bestaat uit:',
       options: [
         'Alleen aflak',
-        'Grondverf (primer)',
+        'Grondverf, voorlak en aflak',
         'Twee lagen aflak',
         'Grondverf + tegelijm',
       ],
@@ -903,7 +903,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is het **belangrijkste voordeel** van watergedragen verf (acrylaat/latex) ten opzichte van solvent-verf?',
       options: [
         'Hardere uitstraling',
-        'Lagere VOC-emissie (milieuvriendelijker), snel drogend (~1–2 uur), vrijwel reukloos',
+        'Lagere VOC-emissie, snel drogend, vrijwel reukloos',
         'Langere droogtijd',
         'Beter voor metalen onderdelen',
       ],
@@ -935,7 +935,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Op een **stalen hekwerk** zijn schubvormige roestplekken zichtbaar. De diagnose:',
       options: [
         'Esthetisch probleem zonder gevolgen',
-        'Roest onder de verflaag duwt de verf omhoog (schubvorming) → ernstige onderliggende corrosie; aanpak: zandstralen of borstelen tot gezond staal, roestomvormer, roestwerende grondverf + 2x aflak',
+        'Roest onder de verflaag duwt de verf omhoog → ernstige onderliggende corrosie; aanpak: zandstralen of borstelen tot gezond staal, roestomvormer, roestwerende grondverf + 2x aflak',
         'Normaal verschijnsel',
         'Door UV-straling',
       ],
@@ -967,7 +967,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is een **raaplaag**?',
       options: [
         'De decoratieve eindlaag',
-        'Eerste, ruwe laag op naakt metsel­werk of beton (cement-zand-mortel 1:3, dikte 5–15 mm)',
+        'Eerste, ruwe laag op naakt metsel­werk of beton',
         'Een waterdichte laag onder tegels',
         'Een pleisterlaag op gips',
       ],
@@ -1044,7 +1044,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: '**Cementtegels** zijn herkenbaar aan:',
       options: [
         'Hun glanzend glazuur',
-        'Patroon dat dwars door de tegel loopt (kleur in massa) en klassieke marokkaanse/encaustic-uitstraling; cement + pigment in mal geperst en uitgehard zonder bakken; vereist impregneren na plaatsing',
+        'Patroon dat dwars door de tegel loopt en klassieke marokkaanse/encaustic-uitstraling; cement + pigment in mal geperst en uitgehard zonder bakken; vereist impregneren na plaatsing',
         'Hun zachte oppervlak',
         'Hun standaard tegelformaat',
       ],
@@ -1076,7 +1076,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is de **A/B/C-classificatie** in Rutschwerte?',
       options: [
         'Een prijsklasse',
-        'Antislip op natte vloer met blote voeten (DIN 51097): A = kleedruimte (12–18°); B = douche, badkamer (18–24°); C = zwembad-bodems en voetbaden',
+        'Antislip op natte vloer met blote voeten: A = kleedruimte; B = douche, badkamer; C = zwembad-bodems en voetbaden',
         'Een kwaliteit van porselein',
         'Hechting-classificatie',
       ],
@@ -1123,7 +1123,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is het **verschil** tussen vensterbanktegel en raamdorpelsteen?',
       options: [
         'Synoniemen',
-        'Vensterbanktegel = binnenkant van het raam (in de borstwering), gladde keramische afwerking; raamdorpelsteen = buitenkant onder het kozijn, met druipneus voor afwatering',
+        'Vensterbanktegel = binnenkant van het raam, gladde keramische afwerking; raamdorpelsteen = buitenkant onder het kozijn, met druipneus voor afwatering',
         'Vensterbanktegel is van glas',
         'Raamdorpelsteen is decoratief, vensterbanktegel functioneel',
       ],
@@ -1138,7 +1138,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is een **muurafdektegel**?',
       options: [
         'Een tegel naast de wand',
-        'Tegel die boven op een (vrij­staande) muur ligt',
+        'Tegel die boven op een muur ligt',
         'Een binnen-wandtegel',
         'Een speciaal type vloer­tegel',
       ],
@@ -1185,7 +1185,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Voor een woning met **vloerverwarming** is welke vloer­afwerking het meest geschikt?',
       options: [
         'Dik tapijt — voor warmte­behoud',
-        'Tegels, gietvloer of dun parket (max. 15 mm) — geleiden warmte goed, vloerverwarming werkt efficiënt; dik tapijt of dikke parket isoleren te veel',
+        'Tegels, gietvloer of dun parket — geleiden warmte goed, vloerverwarming werkt efficiënt; dik tapijt of dikke parket isoleren te veel',
         'Linoleum',
         'Beton zonder afwerking',
       ],
@@ -1200,7 +1200,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is een **giet­vloer**?',
       options: [
         'Een betonnen vloer',
-        'Vloeibare hars (epoxy, polyurethaan of cement) uitgegoten op de dekvloer → naadloze afwerking; hoge investering, zeer duurzaam, modern industrieel uitstraling',
+        'Vloeibare hars uitgegoten op de dekvloer → naadloze afwerking; hoge investering, zeer duurzaam, modern industrieel uitstraling',
         'Een PVC-vloer met klikverbinding',
         'Een laminaat-vloer',
       ],
@@ -1217,7 +1217,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wat is een **dilatatie­voeg** in tegelwerk?',
       options: [
         'Een gewone cement-voeg',
-        'Speciale voeg met flexibele kit (silicone, acrylaat) waar tegelwerk kan bewegen zonder te scheuren',
+        'Speciale voeg met flexibele kit waar tegelwerk kan bewegen zonder te scheuren',
         'Een sieraad-voeg',
         'Een voeg met antibacteriële behandeling',
       ],
@@ -1247,7 +1247,7 @@ Zeven examen-relevante vloerafwerkingen — leer eigenschappen en typische toepa
       prompt: 'Wanneer moet **siliconenkit** in een badkamer worden vervangen?',
       options: [
         'Nooit — kit gaat eeuwig mee',
-        'Om de 5–8 jaar — kit verkleurt (geel of zwart door schimmel) en kan loskomen door vocht en uitzetting; vervanging met fungicide siliconenkit',
+        'Om de 5–8 jaar — kit verkleurt en kan loskomen door vocht en uitzetting; vervanging met fungicide siliconenkit',
         'Pas wanneer alle kit van de wand is gevallen',
         'Maandelijks',
       ],

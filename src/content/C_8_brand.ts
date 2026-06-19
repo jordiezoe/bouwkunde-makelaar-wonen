@@ -227,7 +227,7 @@ Brandbeveiligings­installaties moeten:
 - **Historisch** veel in oudere installaties
 - **Wordt uitgefaseerd** — bij vervanging worden ze door optische vervangen
 
-### Thermische melder (warmtemelder)
+### Thermische melder
 **Werking**:
 - **Hittegevoelige sensor** (thermistor of bimetaal)
 - Alarm bij:
@@ -567,7 +567,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Wat is **brandklasse F** en welke bluser is ervoor geschikt?',
       options: [
         'Vaste stoffen — waterblusser',
-        'Brandend frituurvet (vegetabel olie hoog verhit) — speciale vet-blusser of blusdeken; geen water',
+        'Brandend frituurvet — speciale vet-blusser of blusdeken; geen water',
         'Vlam­branden — sprinkler',
         'Synoniem voor klasse E',
       ],
@@ -597,7 +597,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Bij een **sprinkler­installatie** activeren bij brand:',
       options: [
         'Alle sprinklers tegelijk in het hele gebouw',
-        'Alleen de sprinkler­heads boven de brand — door smelting van de fitting (68–141 °C drempel) opent elke sprinkler individueel waar de temperatuur stijgt',
+        'Alleen de sprinkler­heads boven de brand — door smelting van de fitting opent elke sprinkler individueel waar de temperatuur stijgt',
         'Geen sprinkler — eerst moet de brandweer komen',
         'Eén sprinkler per ruimte',
       ],
@@ -614,7 +614,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Wat is het werkings­principe van een **optische rookmelder**?',
       options: [
         'Radioactieve straling',
-        'LED-licht + fotosensor in een meetkamer; rookdeeltjes verstrooien het licht (Tyndall-effect) → fotosensor detecteert lichtverstrooiing → alarm. Sinds 2022 verplicht in alle Nederlandse woningen',
+        'LED-licht + fotosensor in een meetkamer; rookdeeltjes verstrooien het licht → fotosensor detecteert lichtverstrooiing → alarm. Sinds 2022 verplicht in alle Nederlandse woningen',
         'Hittegevoelige thermistor',
         'CO-gevoelige chemische cel',
       ],
@@ -630,7 +630,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       options: [
         'Optische rookmelder',
         'Ionisatie-rookmelder',
-        'Thermische melder (warmtemelder)',
+        'Thermische melder',
         'CO-melder',
       ],
       correctIndex: 2,
@@ -644,7 +644,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Waarom worden **ionisatie-rookmelders niet meer aanbevolen** voor nieuwe NL-woningen?',
       options: [
         'Ze werken niet meer',
-        'Ze bevatten radioactief americium-241 (halveringstijd 432 jaar) → speciale afvalverwerking nodig; minder gevoelig voor smeulbranden dan optische melders',
+        'Ze bevatten radioactief americium-241 → speciale afvalverwerking nodig; minder gevoelig voor smeulbranden dan optische melders',
         'Ze zijn te duur',
         'Ze geven te veel vals alarm',
       ],
@@ -661,7 +661,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Wat doet een **brandmeld­installatie (BMI)**?',
       options: [
         'Alleen rookmelders met luid signaal',
-        'Centraal systeem dat signalen van rook-, hitte-, vlam-detectoren + handmelders verzamelt, lokaliseert, brandweer doormeldt, alarm activeert (slow-whoop), liften terugroept, branddeuren sluit, sprinkler activeert',
+        'Centraal systeem dat signalen van rook-, hitte-, vlam-detectoren + handmelders verzamelt, lokaliseert, brandweer doormeldt, alarm activeert, liften terugroept, branddeuren sluit, sprinkler activeert',
         'Een sprinklerpomp',
         'Een blusapparaat',
       ],
@@ -691,7 +691,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Wat is verplicht voor een **woning** volgens Bbl 2022 m.b.t. brand­detectie?',
       options: [
         'Volledige Klasse A brandmeld­installatie',
-        'Eén optische rookmelder per verdieping in vluchtroute + bij elk slaapvertrek (binnen 7,5 m); gekoppeld werken aanbevolen; CO-melder bij verbrandings­toestellen',
+        'Eén optische rookmelder per verdieping in vluchtroute + bij elk slaapvertrek; gekoppeld werken aanbevolen; CO-melder bij verbrandings­toestellen',
         'Sprinkler systeem',
         'Geen verplichting',
       ],
@@ -753,7 +753,7 @@ Een **brand­compartiment** = ruimte (of groep ruimten) die door brand-/rookwere
       prompt: 'Wat is de **maximale loopafstand** in een verblijfsgebied tot een vluchtweg volgens Bbl?',
       options: [
         '5 m',
-        '30 m (verblijfsgebied) of 50 m (overig); tot twee onafhankelijke vluchtroutes max. 75 m',
+        '30 m of 50 m; tot twee onafhankelijke vluchtroutes max. 75 m',
         '200 m',
         'Onbeperkt',
       ],

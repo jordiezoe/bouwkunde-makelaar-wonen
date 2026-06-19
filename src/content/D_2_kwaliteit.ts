@@ -328,7 +328,7 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       prompt: 'Bij beoordeling van een **houten kozijn**, hoe test je op houtrot?',
       options: [
         'Door de kleur te bekijken',
-        'Visueel (bruin/zwart) + druk-test met priem of pen in het hout',
+        'Visueel + druk-test met priem of pen in het hout',
         'Door de verf aan te raken',
         'Door het kozijn te wegen',
       ],
@@ -358,7 +358,7 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       prompt: 'Bij **bitumineuze dakbedekking** op een plat dak: wat is een direct teken van veroudering?',
       options: [
         'Een nieuwe goot',
-        'Blaasvorming (ingesloten vocht expandeert), krimp + scheuren langs randen (veroudering bitumen), roestbruine verkleuring van toplaag',
+        'Blaasvorming, krimp + scheuren langs randen, roestbruine verkleuring van toplaag',
         'Een glanzende oppervlak',
         'Geen zichtbare schade',
       ],
@@ -373,7 +373,7 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       prompt: 'Hoe controleer je of **stuc/pleisterwerk** op een gevel los zit?',
       options: [
         'Visueel inspecteren',
-        'Klop-test: tikken met vinger of klein gereedschap; hol klinkend = los (te vervangen); solide klinkend = nog vast',
+        'Klop-test: tikken met vinger of klein gereedschap; hol klinkend = los; solide klinkend = nog vast',
         'Lijm aan­brengen',
         'Het kan niet gecheckt worden',
       ],
@@ -388,7 +388,7 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       prompt: 'Wat is de **eerste prioriteit** bij beoordeling van onderhouds-urgentie?',
       options: [
         'Cosmetische uitstraling',
-        'Constructie-veiligheid (scheuren, instabiliteit) en vocht­problemen',
+        'Constructie-veiligheid en vocht­problemen',
         'Energie­zuinigheid',
         'De kleur van de gevel',
       ],
@@ -405,7 +405,7 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       prompt: 'Een woning uit **1968** met houten balklagen + lokale isolatie, energie­label E. Voor de koper-conclusie over bouwfysische eigenschappen:',
       options: [
         'Geen actie nodig — staat in goede staat',
-        'Energie­zuiniger maken biedt aanzienlijke verbetering: dak-isolatie (Rc 6.3), gevel-isolatie spouw of binnen, HR++/triple glas, warmtepomp + vloerverwarming → label kan naar A; rekening houden met investering ~€ 30.000–50.000',
+        'Energie­zuiniger maken biedt aanzienlijke verbetering: dak-isolatie, gevel-isolatie spouw of binnen, HR++/triple glas, warmtepomp + vloerverwarming → label kan naar A; rekening houden met investering ~€ 30.000–50.000',
         'Alleen isolatie van zolder',
         'Alleen ventilatie verbeteren',
       ],
@@ -420,7 +420,7 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       prompt: 'In een **monumentaal pand** zijn er beperkingen voor renovatie. Wat zijn de belangrijkste regulier-juridische punten?',
       options: [
         'Geen beperkingen',
-        'Vergunning­plichtig (omgevings­vergunning); behoud van uitstraling en materialen; subsidies mogelijk voor restauratie; welstands-commissie beoordeelt; isolatie mogelijk via monumentenglas + dak/vloer binnenkant',
+        'Vergunning­plichtig; behoud van uitstraling en materialen; subsidies mogelijk voor restauratie; welstands-commissie beoordeelt; isolatie mogelijk via monumentenglas + dak/vloer binnenkant',
         'Mag niet meer worden bewoond',
         'Alleen interne werken zijn vrij',
       ],
@@ -435,7 +435,7 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       prompt: 'Bij beoordeling van een **kantoorpand uit 1985** voor herontwikkeling naar woningen: wat zijn de belangrijkste check-punten?',
       options: [
         'Alleen oppervlak',
-        'Bestemmingsplan-wijziging mogelijk? Asbestinventarisatie verplicht (pand < 1994). Constructie geschikt voor woningen (vloerbelasting, geluidsisolatie). Installaties: nieuwe aansluitingen + waterleiding. Energie­zuinigheid herzien. Geluids­overlast omgeving? Daglicht­toetreding voldoende?',
+        'Bestemmingsplan-wijziging mogelijk? Asbestinventarisatie verplicht. Constructie geschikt voor woningen. Installaties: nieuwe aansluitingen + waterleiding. Energie­zuinigheid herzien. Geluids­overlast omgeving? Daglicht­toetreding voldoende?',
         'Alleen kleur van de gevel',
         'Geen check nodig — gewoon verbouwen',
       ],
@@ -465,7 +465,7 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       prompt: 'Welke factor in beoordeling **situering** is belangrijk voor de toekomst-waarde van een woning?',
       options: [
         'Alleen de huidige populariteit',
-        'Bereikbaarheid (OV, fiets), voorzieningen (school, winkels), geluidsoverlast (snelweg/spoor), wateroverlast­risico (laaggelegen + zeespiegel­stijging), energie­transitie (warmtenet beschikbaar?), sociale veiligheid',
+        'Bereikbaarheid, voorzieningen, geluidsoverlast, wateroverlast­risico, energie­transitie, sociale veiligheid',
         'De architect',
         'De kleur van de gevel',
       ],

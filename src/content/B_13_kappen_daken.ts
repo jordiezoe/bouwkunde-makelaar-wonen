@@ -602,7 +602,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         caption: 'Welke dakvorm? Let op de knik in het dakvlak.',
         width: 'md',
       },
-      options: ['Mansardedak (gebroken dak)', 'Schilddak', 'Tentdak', 'Sheddak'],
+      options: ['Mansardedak', 'Schilddak', 'Tentdak', 'Sheddak'],
       correctIndex: 0,
       explanation:
         'De knik in het dakvlak — onderste deel steiler dan het bovenste — is hét kenmerk van een mansardedak (gebroken dak). Geeft extra zolderruimte.',
@@ -617,7 +617,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         caption: 'Welke dakvorm?',
         width: 'md',
       },
-      options: ['Schilddak', 'Tentdak (piramidedak)', 'Wolfseinddak', 'Torendak'],
+      options: ['Schilddak', 'Tentdak', 'Wolfseinddak', 'Torendak'],
       correctIndex: 1,
       explanation:
         'Vier dakschilden die samenkomen in één nokpunt boven een vierkante plattegrond — een tentdak of piramidedak. Bij een schilddak is er een nok (lijn), hier een punt.',
@@ -632,7 +632,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         caption: 'Welke dakvorm? Let op de glasvlakken.',
         width: 'md',
       },
-      options: ['Mansardedak', 'Sheddak (zaagdak)', 'Lessenaarsdak', 'Schaaldak'],
+      options: ['Mansardedak', 'Sheddak', 'Lessenaarsdak', 'Schaaldak'],
       correctIndex: 1,
       explanation:
         'Aaneenschakeling van zadeldaken waarvan één vlak (60–90°) een glaswand is — een zaag- of sheddak. Typisch voor fabrieken, met de glaswand op het noorden.',
@@ -850,7 +850,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Een **mastgoot** herkenbaar aan zijn vorm is:',
       options: [
         'Een rechthoekige goot met platte bodem',
-        'Een halfronde goot (cirkelsegment)',
+        'Een halfronde goot',
         'Een goot die binnen de gevel verborgen ligt',
         'Een goot met dubbele bodem voor wateropslag',
       ],
@@ -883,7 +883,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       prompt: 'Het smoren-proces bij keramische pannen levert:',
       options: [
         'Helderrode pannen',
-        'Blauwzwarte pannen (gesmoord: zuurstof afgesloten)',
+        'Blauwzwarte pannen',
         'Een glanzende coating',
         'Een transparante glazuurlaag',
       ],
@@ -1072,7 +1072,7 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
         'Een eigenaar meldt na een hevige bui **vochtdoorslag op het plafond** bij een hellend dak met pannen. Het probleem treedt alleen op bij wind uit het noorden. Welke oorzaak ligt het meest voor de hand?',
       options: [
         'Verstopte hwa in de tuin',
-        'Lekkage bij een aansluiting (voetlood, slabbe, verholen goot)',
+        'Lekkage bij een aansluiting',
         'Een lekkende waterleiding',
         'Condensvorming in de cv-installatie',
       ],

@@ -225,7 +225,7 @@ Een systeem dat **lucht** als drager gebruikt voor **én verwarming én koeling 
       prompt: 'In een **kantoorgebouw** met balansventilatie + verwarming + koeling via één centraal systeem, gaat het meestal om:',
       options: [
         'Mono-split airconditioning per kamer',
-        'Centrale luchtbehandelings­kast (LBK) met luchtkanalen naar alle ruimten',
+        'Centrale luchtbehandelings­kast met luchtkanalen naar alle ruimten',
         'Topkoeling via vloerverwarming',
         'Houtkachel',
       ],
@@ -255,7 +255,7 @@ Een systeem dat **lucht** als drager gebruikt voor **én verwarming én koeling 
       prompt: 'Voor **bevochtiging in een gecombineerd systeem (LBK)** in de winter — waarom is dat nodig?',
       options: [
         'Voor de luchtkwaliteit',
-        'Buitenlucht in de winter is zeer droog (RV soms < 30 %); na verwarming binnen wordt RV nog lager. Bevochtiging tot 40–60 % voorkomt droge slijmvliezen, statische elektriciteit en uitdroging van materialen',
+        'Buitenlucht in de winter is zeer droog; na verwarming binnen wordt RV nog lager. Bevochtiging tot 40–60 % voorkomt droge slijmvliezen, statische elektriciteit en uitdroging van materialen',
         'Om legionella te voorkomen',
         'Voor de afkoeling van apparatuur',
       ],

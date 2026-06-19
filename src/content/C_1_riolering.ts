@@ -536,7 +536,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       prompt: 'Bij een **RWZI (rioolwaterzuiveringsinstallatie)** is de zuivering opgebouwd uit drie stappen. Welke?',
       options: [
         'Filtreren → chloreren → verdampen',
-        'Mechanisch (rooster, zandvang) → biologisch (bacteriën in beluchtingsbassin) → chemisch',
+        'Mechanisch → biologisch → chemisch',
         'Centrifugeren → verbranden → opslaan',
         'Pompen → verwarmen → koelen',
       ],
@@ -645,7 +645,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       prompt: 'Een **beerput** is:',
       options: [
         'Een moderne biologische zuiveringsinstallatie',
-        'Een gesloten put voor afvalwater (beerput), historisch',
+        'Een gesloten put voor afvalwater, historisch',
         'Een type wadi voor industriële toepassing',
         'Een synoniem voor septictank',
       ],
@@ -739,7 +739,7 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
         '**Verzakking** van een buitenriolerings­leiding in slappe grond geeft als gevolg:',
       options: [
         'Verhoogde druk in de standleiding',
-        'Omgekeerd afschot (tegenschot) → verstopping',
+        'Omgekeerd afschot → verstopping',
         'Stank door beluchtingsproblemen',
         'Buisbreuk binnen 1 maand',
       ],

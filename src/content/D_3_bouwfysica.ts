@@ -1128,7 +1128,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is het verschil tussen **R-waarde** en **U-waarde**?',
       options: [
         'Synoniemen',
-        'R-waarde = warmte­weerstand (m²·K/W, hoger = beter isolerend); U-waarde = warmte­doorgangs­coëfficiënt (W/m²·K, lager = beter isolerend)',
+        'R-waarde = warmte­weerstand; U-waarde = warmte­doorgangs­coëfficiënt',
         'R is voor binnen, U voor buiten',
         'R is in Celsius, U in Kelvin',
       ],
@@ -1143,7 +1143,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is **oppervlakte­condensatie**?',
       options: [
         'Vocht in de spouw',
-        'Wanneer warme, vochtige binnenlucht in contact komt met een koud binnenoppervlak (raam, koudebrug, slecht geïsoleerde muur), wordt afgekoeld onder dauwpunt → waterdamp condenseert op het oppervlak (zichtbaar als druppels of vochtkring)',
+        'Wanneer warme, vochtige binnenlucht in contact komt met een koud binnenoppervlak, wordt afgekoeld onder dauwpunt → waterdamp condenseert op het oppervlak',
         'Vocht in het beton',
         'Het weer op de grond',
       ],
@@ -1160,7 +1160,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is meer bepalend voor het **comfort­gevoel** in een ruimte: luchttemperatuur of oppervlakte­temperatuur?',
       options: [
         'Alleen luchttemperatuur',
-        'Operative temperatuur = (luchttemperatuur + stralings­temperatuur) / 2',
+        'Operative temperatuur = / 2',
         'Geen verschil',
         'Alleen oppervlakte­temperatuur',
       ],
@@ -1222,7 +1222,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is de functie van een **dampopen folie** aan de buitenzijde van de isolatie?',
       options: [
         'Volledig dampdicht maken',
-        'Doorlaten van waterdamp van binnen naar buiten (waterdamp kan ontsnappen) terwijl regenwater wordt tegengehouden',
+        'Doorlaten van waterdamp van binnen naar buiten terwijl regenwater wordt tegengehouden',
         'Isolatie versterken',
         'Geluidsdemping',
       ],
@@ -1269,7 +1269,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Vocht­problemen achter een **grote kast** tegen koude wand: oorzaak en aanpak?',
       options: [
         'Een lekkage achter de kast — alleen lokaal probleem',
-        'Oppervlakte­condensatie: koude wand + onvoldoende luchtcirculatie achter kast → temperatuur achter kast valt onder dauwpunt → condens + schimmel. Aanpak: kast iets weg van wand zetten (luchtcirculatie), wand beter isoleren, ventilatie verbeteren',
+        'Oppervlakte­condensatie: koude wand + onvoldoende luchtcirculatie achter kast → temperatuur achter kast valt onder dauwpunt → condens + schimmel. Aanpak: kast iets weg van wand zetten, wand beter isoleren, ventilatie verbeteren',
         'De kast veroorzaakt het vocht',
         'Geen probleem',
       ],
@@ -1333,7 +1333,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is een **omgekeerd dak**?',
       options: [
         'Een dak met de pannen omgekeerd',
-        'Isolatie BOVEN de dakbedekking (XPS-platen op bitumen/EPDM) met ballast (grind of drainage­tegels) erbovenop',
+        'Isolatie BOVEN de dakbedekking met ballast erbovenop',
         'Een dak met negatieve helling',
         'Een dak waar regen omhoog stroomt',
       ],
@@ -1348,7 +1348,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Het belangrijkste verschil tussen **koud dak** en **warm dak** is:',
       options: [
         'Koud dak is in winter, warm dak in zomer',
-        'Koud dak: isolatie binnen + geventileerde luchtspouw (dakbeschot blijft koud, klassiek hellend dak). Warm dak: isolatie aan buitenzijde + geen spouw (dakbeschot blijft warm, modern plat + hellend dak)',
+        'Koud dak: isolatie binnen + geventileerde luchtspouw. Warm dak: isolatie aan buitenzijde + geen spouw',
         'Koud dak is goedkoper',
         'Synoniemen',
       ],
@@ -1365,7 +1365,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Een woning uit **1965** met enkel glas + ongeïsoleerde spouw: welke isolatie­maatregelen zijn aan te bevelen?',
       options: [
         'Niets doen — woning is goed',
-        'Spouw na-isolatie (steen-/glaswol-vlokken of PUR-schuim — kosten ~€ 2.000), HR++ glas vervanging, dak na-isolatie, vloer-isolatie (kruipruimte) — pakket waarmee de woning naar label A kan komen',
+        'Spouw na-isolatie, HR++ glas vervanging, dak na-isolatie, vloer-isolatie — pakket waarmee de woning naar label A kan komen',
         'Alleen kleine renovaties',
         'Alleen verwarming verbeteren',
       ],
@@ -1380,7 +1380,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Bij **binnen­isolatie van een vooroorlogs pand** is welke aandachts­punt cruciaal?',
       options: [
         'De kleur van de muur',
-        'Dampremmende folie aan warme (binnen)zijde',
+        'Dampremmende folie aan warmezijde',
         'Geen verschil met andere isolatie',
         'Alleen de dikte telt',
       ],
@@ -1397,7 +1397,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Een **belangrijk risico** bij na-isolatie zonder ventilatie­verbetering is:',
       options: [
         'De woning wordt te koud',
-        'Door luchtdicht maken (HR++ glas, kit, dampfolie) zonder mechanische ventilatie ontstaat slechte luchtkwaliteit: hoge CO₂, hoge RV, condensatie­problemen, schimmel',
+        'Door luchtdicht maken zonder mechanische ventilatie ontstaat slechte luchtkwaliteit: hoge CO₂, hoge RV, condensatie­problemen, schimmel',
         'Geen risico\'s',
         'De gevel wordt te zwaar',
       ],
@@ -1412,7 +1412,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Een **positief effect** van goede na-isolatie voor de woning­waarde:',
       options: [
         'Geen waarde-impact',
-        'Energie­label stijgt (E → A mogelijk); marktwaarde woningen met label A is 5–10 % hoger dan label E; betere verkoopbaarheid; soms subsidies + BTW-vrijstelling',
+        'Energie­label stijgt; marktwaarde woningen met label A is 5–10 % hoger dan label E; betere verkoopbaarheid; soms subsidies + BTW-vrijstelling',
         'Lagere waarde door investering',
         'Alleen voor kantoren',
       ],
@@ -1429,7 +1429,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat zijn de **drie indicatoren van BENG**?',
       options: [
         'Glas, dak, muur',
-        'BENG 1 = maximale energie­behoefte (kWh/m²/jr',
+        'Energie­behoefte, primair fossiel energie­verbruik en aandeel hernieuwbare energie',
         'Verwarming, koeling, ventilatie',
         'Beton, hout, staal',
       ],
@@ -1508,7 +1508,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Het verschil tussen **luchtgeluid** en **contactgeluid** is:',
       options: [
         'Luchtgeluid is altijd luider',
-        'Luchtgeluid: door lucht voortgeplant (stem, muziek, tv), gedempt door massa (massawet). Contactgeluid: via vaste constructies voortgeplant (voetstappen, vallend voorwerp), reist in constructie zelf',
+        'Luchtgeluid: door lucht voortgeplant, gedempt door massa. Contactgeluid: via vaste constructies voortgeplant, reist in constructie zelf',
         'Synoniemen',
         'Contactgeluid is voor binnen, luchtgeluid voor buiten',
       ],
@@ -1540,7 +1540,7 @@ Bij **NOM-woningen** (Nul Op de Meter): huurder mag jaarlijkse vergoeding betale
       prompt: 'Wat is het verschil tussen **lumen** en **lux**?',
       options: [
         'Synoniemen',
-        'Lumen = totaal uitgezonden lichtstroom van een bron (per lamp); Lux = lichtniveau op een oppervlak (lm/m²); een lamp met 800 lm op 1 m² geeft 800 lux op het oppervlak, op 4 m² ~200 lux',
+        'Lumen = totaal uitgezonden lichtstroom van een bron; Lux = lichtniveau op een oppervlak; een lamp met 800 lm op 1 m² geeft 800 lux op het oppervlak, op 4 m² ~200 lux',
         'Lumen is voor LED, lux voor gloeilamp',
         'Lumen meet binnen, lux meet buiten',
       ],

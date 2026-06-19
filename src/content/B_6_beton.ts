@@ -293,7 +293,7 @@ In nieuwbouw is een zwevende cement- of anhydrietdekvloer op PS- of glaswol-isol
 - **Kwaaitaalvloer** — schaaldelen uit jaren '60–'80, vooral als beganegrondvloer in eengezinswoningen. Een berucht deel van de productie bevat te veel **calciumchloride** in de wapening → **betonrot**. Bij aankoop van een woning uit die periode is funderings-/vloerinspectie standaard.
 - **Breedplaatvloer (bekistingsplaatvloer)** — zie §5: prefab dunne plaat + in-werk druklaag. Hybride: prefab onderzijde, in-werk afwerking.
 - **Ribbenvloer / ribcassettevloer** — omgekeerde U- of W-vorm; hoge stijfheid voor relatief weinig materiaal. Vooral als beganegrondvloer met isolatie aan de onderzijde.
-- **PS combinatievloer (broodjesvloer)** — *voorgespannen T-liggers* met daartussen **polystyreenschuim vulelementen** (de PS draagt niet, maar isoleert). Op de bouwplaats afgegoten met druklaag + kruisnetwapening. **Standaard beganegrondvloer in woningbouw** door uitstekende isolatiewaarde.
+- **PS combinatievloer** — *voorgespannen T-liggers* met daartussen **polystyreenschuim vulelementen** (de PS draagt niet, maar isoleert). Op de bouwplaats afgegoten met druklaag + kruisnetwapening. **Standaard beganegrondvloer in woningbouw** door uitstekende isolatiewaarde.
 - **Balken- en broodjesvloer** — variant van de combinatievloer: betonbalken met holle betonnen of keramische 'broodjes' ertussen, daarna afgegoten. Klassieker, minder isolerend dan PS-combi.
 - **Baksteenmontagevloer** — voorgespannen **staltonlatei**-liggers met daartussen **gebakken vulstukken** van keramiek (lijken op holle baksteen); afgegoten met een dunne druklaag. Goed te stukadoren — ribbels in de stenen bevorderen de hechting. Wordt nog gebruikt in renovatie en bij eisen aan akoestiek.
 - **TT-vloer** — voorgespannen element met **twee neergaande T-balkjes** onder een dunne plaat; lijkt op twee 'T' naast elkaar (vandaar TT). Voor grote overspanningen en hoge belastingen — **parkeergarages, kantoren, industrie**, niet voor woningbouw.
@@ -445,7 +445,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Welke prefab vloer is standaard de beganegrondvloer in moderne woningbouw vanwege de uitstekende isolatiewaarde?',
       options: [
         'Kanaalplaatvloer',
-        'PS combinatievloer (broodjesvloer)',
+        'PS-combinatievloer',
         'Balkenvloer',
         'TT-vloer',
       ],
@@ -709,7 +709,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
         'Hoe wordt de betondekking tijdens het storten gegarandeerd?',
       options: [
         'Door de wapening na het storten met een trilnaald naar binnen te duwen',
-        'Door afstandhouders (“toffees”) tussen wapening en bekisting',
+        'Door afstandhouders tussen wapening en bekisting',
         'Door extra cement op het oppervlak aan te brengen',
         'Door de bekisting met ontkistingsolie te behandelen',
       ],

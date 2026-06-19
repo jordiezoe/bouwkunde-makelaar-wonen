@@ -635,7 +635,7 @@ Oude **conventionele ketels** uit jaren '70: rendement ~70 % — een derde van h
       prompt: 'Wat is het verschil tussen **lokale** en **decentrale** verwarming?',
       options: [
         'Synoniemen',
-        'Lokaal = één apparaat per ruimte (gashaard, infrarood-paneel, kachel). Decentraal = meerdere zones in één gebouw, elk autonoom (bv. cv-ketel per appartement, of warmtepomp per zone)',
+        'Lokaal = één apparaat per ruimte. Decentraal = meerdere zones in één gebouw, elk autonoom',
         'Lokaal voor woningen, decentraal voor utiliteit',
         'Lokaal is altijd elektrisch',
       ],
@@ -667,7 +667,7 @@ Oude **conventionele ketels** uit jaren '70: rendement ~70 % — een derde van h
       prompt: 'Wat is het verschil tussen **HTV** en **LTV** verwarming?',
       options: [
         'HTV werkt op stroom, LTV op gas',
-        'HTV = aanvoertemperatuur 70–90 °C (klassieke cv); LTV = aanvoertemperatuur 35–55 °C',
+        'HTV = aanvoertemperatuur 70–90 °C; LTV = aanvoertemperatuur 35–55 °C',
         'HTV is voor de winter, LTV voor de zomer',
         'HTV gebruikt water, LTV gebruikt lucht',
       ],
@@ -682,7 +682,7 @@ Oude **conventionele ketels** uit jaren '70: rendement ~70 % — een derde van h
       prompt: 'Waarom werkt een **warmtepomp** beter met **LTV** dan met HTV?',
       options: [
         'Warmtepomp werkt alleen met lucht',
-        'COP (rendement) van een warmtepomp daalt sterk bij hogere afgifte­temperatuur',
+        'COP van een warmtepomp daalt sterk bij hogere afgifte­temperatuur',
         'LTV geeft directere warmte',
         'HTV beschadigt de warmtepomp',
       ],
@@ -759,7 +759,7 @@ Oude **conventionele ketels** uit jaren '70: rendement ~70 % — een derde van h
       prompt: 'Wat is een **ledenradiator**?',
       options: [
         'Een modern paneel met platen',
-        'Een radiator opgebouwd uit individuele gietijzeren of stalen elementen (leden) met holle ruimten tussen',
+        'Een radiator opgebouwd uit individuele gietijzeren of stalen elementen met holle ruimten tussen',
         'Een radiator met thermostaatkop',
         'Een elektrische handdoekradiator',
       ],
@@ -776,7 +776,7 @@ Oude **conventionele ketels** uit jaren '70: rendement ~70 % — een derde van h
       prompt: 'Op een installatietekening voor verwarming worden **cv-aanvoer en cv-retour** vaak weergegeven met:',
       options: [
         'Dezelfde kleur',
-        'Verschillende kleuren: aanvoer rood doorgetrokken, retour blauw doorgetrokken (soms met pijl voor stroomrichting)',
+        'Verschillende kleuren: aanvoer rood doorgetrokken, retour blauw doorgetrokken',
         'Alleen tekstaanduiding zonder kleur',
         'Streep-stippellijn voor beide',
       ],
@@ -808,7 +808,7 @@ Oude **conventionele ketels** uit jaren '70: rendement ~70 % — een derde van h
       prompt: 'Wat zijn de **drie hoofdvormen** van warmteoverdracht?',
       options: [
         'Vast, vloeibaar, gas',
-        'Geleiding (conductie)',
+        'Geleiding, convectie en straling',
         'Warm, koud, lauw',
         'Elektrisch, thermisch, magnetisch',
       ],
@@ -824,7 +824,7 @@ Oude **conventionele ketels** uit jaren '70: rendement ~70 % — een derde van h
       options: [
         '100 % straling',
         '100 % convectie',
-        'Ongeveer 70 % convectie (warme lucht stijgt op langs het paneel) + 30 % straling',
+        'Ongeveer 70 % convectie + 30 % straling',
         'Pure geleiding',
       ],
       correctIndex: 2,
@@ -855,7 +855,7 @@ Oude **conventionele ketels** uit jaren '70: rendement ~70 % — een derde van h
       prompt: 'Wat is een groot **voordeel** van **luchtverwarming** ten opzichte van waterverwarming?',
       options: [
         'Lagere energiekosten',
-        'Korte opwarmtijd (lucht warmt snel op) en mogelijkheid om tegelijk ventilatie te leveren (combinatie met balansventilatie + WTW)',
+        'Korte opwarmtijd en mogelijkheid om tegelijk ventilatie te leveren',
         'Geen apparaten nodig',
         'Werkt zonder elektriciteit',
       ],
@@ -870,7 +870,7 @@ Oude **conventionele ketels** uit jaren '70: rendement ~70 % — een derde van h
       prompt: 'Waarom is **directe elektrische verwarming** in een woning meestal **niet rendabel** als hoofdverwarming?',
       options: [
         'Het werkt niet goed',
-        'COP = 1 (1 kWh stroom → 1 kWh warmte), terwijl een warmtepomp 3–4 kWh warmte per 1 kWh stroom levert',
+        'COP = 1, terwijl een warmtepomp 3–4 kWh warmte per 1 kWh stroom levert',
         'Het is gevaarlijk',
         'Stroom is niet beschikbaar in NL',
       ],
@@ -902,7 +902,7 @@ Oude **conventionele ketels** uit jaren '70: rendement ~70 % — een derde van h
       prompt: 'Wat is het verschil tussen een **HR-ketel** en een **HRe-ketel**?',
       options: [
         'HRe is goedkoper',
-        'HRe (HR-elektriciteit) = HR-ketel + Stirling-motor of micro-WKK die naast warmte ook elektriciteit opwekt (~1 kW); werd beperkt toegepast, niet meer relevant in energietransitie weg van gas',
+        'HRe = HR-ketel + Stirling-motor of micro-WKK die naast warmte ook elektriciteit opwekt; werd beperkt toegepast, niet meer relevant in energietransitie weg van gas',
         'HRe staat voor "Hoog Rendement extra"',
         'Het zijn synoniemen',
       ],
@@ -934,7 +934,7 @@ Oude **conventionele ketels** uit jaren '70: rendement ~70 % — een derde van h
       prompt: 'Wat is een **brine-warmtepomp**?',
       options: [
         'Een warmtepomp met zout water',
-        'Een bodem-water-warmtepomp met "brine" (water + glycol mengsel) als dragervloeistof in de gesloten bronlus',
+        'Een bodem-water-warmtepomp met "brine" als dragervloeistof in de gesloten bronlus',
         'Een warmtepomp die op zeewater werkt',
         'Een warmtepomp met fosforzuur',
       ],
@@ -964,7 +964,7 @@ Oude **conventionele ketels** uit jaren '70: rendement ~70 % — een derde van h
       prompt: 'Wat is **WKO (Warmte-Koudeopslag)**?',
       options: [
         'Een opslagtank voor warm tapwater',
-        'Bodem-warmtepomp met opslag van warmte/koude in aquifers (water­voerende lagen op ~150 m diepte)',
+        'Bodem-warmtepomp met opslag van warmte/koude in aquifers',
         'Een batterij voor stroom',
         'Een collector voor zonnewarmte',
       ],
@@ -1011,7 +1011,7 @@ Oude **conventionele ketels** uit jaren '70: rendement ~70 % — een derde van h
       prompt: 'Wat is een typisch **nadeel** van vloerverwarming als hoofdverwarming?',
       options: [
         'Zeer hoge energie­kosten',
-        'Lange opwarmtijd (3–6 uur tot stabiel door massa van de vloer)',
+        'Lange opwarmtijd',
         'Werkt alleen op gas',
         'Vraagt veel onderhoud',
       ],
@@ -1026,7 +1026,7 @@ Oude **conventionele ketels** uit jaren '70: rendement ~70 % — een derde van h
       prompt: 'Wanneer is **elektrische vloerverwarming** een goede keuze?',
       options: [
         'Altijd — moderne standaard',
-        'Voor bijverwarming in een badkamer of renovatie van een kleine ruimte — COP = 1 (duur), maar lage installatie­kosten en geen leidingen nodig; niet voor hoofdverwarming van een hele woning',
+        'Voor bijverwarming in een badkamer of renovatie van een kleine ruimte — COP = 1, maar lage installatie­kosten en geen leidingen nodig; niet voor hoofdverwarming van een hele woning',
         'Voor de hele woning all-electric',
         'Alleen in combinatie met cv-ketel',
       ],

@@ -348,7 +348,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
         'Wat is het wezenlijke verschil tussen **constructiestaal** en **gietijzer**?',
       options: [
         'Gietijzer is sterker en wordt gebruikt voor dragende constructies',
-        'Constructiestaal is taai (laag koolstof), gietijzer is broos',
+        'Constructiestaal is taai, gietijzer is broos',
         'Constructiestaal wordt gegoten, gietijzer gewalst',
         'Gietijzer is een legering met chroom en nikkel',
       ],
@@ -431,7 +431,7 @@ Verbindingen, doorvoeren en de aansluiting kolom-ligger vereisen extra aandacht 
       options: [
         'IPE — I-profiel met parallelle flenzen, hoger dan breed',
         'UNP — U-profiel met taps lopende flenzen',
-        'HE-profiel (HEA/HEB/HEM), vrijwel even hoog als breed',
+        'HE-profiel, vrijwel even hoog als breed',
         'L-staal — gelijkbenig hoekprofiel',
       ],
       correctIndex: 2,

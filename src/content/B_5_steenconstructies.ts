@@ -1126,7 +1126,7 @@ Als makelaar moet je gangbare gebreken bij gemetselde gevels herkennen. De meest
       options: [
         'Handvormsteen + halfsteensverband + platvolle voeg.',
         'Strengperssteen + kruisverband + verdiepte voeg.',
-        'Cellenbetonblokken + lijmverband (verlijmd).',
+        'Cellenbetonblokken + lijmverband.',
         'Kloostermop + Vlaams verband + snijvoeg.',
       ],
       correctIndex: 2,

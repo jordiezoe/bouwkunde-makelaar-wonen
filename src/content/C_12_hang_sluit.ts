@@ -252,7 +252,7 @@ Dieven kijken naar **kwetsbaarheids­tekens**:
       prompt: 'Wat is het **verschil tussen een scharnier en een paumelle**?',
       options: [
         'Synoniemen',
-        'Een gewoon scharnier laat de deur in één vlak draaien; een paumelle (lifting hinge) tilt de deur tijdens openen op',
+        'Een gewoon scharnier laat de deur in één vlak draaien; een paumelle tilt de deur tijdens openen op',
         'Paumelles zijn alleen voor schuifdeuren',
         'Een scharnier heeft één blad, een paumelle twee',
       ],
@@ -312,7 +312,7 @@ Dieven kijken naar **kwetsbaarheids­tekens**:
       prompt: 'Wat is de functie van een **schild** bij een deurkruk?',
       options: [
         'Decoratie alleen',
-        'Beschermt het deurhout tegen handen-vetafdruk + versterkt het slot tegen wrikken + esthetisch vormgeven; bevat de opening voor de sleutel; modern: rozet (klein rond) of langschild',
+        'Beschermt het deurhout tegen handen-vetafdruk + versterkt het slot tegen wrikken + esthetisch vormgeven; bevat de opening voor de sleutel; modern: rozet of langschild',
         'Een veiligheidssysteem voor brand',
         'Een geluidsdemper',
       ],
@@ -329,7 +329,7 @@ Dieven kijken naar **kwetsbaarheids­tekens**:
       prompt: 'Wat zijn **SKG-sterren** in hang- en sluitwerk?',
       options: [
         'Decoratieve sterren op de kruk',
-        'Stichting Kwaliteitseisen Gebouwbeslag-classificatie voor inbraakvertraging: 1 ster = 3 min inbraakvertraging (basis), 2 sterren = 5 min, 3 sterren = volledige inbraakvertraging',
+        'Stichting Kwaliteitseisen Gebouwbeslag-classificatie voor inbraakvertraging: 1 ster = 3 min inbraakvertraging, 2 sterren = 5 min, 3 sterren = volledige inbraakvertraging',
         'Een verkoopprijs-indicator',
         'Een merkaanduiding',
       ],
@@ -359,7 +359,7 @@ Dieven kijken naar **kwetsbaarheids­tekens**:
       prompt: 'Een **vrijloop­krukstel** in een buitendeur:',
       options: [
         'Loopt vrij in beide richtingen',
-        'Binnen­kruk draait vrij (deur kan altijd vanaf binnen geopend worden); buitenkruk draait alleen na ontgrendeling met sleutel',
+        'Binnen­kruk draait vrij; buitenkruk draait alleen na ontgrendeling met sleutel',
         'Werkt alleen elektronisch',
         'Heeft geen schild',
       ],
