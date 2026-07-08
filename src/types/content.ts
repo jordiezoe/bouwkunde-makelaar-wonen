@@ -1,4 +1,11 @@
-export type Section = 'A' | 'B' | 'C' | 'D'
+export type Section = 'A' | 'B' | 'C' | 'D' | 'BL'
+
+/**
+ * De vier dossier-secties die meetellen in de examens (Examensimulatie,
+ * BT1-2, sectie-examens). 'BL' (Besteklezen) is een los leertraject en doet
+ * hier bewust NIET aan mee.
+ */
+export type ExamSection = 'A' | 'B' | 'C' | 'D'
 
 export type Niveau = 'BT1' | 'BT2'
 

@@ -70,10 +70,10 @@ function EmptyCircle({ isNext }: { isNext: boolean }) {
 }
 
 const NEXT_SECTION: Record<Section, Section | null> = {
-  A: 'B', B: 'C', C: 'D', D: null,
+  A: 'B', B: 'C', C: 'D', D: null, BL: null,
 }
 const PREV_SECTION: Record<Section, Section | null> = {
-  A: null, B: 'A', C: 'B', D: 'C',
+  A: null, B: 'A', C: 'B', D: 'C', BL: null,
 }
 
 export function TopicList({ section, progress, setProgress, onNavigate }: Props) {

@@ -9,7 +9,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { topics } from '../content'
 import type { Screen } from '../App'
-import type { Section, TermEntry } from '../types/content'
+import type { ExamSection, Section, TermEntry } from '../types/content'
 
 interface Props {
   onNavigate: (s: Screen) => void
@@ -51,7 +51,8 @@ function saveMastered(set: Set<string>) {
 
 // ─── component ──────────────────────────────────────────────────────────────
 
-type FilterSection = 'all' | Section
+// Besteklezen (BL) heeft geen begrippen; de trainer filtert op de dossier-secties.
+type FilterSection = 'all' | ExamSection
 
 export function BegrippenGlobaal({ onNavigate }: Props) {
   // ── filter state ──
