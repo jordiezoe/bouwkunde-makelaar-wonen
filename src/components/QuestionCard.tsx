@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { Question } from '../types/content'
 import { asset } from '../lib/asset'
+import { AttachmentBar } from './AttachmentBar'
 
 interface Props {
   question: Question
@@ -70,6 +71,12 @@ export function QuestionCard({ question, onAnswered, onNext }: Props) {
         <p className="text-xs text-sky-700 bg-sky-50 border border-sky-200 rounded px-2 py-1 mt-2 inline-block">
           ✓ Meerdere antwoorden juist — selecteer ze allemaal
         </p>
+      )}
+
+      {question.attachments && (
+        <div className="mt-3">
+          <AttachmentBar attachments={question.attachments} />
+        </div>
       )}
 
       {question.image && (

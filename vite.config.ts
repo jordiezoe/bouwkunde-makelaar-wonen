@@ -96,6 +96,20 @@ export default defineConfig({
               rangeRequests: true, // voor audio-seek op iOS
             },
           },
+          {
+            // Examen-bijlagen (bestek/tekening-PDF's): pas cachen bij openen —
+            // buiten de precache gehouden zodat de app-schil licht blijft.
+            urlPattern: ({ url }) => url.pathname.includes('/bijlagen/'),
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'examen-bijlagen',
+              expiration: {
+                maxEntries: 20,
+                maxAgeSeconds: 60 * 60 * 24 * 90, // 90 dagen
+              },
+              rangeRequests: true, // PDF-viewers vragen vaak byte-ranges op
+            },
+          },
         ],
       },
     }),

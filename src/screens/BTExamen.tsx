@@ -1,6 +1,7 @@
 import type { Screen } from '../App'
 import type { Section } from '../types/content'
 import { asset } from '../lib/asset'
+import { AttachmentBar } from '../components/AttachmentBar'
 import { clearStickyState, useStickyState } from '../lib/useStickyState'
 import {
   buildBTExam,
@@ -315,6 +316,8 @@ function ExamQuestionView({
           Let op! Meerdere antwoorden kunnen juist zijn.
         </p>
       )}
+
+      <AttachmentBar attachments={q.attachments} />
 
       {q.image && (
         <figure className="bg-slate-50 rounded-lg overflow-hidden border border-slate-200">
