@@ -708,6 +708,77 @@ Beargumenteren = aangeven *waarom* een keuze past bij de casus (gewicht, snelhei
       explanation:
         'Een aanbouw die naadloos bij de bestaande gevel aansluit, vraagt om dezelfde baksteen en metselverband. Traditionele stapelbouw is daarvoor de logische keuze; alleen bij budgetkrapte of snelheid wordt soms voor HSB of prefab gekozen.',
     },
+
+    // ── Bestek-vragen (bijlage: Bestek Examen 2016-I) ──
+    // Geverifieerd in de brontekst van het bestek; niveau BT2 (bestek uitleggen).
+    {
+      id: 'A21-bestek-1',
+      toetstermCode: 'A.2.1.6',
+      type: 'mc',
+      prompt:
+        'Raadpleeg het bestek (§ 00.02.11, Onderhoudstermijn). Hoe lang duurt de onderhoudstermijn volgens dit bestek?',
+      attachments: [{ label: 'Bestek Examen 2016-I', href: '/bijlagen/bestek-2016-I.pdf' }],
+      options: [
+        '3 maanden voor de bouwkundige werken en 12 maanden voor de installatietechnische werken',
+        '6 maanden voor alle werken',
+        '12 maanden voor alle werken',
+        '1 maand voor bouwkundig werk en 3 maanden voor installaties',
+      ],
+      correctIndex: 0,
+      explanation:
+        'Het bestek noemt onder 00.02.11 een onderhoudstermijn van 3 maanden voor de bouwkundige werken en 12 maanden voor de installatietechnische werken. Installaties krijgen een langere termijn omdat gebreken daar zich vaak pas na een compleet stookseizoen tonen.',
+    },
+    {
+      id: 'A21-bestek-2',
+      toetstermCode: 'A.2.1.5',
+      type: 'mc',
+      prompt:
+        'Op welke standaard en administratieve voorwaarden is dit bestek gebaseerd?',
+      attachments: [{ label: 'Bestek Examen 2016-I', href: '/bijlagen/bestek-2016-I.pdf' }],
+      options: [
+        'De STABU-Standaard 2012, met de UAV 2012 als administratieve voorwaarden',
+        'De DNR 2011 (De Nieuwe Regeling)',
+        'De AVA 1992 (Algemene Voorwaarden voor Aannemingen)',
+        'De RAW-systematiek voor grond-, weg- en waterbouw',
+      ],
+      correctIndex: 0,
+      explanation:
+        'De administratieve bepalingen verwijzen naar de STABU-Standaard 2012 en verklaren de UAV 2012 (Uniforme Administratieve Voorwaarden) van toepassing. STABU is de gangbare systematiek voor woning- en utiliteitsbouw; RAW is juist voor de grond-, weg- en waterbouw.',
+    },
+    {
+      id: 'A21-bestek-3',
+      toetstermCode: 'A.2.1.5',
+      type: 'mc',
+      prompt:
+        'Het bestek geeft onder "Overzicht voorgeschreven bouwstoffen" (§ 00.02.06) aan welk materiaal de buitenkozijnen, -ramen en -deuren moeten zijn. Welk materiaal is dat?',
+      attachments: [{ label: 'Bestek Examen 2016-I', href: '/bijlagen/bestek-2016-I.pdf' }],
+      options: [
+        'Aluminium',
+        'Hardhout',
+        'Kunststof (PVC)',
+        'Staal',
+      ],
+      correctIndex: 0,
+      explanation:
+        'Onder de voorgeschreven bouwstoffen staan aluminium buitenkozijnen, -ramen en -deuren en een vliesgevel, naast WaxedWood-beschietingen en sandwichpanelen. Voorgeschreven bouwstoffen mag de aannemer niet zomaar door een alternatief vervangen.',
+    },
+    {
+      id: 'A21-bestek-4',
+      toetstermCode: 'A.2.1.6',
+      type: 'mc',
+      prompt:
+        'Voordat met het werk wordt begonnen, moet de aannemer volgens het bestek een rapport over de belendingen laten opstellen. Door wie moet dat rapport worden gemaakt?',
+      attachments: [{ label: 'Bestek Examen 2016-I', href: '/bijlagen/bestek-2016-I.pdf' }],
+      options: [
+        'Door een beëdigd makelaar, taxateur of expertisebureau',
+        'Door de aannemer zelf',
+        'Door de gemeentelijke afdeling Bouw- en Woningtoezicht',
+        'Door de architect',
+      ],
+      correctIndex: 0,
+      explanation:
+        'Het bestek (00.02.06.08) eist vóór aanvang een rapport van de staat van de belendingen, opgesteld door een beëdigd makelaar, taxateur of expertisebureau, met foto\'s en omschrijvingen. Zo staat vast welke schade al aanwezig was en welke door het werk zou kunnen ontstaan.',
+    },
   ],
 
   terms: [

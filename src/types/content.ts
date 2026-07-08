@@ -31,6 +31,18 @@ interface QuestionBase {
   explanation?: string
   /** Optionele illustratie bij de vraag. */
   image?: LessonImage
+  /** Optionele bestek-/tekening-bijlagen (zoals in het echte examen aangeroepen). */
+  attachments?: ExamAttachment[]
+}
+
+/** Bijlage bij een examenvraag: bestek of tekening, met optioneel bladnummer. */
+export interface ExamAttachment {
+  /** Zichtbare naam, bv. 'Tekeningen A1 2016-I' of 'Bestek Examen 2016-I'. */
+  label: string
+  /** Pad in /public, bv. /bijlagen/tekening-A1-2016-I.pdf */
+  href: string
+  /** Optionele verwijzing naar een specifiek blad, bv. 'BLAD 1'. */
+  blad?: string
 }
 
 export interface MultipleChoiceQuestion extends QuestionBase {

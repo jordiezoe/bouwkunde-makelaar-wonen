@@ -74,8 +74,21 @@ export function Dashboard({ progress, onNavigate }: Props) {
             <span className="text-2xl">🎓</span>
             <div>
               <div className="font-semibold text-sm leading-tight">Examensimulatie</div>
-              <div className="text-amber-100 text-xs mt-0.5">volledige toets</div>
+              <div className="text-amber-100 text-xs mt-0.5">snelle mix</div>
             </div>
+          </button>
+          <button
+            onClick={() => onNavigate({ name: 'btexamen' })}
+            className="col-span-2 flex items-center gap-3 bg-primary-700 hover:bg-primary-800 active:bg-primary-900 text-white rounded-2xl p-4 shadow-sm text-left"
+          >
+            <span className="text-2xl shrink-0">🏛️</span>
+            <div className="flex-1 min-w-0">
+              <div className="font-semibold text-sm leading-tight">BT1 en BT2 examen</div>
+              <div className="text-primary-200 text-xs mt-0.5">
+                examen-getrouw · blokken A/B/C/D · BT1, BT2 of eindsimulatie
+              </div>
+            </div>
+            <span className="text-primary-200 shrink-0">→</span>
           </button>
           {weakCount > 0 && (
             <button
