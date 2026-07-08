@@ -11,6 +11,7 @@ import { SectieExamen } from './screens/SectieExamen'
 import { BegrippenGlobaal } from './screens/BegrippenGlobaal'
 import { ZwakkePunten } from './screens/ZwakkePunten'
 import { Exam } from './screens/Exam'
+import { BTExamen } from './screens/BTExamen'
 import {
   loadSection,
   loadAllSections,
@@ -34,6 +35,7 @@ export type Screen =
   | { name: 'begrippenglobaal' }
   | { name: 'zwakkepunten' }
   | { name: 'exam' }
+  | { name: 'btexamen' }
 
 const SCREEN_KEY = 'bouwkunde-screen-v1'
 const ALL_SECTIONS: SectionKey[] = ['A', 'B', 'C', 'D']
@@ -57,6 +59,7 @@ function loadScreen(): Screen {
         'begrippenglobaal',
         'zwakkepunten',
         'exam',
+        'btexamen',
       ]
       if (valid.includes(parsed.name)) return parsed as Screen
     }
@@ -83,6 +86,7 @@ function requiredSections(screen: Screen): SectionKey[] {
     case 'tussenexam':
     case 'herhalingmix':
     case 'exam':
+    case 'btexamen':
     case 'begrippenglobaal':
     case 'zwakkepunten':
       return ALL_SECTIONS
@@ -256,6 +260,7 @@ export function App() {
             />
           )}
           {screen.name === 'exam' && <Exam onNavigate={navigate} />}
+          {screen.name === 'btexamen' && <BTExamen onNavigate={navigate} />}
         </main>
       )}
 
