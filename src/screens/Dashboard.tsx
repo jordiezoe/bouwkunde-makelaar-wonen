@@ -14,7 +14,7 @@ import type { Screen } from '../App'
 import type { Section } from '../types/content'
 
 const NEXT_SECTION: Record<Section, Section | null> = {
-  A: 'B', B: 'C', C: 'D', D: null,
+  A: 'B', B: 'C', C: 'D', D: null, BL: null,
 }
 
 interface Props {
@@ -90,6 +90,19 @@ export function Dashboard({ progress, onNavigate }: Props) {
             </div>
             <span className="text-primary-200 shrink-0">→</span>
           </button>
+          <button
+            onClick={() => onNavigate({ name: 'section', section: 'BL' })}
+            className="col-span-2 flex items-center gap-3 bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white rounded-2xl p-4 shadow-sm text-left"
+          >
+            <span className="text-2xl shrink-0">📐</span>
+            <div className="flex-1 min-w-0">
+              <div className="font-semibold text-sm leading-tight">Besteklezen</div>
+              <div className="text-teal-100 text-xs mt-0.5">
+                leer bestek + bouwtekeningen lezen · les → examen
+              </div>
+            </div>
+            <span className="text-teal-100 shrink-0">→</span>
+          </button>
           {weakCount > 0 && (
             <button
               onClick={() => onNavigate({ name: 'zwakkepunten' })}
@@ -135,7 +148,7 @@ export function Dashboard({ progress, onNavigate }: Props) {
           Voortgang per sectie
         </h2>
         <div className="grid sm:grid-cols-2 gap-4">
-          {sections.map((s) => {
+          {sections.filter((s) => s.id !== 'BL').map((s) => {
             const stats = sectionStats(s.id, progress, passedSet)
             const unlocked = isSectionUnlocked(s.id, progress)
             const examPassed = isSectionExamPassed(progress, s.id)

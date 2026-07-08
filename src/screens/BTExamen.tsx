@@ -1,5 +1,5 @@
 import type { Screen } from '../App'
-import type { Section } from '../types/content'
+import type { ExamSection } from '../types/content'
 import { asset } from '../lib/asset'
 import { AttachmentBar } from '../components/AttachmentBar'
 import { clearStickyState, useStickyState } from '../lib/useStickyState'
@@ -19,7 +19,7 @@ interface Props {
 }
 
 const PASS = 0.8
-const SECTION_ORDER: Section[] = ['A', 'B', 'C', 'D']
+const SECTION_ORDER: ExamSection[] = ['A', 'B', 'C', 'D']
 
 /** Eén "slide": ofwel een blokintroductie, ofwel een vraag. */
 type Slide =
@@ -117,7 +117,7 @@ export function BTExamen({ onNavigate }: Props) {
     const elapsedMin = startedAt ? Math.round((Date.now() - startedAt) / 60000) : 0
 
     let totalFraction = 0
-    const perBlock: Record<Section, { frac: number; count: number }> = {
+    const perBlock: Record<ExamSection, { frac: number; count: number }> = {
       A: { frac: 0, count: 0 }, B: { frac: 0, count: 0 }, C: { frac: 0, count: 0 }, D: { frac: 0, count: 0 },
     }
     const review: { item: ExamItem; verdict: string }[] = []

@@ -1,6 +1,6 @@
 import { topics } from '../content'
 import type { Screen } from '../App'
-import type { Question, Section, Topic } from '../types/content'
+import type { ExamSection, Question, Topic } from '../types/content'
 import { clearStickyState, useStickyState } from '../lib/useStickyState'
 import { shuffleQuestionOptions } from '../lib/shuffleOptions'
 
@@ -19,7 +19,7 @@ interface Result {
   correct: boolean
 }
 
-const SECTION_LABELS: Record<Section, string> = {
+const SECTION_LABELS: Record<ExamSection, string> = {
   A: 'Algemeen',
   B: 'Constructieve opbouw',
   C: 'Afwerking en installatie',
@@ -27,7 +27,7 @@ const SECTION_LABELS: Record<Section, string> = {
 }
 
 // Default richtlijnen — kunnen later worden aangepast aan officiële toetsmatrijs SVMNIVO
-const SECTION_WEIGHTS: Record<Section, number> = {
+const SECTION_WEIGHTS: Record<ExamSection, number> = {
   A: 12, // ~20%
   B: 22, // ~37%
   C: 18, // ~30%
@@ -47,7 +47,7 @@ function pickRandom<T>(arr: T[], n: number): T[] {
 
 function buildExam(): ExamQuestion[] {
   const all: ExamQuestion[] = []
-  ;(['A', 'B', 'C', 'D'] as Section[]).forEach((sec) => {
+  ;(['A', 'B', 'C', 'D'] as ExamSection[]).forEach((sec) => {
     const sectionTopics = topics.filter((t) => t.section === sec)
     // verzamel ALLE mc-vragen van deze sectie
     const pool: ExamQuestion[] = []
@@ -90,8 +90,11 @@ export function Exam({ onNavigate }: Props) {
     clearStickyState(`${k}-startedAt`)
   }
 
-  const totalAvailable = topics.reduce((sum, t) => sum + t.questions.length, 0)
-  const targetTotal = (['A', 'B', 'C', 'D'] as Section[]).reduce((s, sec) => s + SECTION_WEIGHTS[sec], 0)
+  // Alleen dossier-secties A–D tellen mee; Besteklezen (BL) is een los traject.
+  const totalAvailable = topics
+    .filter((t) => t.section !== 'BL')
+    .reduce((sum, t) => sum + t.questions.length, 0)
+  const targetTotal = (['A', 'B', 'C', 'D'] as ExamSection[]).reduce((s, sec) => s + SECTION_WEIGHTS[sec], 0)
 
   const start = () => {
     const exam = buildExam()
@@ -128,7 +131,7 @@ export function Exam({ onNavigate }: Props) {
         <div className="bg-white rounded-xl p-4 sm:p-6 shadow-sm border border-slate-200 space-y-4">
           <h2 className="font-semibold text-primary-700">Wat krijg je?</h2>
           <ul className="text-sm text-slate-700 space-y-1">
-            {(['A', 'B', 'C', 'D'] as Section[]).map((sec) => (
+            {(['A', 'B', 'C', 'D'] as ExamSection[]).map((sec) => (
               <li key={sec}>
                 <strong>Sectie {sec}</strong> · {SECTION_LABELS[sec]}: ~{SECTION_WEIGHTS[sec]} vragen
               </li>
@@ -172,9 +175,9 @@ export function Exam({ onNavigate }: Props) {
     const elapsedMin = startedAt ? Math.round((Date.now() - startedAt) / 60000) : 0
 
     // Score per sectie
-    const sectionScores: Record<Section, { c: number; t: number }> = { A: { c: 0, t: 0 }, B: { c: 0, t: 0 }, C: { c: 0, t: 0 }, D: { c: 0, t: 0 } }
+    const sectionScores: Record<ExamSection, { c: number; t: number }> = { A: { c: 0, t: 0 }, B: { c: 0, t: 0 }, C: { c: 0, t: 0 }, D: { c: 0, t: 0 } }
     results.forEach((r) => {
-      const sec = r.examQuestion.topic.section
+      const sec = r.examQuestion.topic.section as ExamSection
       sectionScores[sec].t += 1
       if (r.correct) sectionScores[sec].c += 1
     })
@@ -216,7 +219,7 @@ export function Exam({ onNavigate }: Props) {
         <section className="bg-white rounded-xl p-4 sm:p-6 shadow-sm border border-slate-200">
           <h2 className="font-semibold text-primary-700 mb-3">Score per sectie</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            {(['A', 'B', 'C', 'D'] as Section[]).map((sec) => {
+            {(['A', 'B', 'C', 'D'] as ExamSection[]).map((sec) => {
               const { c, t } = sectionScores[sec]
               const pct = t === 0 ? 0 : Math.round((c / t) * 100)
               return (

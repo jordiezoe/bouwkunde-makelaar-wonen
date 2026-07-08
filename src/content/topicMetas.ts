@@ -51,4 +51,12 @@ export const topicMetas: TopicMeta[] = [
   { code: 'D.2',   section: 'D', title: 'Bouwkundige kwaliteit van gebouwen',         blurb: 'Beoordelen van kozijnen, gevels, daken en funderingen op gebreken en herstelnoodzaak.' },
   { code: 'D.3',   section: 'D', title: 'Bouwfysische toepassingen',                  blurb: 'Thermische schil, Rc-waarde, vochtproblemen (condensatie, optrekkend vocht) en geluidsisolatie.' },
   { code: 'D.4',   section: 'D', title: 'Duurzaamheid en milieu',                     blurb: 'Energielabels, BENG-eisen, circulair bouwen en de materiaallevenscyclus.' },
+  // Besteklezen — los leertraject over bestek en bouwtekeningen lezen
+  { code: 'BL.1',  section: 'BL', title: 'Wat is een bestek?',                        blurb: 'Doel van een bestek, de STABU-opbouw (administratief vs. technisch), UAV 2012 en wat vóórgaat bij tegenstrijdigheid tussen bestek en tekening.' },
+  { code: 'BL.2',  section: 'BL', title: 'Soorten bouwtekeningen',                    blurb: 'Situatie-, plattegrond-, doorsnede-, aanzicht-, detail- en installatietekening, plus de betekenis van schaal.' },
+  { code: 'BL.3',  section: 'BL', title: 'Arceringen en materiaalherkenning',         blurb: 'Herken materialen op tekening aan hun arcering: baksteen, beton, gewapend beton, isolatie, hout, zand en gietwerk.' },
+  { code: 'BL.4',  section: 'BL', title: 'Symbolen en maatvoering',                   blurb: 'Noordpijl, peil (PP), stramienen, maatlijnen, dagmaat/sponningmaat en de draairichting van ramen en deuren.' },
+  { code: 'BL.5',  section: 'BL', title: 'Kozijnstaat en kozijncodes',                blurb: 'De kozijnstaat lezen, kozijncodering (bv. A02), raam- en deursymbolen, draai-kiep en glasaanduiding.' },
+  { code: 'BL.6',  section: 'BL', title: 'Installatietekeningen lezen',               blurb: 'Symbolen en leidingverloop op riolering-, water-, gas-, elektra- en ventilatietekeningen herkennen.' },
+  { code: 'BL.7',  section: 'BL', title: 'Praktijk: het examenbestek en de tekeningen', blurb: 'Casusvragen waarbij je het echte examenbestek en de bijbehorende tekeningen (BLAD-verwijzingen) raadpleegt.' },
 ]

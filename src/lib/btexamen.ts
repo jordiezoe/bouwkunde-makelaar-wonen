@@ -1,5 +1,5 @@
 import { topics } from '../content'
-import type { Niveau, Question, Section } from '../types/content'
+import type { ExamSection, Niveau, Question } from '../types/content'
 import { shuffleQuestionOptions } from './shuffleOptions'
 
 /**
@@ -25,17 +25,17 @@ export interface ExamItem {
   question: ExamQuestion
   topicCode: string
   topicTitle: string
-  section: Section
+  section: ExamSection
 }
 
 export interface ExamBlock {
-  section: Section
+  section: ExamSection
   label: string
   intro: string
   items: ExamItem[]
 }
 
-export const SECTION_LABELS: Record<Section, string> = {
+export const SECTION_LABELS: Record<ExamSection, string> = {
   A: 'Algemeen',
   B: 'Constructieve opbouw',
   C: 'Afwerking en installaties',
@@ -43,7 +43,7 @@ export const SECTION_LABELS: Record<Section, string> = {
 }
 
 /** Korte blokintroductie zoals in de echte proeftoets vóór elk blok verschijnt. */
-export const SECTION_INTROS: Record<Section, string> = {
+export const SECTION_INTROS: Record<ExamSection, string> = {
   A: 'Dit blok gaat over het bouwproces, bouwkundige tekeningen en bestekken, woningtypen, architectuurstromingen en de regelgeving (Bbl en Omgevingswet).',
   B: 'Dit blok gaat over de constructieve opbouw: sterkteleer, funderingen, steen, beton, staal, hout, kozijnen, vloeren, daken, trappen, kunststoffen en isolatie.',
   C: 'Dit blok gaat over afwerking en installaties: riolering, water, gas, elektra, verwarming, ventilatie, brand, glas, afwerkingen en natuursteen.',
@@ -55,8 +55,8 @@ export const SECTION_INTROS: Record<Section, string> = {
  * (A≈5, B≈18, C≈14, D≈13 → ~50). Voor de losse niveau-oefenmodi houden we
  * dezelfde verhouding aan, geput uit alleen dat niveau.
  */
-const BLOCK_TARGETS: Record<Section, number> = { A: 5, B: 18, C: 14, D: 13 }
-const SECTION_ORDER: Section[] = ['A', 'B', 'C', 'D']
+const BLOCK_TARGETS: Record<ExamSection, number> = { A: 5, B: 18, C: 14, D: 13 }
+const SECTION_ORDER: ExamSection[] = ['A', 'B', 'C', 'D']
 
 /** code → niveau, opgebouwd uit de toetstermen van alle geladen onderwerpen. */
 function buildNiveauMap(): Map<string, Niveau> {

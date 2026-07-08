@@ -31,6 +31,12 @@ export const sections: SectionInfo[] = [
     description:
       'Onderhoudsplanning, MJOP, bouwkundige kwaliteit, bouwfysica, duurzaamheid en milieu.',
   },
+  {
+    id: 'BL',
+    title: 'Besteklezen',
+    description:
+      'Leer een bestek en bouwtekeningen lezen: opbouw, tekeningsoorten, arceringen, symbolen, maatvoering, kozijnstaat en installatietekeningen — met de echte examenbijlagen.',
+  },
 ]
 
 export interface TopicStub {
@@ -48,6 +54,8 @@ export const dossierOrder: string[] = [
   'B.6', 'B.7', 'B.8', 'B.9', 'B.10', 'B.11', 'B.12', 'B.13', 'B.14', 'B.15', 'B.16',
   'C.1', 'C.2', 'C.3', 'C.4', 'C.5', 'C.6', 'C.7', 'C.8', 'C.9', 'C.10', 'C.11', 'C.12', 'C.13', 'C.14',
   'D.1', 'D.2', 'D.3', 'D.4',
+  // Besteklezen — los leertraject
+  'BL.1', 'BL.2', 'BL.3', 'BL.4', 'BL.5', 'BL.6', 'BL.7',
 ]
 
 /**
@@ -58,13 +66,14 @@ export const topics: Topic[] = []
 const topicByCode = new Map<string, Topic>()
 const loadedSections = new Set<string>()
 
-export type SectionKey = 'A' | 'B' | 'C' | 'D'
+export type SectionKey = 'A' | 'B' | 'C' | 'D' | 'BL'
 
 const sectionLoaders: Record<SectionKey, () => Promise<{ sectionTopics: Topic[] }>> = {
   A: () => import('./section_A'),
   B: () => import('./section_B'),
   C: () => import('./section_C'),
   D: () => import('./section_D'),
+  BL: () => import('./besteklezen'),
 }
 
 export function isSectionLoaded(section: string): boolean {
@@ -82,7 +91,7 @@ export async function loadSection(section: SectionKey): Promise<void> {
 }
 
 export async function loadAllSections(): Promise<void> {
-  await Promise.all((['A', 'B', 'C', 'D'] as SectionKey[]).map(loadSection))
+  await Promise.all((['A', 'B', 'C', 'D', 'BL'] as SectionKey[]).map(loadSection))
 }
 
 export function getTopic(code: string): Topic | undefined {
@@ -110,7 +119,9 @@ export function isSectionUnlocked(
   section: import('../types/content').Section,
   progress: Progress,
 ): boolean {
-  const idx = SECTION_ORDER.indexOf(section)
+  // Besteklezen is een los leertraject en staat altijd open.
+  if (section === 'BL') return true
+  const idx = SECTION_ORDER.indexOf(section as 'A' | 'B' | 'C' | 'D')
   if (idx <= 0) return true
 
   const prevSection = SECTION_ORDER[idx - 1]

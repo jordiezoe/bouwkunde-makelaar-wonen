@@ -48,6 +48,7 @@ const SECTION_TOTAL: Record<Section, number> = {
   B: 40,
   C: 35,
   D: 20,
+  BL: 20,
 }
 
 /**
@@ -77,7 +78,7 @@ const BLOOM_COLORS: Record<Bloom, string> = {
 }
 
 const NEXT_SECTION: Record<Section, Section | null> = {
-  A: 'B', B: 'C', C: 'D', D: null,
+  A: 'B', B: 'C', C: 'D', D: null, BL: null,
 }
 
 // ─── Helpers ───────────────────────────────────────────────────────────────────
