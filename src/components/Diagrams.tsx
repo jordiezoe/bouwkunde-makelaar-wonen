@@ -572,6 +572,67 @@ const ARCERINGEN: Arcering[] = [
       </>
     ),
   },
+  {
+    name: 'Natuursteen',
+    pattern: () => (
+      <>
+        <defs>
+          <pattern id="p-natuursteen" patternUnits="userSpaceOnUse" width="12" height="12">
+            <rect width="12" height="12" fill="#cbd5e1" />
+            <line x1="0" y1="9" x2="9" y2="0" stroke="#475569" strokeWidth="0.5" />
+            <line x1="3" y1="12" x2="12" y2="3" stroke="#475569" strokeWidth="0.5" />
+            <line x1="0" y1="3" x2="3" y2="0" stroke="#94a3b8" strokeWidth="0.4" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#p-natuursteen)" />
+      </>
+    ),
+  },
+  {
+    name: 'Cement / specie',
+    pattern: () => (
+      <>
+        <defs>
+          <pattern id="p-specie" patternUnits="userSpaceOnUse" width="6" height="6">
+            <rect width="6" height="6" fill="#e5e7eb" />
+            <circle cx="1.5" cy="1.5" r="0.4" fill="#6b7280" />
+            <circle cx="4.5" cy="3" r="0.4" fill="#6b7280" />
+            <circle cx="2.5" cy="4.8" r="0.4" fill="#6b7280" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#p-specie)" />
+      </>
+    ),
+  },
+  {
+    name: 'Gips / pleister',
+    pattern: () => (
+      <>
+        <defs>
+          <pattern id="p-gips" patternUnits="userSpaceOnUse" width="10" height="10">
+            <rect width="10" height="10" fill="#fdf2f8" />
+            <circle cx="3" cy="3" r="0.3" fill="#be185d" />
+            <circle cx="7" cy="7" r="0.3" fill="#be185d" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#p-gips)" />
+      </>
+    ),
+  },
+  {
+    name: 'Water',
+    pattern: () => (
+      <>
+        <defs>
+          <pattern id="p-water" patternUnits="userSpaceOnUse" width="16" height="7">
+            <rect width="16" height="7" fill="#e0f2fe" />
+            <path d="M 0 4 Q 4 1.5, 8 4 T 16 4" fill="none" stroke="#0284c7" strokeWidth="0.6" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#p-water)" />
+      </>
+    ),
+  },
 ]
 
 export function ArceringenDiagram() {
@@ -597,6 +658,359 @@ export function ArceringenDiagram() {
         <div className="text-slate-400 mt-0.5">eigen tekening</div>
       </figcaption>
     </figure>
+  )
+}
+
+// ============================================================
+// Bouwkundige tekensymbolen (ramen, deuren, oriëntatie, maatvoering)
+// ============================================================
+interface SymboolSpec {
+  name: string
+  draw: () => JSX.Element
+}
+
+const S_STROKE = '#1e293b'
+
+const BESTEK_SYMBOLEN: SymboolSpec[] = [
+  {
+    name: 'Draairaam (zijhangend)',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.2" fill="none">
+        <rect x="14" y="12" width="52" height="36" />
+        <line x1="66" y1="12" x2="14" y2="30" />
+        <line x1="66" y1="48" x2="14" y2="30" />
+      </g>
+    ),
+  },
+  {
+    name: 'Kiepraam',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.2" fill="none">
+        <rect x="14" y="12" width="52" height="36" />
+        <line x1="14" y1="12" x2="40" y2="48" />
+        <line x1="66" y1="12" x2="40" y2="48" />
+      </g>
+    ),
+  },
+  {
+    name: 'Draai-kiepraam',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.2" fill="none">
+        <rect x="14" y="12" width="52" height="36" />
+        <line x1="66" y1="12" x2="14" y2="30" />
+        <line x1="66" y1="48" x2="14" y2="30" />
+        <line x1="14" y1="12" x2="40" y2="48" />
+        <line x1="66" y1="12" x2="40" y2="48" />
+      </g>
+    ),
+  },
+  {
+    name: 'Vast glas',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.2" fill="none">
+        <rect x="14" y="12" width="52" height="36" />
+        <line x1="20" y1="42" x2="60" y2="18" stroke="#94a3b8" strokeWidth="0.8" />
+      </g>
+    ),
+  },
+  {
+    name: 'Schuifraam',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.2" fill="none">
+        <rect x="14" y="14" width="52" height="32" />
+        <line x1="40" y1="14" x2="40" y2="46" strokeWidth="0.8" />
+        <line x1="24" y1="30" x2="56" y2="30" />
+        <polyline points="28,26 24,30 28,34" />
+        <polyline points="52,26 56,30 52,34" />
+      </g>
+    ),
+  },
+  {
+    name: 'Deur (rechtsdraaiend)',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.2" fill="none">
+        <line x1="20" y1="50" x2="20" y2="14" strokeWidth="2" />
+        <line x1="20" y1="14" x2="56" y2="14" />
+        <path d="M 56 14 A 36 36 0 0 1 20 50" strokeWidth="0.9" strokeDasharray="3 2" />
+      </g>
+    ),
+  },
+  {
+    name: 'Deur (linksdraaiend)',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.2" fill="none">
+        <line x1="60" y1="50" x2="60" y2="14" strokeWidth="2" />
+        <line x1="60" y1="14" x2="24" y2="14" />
+        <path d="M 24 14 A 36 36 0 0 0 60 50" strokeWidth="0.9" strokeDasharray="3 2" />
+      </g>
+    ),
+  },
+  {
+    name: 'Dubbele deur',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.1" fill="none">
+        <line x1="14" y1="50" x2="14" y2="18" strokeWidth="1.8" />
+        <line x1="14" y1="18" x2="40" y2="18" />
+        <path d="M 40 18 A 26 26 0 0 1 14 44" strokeWidth="0.8" strokeDasharray="3 2" />
+        <line x1="66" y1="50" x2="66" y2="18" strokeWidth="1.8" />
+        <line x1="66" y1="18" x2="40" y2="18" />
+        <path d="M 40 18 A 26 26 0 0 0 66 44" strokeWidth="0.8" strokeDasharray="3 2" />
+      </g>
+    ),
+  },
+  {
+    name: 'Noordpijl',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.2" fill="none">
+        <line x1="40" y1="48" x2="40" y2="16" />
+        <polygon points="40,10 34,22 46,22" fill={S_STROKE} />
+        <text x="40" y="56" fontSize="9" textAnchor="middle" fill={S_STROKE} stroke="none">N</text>
+      </g>
+    ),
+  },
+  {
+    name: 'Peil (P = ± 0,00)',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1" fill="none">
+        <line x1="10" y1="30" x2="70" y2="30" />
+        <polygon points="40,30 34,20 46,20" fill="none" />
+        <polygon points="40,30 34,20 40,20" fill={S_STROKE} />
+        <text x="40" y="46" fontSize="8" textAnchor="middle" fill={S_STROKE} stroke="none">± 0,00</text>
+      </g>
+    ),
+  },
+  {
+    name: 'Stramien',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1" fill="none">
+        <line x1="10" y1="40" x2="70" y2="40" strokeDasharray="6 2 1 2" />
+        <circle cx="24" cy="20" r="9" />
+        <text x="24" y="23" fontSize="9" textAnchor="middle" fill={S_STROKE} stroke="none">A</text>
+        <line x1="24" y1="29" x2="24" y2="40" />
+        <circle cx="56" cy="20" r="9" />
+        <text x="56" y="23" fontSize="9" textAnchor="middle" fill={S_STROKE} stroke="none">1</text>
+        <line x1="56" y1="29" x2="56" y2="40" />
+      </g>
+    ),
+  },
+  {
+    name: 'Doorsnede A-A',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.2" fill="none">
+        <line x1="14" y1="30" x2="66" y2="30" strokeDasharray="7 3" />
+        <polygon points="14,30 22,25 22,35" fill={S_STROKE} />
+        <polygon points="66,30 58,25 58,35" fill={S_STROKE} />
+        <text x="40" y="16" fontSize="9" textAnchor="middle" fill={S_STROKE} stroke="none">A — A</text>
+      </g>
+    ),
+  },
+  {
+    name: 'Trap (met looprichting)',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1" fill="none">
+        <rect x="16" y="12" width="48" height="36" />
+        <line x1="16" y1="20" x2="64" y2="20" />
+        <line x1="16" y1="28" x2="64" y2="28" />
+        <line x1="16" y1="36" x2="64" y2="36" />
+        <line x1="40" y1="46" x2="40" y2="15" strokeWidth="1.2" />
+        <polygon points="40,12 36,20 44,20" fill={S_STROKE} />
+      </g>
+    ),
+  },
+  {
+    name: 'Maatlijn',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1" fill="none">
+        <line x1="14" y1="34" x2="66" y2="34" />
+        <line x1="14" y1="28" x2="14" y2="40" />
+        <line x1="66" y1="28" x2="66" y2="40" />
+        <line x1="10" y1="40" x2="18" y2="28" strokeWidth="1.4" />
+        <line x1="62" y1="40" x2="70" y2="28" strokeWidth="1.4" />
+        <text x="40" y="26" fontSize="9" textAnchor="middle" fill={S_STROKE} stroke="none">3000</text>
+      </g>
+    ),
+  },
+]
+
+const INSTALLATIE_SYMBOLEN: SymboolSpec[] = [
+  {
+    name: 'Wandcontactdoos',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.3" fill="none">
+        <line x1="14" y1="40" x2="66" y2="40" />
+        <path d="M 28 40 A 12 12 0 0 1 52 40 Z" fill={S_STROKE} />
+        <line x1="40" y1="28" x2="40" y2="20" />
+      </g>
+    ),
+  },
+  {
+    name: 'Dubbele wcd',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.3" fill="none">
+        <line x1="14" y1="40" x2="66" y2="40" />
+        <path d="M 28 40 A 12 12 0 0 1 52 40 Z" fill={S_STROKE} />
+        <line x1="36" y1="28" x2="36" y2="20" />
+        <line x1="44" y1="28" x2="44" y2="20" />
+      </g>
+    ),
+  },
+  {
+    name: 'Schakelaar',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.3" fill="none">
+        <line x1="14" y1="40" x2="40" y2="40" />
+        <circle cx="44" cy="40" r="4" fill={S_STROKE} />
+        <line x1="44" y1="40" x2="58" y2="26" />
+      </g>
+    ),
+  },
+  {
+    name: 'Wisselschakelaar',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.3" fill="none">
+        <line x1="12" y1="40" x2="34" y2="40" />
+        <circle cx="38" cy="40" r="4" fill={S_STROKE} />
+        <line x1="38" y1="40" x2="52" y2="26" />
+        <line x1="38" y1="40" x2="52" y2="32" />
+      </g>
+    ),
+  },
+  {
+    name: 'Lichtpunt (plafond)',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.3" fill="none">
+        <circle cx="40" cy="30" r="11" />
+        <line x1="32" y1="22" x2="48" y2="38" />
+        <line x1="48" y1="22" x2="32" y2="38" />
+      </g>
+    ),
+  },
+  {
+    name: 'Wandlichtpunt',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.3" fill="none">
+        <line x1="18" y1="14" x2="18" y2="46" />
+        <circle cx="40" cy="30" r="10" />
+        <line x1="33" y1="23" x2="47" y2="37" />
+        <line x1="47" y1="23" x2="33" y2="37" />
+        <line x1="18" y1="30" x2="30" y2="30" />
+      </g>
+    ),
+  },
+  {
+    name: 'Radiator',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.2" fill="none">
+        <rect x="16" y="18" width="48" height="24" />
+        <line x1="26" y1="18" x2="26" y2="42" />
+        <line x1="34" y1="18" x2="34" y2="42" />
+        <line x1="42" y1="18" x2="42" y2="42" />
+        <line x1="50" y1="18" x2="50" y2="42" />
+      </g>
+    ),
+  },
+  {
+    name: 'Thermostaat',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.3" fill="none">
+        <circle cx="40" cy="30" r="12" />
+        <text x="40" y="34" fontSize="11" textAnchor="middle" fill={S_STROKE} stroke="none">T</text>
+      </g>
+    ),
+  },
+  {
+    name: 'Rookmelder',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.3" fill="none">
+        <circle cx="40" cy="30" r="12" />
+        <text x="40" y="34" fontSize="8" textAnchor="middle" fill={S_STROKE} stroke="none">RM</text>
+      </g>
+    ),
+  },
+  {
+    name: 'Rioolput / ontstopping',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.2" fill="none">
+        <rect x="26" y="16" width="28" height="28" />
+        <line x1="26" y1="16" x2="54" y2="44" />
+        <line x1="54" y1="16" x2="26" y2="44" />
+      </g>
+    ),
+  },
+  {
+    name: 'Meterkast (MK)',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.2" fill="none">
+        <rect x="24" y="14" width="32" height="32" />
+        <text x="40" y="34" fontSize="9" textAnchor="middle" fill={S_STROKE} stroke="none">MK</text>
+      </g>
+    ),
+  },
+  {
+    name: 'Mech. ventilatiebox',
+    draw: () => (
+      <g stroke={S_STROKE} strokeWidth="1.2" fill="none">
+        <circle cx="40" cy="30" r="12" />
+        <path d="M 40 30 L 40 20 A 10 10 0 0 1 48 32 Z" fill={S_STROKE} stroke="none" />
+        <path d="M 40 30 L 50 34 A 10 10 0 0 1 34 38 Z" fill={S_STROKE} stroke="none" />
+        <path d="M 40 30 L 30 28 A 10 10 0 0 1 40 20 Z" fill="none" />
+      </g>
+    ),
+  },
+]
+
+function SymbolenGrid({
+  items,
+  caption,
+}: {
+  items: SymboolSpec[]
+  caption: JSX.Element
+}) {
+  return (
+    <figure className="bg-slate-50 rounded-lg overflow-hidden border border-slate-200">
+      <div className="p-3 bg-white">
+        <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
+          {items.map((s) => (
+            <div key={s.name} className="flex flex-col items-center">
+              <svg viewBox="0 0 80 60" className="w-full h-auto border border-slate-300 bg-white">
+                {s.draw()}
+              </svg>
+              <div className="text-xs text-slate-700 mt-1 text-center leading-tight">{s.name}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <figcaption className="px-3 py-2 text-xs text-slate-700">
+        {caption}
+        <div className="text-slate-400 mt-0.5">eigen tekening — de renvooi op de tekening is altijd leidend</div>
+      </figcaption>
+    </figure>
+  )
+}
+
+export function BestekSymbolenDiagram() {
+  return (
+    <SymbolenGrid
+      items={BESTEK_SYMBOLEN}
+      caption={
+        <>
+          <strong>Bouwkundige tekensymbolen.</strong> Bij ramen wijst de punt van de driehoek naar de scharnierzijde (draai) of naar de kiepzijde (kiep). Bij deuren toont de kwartcirkel de draairichting.
+        </>
+      }
+    />
+  )
+}
+
+export function InstallatieSymbolenDiagram() {
+  return (
+    <SymbolenGrid
+      items={INSTALLATIE_SYMBOLEN}
+      caption={
+        <>
+          <strong>Veelgebruikte installatiesymbolen</strong> (elektra, verwarming, ventilatie, riolering) zoals ze op installatietekeningen voorkomen.
+        </>
+      }
+    />
   )
 }
 

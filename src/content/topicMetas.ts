@@ -59,4 +59,5 @@ export const topicMetas: TopicMeta[] = [
   { code: 'BL.5',  section: 'BL', title: 'Kozijnstaat en kozijncodes',                blurb: 'De kozijnstaat lezen, kozijncodering (bv. A02), raam- en deursymbolen, draai-kiep en glasaanduiding.' },
   { code: 'BL.6',  section: 'BL', title: 'Installatietekeningen lezen',               blurb: 'Symbolen en leidingverloop op riolering-, water-, gas-, elektra- en ventilatietekeningen herkennen.' },
   { code: 'BL.7',  section: 'BL', title: 'Praktijk: het examenbestek en de tekeningen', blurb: 'Casusvragen waarbij je het echte examenbestek en de bijbehorende tekeningen (BLAD-verwijzingen) raadpleegt.' },
+  { code: 'BL.8',  section: 'BL', title: 'Een bestek gebruiken: opzoeken en toepassen', blurb: 'Stap voor stap iets opzoeken in een bestek, de STABU-hoofdstukindeling gebruiken en bestek en tekening combineren tot een antwoord.' },
 ]

@@ -11,6 +11,8 @@ import {
 import type { Bloom, DiagramRef, LessonImage, LessonSection, Niveau } from '../types/content'
 import {
   ArceringenDiagram,
+  BestekSymbolenDiagram,
+  InstallatieSymbolenDiagram,
   ArchitectuurTijdlijn,
   Boog,
   BouwfasenDiagram,
@@ -192,7 +194,12 @@ export function Lesson({ topicCode, scrollToToetsterm, progress, onNavigate }: P
     let alive = true
     setAudioAvailable(false)
     fetch(asset(`/audio/${topic.code}-0.mp3`), { method: 'HEAD' })
-      .then((r) => { if (alive) setAudioAvailable(r.ok) })
+      // Alleen tonen als er écht een audiobestand is. Een SPA-fallback (dev-server)
+      // geeft 200 met text/html terug; die mag de knop niet activeren.
+      .then((r) => {
+        const ct = r.headers.get('content-type') || ''
+        if (alive) setAudioAvailable(r.ok && ct.includes('audio'))
+      })
       .catch(() => { if (alive) setAudioAvailable(false) })
     return () => { alive = false }
   }, [topic?.code])
@@ -569,6 +576,8 @@ function DiagramGrid({ diagrams }: { diagrams: DiagramRef[] }) {
     'hoofdopbouw',
     'sterkteleer',
     'grondsoorten',
+    'bestekSymbolen',
+    'installatieSymbolen',
   ])
   const soloOnly =
     diagrams.length === 1 && FULL_TYPES.has(diagrams[0].type)
@@ -605,6 +614,10 @@ function DiagramGrid({ diagrams }: { diagrams: DiagramRef[] }) {
             return <SterkteleerDiagram key={i} />
           case 'grondsoorten':
             return <GrondsoortenDiagram key={i} />
+          case 'bestekSymbolen':
+            return <BestekSymbolenDiagram key={i} />
+          case 'installatieSymbolen':
+            return <InstallatieSymbolenDiagram key={i} />
         }
       })}
     </div>
