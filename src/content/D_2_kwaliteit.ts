@@ -473,6 +473,32 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
       explanation:
         'Situering-factoren voor toekomstwaarde: (1) **Bereikbaarheid** — OV-stations, fiets-routes, snelweg-toegang (toekomst-belangrijk); (2) **Voorzieningen** — scholen, winkels, gezondheid (gezin); (3) **Geluidsoverlast** — drukke weg/spoor/vliegveld verlagen waarde; (4) **Wateroverlast** — laaggelegen gebieden in NL kunnen problemen krijgen door zeespiegel­stijging en grotere regenval; (5) **Energie­leverings­zekerheid** — warmtenet, glasvezel beschikbaar?; (6) **Sociale veiligheid** — PKVW-wijk (inbraakreductie 80 %). Deze factoren beïnvloeden waarde over 20–30 jaar.',
     },
+
+    // ── Examensimulatie: harde casus-/analysevragen (hogere Bloom) ──
+    {
+      id: 'D2-sim-fundering', toetstermCode: 'D.2.2', type: 'mc',
+      prompt: 'Een woning in Amsterdam-Zuid (bouwjaar 1920) heeft trapsgewijze scheuren boven de ramen, klemmende deuren en een zichtbaar verzakte gevel aan de straatzijde. Wat is de meest waarschijnlijke onderliggende oorzaak én het juiste vervolg?',
+      options: [
+        'Paalrot door een gedaalde grondwaterstand — laat een gespecialiseerd funderingsonderzoek uitvoeren',
+        'Normale zetting van een nieuw gebouw — geen verdere actie nodig',
+        'Thermische uitzetting van het metselwerk — de gevel opnieuw voegen volstaat',
+        'Krimp van te snel gedroogde specie — cosmetisch herstel is voldoende',
+      ],
+      correctIndex: 0,
+      explanation: 'Panden van vóór circa 1970 in Amsterdam staan vaak op houten paalfundering. Een gedaalde grondwaterstand laat de paalkoppen droogvallen en rotten (paalrot); het scheurpatroon met verzakking vraagt om funderingsonderzoek — niet om cosmetisch herstel.',
+    },
+    {
+      id: 'D2-sim-kozijn', toetstermCode: 'D.2.1', type: 'mc',
+      prompt: 'Je beoordeelt de bouwkundige staat van de houten kozijnen. Bij welke bevinding is **direct herstel** het meest urgent?',
+      options: [
+        'Houtrot in de onderdorpel van een draaiend deel, op een plek waar water blijft staan',
+        'Een verweerde, doffe verflaag zonder aantasting van het onderliggende hout',
+        'Eén enkele blaas in de aflak op de zuidzijde',
+        'Lichte vergeling van de kitvoegen rondom het glas',
+      ],
+      correctIndex: 0,
+      explanation: 'Houtrot in de onderdorpel is een aantasting van het hout zelf en breidt zich uit — constructief en urgent. De overige bevindingen zijn cosmetisch of normaal onderhoud dat kan wachten.',
+    },
   ],
 
   terms: [

@@ -825,6 +825,32 @@ Door 2–3 van deze signalen te combineren, kun je een woning vaak op 10–20 ja
       explanation:
         'Kloostermoppen (~285 × 135 × 85 mm) waren middeleeuws standaardformaat. Een gevel met die stenen is óf laat-middeleeuws / vroeg-modern, óf later gerestaureerd met behoud van de originelen. Niet wederopbouw of recente nieuwbouw.',
     },
+
+    // ── Examensimulatie: harde evaluatievragen (bouwperiode afleiden) ──
+    {
+      id: 'A22-sim-periode', toetstermCode: 'A.2.2.7', type: 'mc',
+      prompt: 'Een gevel combineert **machinale baksteen** in strak halfsteensverband, **betonlateien** boven de ramen en **stalen kozijnen met enkel glas**. Welke bouwperiode is het meest waarschijnlijk?',
+      options: [
+        'Wederopbouw (circa 1945–1965)',
+        'Vooroorlogs (voor 1940), ambachtelijk metselwerk',
+        'Vinex (circa 1995–2005)',
+        'Recente nieuwbouw (na 2015)',
+      ],
+      correctIndex: 0,
+      explanation: 'Strak machinaal metselwerk, betonlateien en stalen kozijnen met enkel glas zijn typerend voor de wederopbouw. Vooroorlogse panden hebben zelden betonlateien/stalen kozijnen; Vinex en recente nieuwbouw hebben isolatieglas en andere kozijnmaterialen.',
+    },
+    {
+      id: 'A22-sim-renovatie', toetstermCode: 'A.2.2.7', type: 'mc',
+      prompt: 'Bij een pand zie je **kloostermoppen** in het metselwerk, maar **moderne betonpannen** op het dak en **kunststof kozijnen met HR++-glas**. Welke conclusie is het meest verdedigbaar?',
+      options: [
+        'Een oud, waarschijnlijk laat-middeleeuws casco dat later ingrijpend is gerenoveerd',
+        'Een volledig recent nieuwbouwpand, opgetrokken in historische stijl',
+        'Een onaangetast monument in volledig originele staat',
+        'Een wederopbouwpand uit de jaren vijftig',
+      ],
+      correctIndex: 0,
+      explanation: 'Kloostermoppen duiden op een laat-middeleeuws casco; betonpannen en kunststof HR++-kozijnen zijn juist recent. De combinatie wijst dus op een oud casco met een latere, ingrijpende renovatie — niet op nieuwbouw of een onaangetast monument.',
+    },
   ],
 
   terms: [

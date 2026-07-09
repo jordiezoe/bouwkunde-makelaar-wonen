@@ -1096,6 +1096,46 @@ B.13.7 (Toepassen, BT2) vraagt om in een **casus een dakgebrek te identificeren*
       explanation:
         'EPDM krimpt met de jaren door uv en temperatuurcycli. Bij 30+ jaar is dit een normaal eindgebrek: rond de opstanden en boeibordrand trekt het kunststof los. Vervanging is dan aan de orde — bij kleine schade kan een randversteviging tijdelijk uitkomst bieden, maar bij grootschalig loslaten is een nieuwe daklaag de oplossing.',
     },
+
+    // ── Examensimulatie: harde casus-/beeldvragen (hogere Bloom) ──
+    {
+      id: 'B13-sim-mansarde', toetstermCode: 'B.13.1', type: 'mc',
+      prompt: 'Een taxateur beoordeelt een herenhuis uit circa 1900. Op de bouwtekening staat dit dakprofiel. Welke conclusie is correct?',
+      image: { src: '/figs/vragen/dak-mansarde.svg', caption: 'Dakprofiel op de tekening', width: 'md' },
+      options: [
+        'Een mansardedak — de geknikte, steile onderhelling levert een volwaardige extra woonlaag op zolder op',
+        'Een schilddak — aan alle vier de zijden een gelijke helling, zonder bruikbare zolderruimte',
+        'Een zadeldak met knik — puur esthetisch, zonder invloed op het bruikbaar vloeroppervlak',
+        'Een gebroken lessenaarsdak — eenzijdige afwatering naar de achtergevel',
+      ],
+      correctIndex: 0,
+      explanation: 'Het gebroken (geknikte) profiel met een steile onderhelling is een mansardedak; de knik creëert een bruikbare extra woonlaag — kenmerkend voor herenhuizen rond 1900. Een schilddak heeft vlakke hellingen aan vier zijden.',
+    },
+    {
+      id: 'B13-sim-lek', toetstermCode: 'B.13.7', type: 'mc',
+      prompt: 'Na een storm meldt een bewoner een bruine vochtplek op het plafond van de **bovenste** verdieping, vlak **naast de schoorsteen**. Het betreft een hellend pannendak. Wat is de meest waarschijnlijke oorzaak?',
+      options: [
+        'Een beschadigde of losgeraakte loodaansluiting (slabbe) rond de schoorsteen',
+        'Condensatie door een ontbrekende dampremmende laag in de spouwmuur',
+        'Optrekkend vocht vanuit de fundering',
+        'Een verstopte hemelwaterafvoer op een plat dakdeel',
+      ],
+      correctIndex: 0,
+      explanation: 'Een vochtplek náást de schoorsteen, op de bovenste verdieping, na storm, wijst op een gefaalde dakaansluiting (loodslabbe). Optrekkend vocht zit juist onderaan de gevel; er is geen plat dak of spouwcondens in het spel.',
+    },
+    {
+      id: 'B13-sim-plat', toetstermCode: 'B.13.7', type: 'multi',
+      prompt: 'Bij een plat dak met EPDM van ongeveer 30 jaar zie je meerdere signalen. Welke wijzen op een **naderend einde van de levensduur** van de dakbedekking?',
+      options: [
+        'Het EPDM trekt los rond de dakranden en opstanden',
+        'Plasvorming die dagen blijft staan na regen',
+        'Craquelé (haarscheurtjes) en verharding van het rubber',
+        'Lichte mosgroei op de noordzijde van een schuin pannendak ernaast',
+        'Een strak aangedraaide, recent vervangen daktrim',
+      ],
+      correctIndices: [0, 1, 2],
+      explanation: 'Loslaten, blijvende plasvorming en craquelé/verharding zijn eindgebreken van EPDM. Mosgroei op pannen hoort bij een ander dakdeel; een nieuwe daktrim is juist een positief teken.',
+    },
   ],
 
   terms: [
