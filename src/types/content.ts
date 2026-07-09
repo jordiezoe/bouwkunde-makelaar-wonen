@@ -98,6 +98,8 @@ export type DiagramRef =
   | { type: 'hoofdopbouw' }
   | { type: 'sterkteleer' }
   | { type: 'grondsoorten' }
+  | { type: 'bestekSymbolen' }
+  | { type: 'installatieSymbolen' }
 
 export interface LessonSection {
   heading: string

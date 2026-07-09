@@ -258,8 +258,9 @@ Een **arcering** is het patroon waarmee een materiaal in doorsnede wordt weergeg
 - **Zand / ophoging** — losse stippen (puntraster).
 - **Gietwerk / mortel / specie** — fijne dichte stippeling.
 
-De arceringen volgen grotendeels **NEN-tekenconventies**, maar de renvooi op de tekening is altijd leidend.
+De arceringen volgen grotendeels **NEN-tekenconventies**, maar de renvooi op de tekening is altijd leidend. Bestudeer hieronder de standaardarceringen — je moet ze op het examen kunnen herkennen.
       `.trim(),
+      diagrams: [{ type: 'arceringen' }],
     },
   ],
   toetstermen: [
@@ -272,9 +273,29 @@ De arceringen volgen grotendeels **NEN-tekenconventies**, maar de renvooi op de 
       pairs: [
         { left: 'Diagonale evenwijdige strepen', right: 'Baksteen / metselwerk' },
         { left: 'Stippen met kleine driehoekjes', right: 'Beton' },
+        { left: 'Beton-patroon met wapeningsstaven', right: 'Gewapend beton' },
         { left: 'Golvend / gekruld patroon', right: 'Isolatie' },
+        { left: 'Twee dunne evenwijdige lijnen', right: 'Glas' },
         { left: 'Parallelle nerflijnen', right: 'Hout (lengterichting)' },
+        { left: 'Concentrische ringen (jaarringen)', right: 'Hout (kops)' },
         { left: 'Los puntraster', right: 'Zand / ophoging' },
+        { left: 'Horizontale golflijnen', right: 'Water' },
+      ],
+    },
+    {
+      id: 'BL3-sort-materiaal', type: 'sort',
+      title: 'Draagt het of niet? Sorteer de materialen',
+      description: 'Sleep elk materiaal naar de juiste groep.',
+      categories: ['Constructief / dragend', 'Afwerking / isolatie'],
+      items: [
+        { label: 'Gewapend beton', category: 'Constructief / dragend' },
+        { label: 'Baksteen (spouwblad binnen)', category: 'Constructief / dragend' },
+        { label: 'Staalprofiel', category: 'Constructief / dragend' },
+        { label: 'Constructief hout (balk)', category: 'Constructief / dragend' },
+        { label: 'Isolatie', category: 'Afwerking / isolatie' },
+        { label: 'Tegelwerk', category: 'Afwerking / isolatie' },
+        { label: 'Gips / pleister', category: 'Afwerking / isolatie' },
+        { label: 'Cementdekvloer', category: 'Afwerking / isolatie' },
       ],
     },
   ],
@@ -336,7 +357,10 @@ Op vrijwel elke tekening staan deze oriëntatie-hulpmiddelen:
 - **Peil (P = ± 0,00)** — het nulpunt van de hoogtemaatvoering, meestal de bovenkant van de afgewerkte begane­grondvloer. Alles eronder is negatief (−), erboven positief (+). "**PP**" = **peil**.
 - **Stramienen** — het raster van hart-lijnen (letters × cijfers, bv. **A–B–C** en **1–2–3**) waarop de hoofddraagconstructie is geordend. Kolommen en dragende wanden staan op de stramiensnijpunten.
 - **Titelblok** — rechtsonder: projectnaam, schaal, tekenaar, datum en **revisienummer**.
+
+Hieronder de meest voorkomende **tekensymbolen**. Let bij ramen op de driehoek (de punt wijst naar het scharnier), bij deuren op de kwartcirkel (draairichting), en herken de noordpijl, het peil, de stramienen en de maatlijn.
       `.trim(),
+      diagrams: [{ type: 'bestekSymbolen' }],
     },
     {
       heading: '2 · Maatvoering: dagmaat en sponningmaat',
@@ -355,6 +379,21 @@ Ramen en deuren krijgen een **draairichting-symbool**: de stippellijn met de pun
   toetstermen: [
     { code: 'BL.4.1', text: 'Herkent noordpijl, peil (PP) en stramienen en hun functie.', niveau: 'BT1', bloom: 'Kennis' },
     { code: 'BL.4.2', text: 'Past maatvoeringsbegrippen toe: dagmaat, sponningmaat, stramienmaat, draairichting.', niveau: 'BT2', bloom: 'Toepassen' },
+  ],
+  games: [
+    {
+      id: 'BL4-matching-symbool', type: 'matching',
+      title: 'Koppel symbool aan betekenis',
+      pairs: [
+        { left: 'Driehoek met punt naar de zijkant', right: 'Draairaam (zijhangend)' },
+        { left: 'Driehoek met punt naar onder', right: 'Kiepraam' },
+        { left: 'Kwartcirkel vanaf een stijl', right: 'Deur met draairichting' },
+        { left: 'Pijl naar het noorden met N', right: 'Noordpijl (oriëntatie)' },
+        { left: 'Halfgevulde driehoek met ± 0,00', right: 'Peil' },
+        { left: 'Cirkel met letter/cijfer op stippellijn', right: 'Stramien' },
+        { left: 'Lijn met eindstreepjes en een maat', right: 'Maatlijn' },
+      ],
+    },
   ],
   questions: [
     {
@@ -446,12 +485,28 @@ De **openingswijze** wordt met lijnen aangegeven:
 - **Schuifraam/-deur** — een pijl die de schuifrichting aangeeft.
 
 **Glasaanduiding** in de staat: bijvoorbeeld **HR++** of **triple** glas met de bijbehorende U-waarde. Zo lees je meteen de thermische kwaliteit af.
+
+De belangrijkste raam- en deursymbolen op een rij:
       `.trim(),
+      diagrams: [{ type: 'bestekSymbolen' }],
     },
   ],
   toetstermen: [
     { code: 'BL.5.1', text: 'Leest de kozijnstaat en koppelt kozijncodes aan de plattegrond.', niveau: 'BT2', bloom: 'Toepassen' },
     { code: 'BL.5.2', text: 'Herkent raam- en deursymbolen (draai, kiep, draai-kiep, vast, schuif).', niveau: 'BT1', bloom: 'Kennis' },
+  ],
+  games: [
+    {
+      id: 'BL5-matching-raam', type: 'matching',
+      title: 'Koppel raamtype aan kenmerk',
+      pairs: [
+        { left: 'Draairaam', right: 'Zijhangend, draait om een verticale as' },
+        { left: 'Kiepraam', right: 'Kiept om de onderregel open' },
+        { left: 'Draai-kiepraam', right: 'Kan zowel draaien als kiepen' },
+        { left: 'Vast glas', right: 'Gaat niet open' },
+        { left: 'Schuifraam', right: 'Schuift horizontaal open' },
+      ],
+    },
   ],
   questions: [
     {
@@ -523,11 +578,28 @@ Installaties worden op **aparte tekeningen** weergegeven, omdat het leidingverlo
 - **Gas** — gasaansluiting, gasmeter en het leidingverloop naar de toestellen.
 - **Elektra** — de groepenkast, wandcontactdozen, schakelaars, lichtpunten en het kabelverloop. Symbolen volgen **NEN 1010**-conventies.
 - **Ventilatie** — toevoer- en afvoerroosters, kanalen, ventilator/WTW-unit en de balans tussen aan- en afvoer.
+
+Hieronder de meest voorkomende installatiesymbolen:
       `.trim(),
+      diagrams: [{ type: 'installatieSymbolen' }],
     },
   ],
   toetstermen: [
     { code: 'BL.6.1', text: 'Herkent symbolen en leidingverloop op installatietekeningen.', niveau: 'BT2', bloom: 'Begrip' },
+  ],
+  games: [
+    {
+      id: 'BL6-matching-installatie', type: 'matching',
+      title: 'Koppel installatiesymbool aan betekenis',
+      pairs: [
+        { left: 'Halve gevulde cirkel op een lijn', right: 'Wandcontactdoos' },
+        { left: 'Cirkel met een kruis erdoor', right: 'Lichtpunt (plafond)' },
+        { left: 'Cirkeltje met korte hendel op een lijn', right: 'Schakelaar' },
+        { left: 'Rechthoek met verticale ribben', right: 'Radiator' },
+        { left: 'Cirkel met de letter T', right: 'Thermostaat' },
+        { left: 'Cirkel met RM', right: 'Rookmelder' },
+      ],
+    },
   ],
   questions: [
     {
@@ -665,4 +737,121 @@ Open de bijlagen hieronder en oefen met de vragen.
   ],
 }
 
-export const sectionTopics: Topic[] = [BL_1, BL_2, BL_3, BL_4, BL_5, BL_6, BL_7]
+// ─────────────────────────────────────────────────────────────────────────────
+// BL.8 — Een bestek gebruiken: opzoeken en toepassen
+// ─────────────────────────────────────────────────────────────────────────────
+const BL_8: Topic = {
+  code: 'BL.8',
+  section: 'BL',
+  title: 'Een bestek gebruiken: opzoeken en toepassen',
+  blurb:
+    'Stap voor stap iets opzoeken in een bestek, de STABU-hoofdstukindeling gebruiken en bestek en tekening combineren tot een antwoord.',
+  passingScore: 0.8,
+  lessonSections: [
+    {
+      heading: '1 · Stap voor stap iets opzoeken',
+      toetstermCodes: ['BL.8.1'],
+      body: `
+Een bestek is een naslagwerk — je leest het niet van voor tot achter, je **zoekt gericht op**. Vaste werkwijze:
+
+1. **Bepaal wat je zoekt.** Gaat het om een *spelregel* (garantie, betaling, oplevering, verzekering) of om een *bouwdeel* (kozijn, dakbedekking, cv-ketel)?
+2. **Kies het deel.** Spelregels staan in de **administratieve bepalingen (hoofdstuk 00)**; bouwdelen in de **technische bepalingen** met hun STABU-nummer.
+3. **Zoek het STABU-hoofdstuk.** Bijvoorbeeld **30** Kozijnen/ramen/deuren, **46** Schilderwerk, **60** Verwarming.
+4. **Lees de bepaling** en let op eenheden (mm) en verwijzingen naar normen.
+5. **Controleer de tekening** als de vraag om een plaats of maat gaat.
+
+**Uitgewerkt voorbeeld.** Een koper vraagt: *"Hoe lang heb ik garantie op de cv-installatie?"* → dit is een spelregel → **hoofdstuk 00** (administratief) → onderdeel **Onderhoudstermijn (00.02.11)** → daar staat **12 maanden voor de installatietechnische werken**. Antwoord gevonden zonder het hele bestek te lezen.
+      `.trim(),
+    },
+    {
+      heading: '2 · Bestek en tekening samen gebruiken',
+      toetstermCodes: ['BL.8.2'],
+      body: `
+Vaak heb je **allebei** nodig. Voorbeeld: *"Van welk materiaal is raam A02 en welk glas zit erin?"*
+
+1. **Tekening** → zoek op de plattegrond het kozijn met code **A02**.
+2. **Kozijnstaat** → zoek A02 op: daar staan maat, openingstype en glassoort.
+3. **Bestek, hoofdstuk 30** (Kozijnen, ramen en deuren) → hier staan de algemene eisen aan materiaal, kwaliteit en uitvoering die voor álle kozijnen gelden.
+
+**Rangorde bij tegenstrijdigheid.** Wijkt de tekening af van het bestek, dan prevaleert doorgaans de **bestektekst**; bij twijfel overlegt de aannemer vóór aanbesteding met de directie. Werk dat wél op de tekening maar niet in het bestek staat (of andersom), moet tóch worden uitgevoerd — samen omvatten ze het hele werk.
+      `.trim(),
+    },
+  ],
+  toetstermen: [
+    { code: 'BL.8.1', text: 'Zoekt gericht een bepaling op via de STABU-hoofdstukindeling.', niveau: 'BT2', bloom: 'Toepassen' },
+    { code: 'BL.8.2', text: 'Combineert bestek en tekening (incl. rangorde) tot een antwoord.', niveau: 'BT2', bloom: 'Toepassen' },
+  ],
+  questions: [
+    {
+      id: 'BL8-q1', toetstermCode: 'BL.8.1', type: 'mc',
+      prompt: 'Een koper vraagt hoe lang de garantie op de cv-installatie is. In welk deel van het bestek zoek je?',
+      options: [
+        'De administratieve bepalingen (hoofdstuk 00), bij de onderhoudstermijn',
+        'Het technische hoofdstuk 22 Metselwerk',
+        'De situatietekening',
+        'De kozijnstaat',
+      ],
+      correctIndex: 0,
+      explanation: 'Garantie/onderhoud is een spelregel en staat in de administratieve bepalingen (00.02.11 Onderhoudstermijn) — voor installaties 12 maanden.',
+    },
+    {
+      id: 'BL8-q2', toetstermCode: 'BL.8.1', type: 'mc',
+      prompt: 'Je wilt weten welke eisen gelden voor de buitenkozijnen. In welk technisch STABU-hoofdstuk kijk je?',
+      options: ['30 — Kozijnen, ramen en deuren', '21 — Betonwerk', '46 — Schilderwerk', '60 — Verwarmingsinstallaties'],
+      correctIndex: 0,
+      explanation: 'Kozijnen, ramen en deuren staan in STABU-hoofdstuk 30. Schilderwerk (46) gaat over de afwerklaag, niet over het kozijn zelf.',
+    },
+    {
+      id: 'BL8-q3', toetstermCode: 'BL.8.2', type: 'mc',
+      prompt: 'Je zoekt materiaal én glassoort van raam A02. Wat is de juiste volgorde?',
+      options: [
+        'Kozijncode A02 op de plattegrond → opzoeken in de kozijnstaat → algemene eisen in bestekhoofdstuk 30',
+        'Direct in de administratieve bepalingen kijken',
+        'Alleen de situatietekening raadplegen',
+        'De onderhoudstermijn opzoeken',
+      ],
+      correctIndex: 0,
+      explanation: 'De code koppelt plattegrond aan kozijnstaat (specificaties per kozijn); het bestek geeft de algemene eisen die voor alle kozijnen gelden.',
+    },
+    {
+      id: 'BL8-q4', toetstermCode: 'BL.8.2', type: 'mc',
+      prompt: 'De tekening en het bestek spreken elkaar tegen over een maat. Wat is de vuistregel?',
+      options: [
+        'Doorgaans prevaleert de bestektekst; bij twijfel overlegt de aannemer vóór aanbesteding met de directie',
+        'De tekening gaat altijd vóór het bestek',
+        'De aannemer kiest zelf de goedkoopste optie',
+        'Het werk wordt niet uitgevoerd tot na oplevering',
+      ],
+      correctIndex: 0,
+      explanation: 'Bij tegenstrijdigheid prevaleert doorgaans de bestektekst; de aannemer stemt af met de directie vóór de aanbesteding.',
+    },
+    {
+      id: 'BL8-q5', toetstermCode: 'BL.8.1', type: 'multi',
+      prompt: 'Welke onderwerpen zoek je op in de administratieve bepalingen (hoofdstuk 00)?',
+      options: [
+        'De onderhoudstermijn',
+        'De verzekeringen (CAR)',
+        'De opleveringsprocedure',
+        'De metselmortel voor de gevel',
+        'Het type dakbedekking',
+      ],
+      correctIndices: [0, 1, 2],
+      explanation: 'Onderhoud, verzekering en oplevering zijn spelregels (hoofdstuk 00). Metselmortel (22) en dakbedekking (33) staan in de technische bepalingen.',
+    },
+    {
+      id: 'BL8-q6', toetstermCode: 'BL.8.2', type: 'mc',
+      prompt: 'Raadpleeg het bestek. Volgens welke systematiek en administratieve voorwaarden werk je bij het opzoeken?',
+      attachments: [BESTEK],
+      options: [
+        'STABU-hoofdstukindeling met de UAV 2012 als voorwaarden',
+        'De RAW-systematiek met de UAV-GC',
+        'De NEN 2580 met het Bouwbesluit',
+        'Er is geen vaste indeling',
+      ],
+      correctIndex: 0,
+      explanation: 'Het bestek is opgebouwd volgens STABU met de UAV 2012 van toepassing; die indeling gebruik je om gericht op te zoeken.',
+    },
+  ],
+}
+
+export const sectionTopics: Topic[] = [BL_1, BL_2, BL_3, BL_4, BL_5, BL_6, BL_7, BL_8]

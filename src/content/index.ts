@@ -55,7 +55,7 @@ export const dossierOrder: string[] = [
   'C.1', 'C.2', 'C.3', 'C.4', 'C.5', 'C.6', 'C.7', 'C.8', 'C.9', 'C.10', 'C.11', 'C.12', 'C.13', 'C.14',
   'D.1', 'D.2', 'D.3', 'D.4',
   // Besteklezen — los leertraject
-  'BL.1', 'BL.2', 'BL.3', 'BL.4', 'BL.5', 'BL.6', 'BL.7',
+  'BL.1', 'BL.2', 'BL.3', 'BL.4', 'BL.5', 'BL.6', 'BL.7', 'BL.8',
 ]
 
 /**
