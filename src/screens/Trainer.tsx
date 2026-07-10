@@ -72,13 +72,33 @@ export function Trainer({ topicCode, progress, setProgress, onNavigate }: Props)
   const totalCount = cards.length
   const allMastered = masteredCount === totalCount
 
-  // Vier multiple-choice opties: 1 juist + 3 distractors uit andere terms
+  // Vier multiple-choice opties: 1 juist + 3 afleiders. De afleiders zijn de
+  // meest gelijkende begrippen (op naam + omschrijving), niet willekeurig —
+  // zodat je écht moet weten welk begrip past en niet kunt wegstrepen.
   const options = useMemo(() => {
     if (!currentCard) return []
-    const otherTerms = cards
+    const sig = (s: string) =>
+      new Set(
+        s
+          .toLowerCase()
+          .replace(/[^a-zà-ÿ0-9 ]/g, ' ')
+          .split(/\s+/)
+          .filter((w) => w.length >= 5),
+      )
+    const tName = sig(currentCard.term.term)
+    const tDef = sig(currentCard.term.definition)
+    const scored = cards
       .filter((_, i) => i !== currentCardIdx)
-      .map((c) => c.term.term)
-    const distractors = shuffle(otherTerms).slice(0, Math.min(3, otherTerms.length))
+      .map((c) => {
+        let s = 0
+        for (const w of sig(c.term.term)) if (tName.has(w)) s += 3
+        for (const w of sig(c.term.definition)) if (tDef.has(w)) s += 1
+        return { term: c.term.term, s }
+      })
+      .sort((a, b) => b.s - a.s)
+    // Kies uit de 8 meest gelijkende begrippen 3 willekeurige afleiders.
+    const pool = scored.slice(0, 8).map((x) => x.term)
+    const distractors = shuffle(pool).slice(0, Math.min(3, pool.length))
     return shuffle([currentCard.term.term, ...distractors])
   }, [currentCardIdx, cards, currentCard])
 

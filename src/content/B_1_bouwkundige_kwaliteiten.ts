@@ -174,7 +174,7 @@ Een gebouw "tussen hangen en wurgen" — bouwkundig zwak maar mooi, of mooi maar
     {
       term: 'Stijfheid',
       definition:
-        'Het vermogen om vervorming onder belasting beperkt te houden; lage stijfheid = veel doorbuiging zelfs zonder breuk.',
+        'Het vermogen om vervorming onder belasting beperkt te houden; weinig ervan = veel doorbuiging, zelfs zonder breuk.',
     },
     {
       term: 'Stabiliteit',

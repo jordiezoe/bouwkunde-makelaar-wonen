@@ -697,7 +697,7 @@ Een **voorschot** (vooruitbetaling vóór er gewerkt is) is in Nederland niet ge
     {
       term: 'Oplevering',
       definition:
-        'Formeel moment waarop de aannemer het bouwwerk overdraagt aan de opdrachtgever; gebreken worden vastgelegd in het opleveringsrapport.',
+        'Formeel moment waarop de aannemer het bouwwerk overdraagt aan de opdrachtgever; resterende gebreken worden in een protocol vastgelegd.',
     },
     {
       term: 'SWK',

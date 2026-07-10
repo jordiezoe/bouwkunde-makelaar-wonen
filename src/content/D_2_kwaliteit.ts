@@ -505,12 +505,12 @@ Voor een complete bouwkundige beoordeling rapporteert een inspecteur:
     {
       term: 'Optrekkend vocht',
       definition:
-        'Vocht dat via capillaire werking vanuit fundering omhoog trekt in onbeschermde muren — herkenbaar aan zoutuitslag.',
+        'Vocht dat via capillaire werking vanuit de fundering omhoog stijgt in onbeschermde muren — herkenbaar aan zoutuitslag.',
     },
     {
       term: 'Doorslaand vocht',
       definition:
-        'Vocht dat van buiten naar binnen door een muur slaat — meestal door beschadigd voegwerk of slecht spouwwerk.',
+        'Vocht dat van buiten via de gevel naar de binnenkant dringt — meestal door beschadigd voegwerk of een slechte spouw.',
     },
     {
       term: 'Condensvocht',

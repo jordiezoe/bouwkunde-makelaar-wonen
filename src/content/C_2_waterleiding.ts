@@ -854,7 +854,7 @@ Bij verkoop van een woning vóór 1960:
     {
       term: 'Drinkwater',
       definition:
-        'Water dat voldoet aan Drinkwater­besluit; geleverd door waterleiding­bedrijf onder ~3 bar druk.',
+        'Water dat voldoet aan het wettelijke Waterbesluit; geleverd door het leidingbedrijf onder ~3 bar druk.',
     },
     {
       term: 'Hoofdkraan',

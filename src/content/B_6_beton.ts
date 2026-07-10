@@ -1031,7 +1031,7 @@ Op de bouwplaats: kraan tilt het element aan ingestorte hijsogen, de monteurs ge
     {
       term: 'Krimp',
       definition:
-        'Volumevermindering van beton tijdens uitharden door verdamping; krimpscheurtjes voorkomen met dilataties of vezels.',
+        'Volumevermindering van beton tijdens uitharden door verdamping; de bijbehorende scheurtjes voorkom je met dilataties of vezels.',
     },
     {
       term: 'Carbonatatie',
