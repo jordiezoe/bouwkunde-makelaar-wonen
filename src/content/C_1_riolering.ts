@@ -505,10 +505,10 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       type: 'mc',
       prompt: 'Wat is het verloop van huishoudelijk afvalwater van toilet tot zuiveringsinstallatie?',
       options: [
-        'Toilet → standleiding → grondleiding → huisaansluitleiding → gemeenteriool → RWZI',
-        'Toilet → drainage → infiltratie → grondwater',
-        'Toilet → septictank → oppervlaktewater (altijd)',
-        'Toilet → kruipruimte → bodem',
+        'Standleiding → grondleiding → huisaansluiting → gemeenteriool → RWZI',
+        'Grondleiding → standleiding → dakdoorvoer → hemelwaterriool',
+        'Septictank → infiltratieveld → oppervlaktewater → RWZI',
+        'Ontstoppingsstuk → kruipruimte → gemeenteriool → sloot',
       ],
       correctIndex: 0,
       explanation:
@@ -629,12 +629,12 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       type: 'mc',
       prompt: 'Bij een woning op een **septictank**: waar moeten hemelwater en grijs water (douche/wastafel) heen?',
       options: [
-        'Door de septictank — zorgt voor verdunning',
-        'Buiten de septictank om — chloor/zeep verstoren de bacteriën',
-        'In aparte beerput',
-        'Naar de RWZI',
+        'Buiten de septictank om; zeep en chloor doden de bacteriën',
+        'Door de septictank heen, voor extra verdunning',
+        'Naar een aparte gesloten beerput',
+        'Rechtstreeks naar de RWZI',
       ],
-      correctIndex: 1,
+      correctIndex: 0,
       explanation:
         'In een septictank werken anaerobe bacteriën die organisch materiaal afbreken. Zeep en chloor uit douche-, was- en spoelwater verstoren of doden deze bacteriën. Daarom moeten grijs water en hemelwater **buiten de septictank om** worden afgevoerd (rechtstreeks naar infiltratie, oppervlaktewater of stapelput).',
     },
@@ -677,12 +677,12 @@ Een **WTW-douche (Warmte-Terug-Winning douche)** is een **warmtewisselaar in de 
       prompt:
         'Waarom mag in een liggende rioleringsleiding **geen 90°-bocht** worden geplaatst?',
       options: [
+        'Een scherpe bocht remt vaste stoffen af → verstopping',
         'Het kost te veel materiaal',
-        'Twee 45°-bochten i.p.v. één 90°-bocht voor vloeiend beloop',
-        'Het is alleen een esthetische regel',
-        '90°-bochten lekken altijd na verloop van tijd',
+        'Het is puur een esthetische regel',
+        '90°-bochten gaan altijd binnen een jaar lekken',
       ],
-      correctIndex: 1,
+      correctIndex: 0,
       explanation:
         'Een 90°-bocht in een liggende leiding remt vaste stoffen af; sediment hoopt op → verstopping. Standaard: twee 45°-bochten (eventueel met een tussenstuk) voor een vloeiend stroomprofiel. In verticale standleidingen mag wel een 90° voetbocht onderaan.',
     },

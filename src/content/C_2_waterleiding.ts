@@ -673,12 +673,12 @@ Bij verkoop van een woning vóór 1960:
       prompt:
         'Op een installatietekening worden **warm- en koudwaterleidingen** vaak weergegeven met:',
       options: [
-        'Dezelfde kleur (rood)',
-        'Aan kleur/lijntype: koud blauw, warm rood (KW/WW)',
-        'Pijl-symbolen alleen',
-        'Tekstaanduiding zonder kleur',
+        'Koud in blauw, warm in rood',
+        'Beide in dezelfde kleur rood',
+        'Alleen met pijlsymbolen',
+        'Alleen met tekst, zonder kleur',
       ],
-      correctIndex: 1,
+      correctIndex: 0,
       explanation:
         'Standaard tekenconventie: koud water = blauwe lijn of zwart doorgetrokken (KW-code); warm water = rode lijn of streep-stippellijn (WW-code). Cv-aanvoer en -retour krijgen ook hun eigen kleurcode. Symbolen voor watermeter (vierkant), keerklep (driehoek), aftapkraan (Δ) zijn genormaliseerd.',
     },
