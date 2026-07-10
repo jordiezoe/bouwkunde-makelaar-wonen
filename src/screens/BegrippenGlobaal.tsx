@@ -10,6 +10,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { topics } from '../content'
 import type { Screen } from '../App'
 import type { ExamSection, Section, TermEntry } from '../types/content'
+import { pickRelatedDistractors } from '../lib/termDistractors'
 
 interface Props {
   onNavigate: (s: Screen) => void
@@ -123,11 +124,16 @@ export function BegrippenGlobaal({ onNavigate }: Props) {
   const card = queue[cardIdx] ?? null
 
   // ── Build MC options for current card ──
+  // Afleiders komen uit dezelfde categorie als het juiste begrip (vocht →
+  // andere vochtsoorten, natuursteen → andere steensoorten), met voorrang voor
+  // begrippen uit hetzelfde onderwerp — zo passen ze inhoudelijk bij de vraag.
   const buildOptions = useCallback((card: FlatTerm, allFlat: FlatTerm[]) => {
-    const distractorPool = shuffle(
-      allFlat.filter((ft) => ft.term.term !== card.term.term),
-    ).slice(0, 3)
-    return shuffle([card.term.term, ...distractorPool.map((d) => d.term.term)])
+    const pool = allFlat.map((ft) => ft.term)
+    const sameTopicNames = new Set(
+      allFlat.filter((ft) => ft.topicCode === card.topicCode).map((ft) => ft.term.term),
+    )
+    const distractors = pickRelatedDistractors(card.term, pool, 3, sameTopicNames)
+    return shuffle([card.term.term, ...distractors])
   }, [])
 
   const lastCardTerm = useRef<string | null>(null)

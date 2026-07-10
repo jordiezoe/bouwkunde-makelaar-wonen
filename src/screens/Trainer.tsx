@@ -1,8 +1,9 @@
 import { useMemo, useState } from 'react'
-import { getTopic } from '../content'
+import { getTopic, topics } from '../content'
 import type { Screen } from '../App'
 import type { TermEntry } from '../types/content'
 import { markTrainerCompleted, type Progress } from '../lib/storage'
+import { pickRelatedDistractors } from '../lib/termDistractors'
 
 interface Props {
   topicCode: string
@@ -30,6 +31,12 @@ function shuffle<T>(arr: T[]): T[] {
 export function Trainer({ topicCode, progress, setProgress, onNavigate }: Props) {
   const topic = getTopic(topicCode)
   const terms = useMemo(() => topic?.terms ?? [], [topic])
+
+  // Alle begrippen uit het hele dossier — de afleiders komen uit dezelfde
+  // categorie als het juiste begrip, ook als dat begrip bij een ander onderwerp
+  // hoort. Zo passen de opties inhoudelijk bij de vraag.
+  const allTerms = useMemo(() => topics.flatMap((t) => t.terms ?? []), [])
+  const topicTermNames = useMemo(() => new Set(terms.map((t) => t.term)), [terms])
 
   // Per term: hoeveel keer goed/fout in deze sessie
   const [cards, setCards] = useState<CardState[]>(() =>
@@ -72,35 +79,14 @@ export function Trainer({ topicCode, progress, setProgress, onNavigate }: Props)
   const totalCount = cards.length
   const allMastered = masteredCount === totalCount
 
-  // Vier multiple-choice opties: 1 juist + 3 afleiders. De afleiders zijn de
-  // meest gelijkende begrippen (op naam + omschrijving), niet willekeurig —
-  // zodat je écht moet weten welk begrip past en niet kunt wegstrepen.
+  // Vier multiple-choice opties: 1 juist + 3 afleiders uit dezelfde categorie
+  // (een afwerking krijgt andere afwerkingen als afleider, geen kozijn) — zodat
+  // de opties inhoudelijk bij de vraag passen en je niet kunt wegstrepen.
   const options = useMemo(() => {
     if (!currentCard) return []
-    const sig = (s: string) =>
-      new Set(
-        s
-          .toLowerCase()
-          .replace(/[^a-zà-ÿ0-9 ]/g, ' ')
-          .split(/\s+/)
-          .filter((w) => w.length >= 5),
-      )
-    const tName = sig(currentCard.term.term)
-    const tDef = sig(currentCard.term.definition)
-    const scored = cards
-      .filter((_, i) => i !== currentCardIdx)
-      .map((c) => {
-        let s = 0
-        for (const w of sig(c.term.term)) if (tName.has(w)) s += 3
-        for (const w of sig(c.term.definition)) if (tDef.has(w)) s += 1
-        return { term: c.term.term, s }
-      })
-      .sort((a, b) => b.s - a.s)
-    // Kies uit de 8 meest gelijkende begrippen 3 willekeurige afleiders.
-    const pool = scored.slice(0, 8).map((x) => x.term)
-    const distractors = shuffle(pool).slice(0, Math.min(3, pool.length))
+    const distractors = pickRelatedDistractors(currentCard.term, allTerms, 3, topicTermNames)
     return shuffle([currentCard.term.term, ...distractors])
-  }, [currentCardIdx, cards, currentCard])
+  }, [currentCard, allTerms, topicTermNames])
 
   const handlePick = (option: string) => {
     if (picked !== null) return
