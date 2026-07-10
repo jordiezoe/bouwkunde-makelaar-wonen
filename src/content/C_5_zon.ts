@@ -438,12 +438,12 @@ Toch blijft de zonneboiler relevant bij hoog tapwater­verbruik en in combinatie
       type: 'mc',
       prompt: 'Hoeveel **energiebesparing** levert een zonneboiler gemiddeld voor warm water?',
       options: [
-        '10 %',
-        '~50 % van het gas- of elektraverbruik voor warm water',
-        '90 %',
+        '~50 %',
+        '~10 %',
+        '~90 %',
         '100 % (volledig zelfvoorzienend)',
       ],
-      correctIndex: 1,
+      correctIndex: 0,
       explanation:
         'Een doorsnee zonneboiler bespaart **~50 %** van de energie nodig voor warm water in een huishouden. Op zonnige dagen zelfs 100 %, maar in winter en bij zwakke dagen vult de naverwarmer aan. Subsidie via ISDE ~€ 600. Terugverdientijd 10–15 jaar (afhankelijk van energieprijs). Levensduur 20+ jaar. In NL wordt vaker gekozen voor PV + warmtepompboiler.',
     },
