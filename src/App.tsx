@@ -14,6 +14,7 @@ import { Exam } from './screens/Exam'
 import { BTExamen } from './screens/BTExamen'
 import { WoningDaten } from './screens/WoningDaten'
 import { Metselverbanden } from './screens/Metselverbanden'
+import { MateriaalHerkennen } from './screens/MateriaalHerkennen'
 import {
   loadSection,
   loadAllSections,
@@ -40,6 +41,7 @@ export type Screen =
   | { name: 'btexamen' }
   | { name: 'woningdaten' }
   | { name: 'metselverbanden' }
+  | { name: 'materiaalherkennen' }
 
 const SCREEN_KEY = 'bouwkunde-screen-v1'
 const ALL_SECTIONS: SectionKey[] = ['A', 'B', 'C', 'D']
@@ -66,6 +68,7 @@ function loadScreen(): Screen {
         'btexamen',
         'woningdaten',
         'metselverbanden',
+        'materiaalherkennen',
       ]
       if (valid.includes(parsed.name)) return parsed as Screen
     }
@@ -269,6 +272,7 @@ export function App() {
           {screen.name === 'btexamen' && <BTExamen onNavigate={navigate} />}
           {screen.name === 'woningdaten' && <WoningDaten onNavigate={navigate} />}
           {screen.name === 'metselverbanden' && <Metselverbanden onNavigate={navigate} />}
+          {screen.name === 'materiaalherkennen' && <MateriaalHerkennen onNavigate={navigate} />}
         </main>
       )}
 
