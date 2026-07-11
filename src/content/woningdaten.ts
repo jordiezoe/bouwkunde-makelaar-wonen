@@ -502,4 +502,356 @@ export const woningCases: WoningCase[] = [
       },
     ],
   },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    id: 'wd-chaletstijl',
+    titel: 'Houten villa in het groen',
+    context: 'Een vrijstaand woonhuis met opvallend veel houtwerk aan de gevel, aan de rand van een villapark.',
+    clues: [
+      { label: 'Dak', value: 'Fors overstekende kappen die ver buiten de gevel uitsteken' },
+      { label: 'Houtwerk', value: 'Rijk houtsnijwerk in de gevel; houten veranda, balkons en een erker' },
+      { label: 'Gevel', value: 'Deels vakwerk, met invloeden van neorenaissance en art nouveau' },
+      { label: 'Ligging', value: 'Staat helemaal vrij van de buren, tuin rondom' },
+    ],
+    vragen: [
+      {
+        categorie: 'Bouwstijl',
+        vraag: 'Welke stroming, geïnspireerd op Zwitserse berghutten, herken je hier?',
+        opties: ['Chaletstijl', 'Amsterdamse School', 'Delftse School', 'Functionalisme'],
+        juist: 0,
+        uitleg:
+          'Overstekende kappen, houtsnijwerk en houten veranda\'s/balkons zijn hét handschrift van de chaletstijl (1870–1900), geïnspireerd op Zwitserse berghutten.',
+      },
+      {
+        categorie: 'Woningtype',
+        vraag: 'Een woning die aan alle zijden vrij van de buren staat, met een eigen muur rondom, is een:',
+        opties: ['Twee-onder-één-kapwoning', 'Vrijstaande woning', 'Geschakelde woning', 'Hoekwoning'],
+        juist: 1,
+        uitleg:
+          'Aan alle kanten een eigen muur, los van de buren = vrijstaande woning. Een hoekwoning deelt nog één muur met de buren; een geschakelde woning is verbonden via bijvoorbeeld een garage.',
+      },
+      {
+        categorie: 'Bouwperiode',
+        vraag: 'De chaletstijl plaats je in de periode:',
+        opties: ['1770–1820', '1870–1900', '1945–1965', 'Na 1990'],
+        juist: 1,
+        uitleg:
+          'De chaletstijl bloeit ca. 1870–1900, deels gelijktijdig met de opkomende neostijlen en art nouveau.',
+      },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    id: 'wd-mansarde',
+    titel: 'Woning met geknikt dak',
+    context: 'Een woning met een opvallend dak waarvan het onderste deel veel steiler staat dan het bovenste.',
+    clues: [
+      { label: 'Dak', value: 'Dakvlak met een knik: steil onderstuk, flauwer bovenstuk — met een extra kamer in de kap' },
+      { label: 'Dakpannen', value: 'OVH-pannen' },
+      { label: 'Metselwerk', value: 'Gladde strengperssteen in een spouwmuur' },
+      { label: 'Metselverband', value: 'Klezorenverband' },
+      { label: 'Kozijn & glas', value: 'Houten kozijnen met glas-in-lood bovenlichten' },
+    ],
+    verband: 'klezorenverband',
+    vragen: [
+      {
+        categorie: 'Daktype',
+        vraag: 'Een dak met een geknikt dakvlak (steil onder, flauw boven) dat extra woonruimte in de kap geeft, heet een:',
+        opties: ['Zadeldak', 'Mansardekap', 'Schilddak', 'Tentdak'],
+        juist: 1,
+        uitleg:
+          'De knik in het dakvlak, met een steiler onderdeel, is kenmerkend voor de mansardekap — bedoeld om een volwaardige extra woonlaag in de kap te krijgen.',
+      },
+      {
+        categorie: 'Bouwperiode',
+        vraag: 'Klezorenverband in een spouwmuur + OVH-pannen wijzen op de periode:',
+        opties: ['Vóór 1850', 'Circa 1920–1940', 'Wederopbouw (1945–1965)', 'Na 2000'],
+        juist: 1,
+        uitleg:
+          'Het klezorenverband is de typische 20e-eeuwse spouwmuur (vooral 1920–1960) en de OVH-pan bestaat vanaf 1927. Met glas-in-lood erbij (tot ~1930) kom je uit rond 1920–1940.',
+      },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    id: 'wd-de-stijl',
+    titel: 'Abstract vlakkenspel',
+    context: 'Een klein woonhuis dat oogt als een driedimensionaal schilderij van rechte vlakken.',
+    clues: [
+      { label: 'Kleur', value: 'Primaire kleuren (rood, geel, blauw) met zwart, wit en grijs' },
+      { label: 'Vorm', value: 'Abstracte compositie van losse, verschuivende rechthoekige vlakken' },
+      { label: 'Dak', value: 'Plat afgedekt' },
+      { label: 'Detail', value: 'Strakke, machinale uitstraling zonder ambachtelijk ornament' },
+    ],
+    vragen: [
+      {
+        categorie: 'Bouwstijl',
+        vraag: 'Welke Nederlandse beweging herken je aan de primaire kleuren en abstracte vlakken (denk aan het Schröderhuis)?',
+        opties: ['Jugendstil', 'De Stijl', 'Amsterdamse School', 'Hightech'],
+        juist: 1,
+        uitleg:
+          'Primaire kleuren + abstracte vlakcomposities = De Stijl (Mondriaan, Van Doesburg, Rietveld). Het Schröderhuis in Utrecht (1924) is het manifest.',
+      },
+      {
+        categorie: 'Bouwperiode',
+        vraag: 'De Stijl is als beweging actief in de periode:',
+        opties: ['1850–1880', '1917–1931', '1955–1975', 'Na 2005'],
+        juist: 1,
+        uitleg:
+          'De Stijl bestaat als tijdschrift én beweging van 1917 tot 1931 — gelijktijdig met (en als abstracte tegenhanger van) de expressieve Amsterdamse School.',
+      },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    id: 'wd-structuralisme',
+    titel: 'Stad in het klein',
+    context: 'Een woongebouw dat is opgebouwd uit tientallen identieke, herkenbare bouweenheden rond gemeenschappelijke ruimten.',
+    clues: [
+      { label: 'Opbouw', value: 'Geordende, herhalende bouweenheden — als een "stad in het klein"' },
+      { label: 'Ruimte', value: 'Veel ontmoetingsplekken en de mogelijkheid om het systeem uit te breiden' },
+      { label: 'Materiaal', value: 'Zichtbaar beton in een repeterend stramien' },
+    ],
+    vragen: [
+      {
+        categorie: 'Bouwstijl',
+        vraag: 'Welke stroming (Van Eyck, Hertzberger, Blom) draait om herhalende eenheden en ontmoetingsruimten?',
+        opties: ['Structuralisme', 'Delftse School', 'Chaletstijl', 'Jugendstil'],
+        juist: 0,
+        uitleg:
+          'Het structuralisme (1959–1990) ziet het gebouw als "stad in het klein": geordende, herhalende eenheden met ontmoetingsplekken en ruimte voor uitbreiding. Denk aan Centraal Beheer (Hertzberger) en de paalwoningen (Blom).',
+      },
+      {
+        categorie: 'Bouwperiode',
+        vraag: 'Het structuralisme hoort thuis in de periode:',
+        opties: ['1900–1920', '1960–1990', 'Vóór 1850', 'Na 2010'],
+        juist: 1,
+        uitleg:
+          'Het structuralisme is actief van circa 1959 tot 1990 — een naoorlogse reactie op de eentonige wederopbouw.',
+      },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    id: 'wd-tentdak',
+    titel: 'Villa met puntdak',
+    context: 'Een vrijstaande woning op een nagenoeg vierkante plattegrond met een opvallend symmetrisch dak.',
+    clues: [
+      { label: 'Dak', value: 'Vier gelijke, driehoekige dakvlakken die samenkomen in één punt bovenaan' },
+      { label: 'Plattegrond', value: 'Vierkant, symmetrisch' },
+      { label: 'Kozijn & glas', value: 'Kunststof kozijnen met HR++-glas' },
+    ],
+    vragen: [
+      {
+        categorie: 'Daktype',
+        vraag: 'Vier driehoekige dakvlakken die naar één top lopen, vormen een:',
+        opties: ['Schilddak', 'Tentdak', 'Zadeldak', 'Lessenaarsdak'],
+        juist: 1,
+        uitleg:
+          'Vier (of meer) driehoekige vlakken die in één punt samenkomen = tentdak, meestal op een vierkante plattegrond. Bij een schilddak is er nog een korte horizontale nok bovenin.',
+      },
+      {
+        categorie: 'Woningtype',
+        vraag: 'De woning staat los van de buren met een eigen muur rondom. Dat is een:',
+        opties: ['Hoekwoning', 'Vrijstaande woning', 'Tussenwoning', 'Portiekflat'],
+        juist: 1,
+        uitleg:
+          'Vrij van de buren aan alle zijden = vrijstaande woning.',
+      },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    id: 'wd-geschakeld',
+    titel: 'Verbonden via de garage',
+    context: 'Twee woningen die op het eerste gezicht los lijken, maar via een tussenstuk aan elkaar vastzitten.',
+    clues: [
+      { label: 'Schakeling', value: 'Verbonden met de buren via een garage/berging — géén doorlopende woningscheidende muur tussen de woonhuizen' },
+      { label: 'Dak', value: 'Ieder woonhuis heeft zijn eigen dak; het tussenlid is laag' },
+      { label: 'Kozijn & glas', value: 'Kunststof kozijnen met HR++-glas' },
+    ],
+    vragen: [
+      {
+        categorie: 'Woningtype',
+        vraag: 'Woningen die alleen via een garage of berging aan elkaar vastzitten, noem je:',
+        opties: [
+          'Twee-onder-één-kapwoningen',
+          'Geschakelde woningen',
+          'Tussenwoningen',
+          'Vrijstaande woningen',
+        ],
+        juist: 1,
+        uitleg:
+          'De schakeling loopt via een tussenelement (garage/berging/carport) zónder volledige woningscheidende muur = geschakelde woning. Bij een twee-onder-één-kap deelt men juist wél één doorlopende woningscheidende muur onder één dak.',
+      },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    id: 'wd-penthouse',
+    titel: 'Bovenop het appartementengebouw',
+    context: 'Een ruime woning die de volledige bovenste verdieping van een modern appartementengebouw beslaat.',
+    clues: [
+      { label: 'Positie', value: 'Bovenste laag van het gebouw, terugliggend, met een royaal dakterras' },
+      { label: 'Opbouw', value: 'Alles op één niveau, maar duidelijk ruimer dan de appartementen eronder' },
+      { label: 'Kozijn & glas', value: 'Vliesgevel met grote glasvlakken, triple glas' },
+    ],
+    vragen: [
+      {
+        categorie: 'Woningtype',
+        vraag: 'Een ruime woning bovenop een appartementengebouw met dakterras heet een:',
+        opties: ['Maisonnette', 'Penthouse', 'Galerijwoning', 'Bovenwoning'],
+        juist: 1,
+        uitleg:
+          'Het bovenste, ruime appartement met dakterras = penthouse. Een maisonnette strekt zich juist over twéé verdiepingen uit; hier is alles op één niveau.',
+      },
+      {
+        categorie: 'Woningtype',
+        vraag: 'Waarin verschilt een penthouse van een maisonnette?',
+        opties: [
+          'Een penthouse ligt altijd op de begane grond',
+          'Een penthouse is op één niveau; een maisonnette beslaat twee verdiepingen',
+          'Een maisonnette heeft altijd een lift, een penthouse niet',
+          'Er is geen verschil',
+        ],
+        juist: 1,
+        uitleg:
+          'Een maisonnette is per definitie een appartement over twee verdiepingen; een penthouse is de bovenste (meestal gelijkvloerse) luxewoning van een flat.',
+      },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    id: 'wd-patio',
+    titel: 'Woning rond een binnenplaats',
+    context: 'Een gelijkvloerse woning die naar buiten toe gesloten oogt, maar in het hart een open ruimte heeft.',
+    clues: [
+      { label: 'Opbouw', value: 'Gelijkvloers, met de woonvertrekken rondom een omsloten binnenplaats' },
+      { label: 'Gevel', value: 'Gesloten naar de straat, met de leefruimte naar binnen gekeerd' },
+      { label: 'Dak', value: 'Plat afgedekt rondom de open patio' },
+    ],
+    vragen: [
+      {
+        categorie: 'Woningtype',
+        vraag: 'Een gelijkvloerse woning die rondom een omsloten binnenplaats is gebouwd, is een:',
+        opties: ['Bungalow', 'Patiowoning', 'Drive-inwoning', 'Dijkwoning'],
+        juist: 1,
+        uitleg:
+          'De omsloten binnenplaats (patio) in het hart van de woning maakt het een patiowoning. Een bungalow is óók gelijkvloers, maar heeft die binnenplaats niet.',
+      },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    id: 'wd-hoekwoning',
+    titel: 'Aan het eind van de rij',
+    context: 'Een woning die de buitenste is van een rijtje eengezinswoningen.',
+    clues: [
+      { label: 'Positie', value: 'Buitenste woning van de rij: één gedeelde buurmuur en één eigen, vrijstaande zijgevel' },
+      { label: 'Metselwerk', value: 'Schoon metselwerk in halfsteensverband, geïsoleerde spouw' },
+      { label: 'Dak', value: 'Doorlopend zadeldak over de hele rij' },
+      { label: 'Kozijn & glas', value: 'Kunststof kozijnen met HR++-glas' },
+    ],
+    verband: 'halfsteensverband',
+    vragen: [
+      {
+        categorie: 'Woningtype',
+        vraag: 'De buitenste woning van een rij, met één buurmuur en één eigen zijgevel, is een:',
+        opties: ['Tussenwoning', 'Hoekwoning', 'Twee-onder-één-kapwoning', 'Vrijstaande woning'],
+        juist: 1,
+        uitleg:
+          'Buitenste van de rij met één buurmuur + één vrije zijgevel = hoekwoning. Een tussenwoning heeft aan béide zijden een buurmuur.',
+      },
+      {
+        categorie: 'Bouwperiode',
+        vraag: 'Halfsteensverband met geïsoleerde spouw en HR++-glas plaatsen de rij het meest waarschijnlijk:',
+        opties: ['Vóór 1920', '1945–1965', 'Na circa 1995', 'Rond 1900'],
+        juist: 2,
+        uitleg:
+          'HR++-glas komt op vanaf ~1995 en een goed geïsoleerde spouw hoort bij recente(re) bouw — dit is dus een woning van na circa 1995.',
+      },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    id: 'wd-ijsselsteen',
+    titel: 'Pandje in de oude binnenstad',
+    context: 'Een klein, wat scheefgezakt pand in een historisch stadskern.',
+    clues: [
+      { label: 'Metselwerk', value: 'Kleine, grove bakstenen (IJsselformaat) in een steensdikke muur' },
+      { label: 'Metselverband', value: 'Kruisverband' },
+      { label: 'Dak', value: 'Steil zadeldak met Oude Hollandse pannen' },
+      { label: 'Kozijn & glas', value: 'Kleine schuiframen met roeden, enkel glas' },
+    ],
+    verband: 'kruisverband',
+    vragen: [
+      {
+        categorie: 'Bouwperiode',
+        vraag: 'Klein IJsselformaat + kruisverband in een steensmuur + Oude Hollandse pan wijzen op:',
+        opties: [
+          'De 17e–18e eeuw (oude binnenstad)',
+          'Jaren \'30 (Amsterdamse School)',
+          'Wederopbouw (1945–1965)',
+          'VINEX (1995–2005)',
+        ],
+        juist: 0,
+        uitleg:
+          'Het kleine, grove IJsselformaat hoort bij de oude binnenstad van de 17e–18e eeuw. Samen met kruisverband in een massieve muur en de Oude Hollandse pan bevestigt dat het vroeg-moderne beeld.',
+      },
+      {
+        categorie: 'Bouwperiode',
+        vraag: 'Wat is bij zo\'n oud pand een typisch bouwkundig aandachtspunt?',
+        opties: [
+          'Triple glas dat aan vervanging toe is',
+          'Massieve muur zonder spouw: regendoorslag en geen isolatie; mogelijk houten paalfundering',
+          'Een warmtepomp die te zwaar is gedimensioneerd',
+          'Te veel spouwankers',
+        ],
+        juist: 1,
+        uitleg:
+          'Vóór 1920 waren buitenmuren vrijwel altijd massief (geen spouw): risico op regendoorslag en geen isolatieruimte. Oude binnensteden staan bovendien vaak op houten palen, kwetsbaar bij grondwaterdaling.',
+      },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  {
+    id: 'wd-delftse-school',
+    titel: 'Ingetogen baksteenpand',
+    context: 'Een bescheiden, degelijk ogend gebouw dat bewust níét modernistisch wil zijn.',
+    clues: [
+      { label: 'Materiaal', value: 'Traditionele baksteen, natuursteen en hout; staal en beton juist verborgen' },
+      { label: 'Vorm', value: 'Bescheiden, symmetrisch, met nadruk op "eerlijke" materialen en rustige verhoudingen' },
+      { label: 'Dak', value: 'Fors zadeldak met keramische pannen' },
+      { label: 'Detail', value: 'Geen ornamentloze witte vlakken — juist ambachtelijk metsel- en natuursteenwerk' },
+    ],
+    vragen: [
+      {
+        categorie: 'Bouwstijl',
+        vraag: 'Welke stroming verzet zich tegen het functionalisme met traditionele baksteen en "eerlijke" materialen (Granpré Molière)?',
+        opties: ['De Stijl', 'Delftse School', 'Hightech', 'Structuralisme'],
+        juist: 1,
+        uitleg:
+          'De Delftse School (1925–1955) is de bewust conservatieve tegenstroom van het Nieuwe Bouwen: traditionele baksteen, natuursteen en hout, staal en beton verborgen, bescheiden monumentaliteit.',
+      },
+      {
+        categorie: 'Bouwperiode',
+        vraag: 'De Delftse School hoort in de periode:',
+        opties: ['1770–1810', '1925–1955', '1975–1995', 'Na 2010'],
+        juist: 1,
+        uitleg:
+          'De Delftse School is actief van circa 1925 tot 1955, deels gelijktijdig met — en als reactie op — het functionalisme.',
+      },
+    ],
+  },
 ]

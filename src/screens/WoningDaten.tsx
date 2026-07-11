@@ -15,6 +15,14 @@ function shuffle<T>(arr: T[]): T[] {
     .map((y) => y.x)
 }
 
+/** Aantal cases per ronde — willekeurig getrokken uit de volledige set. */
+const ROUND_SIZE = 8
+
+/** Trek een frisse ronde: ROUND_SIZE willekeurige case-indexen (of alle als er minder zijn). */
+function drawRound(): number[] {
+  return shuffle(woningCases.map((_, i) => i)).slice(0, Math.min(ROUND_SIZE, woningCases.length))
+}
+
 const BEST_KEY = 'bouwkunde-woningdaten-best-v1'
 
 function loadBest(): number {
@@ -46,7 +54,7 @@ function clueAccent(label: string): string {
 }
 
 export function WoningDaten({ onNavigate }: Props) {
-  const order = useMemo(() => shuffle(woningCases.map((_, i) => i)), [])
+  const [order, setOrder] = useState<number[]>(() => drawRound())
   const [casePos, setCasePos] = useState(0)
   const [qIdx, setQIdx] = useState(0)
   const [picked, setPicked] = useState<number | null>(null)
@@ -56,8 +64,8 @@ export function WoningDaten({ onNavigate }: Props) {
   const [best, setBest] = useState<number>(() => loadBest())
 
   const totalQuestions = useMemo(
-    () => woningCases.reduce((sum, c) => sum + c.vragen.length, 0),
-    [],
+    () => order.reduce((sum, idx) => sum + woningCases[idx].vragen.length, 0),
+    [order],
   )
 
   const currentCase: WoningCase = woningCases[order[casePos]]
@@ -90,6 +98,7 @@ export function WoningDaten({ onNavigate }: Props) {
   }
 
   function handleRestart() {
+    setOrder(drawRound()) // frisse selectie cases per ronde
     setCasePos(0)
     setQIdx(0)
     setPicked(null)
