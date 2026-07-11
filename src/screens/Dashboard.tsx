@@ -91,6 +91,19 @@ export function Dashboard({ progress, onNavigate }: Props) {
             <span className="text-cyan-100 shrink-0">→</span>
           </button>
           <button
+            onClick={() => onNavigate({ name: 'metselverbanden' })}
+            className="col-span-2 flex items-center gap-3 bg-orange-600 hover:bg-orange-700 active:bg-orange-800 text-white rounded-2xl p-4 shadow-sm text-left"
+          >
+            <span className="text-2xl shrink-0">🧱</span>
+            <div className="flex-1 min-w-0">
+              <div className="font-semibold text-sm leading-tight">Metselverbanden</div>
+              <div className="text-orange-100 text-xs mt-0.5">
+                lesstof + oefenen · herken het verband en de periode
+              </div>
+            </div>
+            <span className="text-orange-100 shrink-0">→</span>
+          </button>
+          <button
             onClick={() => onNavigate({ name: 'btexamen' })}
             className="col-span-2 flex items-center gap-3 bg-primary-700 hover:bg-primary-800 active:bg-primary-900 text-white rounded-2xl p-4 shadow-sm text-left"
           >

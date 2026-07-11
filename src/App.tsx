@@ -13,6 +13,7 @@ import { ZwakkePunten } from './screens/ZwakkePunten'
 import { Exam } from './screens/Exam'
 import { BTExamen } from './screens/BTExamen'
 import { WoningDaten } from './screens/WoningDaten'
+import { Metselverbanden } from './screens/Metselverbanden'
 import {
   loadSection,
   loadAllSections,
@@ -38,6 +39,7 @@ export type Screen =
   | { name: 'exam' }
   | { name: 'btexamen' }
   | { name: 'woningdaten' }
+  | { name: 'metselverbanden' }
 
 const SCREEN_KEY = 'bouwkunde-screen-v1'
 const ALL_SECTIONS: SectionKey[] = ['A', 'B', 'C', 'D']
@@ -63,6 +65,7 @@ function loadScreen(): Screen {
         'exam',
         'btexamen',
         'woningdaten',
+        'metselverbanden',
       ]
       if (valid.includes(parsed.name)) return parsed as Screen
     }
@@ -265,6 +268,7 @@ export function App() {
           {screen.name === 'exam' && <Exam onNavigate={navigate} />}
           {screen.name === 'btexamen' && <BTExamen onNavigate={navigate} />}
           {screen.name === 'woningdaten' && <WoningDaten onNavigate={navigate} />}
+          {screen.name === 'metselverbanden' && <Metselverbanden onNavigate={navigate} />}
         </main>
       )}
 
