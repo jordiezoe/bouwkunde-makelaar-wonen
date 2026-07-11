@@ -91,6 +91,19 @@ export function Dashboard({ progress, onNavigate }: Props) {
             <span className="text-cyan-100 shrink-0">→</span>
           </button>
           <button
+            onClick={() => onNavigate({ name: 'bt1fouten' })}
+            className="col-span-2 flex items-center gap-3 bg-rose-600 hover:bg-rose-700 active:bg-rose-800 text-white rounded-2xl p-4 shadow-sm text-left"
+          >
+            <span className="text-2xl shrink-0">🎯</span>
+            <div className="flex-1 min-w-0">
+              <div className="font-semibold text-sm leading-tight">BT1 — Fouten trainen</div>
+              <div className="text-rose-100 text-xs mt-0.5">
+                12 fout-onderwerpen leren + afsluitend examen in SVMNIVO-stijl
+              </div>
+            </div>
+            <span className="text-rose-100 shrink-0">→</span>
+          </button>
+          <button
             onClick={() => onNavigate({ name: 'metselverbanden' })}
             className="col-span-2 flex items-center gap-3 bg-orange-600 hover:bg-orange-700 active:bg-orange-800 text-white rounded-2xl p-4 shadow-sm text-left"
           >
