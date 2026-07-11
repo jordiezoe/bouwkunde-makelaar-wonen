@@ -78,6 +78,19 @@ export function Dashboard({ progress, onNavigate }: Props) {
             </div>
           </button>
           <button
+            onClick={() => onNavigate({ name: 'woningdaten' })}
+            className="col-span-2 flex items-center gap-3 bg-cyan-700 hover:bg-cyan-800 active:bg-cyan-900 text-white rounded-2xl p-4 shadow-sm text-left"
+          >
+            <span className="text-2xl shrink-0">🏡</span>
+            <div className="flex-1 min-w-0">
+              <div className="font-semibold text-sm leading-tight">Woning daten</div>
+              <div className="text-cyan-100 text-xs mt-0.5">
+                herken type woning, daktype en bouwperiode aan de details
+              </div>
+            </div>
+            <span className="text-cyan-100 shrink-0">→</span>
+          </button>
+          <button
             onClick={() => onNavigate({ name: 'btexamen' })}
             className="col-span-2 flex items-center gap-3 bg-primary-700 hover:bg-primary-800 active:bg-primary-900 text-white rounded-2xl p-4 shadow-sm text-left"
           >
