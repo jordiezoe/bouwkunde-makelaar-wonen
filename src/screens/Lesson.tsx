@@ -234,7 +234,9 @@ export function Lesson({ topicCode, scrollToToetsterm, progress, onNavigate }: P
   const attempt = progress.topics[topic.code]
   const hasTerms = (topic.terms?.length ?? 0) > 0
   const trainerDone = isTrainerCompleted(progress, topic.code)
-  const quizLocked = hasTerms && !trainerDone
+  // De quiz is nooit vergrendeld — je mag alles vrij oefenen zonder eerst de
+  // begrippentrainer te hoeven afronden.
+  const quizLocked = false
   const tussenExamPassed = isTussenExamPassed(progress, topic.code)
   const tussenExamAttempt = progress.tussenExams?.[topic.code]
 

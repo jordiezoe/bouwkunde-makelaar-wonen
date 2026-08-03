@@ -1,7 +1,5 @@
 import type { SectionInfo, Topic } from '../types/content'
 import type { Progress } from '../lib/storage'
-import { isSectionExamPassed } from '../lib/storage'
-import { topicMetas } from './topicMetas'
 
 export { topicMetas } from './topicMetas'
 export type { TopicMeta } from './topicMetas'
@@ -113,24 +111,14 @@ export function isUnlocked(_code: string, _passedTopics: Set<string>): boolean {
   return true
 }
 
-const SECTION_ORDER = ['A', 'B', 'C', 'D'] as const
-
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function isSectionUnlocked(
-  section: import('../types/content').Section,
-  progress: Progress,
+  _section: import('../types/content').Section,
+  _progress: Progress,
 ): boolean {
-  // Besteklezen is een los leertraject en staat altijd open.
-  if (section === 'BL') return true
-  const idx = SECTION_ORDER.indexOf(section as 'A' | 'B' | 'C' | 'D')
-  if (idx <= 0) return true
-
-  const prevSection = SECTION_ORDER[idx - 1]
-  if (isSectionExamPassed(progress, prevSection)) return true
-
-  // Use topicMetas — works even before sections are loaded in memory
-  return topicMetas.some(
-    (t) => t.section === section && progress.topics[t.code] !== undefined,
-  )
+  // Alle secties staan altijd open — je kunt alles vrij lezen en oefenen,
+  // niets hoeft eerst vrijgespeeld te worden.
+  return true
 }
 
 export function isNextInOrder(code: string, passedTopics: Set<string>): boolean {
