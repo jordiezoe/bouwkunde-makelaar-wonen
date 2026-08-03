@@ -16,6 +16,7 @@ import { WoningDaten } from './screens/WoningDaten'
 import { Metselverbanden } from './screens/Metselverbanden'
 import { Bt1FoutenTraining } from './screens/Bt1FoutenTraining'
 import { Leeslijst } from './screens/Leeslijst'
+import { Studieplan } from './screens/Studieplan'
 import {
   loadSection,
   loadAllSections,
@@ -44,6 +45,7 @@ export type Screen =
   | { name: 'metselverbanden' }
   | { name: 'bt1fouten' }
   | { name: 'leeslijst' }
+  | { name: 'studieplan' }
 
 const SCREEN_KEY = 'bouwkunde-screen-v1'
 const ALL_SECTIONS: SectionKey[] = ['A', 'B', 'C', 'D']
@@ -72,6 +74,7 @@ function loadScreen(): Screen {
         'metselverbanden',
         'bt1fouten',
         'leeslijst',
+        'studieplan',
       ]
       if (valid.includes(parsed.name)) return parsed as Screen
     }
@@ -277,6 +280,7 @@ export function App() {
           {screen.name === 'metselverbanden' && <Metselverbanden onNavigate={navigate} />}
           {screen.name === 'bt1fouten' && <Bt1FoutenTraining onNavigate={navigate} />}
           {screen.name === 'leeslijst' && <Leeslijst onNavigate={navigate} />}
+          {screen.name === 'studieplan' && <Studieplan onNavigate={navigate} />}
         </main>
       )}
 

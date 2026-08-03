@@ -91,6 +91,19 @@ export function Dashboard({ progress, onNavigate }: Props) {
             <span className="text-cyan-100 shrink-0">→</span>
           </button>
           <button
+            onClick={() => onNavigate({ name: 'studieplan' })}
+            className="col-span-2 flex items-center gap-3 bg-indigo-700 hover:bg-indigo-800 active:bg-indigo-900 text-white rounded-2xl p-4 shadow-sm text-left"
+          >
+            <span className="text-2xl shrink-0">🗓️</span>
+            <div className="flex-1 min-w-0">
+              <div className="font-semibold text-sm leading-tight">14-dagen studieplan</div>
+              <div className="text-indigo-100 text-xs mt-0.5">
+                dag voor dag naar het examen · afvinken
+              </div>
+            </div>
+            <span className="text-indigo-100 shrink-0">→</span>
+          </button>
+          <button
             onClick={() => onNavigate({ name: 'leeslijst' })}
             className="col-span-2 flex items-center gap-3 bg-sky-700 hover:bg-sky-800 active:bg-sky-900 text-white rounded-2xl p-4 shadow-sm text-left"
           >
