@@ -17,6 +17,7 @@ import { Metselverbanden } from './screens/Metselverbanden'
 import { Bt1FoutenTraining } from './screens/Bt1FoutenTraining'
 import { Leeslijst } from './screens/Leeslijst'
 import { Studieplan } from './screens/Studieplan'
+import { Houtsoorten } from './screens/Houtsoorten'
 import {
   loadSection,
   loadAllSections,
@@ -46,6 +47,7 @@ export type Screen =
   | { name: 'bt1fouten' }
   | { name: 'leeslijst' }
   | { name: 'studieplan' }
+  | { name: 'houtsoorten' }
 
 const SCREEN_KEY = 'bouwkunde-screen-v1'
 const ALL_SECTIONS: SectionKey[] = ['A', 'B', 'C', 'D']
@@ -75,6 +77,7 @@ function loadScreen(): Screen {
         'bt1fouten',
         'leeslijst',
         'studieplan',
+        'houtsoorten',
       ]
       if (valid.includes(parsed.name)) return parsed as Screen
     }
@@ -281,6 +284,7 @@ export function App() {
           {screen.name === 'bt1fouten' && <Bt1FoutenTraining onNavigate={navigate} />}
           {screen.name === 'leeslijst' && <Leeslijst onNavigate={navigate} />}
           {screen.name === 'studieplan' && <Studieplan onNavigate={navigate} />}
+          {screen.name === 'houtsoorten' && <Houtsoorten onNavigate={navigate} />}
         </main>
       )}
 

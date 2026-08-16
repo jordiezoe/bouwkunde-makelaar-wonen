@@ -130,6 +130,19 @@ export function Dashboard({ progress, onNavigate }: Props) {
             <span className="text-rose-100 shrink-0">→</span>
           </button>
           <button
+            onClick={() => onNavigate({ name: 'houtsoorten' })}
+            className="col-span-2 flex items-center gap-3 bg-amber-700 hover:bg-amber-800 active:bg-amber-900 text-white rounded-2xl p-4 shadow-sm text-left"
+          >
+            <span className="text-2xl shrink-0">🪵</span>
+            <div className="flex-1 min-w-0">
+              <div className="font-semibold text-sm leading-tight">Houtsoorten</div>
+              <div className="text-amber-100 text-xs mt-0.5">
+                loof/naald, toepassing & herkennen op foto
+              </div>
+            </div>
+            <span className="text-amber-100 shrink-0">→</span>
+          </button>
+          <button
             onClick={() => onNavigate({ name: 'metselverbanden' })}
             className="col-span-2 flex items-center gap-3 bg-orange-600 hover:bg-orange-700 active:bg-orange-800 text-white rounded-2xl p-4 shadow-sm text-left"
           >
