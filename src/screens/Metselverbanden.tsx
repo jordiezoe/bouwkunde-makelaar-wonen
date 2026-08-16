@@ -264,7 +264,8 @@ function Oefenen() {
 
         {q.toonVerband && (
           <div className="max-w-xs mx-auto sm:mx-0">
-            <Verband name={q.toonVerband} />
+            {/* Zonder bijschrift — anders staat de naam van het verband onder de tekening. */}
+            <Verband name={q.toonVerband} showCaption={false} />
           </div>
         )}
 

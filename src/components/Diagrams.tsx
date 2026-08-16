@@ -1890,17 +1890,19 @@ export const BOGEN_DIAGRAM = {
 export type VerbandKey = keyof typeof VERBANDEN_DIAGRAM
 export type BoogKey = keyof typeof BOGEN_DIAGRAM
 
-export function Verband({ name }: { name: VerbandKey }) {
+export function Verband({ name, showCaption = true }: { name: VerbandKey; showCaption?: boolean }) {
   const spec = VERBANDEN_DIAGRAM[name]
   return (
     <figure className="bg-slate-50 rounded-lg overflow-hidden border border-slate-200">
       <div className="p-3 bg-white">
         <VerbandSVG spec={spec} />
       </div>
-      <figcaption className="px-3 py-2 text-xs text-slate-700">
-        <strong>{spec.title}</strong> — {spec.description}
-        <div className="text-slate-400 mt-0.5">eigen tekening</div>
-      </figcaption>
+      {showCaption && (
+        <figcaption className="px-3 py-2 text-xs text-slate-700">
+          <strong>{spec.title}</strong> — {spec.description}
+          <div className="text-slate-400 mt-0.5">eigen tekening</div>
+        </figcaption>
+      )}
     </figure>
   )
 }
