@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import type { Screen } from '../App'
+import { asset } from '../lib/asset'
 import {
   ezelsbruggetje,
   houtFoto,
@@ -91,7 +92,7 @@ function Leren() {
               {items.map((h) => (
                 <div key={h.id} className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
                   {h.foto
-                    ? <img src={houtFoto(h.foto)} alt={h.naam} loading="lazy" className="w-full h-28 object-cover bg-slate-100" />
+                    ? <img src={asset(houtFoto(h.foto))} alt={h.naam} loading="lazy" className="w-full h-28 object-cover bg-slate-100" />
                     : <div className="w-full h-28 bg-slate-100 flex items-center justify-center text-slate-400 text-xs">geen foto</div>}
                   <div className="p-3 space-y-1">
                     <div className="flex items-center gap-2 flex-wrap">
@@ -225,7 +226,7 @@ function Oefenen() {
       <section className="bg-white rounded-xl p-4 sm:p-6 shadow-sm border border-slate-200 space-y-4">
         {q.foto && (
           <div className="rounded-lg overflow-hidden border border-slate-200 bg-slate-100">
-            <img src={houtFoto(q.foto)} alt="houtsoort" className="w-full h-56 sm:h-64 object-cover" />
+            <img src={asset(houtFoto(q.foto))} alt="houtsoort" className="w-full h-56 sm:h-64 object-cover" />
           </div>
         )}
         <div className="text-base text-slate-800 font-medium leading-relaxed">{q.vraag}</div>
